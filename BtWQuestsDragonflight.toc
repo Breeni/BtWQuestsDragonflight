@@ -1,0 +1,27 @@
+## Interface: 100100
+## Title: BtWQuests: Dragonflight
+## Version: 0.1
+## Notes: Dragonflight quest data for BtWQuests
+## Author: Breen
+## Dependencies: BtWQuests
+## LoadOnDemand: 1
+## X-BtWQuests: Dragonflight
+## X-BtWQuests-Expansion: 9
+## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
+## X-BtWQuests-AutoLoad: 1
+## X-Part-Of: BtWQuests
+
+Defines.lua
+
+Localization.lua
+
+Database/Quests.lua
+
+Database/NPCs.lua
+
+Database/Objects.lua
+
+TheWakingShores.lua
+OhnahranPlains.lua
+TheAzureSpan.lua
+Thaldraszus.lua
