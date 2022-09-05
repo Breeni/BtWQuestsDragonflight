@@ -10,6 +10,9 @@
 ## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
 ## X-BtWQuests-AutoLoad: 1
 ## X-Part-Of: BtWQuests
+## X-Curse-Project-ID: 652343
+## X-WoWI-ID: 26399
+## X-Wago-ID: Xb6XkoNp
 
 Defines.lua
 

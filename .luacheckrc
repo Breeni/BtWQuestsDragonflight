@@ -49,9 +49,10 @@ new_read_globals = {
     'LibStub',
     'OneRingLib',
 
-    -- Constnats
+    -- Constants
     'Enum',
     'LE_EXPANSION_SHADOWLANDS',
+    'LE_EXPANSION_DRAGONFLIGHT',
 
     -- Deprecated API Functions
     'IsQuestFlaggedCompleted',
