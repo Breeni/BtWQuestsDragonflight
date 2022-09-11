@@ -30,6 +30,7 @@ Chain.TempChain05 = 100415
 Chain.TempChain06 = 100416
 Chain.TempChain07 = 100417
 Chain.TempChain08 = 100418
+Chain.TempChain09 = 100419
 Chain.OtherAlliance = 100497
 Chain.OtherHorde = 100498
 Chain.OtherBoth = 100499
@@ -610,11 +611,66 @@ Database:AddChain(Chain.TempChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 66468,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66472,
     },
     items = {
+        { -- Apparently no requirements
+            variations = {
+                {
+                    type = "quest",
+                    id = 71179,
+                    restrictions = false,
+                    comment = "Is this actually a breadcrumb?",
+                },
+                {
+                    type = "npc",
+                    id = 189174,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66468,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66470,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66471,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66473,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66472,
@@ -627,15 +683,77 @@ Database:AddChain(Chain.TempChain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {71219, 66100,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66467,
     },
     items = {
+        { -- Apparently no requirements
+            variations = {
+                { -- only goes to 66100
+                    type = "quest",
+                    id = 71219,
+                    restrictions = {
+                        type = "quest",
+                        id = 71219,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 191753,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66100,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66230,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66456,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66457,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66465,
+            aside = true,
+            x = -1,
+        },
         {
             type = "quest",
             id = 66467,
-            x = 0,
         },
     },
 })
@@ -644,11 +762,113 @@ Database:AddChain(Chain.TempChain03, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {66071, 65267,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66299,
     },
     items = {
+        { -- no apparent requirements
+            type = "npc",
+            id = 183912,
+            x = -1,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "npc",
+            id = 184591,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "kill",
+            id = 184592,
+            aside = true,
+            x = -3,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66071,
+            connections = {
+                2, 3, 4, 5, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65267,
+            connections = {
+                1, 2, 3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65475,
+            aside = true,
+            x = -3,
+            comment = "Check if available without doing other quests",
+        },
+        {
+            type = "quest",
+            id = 65313,
+            connections = {
+                3, 5, 6, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65490,
+            connections = {
+                2, 3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65373,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65287,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65371,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65374,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65778,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66299,
@@ -678,11 +898,63 @@ Database:AddChain(Chain.TempChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 65913,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 65920,
     },
     items = {
+        { -- Apparently no requirements
+            type = "npc",
+            id = 190527,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65913,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70139,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65918,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65916,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65921,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 65920,
@@ -695,11 +967,40 @@ Database:AddChain(Chain.TempChain06, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 69932,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 69934,
     },
     items = {
+        { -- No requirements apparently
+            type = "npc",
+            id = 193538,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69932,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69933,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 69934,
@@ -741,6 +1042,17 @@ Database:AddChain(Chain.TempChain08, {
         },
     },
 })
+Database:AddChain(Chain.TempChain09, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 66468,
+    },
+    items = {
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -763,13 +1075,45 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        { -- An Anomalous Shrine
+            type = "quest",
+            id = 67093,
+        },
+        { -- Entropic Remnants
+            type = "quest",
+            id = 67154,
+        },
         { -- Enraged Steamburst Elemental
             type = "quest",
             id = 69849,
         },
+        { -- Sandana the Tempest
+            type = "quest",
+            id = 69859,
+        },
         { -- Lord Epochbrgl
             type = "quest",
             id = 69882,
+        },
+        { -- Fifth Challenge of Tyr: Ingenuity
+            type = "quest",
+            id = 70899,
+        },
+        {
+            type = "quest",
+            id = 70900,
+        },
+        { -- Salamanther's Embrace
+            type = "quest",
+            id = 70934,
+        },
+        { -- Private Shikzar
+            type = "quest",
+            id = 70986,
+        },
+        { -- Stolen Bandages
+            type = "quest",
+            id = 71164,
         },
     },
 })
@@ -794,7 +1138,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TheMotherOathstone,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain01,
@@ -807,10 +1150,12 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain03,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.TempChain04,
         },
+--@end-debug@
         {
             type = "chain",
             id = Chain.TempChain05,
@@ -819,6 +1164,7 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain06,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.TempChain07,
@@ -826,6 +1172,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TempChain08,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain09,
         },
         {
             type = "chain",
@@ -840,7 +1190,6 @@ Database:AddCategory(CATEGORY_ID, {
             id = Chain.OtherBoth,
         },
 --@end-debug@
-
     },
 })
 
@@ -854,7 +1203,6 @@ Database:AddMapRecursive(MAP_ID, {
     id = CATEGORY_ID,
 })
 
---@debug@
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
@@ -868,10 +1216,12 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain03,
     },
+--@debug@
     {
         type = "chain",
         id = Chain.TempChain04,
     },
+--@end-debug@
     {
         type = "chain",
         id = Chain.TempChain05,
@@ -880,6 +1230,7 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain06,
     },
+--@debug@
     {
         type = "chain",
         id = Chain.TempChain07,
@@ -890,246 +1241,7 @@ Database:AddContinentItems(CONTINENT_ID, {
     },
     {
         type = "chain",
-        id = Chain.OtherAlliance,
+        id = Chain.TempChain09,
     },
-    {
-        type = "chain",
-        id = Chain.OtherHorde,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherBoth,
-    },
-})
 --@end-debug@
-
----- @TODO - DELETE
-
-Database:AddQuestsTable({
-    [66299] = {
-        name = "The Awaited Egg-splosion",
-        contentTuningID = 2154,
-    },
-    [66244] = {
-        name = "To Valdrakken",
-        contentTuningID = 2401,
-    },
-    [66248] = {
-        name = "Tying Things Together",
-        contentTuningID = 2390,
-    },
-    [66252] = {
-        name = "Reporting In",
-        contentTuningID = 2390,
-    },
-    [70040] = {
-        name = "Tumbling Through Time",
-        contentTuningID = 2154,
-    },
-    [66646] = {
-        name = "Quelling Causalities",
-        contentTuningID = 2154,
-    },
-    [66083] = {
-        name = "Feels Like the First Time",
-        contentTuningID = 2388,
-    },
-    [66087] = {
-        name = "Closing Time",
-        contentTuningID = 2388,
-    },
-    [66028] = {
-        name = "To the Future!",
-        contentTuningID = 2154,
-    },
-    [66221] = {
-        name = "Moving On",
-        contentTuningID = 2401,
-    },
-    [66036] = {
-        name = "Mugurlglrlgl!",
-        contentTuningID = 2154,
-    },
-    [66166] = {
-        name = "Eyes and Ears",
-        contentTuningID = 2401,
-    },
-    [66245] = {
-        name = "Remember the Fallen",
-        contentTuningID = 2390,
-    },
-    [66249] = {
-        name = "Clear the Sky",
-        contentTuningID = 2390,
-    },
-    [65938] = {
-        name = "The Once and Future Team",
-        contentTuningID = 2154,
-    },
-    [66320] = {
-        name = "The Flow of Time",
-        contentTuningID = 2395,
-    },
-    [69934] = {
-        name = "",
-    },
-    [66080] = {
-        name = "Temporal Difficulties",
-        contentTuningID = 2395,
-    },
-    [66084] = {
-        name = "Times Like These",
-        contentTuningID = 2388,
-    },
-    [65962] = {
-        name = "The Never-Final Countdown",
-        contentTuningID = 2154,
-    },
-    [66029] = {
-        name = "Temporal Tuning",
-        contentTuningID = 2154,
-    },
-    [66033] = {
-        name = "To the... Past?",
-        contentTuningID = 2154,
-    },
-    [66163] = {
-        name = "Nowhere to Hide",
-        contentTuningID = 2401,
-    },
-    [66167] = {
-        name = "Southern Exposure",
-        contentTuningID = 2390,
-    },
-    [66675] = {
-        name = "Aspect Power",
-        contentTuningID = 2400,
-    },
-    [66467] = {
-        name = "",
-    },
-    [70136] = {
-        name = "Haven't Got Time For the Pain",
-        contentTuningID = 2395,
-    },
-    [66246] = {
-        name = "The Fog of Battle",
-        contentTuningID = 2390,
-    },
-    [65935] = {
-        name = "Catching Up to Chromie",
-        contentTuningID = 2154,
-    },
-    [70371] = {
-        name = "Deathwingurlugull!",
-        contentTuningID = 2154,
-    },
-    [69849] = {
-        name = "Enraged Steamburst Elemental",
-        contentTuningID = 2152,
-    },
-    [65947] = {
-        name = "Time-Locked Timewalkers",
-        contentTuningID = 2154,
-    },
-    [66704] = {
-        name = "Mugurlglrlgl!",
-        contentTuningID = 2154,
-    },
-    [66081] = {
-        name = "Time is Running Out",
-        contentTuningID = 2395,
-    },
-    [66085] = {
-        name = "If We Could Turn Back Time",
-        contentTuningID = 2388,
-    },
-    [70373] = {
-        name = "Deathwingurlugull!",
-        contentTuningID = 2154,
-    },
-    [66660] = {
-        name = "On Your Mark... Get Set...",
-        contentTuningID = 2154,
-    },
-    [66412] = {
-        name = "Carry On, Basilton",
-        contentTuningID = 2371,
-    },
-    [66038] = {
-        name = "Race Through Time!",
-        contentTuningID = 2154,
-    },
-    [66040] = {
-        name = "Back to the Future",
-        contentTuningID = 2154,
-    },
-    [65920] = {
-        name = "For the Ward!",
-        contentTuningID = 2154,
-    },
-    [66039] = {
-        name = "Chromie Time",
-        contentTuningID = 2154,
-    },
-    [66032] = {
-        name = "Return to the Present",
-        contentTuningID = 2154,
-    },
-    [66247] = {
-        name = "Slightly Used Weapons",
-        contentTuningID = 2390,
-    },
-    [66251] = {
-        name = "Fire Fighter",
-        contentTuningID = 2390,
-    },
-    [66030] = {
-        name = "Resistance Isn't Futile",
-        contentTuningID = 2154,
-    },
-    [66037] = {
-        name = "Back to Reality",
-        contentTuningID = 2154,
-    },
-    [65948] = {
-        name = "Cracks in Time",
-        contentTuningID = 2154,
-    },
-    [66031] = {
-        name = "Making Time",
-        contentTuningID = 2154,
-    },
-    [66082] = {
-        name = "Time in a Bottle",
-        contentTuningID = 2395,
-    },
-    [66159] = {
-        name = "A Message Most Dire",
-        contentTuningID = 2401,
-    },
-    [70437] = {
-        name = "To Tyrhold",
-        contentTuningID = 2401,
-    },
-    [66472] = {
-        name = "Primal List",
-        contentTuningID = 2367,
-    },
-    [66035] = {
-        name = "Murloc Motes",
-        contentTuningID = 2154,
-    },
-    [69882] = {
-        name = "Lord Epochbrgl",
-        contentTuningID = 2152,
-    },
-    [66169] = {
-        name = "Vengeance, Served Hot",
-        contentTuningID = 2390,
-    },
-    [66250] = {
-        name = "Where's The Chief?",
-        contentTuningID = 2390,
-    },
 })

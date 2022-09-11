@@ -30,6 +30,9 @@ Chain.TempChain05 = 100215
 Chain.TempChain06 = 100216
 Chain.TempChain07 = 100217
 Chain.TempChain08 = 100218
+Chain.TempChain09 = 100219
+Chain.TempChain10 = 100220
+Chain.TempChain11 = 100221
 Chain.OtherAlliance = 100297
 Chain.OtherHorde = 100298
 Chain.OtherBoth = 100299
@@ -610,11 +613,114 @@ Database:AddChain(Chain.TempChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            name = "Unknown requirement"
+        }
+    },
+    active = {
+        type = "quest",
+        id = 67772,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 69096,
     },
     items = {
+        {
+            type = "npc",
+            id = 192621,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Requires part of the main campaign up to the battle at Maruukai, not sure exactly which quest unlocks it",
+        },
+        {
+            type = "quest",
+            id = 67772,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67921,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70989,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 68083,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 68084,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 68085,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71022,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 68087,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69094,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69095,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 69096,
@@ -627,11 +733,57 @@ Database:AddChain(Chain.TempChain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 65901,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66676,
     },
     items = {
+        { -- Apparently no requirements
+            type = "npc",
+            id = 190014,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65901,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65770,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65711,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66676,
@@ -644,11 +796,79 @@ Database:AddChain(Chain.TempChain03, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 65899,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66011,
     },
     items = {
+        { -- Apparently no requirements
+            type = "npc",
+            id = 186303,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65899,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65903,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65900,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65902,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65905,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65937,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65904,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66011,
@@ -661,11 +881,63 @@ Database:AddChain(Chain.TempChain04, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {66681, 66680,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66684,
     },
     items = {
+        { -- Apparently no requirements
+            type = "npc",
+            id = 190024,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 190025,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66681,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66680,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66683,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65836,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66684,
@@ -678,11 +950,65 @@ Database:AddChain(Chain.TempChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            name = "Unknown requirement"
+        }
+    },
+    active = {
+        type = "quest",
+        ids = {66687, 66688,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66690,
     },
     items = {
+        {
+            type = "npc",
+            id = 190164,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+            comment = "Need to check what is actually needed for Rellen the Learned",
+        },
+        {
+            type = "quest",
+            id = 66687,
+            x = -1,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66688,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70374,
+            x = 1,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66834,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66690,
@@ -695,11 +1021,88 @@ Database:AddChain(Chain.TempChain06, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            name = "Unknown requirement"
+        }
+    },
+    active = {
+        type = "quest",
+        id = 66651,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66658,
     },
     items = {
+        {
+            type = "npc",
+            id = 188224,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66651,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66652,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66654,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66655,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69936,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66656,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66657,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 66658,
@@ -712,15 +1115,95 @@ Database:AddChain(Chain.TempChain07, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {65950, 65951,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66006,
     },
     items = {
+        { -- Apparently no requirements
+            type = "npc",
+            id = 186650,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 186653,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65950,
+            x = -1,
+            connections = {
+                2, 3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65951,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65953,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65954,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65955,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65952,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66005,
+            aside = true,
+            connections = {
+                2, 
+            },
+            comment = "Check if available from mob without doing rest of quest chain",
+        },
         {
             type = "quest",
             id = 66006,
-            x = 0,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 65949,
+            aside = true,
         },
     },
 })
@@ -729,16 +1212,147 @@ Database:AddChain(Chain.TempChain08, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            name = "Unknown requirement"
+        }
+    },
+    active = {
+        type = "quest",
+        id = 65890,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 66700,
     },
     items = {
         {
+            variations = {
+                {
+                    type = "quest",
+                    id = 70337,
+                    restrictions = false,
+                    comment = "Not exactly a breadcrumb",
+                },
+                {
+                    type = "npc",
+                    id = 190089,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65890,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65891,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65893,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65895,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65898,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 66700,
             x = 0,
         },
+    },
+})
+Database:AddChain(Chain.TempChain09, {
+    name = "The Field of Ferocity: Terror of the Swamp!",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 66459,
+    },
+    items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 70444,
+                    restrictions = {
+                        type = "quest",
+                        id = 70444,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 188868,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66459,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain10, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 66652,
+    },
+    items = {
+    },
+})
+Database:AddChain(Chain.TempChain11, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -763,81 +1377,25 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- To the Azure Span
-            type = "quest",
-            id = 65686,
-        },
-        { -- Meeting Kalecgos
-            type = "quest",
-            id = 65688,
-        },
-        { -- The Many Images of Kalecgos
-            type = "quest",
-            id = 65689,
-        },
-        { -- Driven Mad
-            type = "quest",
-            id = 65702,
-        },
-        { -- Arcane Pruning
-            type = "quest",
-            id = 65709,
-        },
-        { -- Platform Adjustments
-            type = "quest",
-            id = 65751,
-        },
-        { -- Arcane Annoyances
-            type = "quest",
-            id = 65752,
-        },
-        { -- Straight to the Top
-            type = "quest",
-            id = 65852,
-        },
-        { -- Reclaiming the Oathstone
-            type = "quest",
-            id = 65854,
-        },
-        { -- Aiding Azure Span
-            type = "quest",
-            id = 65855,
-        },
         { -- Galgresh
             type = "quest",
             id = 66004,
         },
-        { -- Clan Nokhud
+        { -- The Wind Belongs to the Sky
             type = "quest",
-            id = 66018,
-        },
-        { -- Honoring Our Ancestors
-            type = "quest",
-            id = 66019,
-        },
-        { -- Camp Antonidas
-            type = "quest",
-            id = 66228,
+            id = 66339,
         },
         { -- Irontree
             type = "quest",
             id = 66356,
         },
-        { -- Assemble the Defenses
-            type = "quest",
-            id = 67033,
-        },
-        { -- Preservation of Knowledge
-            type = "quest",
-            id = 67035,
-        },
-        { -- Wrath of the Kirin Tor
-            type = "quest",
-            id = 67036,
-        },
         { -- Sunscale Behemoth
             type = "quest",
             id = 69837,
+        },
+        { -- Enraged Sapphire
+            type = "quest",
+            id = 69840,
         },
         { -- Woolfang
             type = "quest",
@@ -855,9 +1413,25 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 69865,
         },
+        { -- Targeted Ads
+            type = "quest",
+            id = 69915,
+        },
+        { -- A Craft in Need
+            type = "quest",
+            id = 69919,
+        },
+        { -- Corrupted Proto-Dragon
+            type = "quest",
+            id = 69962,
+        },
         { -- Craggravated Elemental
             type = "quest",
             id = 69964,
+        },
+        { -- Customer Satisfaction
+            type = "quest",
+            id = 69981,
         },
     },
 })
@@ -882,7 +1456,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.BondsRenewed,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain01,
@@ -915,6 +1488,19 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain08,
         },
+--@debug@
+        {
+            type = "chain",
+            id = Chain.TempChain09,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain10,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain11,
+        },
         {
             type = "chain",
             id = Chain.OtherAlliance,
@@ -942,7 +1528,6 @@ Database:AddMapRecursive(MAP_ID, {
     id = CATEGORY_ID,
 })
 
---@debug@
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
@@ -976,350 +1561,18 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain08,
     },
+--@debug@
     {
         type = "chain",
-        id = Chain.OtherAlliance,
+        id = Chain.TempChain09,
     },
     {
         type = "chain",
-        id = Chain.OtherHorde,
+        id = Chain.TempChain10,
     },
     {
         type = "chain",
-        id = Chain.OtherBoth,
+        id = Chain.TempChain11,
     },
-})
 --@end-debug@
-
----- @TODO - DELETE
-
-Database:AddQuestsTable({
-    [66848] = {
-        name = "Omens on the Wind",
-        contentTuningID = 2152,
-    },
-    [66356] = {
-        name = "Irontree",
-        contentTuningID = 2152,
-    },
-    [70174] = {
-        name = "The Shikaar",
-        contentTuningID = 2152,
-    },
-    [66023] = {
-        name = "Trucebreakers",
-        contentTuningID = 2152,
-    },
-    [69857] = {
-        name = "Mikrin of the Raging Winds",
-        contentTuningID = 2224,
-    },
-    [69865] = {
-        name = "Scaleseeker Mezeri",
-        contentTuningID = 2152,
-    },
-    [66333] = {
-        name = "Justice for Solethus",
-        contentTuningID = 2152,
-    },
-    [66222] = {
-        name = "The Calm Before the Storm",
-        contentTuningID = 2258,
-    },
-    [66254] = {
-        name = "Pessimistic Mystic",
-        contentTuningID = 2258,
-    },
-    [66016] = {
-        name = "Clan Teerai",
-        contentTuningID = 2152,
-    },
-    [66024] = {
-        name = "Covering Their Tails",
-        contentTuningID = 2152,
-    },
-    [69850] = {
-        name = "Woolfang",
-        contentTuningID = 2152,
-    },
-    [69096] = {
-        name = "Taivan's Purpose",
-        contentTuningID = 2226,
-    },
-    [65802] = {
-        name = "Supplies for the Journey",
-        contentTuningID = 2152,
-    },
-    [66969] = {
-        name = "Clans of the Plains",
-        contentTuningID = 2152,
-    },
-    [66017] = {
-        name = "Clan Ohn'ir",
-        contentTuningID = 2152,
-    },
-    [66025] = {
-        name = "The Nokhud Threat",
-        contentTuningID = 2152,
-    },
-    [65779] = {
-        name = "Into the Plains",
-        contentTuningID = 2152,
-    },
-    [66676] = {
-        name = "Sneaking In",
-        contentTuningID = 2225,
-    },
-    [66684] = {
-        name = "Storm Chasing",
-        contentTuningID = 2257,
-    },
-    [65803] = {
-        name = "Toward the City",
-        contentTuningID = 2152,
-    },
-    [66327] = {
-        name = "Chasing the Wind",
-        contentTuningID = 2226,
-    },
-    [66335] = {
-        name = "Deconstruct Additional Pylons",
-        contentTuningID = 2152,
-    },
-    [66224] = {
-        name = "Mystic Mystery",
-        contentTuningID = 2243,
-    },
-    [70185] = {
-        name = "Mysterious Beast",
-        contentTuningID = 2152,
-    },
-    [66256] = {
-        name = "Eagle-itarian",
-        contentTuningID = 2256,
-    },
-    [66018] = {
-        name = "Clan Nokhud",
-        contentTuningID = 2152,
-    },
-    [65780] = {
-        name = "Proving Oneself",
-        contentTuningID = 2152,
-    },
-    [65804] = {
-        name = "For Food and Rivalry",
-        contentTuningID = 2152,
-    },
-    [66328] = {
-        name = "Green Dragon Down",
-        contentTuningID = 2504,
-    },
-    [66336] = {
-        name = "The Isle of Emerald",
-        contentTuningID = 2152,
-    },
-    [66344] = {
-        name = "With the Wind At Our Backs",
-        contentTuningID = 2152,
-    },
-    [66225] = {
-        name = "Toting Totems",
-        contentTuningID = 2243,
-    },
-    [65852] = {
-        name = "Straight to the Top",
-        contentTuningID = 2153,
-    },
-    [66257] = {
-        name = "Fowl Sorcery",
-        contentTuningID = 2256,
-    },
-    [66011] = {
-        name = "In Memory of Ysera",
-        contentTuningID = 2439,
-    },
-    [66019] = {
-        name = "Honoring Our Ancestors",
-        contentTuningID = 2152,
-    },
-    [69964] = {
-        name = "Craggravated Elemental",
-        contentTuningID = 2152,
-    },
-    [65805] = {
-        name = "Connection to Ohn'ahra",
-        contentTuningID = 2152,
-    },
-    [65940] = {
-        name = "By Broken Road",
-        contentTuningID = 2152,
-    },
-    [66329] = {
-        name = "Blowing of the Horn",
-        contentTuningID = 2504,
-    },
-    [66337] = {
-        name = "Stormbreaker",
-        contentTuningID = 2152,
-    },
-    [66242] = {
-        name = "Weather Control",
-        contentTuningID = 2256,
-    },
-    [70195] = {
-        name = "Taken By Storm",
-        contentTuningID = 2243,
-    },
-    [66020] = {
-        name = "Omens and Incense",
-        contentTuningID = 2152,
-    },
-    [69854] = {
-        name = "Solethus' Gravestone",
-        contentTuningID = 2152,
-    },
-    [67036] = {
-        name = "Wrath of the Kirin Tor",
-        contentTuningID = 2153,
-    },
-    [65806] = {
-        name = "Maruukai",
-        contentTuningID = 2152,
-    },
-    [67035] = {
-        name = "Preservation of Knowledge",
-        contentTuningID = 2153,
-    },
-    [67033] = {
-        name = "Assemble the Defenses",
-        contentTuningID = 2153,
-    },
-    [66004] = {
-        name = "Galgresh",
-        contentTuningID = 2152,
-    },
-    [65855] = {
-        name = "Aiding Azure Span",
-        contentTuningID = 2153,
-    },
-    [65795] = {
-        name = "Next Steppes",
-        contentTuningID = 2151,
-    },
-    [65854] = {
-        name = "Reclaiming the Oathstone",
-        contentTuningID = 2153,
-    },
-    [65752] = {
-        name = "Arcane Annoyances",
-        contentTuningID = 2153,
-    },
-    [65751] = {
-        name = "Platform Adjustments",
-        contentTuningID = 2153,
-    },
-    [66259] = {
-        name = "A Storm of Ill Tidings",
-        contentTuningID = 2226,
-    },
-    [65709] = {
-        name = "Arcane Pruning",
-        contentTuningID = 2153,
-    },
-    [66783] = {
-        name = "Renewal of Vows",
-        contentTuningID = 2152,
-    },
-    [70220] = {
-        name = "Shady Sanctuary",
-        contentTuningID = 2152,
-    },
-    [65783] = {
-        name = "Welcome at Our Fire",
-        contentTuningID = 2152,
-    },
-    [65702] = {
-        name = "Driven Mad",
-        contentTuningID = 2153,
-    },
-    [70244] = {
-        name = "Nokhud Can Come of This",
-        contentTuningID = 2504,
-    },
-    [66021] = {
-        name = "Unwelcome Outsider",
-        contentTuningID = 2152,
-    },
-    [65688] = {
-        name = "Meeting Kalecgos",
-        contentTuningID = 2153,
-    },
-    [66331] = {
-        name = "The Primalist Front",
-        contentTuningID = 2152,
-    },
-    [65686] = {
-        name = "To the Azure Span",
-        contentTuningID = 2153,
-    },
-    [66948] = {
-        name = "The Emissary's Arrival",
-        contentTuningID = 2152,
-    },
-    [66228] = {
-        name = "Camp Antonidas",
-        contentTuningID = 2153,
-    },
-    [66236] = {
-        name = "Catching Wind",
-        contentTuningID = 2256,
-    },
-    [66690] = {
-        name = "The Final Ancestor",
-        contentTuningID = 2258,
-    },
-    [66201] = {
-        name = "Hooves of War",
-        contentTuningID = 2258,
-    },
-    [66006] = {
-        name = "Return to Roscha",
-        contentTuningID = 2152,
-    },
-    [66784] = {
-        name = "Starve the Storm",
-        contentTuningID = 2152,
-    },
-    [66022] = {
-        name = "The Khanam Matra",
-        contentTuningID = 2152,
-    },
-    [65801] = {
-        name = "Making Introductions",
-        contentTuningID = 2152,
-    },
-    [70229] = {
-        name = "Boku the Mystic",
-        contentTuningID = 2258,
-    },
-    [66258] = {
-        name = "Oh No, Ohn'ahra!",
-        contentTuningID = 2256,
-    },
-    [69837] = {
-        name = "Sunscale Behemoth",
-        contentTuningID = 2152,
-    },
-    [66340] = {
-        name = "Into the Azure",
-        contentTuningID = 2152,
-    },
-    [65689] = {
-        name = "The Many Images of Kalecgos",
-        contentTuningID = 2153,
-    },
-    [66658] = {
-        name = "The Nokhud Offensive: Founders Keepers",
-        contentTuningID = 2222,
-    },
 })
