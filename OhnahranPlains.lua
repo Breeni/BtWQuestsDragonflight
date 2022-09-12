@@ -605,6 +605,15 @@ Database:AddChain(Chain.BondsRenewed, {
             type = "quest",
             id = 66783,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66339,
+            aside = true,
+            x = 0,
         },
     },
 })
