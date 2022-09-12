@@ -619,7 +619,9 @@ Database:AddChain(Chain.TempChain01, {
             level = 60,
         },
         {
-            name = "Unknown requirement"
+            type = "chain",
+            id = 100204,
+            upto = 66327,
         }
     },
     active = {
@@ -950,15 +952,7 @@ Database:AddChain(Chain.TempChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    prerequisites = {
-        {
-            type = "level",
-            level = 60,
-        },
-        {
-            name = "Unknown requirement"
-        }
-    },
+    prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
         ids = {66687, 66688,},
@@ -976,7 +970,6 @@ Database:AddChain(Chain.TempChain05, {
             connections = {
                 1, 2, 
             },
-            comment = "Need to check what is actually needed for Rellen the Learned",
         },
         {
             type = "quest",
@@ -1004,6 +997,7 @@ Database:AddChain(Chain.TempChain05, {
         {
             type = "quest",
             id = 66834,
+            comment = "Check what is needed, requires 66687",
             x = 0,
             connections = {
                 1, 
@@ -1026,9 +1020,6 @@ Database:AddChain(Chain.TempChain06, {
             type = "level",
             level = 60,
         },
-        {
-            name = "Unknown requirement"
-        }
     },
     active = {
         type = "quest",
@@ -1186,14 +1177,13 @@ Database:AddChain(Chain.TempChain07, {
                 2, 
             },
         },
-        {
+        { -- Available without completeing anything else in chain
             type = "quest",
             id = 66005,
             aside = true,
             connections = {
                 2, 
             },
-            comment = "Check if available from mob without doing rest of quest chain",
         },
         {
             type = "quest",
@@ -1212,15 +1202,7 @@ Database:AddChain(Chain.TempChain08, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    prerequisites = {
-        {
-            type = "level",
-            level = 60,
-        },
-        {
-            name = "Unknown requirement"
-        }
-    },
+    prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
         id = 65890,

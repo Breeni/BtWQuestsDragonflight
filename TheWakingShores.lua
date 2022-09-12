@@ -948,7 +948,7 @@ Database:AddChain(Chain.TempChain03, {
     prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
-        id = 66524,
+        ids = {66524, 66963},
         status = {'active', 'completed'}
     },
     completed = {
@@ -956,9 +956,22 @@ Database:AddChain(Chain.TempChain03, {
         id = 66529,
     },
     items = {
-        { -- Apparently no requirements
-            type = "npc",
-            id = 187705,
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 66963,
+                    restrictions = {
+                        type = "quest",
+                        id = 66963,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 187705,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -1414,37 +1427,21 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- Djaradin Djustice
+        { -- Djaradin Djustice -- Bonus Objective at Scalecracker Keep
             type = "quest",
             id = 65994,
         },
-        { -- Encroaching Elementals
-            type = "quest",
-            id = 66111,
-        },
-        { -- Always Be Crafting
-            type = "quest",
-            id = 66112,
-        },
-        { -- Clear the Battlefield
+        { -- Clear the Battlefield -- Bonus Objective at Flashfrost Enclave
             type = "quest",
             id = 66117,
         },
-        { -- Defend the Life Pools!
-            type = "quest",
-            id = 66119,
-        },
-        { -- Dragonhunter Igordan
+        { -- Dragonhunter Igordan -- Bonus Objective Rare at Scalecracker Keep
             type = "quest",
             id = 66956,
         },
-        { -- Klozicc the Ascended
+        { -- Klozicc the Ascended -- Bonus Objective Rare at Flashfrost Enclave
             type = "quest",
             id = 66960,
-        },
-        { -- Fighting Fire with... Water
-            type = "quest",
-            id = 66998,
         },
         {
             type = "quest",
@@ -1453,10 +1450,6 @@ Database:AddChain(Chain.OtherBoth, {
         {
             type = "quest",
             id = 69946,
-        },
-        { -- Quality Assurance
-            type = "quest",
-            id = 69965,
         },
         { -- Lookout Mordren
             type = "quest",
@@ -1470,10 +1463,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 70034,
         },
-        { -- Stay a While
-            type = "quest",
-            id = 70132,
-        },
         { -- Without Purpose
             type = "quest",
             id = 70148,
@@ -1482,19 +1471,11 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 70164,
         },
-        { -- A Two for One Deal
-            type = "quest",
-            id = 70179,
-        },
-        { -- Mysterious Beast
-            type = "quest",
-            id = 70185,
-        },
         { -- Pruning the Preserve
             type = "quest",
             id = 70196,
         },
-        { -- Firava the Rekindler
+        { -- Firava the Rekindler -- Bonus Objective Rare?
             type = "quest",
             id = 70648,
         },

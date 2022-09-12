@@ -1478,10 +1478,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 69895,
         },
-        { -- Suspiciously Quiet
-            type = "quest",
-            id = 69904,
-        },
         { -- Fishing Frenzy!
             type = "quest",
             id = 69938,
