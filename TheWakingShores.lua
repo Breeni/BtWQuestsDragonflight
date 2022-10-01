@@ -5,6 +5,7 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.TheWakingShores
 local Chain = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores
+local THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.DragonflightToF
 local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = 924, 923
 local MAP_ID = 2022
 local CONTINENT_ID = 1978
@@ -36,6 +37,29 @@ Chain.TempChain10 = 100120
 Chain.TempChain11 = 100121
 Chain.TempChain12 = 100122
 Chain.TempChain13 = 100123
+Chain.TempChain14 = 100124
+Chain.TempChain15 = 100125
+Chain.TempChain16 = 100126
+Chain.TempChain17 = 100127
+Chain.TempChain18 = 100128
+Chain.TempChain19 = 100129
+Chain.TempChain20 = 100130
+Chain.TempChain21 = 100131
+Chain.TempChain22 = 100132
+Chain.TempChain23 = 100133
+Chain.TempChain24 = 100134
+Chain.TempChain25 = 100135
+Chain.TempChain26 = 100136
+Chain.TempChain27 = 100137
+Chain.TempChain28 = 100138
+Chain.TempChain29 = 100139
+Chain.TempChain30 = 100140
+Chain.TempChain31 = 100141
+Chain.TempChain32 = 100142
+Chain.TempChain33 = 100143
+Chain.TempChain34 = 100144
+Chain.TempChain35 = 100145
+
 Chain.OtherAlliance = 100197
 Chain.OtherHorde = 100198
 Chain.OtherBoth = 100199
@@ -47,10 +71,23 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.DracthyrAwaken,
+            restrictions = {
+                type = "class",
+                id = 13,
+            },
+        }
+    },
     active = {
         type = "quest",
-        ids = {65435, 65436},
+        ids = {65435, 65436, 66577, 65437},
         status = {'active', 'completed'},
     },
     completed = {
@@ -63,11 +100,17 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 65436,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 65435,
+                },
+            },
+            restrictions = {
+                type = "class",
+                ids = {
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
                 },
             },
             x = 0,
@@ -80,16 +123,62 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 66577,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 65437,
                 },
             },
+            restrictions = {
+                type = "class",
+                ids = {
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
+                },
+            },
             x = 0,
             connections = {
-                1, 
+                3, 4, 
+            },
+        },
+        {
+            type = "npc",
+            id = 184786,
+            restrictions = {
+                type = "class",
+                id = 13,
+            },
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 184793,
+            restrictions = {
+                type = "class",
+                id = 13,
+            },
+            connections = {
+                2, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 0,
+                    restrictions = 924,
+                },
+                {
+                    type = "quest",
+                    id = 72256,
+                },
+            },
+            x = -1,
+            connections = {
+                2, 
             },
         },
         {
@@ -97,14 +186,13 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 66589,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 65443,
                 },
             },
-            x = 0,
             connections = {
                 1, 
             },
@@ -114,7 +202,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 66596,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -123,7 +211,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
             },
             x = 0,
             connections = {
-                1, 
+                4, 
             },
         },
         {
@@ -131,13 +219,14 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70044,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 70045,
                 },
             },
+            restrictions = false, -- ??? Seems to be disabled, is this for all characters or just new ones after completing once?
             x = 0,
             connections = {
                 1, 
@@ -148,13 +237,14 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70053,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 70054,
                 },
             },
+            restrictions = false, -- ??? Seems to be disabled, is this for all characters or just new ones after completing once?
             x = 0,
             connections = {
                 1, 
@@ -165,13 +255,14 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70050,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
                     id = 69944,
                 },
             },
+            restrictions = false, -- ??? Seems to be disabled, is this for all characters or just new ones after completing once?
             x = 0,
             connections = {
                 1, 
@@ -182,7 +273,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 67700,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -199,7 +290,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70123,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -216,7 +307,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70122,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -232,7 +323,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70124,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -248,7 +339,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 {
                     type = "quest",
                     id = 70125,
-                    restrictions = ALLIANCE_RESTRICTIONS,
+                    restrictions = 924,
                 },
                 {
                     type = "quest",
@@ -377,15 +468,19 @@ Database:AddChain(Chain.DragonsInDistress, {
             connections = {
                 2, 
             },
-            comment = "Can we get this by just killing the npc?",
+            comment = "Can get the item but cant start quest before doing some part of the campaign",
         },
         {
-            visible = false,
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.TempChain19,
+            aside = true,
+            embed = true,
         },
         {
             type = "quest",
             id = 65996,
             x = 0,
+            y = 5,
             connections = {
                 1, 
             },
@@ -574,23 +669,28 @@ Database:AddChain(Chain.InDefenseOfLife, {
             id = 66118,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2, 3, 
             },
         },
         {
             type = "quest",
             id = 66121,
-            x = -1,
+            x = -2,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 66122,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "quest",
+            id = 66119,
+            aside = true,
         },
         {
             type = "quest",
@@ -928,11 +1028,63 @@ Database:AddChain(Chain.TempChain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {69897, 69898,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 69902,
     },
     items = {
+        { -- no apparent requirements
+            type = "npc",
+            id = 193500,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69897,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69898,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69899,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69900,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69901,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 69902,
@@ -1105,8 +1257,21 @@ Database:AddChain(Chain.TempChain05, {
     },
     items = {
         { -- No apparently requirement
-            type = "npc",
-            id = 186410,
+            variations = {
+                {
+                    type = "quest",
+                    id = 72122,
+                    restrictions = {
+                        type = "quest",
+                        id = 72122,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 186410,
+                },
+            },
             x = -1,
             connections = {
                 2, 
@@ -1405,6 +1570,536 @@ Database:AddChain(Chain.TempChain13, {
         },
     },
 })
+Database:AddChain(Chain.TempChain14, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.InDefenseOfLife,
+            upto = 66114,
+        },
+        {
+            type = "npc",
+            id = 193955,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70058,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain15, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.InDefenseOfLife,
+            comment = "Possibly earlier, doubt it though",
+            upto = 66114,
+        },
+        {
+            type = "npc",
+            id = 194801,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70239,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70240,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.TempChain16, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.InDefenseOfLife,
+            upto = 66114,
+        },
+        {
+            type = "npc",
+            id = 194076,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70132,
+            x = 0,
+            comment = "Check Availability",
+        },
+    },
+})
+Database:AddChain(Chain.TempChain17, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.InDefenseOfLife,
+            upto = 66118,
+        },
+        {
+            type = "npc",
+            id = 187145,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66119,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain18, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 194525,
+            comment = "Requires part of the campaign",
+        },
+        {
+            type = "quest",
+            id = 70179,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain19, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 188297,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66998,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain20, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 194525,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70197,
+            x = 0,
+            comment = "check when avaible, wasnt there during campaign when first arriving at the conservatory outpost but was when getting back",
+        },
+    },
+})
+Database:AddChain(Chain.TempChain21, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 193838,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "general sidequest, no apparent requirements",
+        },
+        {
+            type = "quest",
+            id = 70042,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain22, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
+Database:AddChain(Chain.TempChain23, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "kill",
+            id = 187745,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "no apparent requirements, might be avialble from other mobs. Embed in 100111?",
+        },
+        {
+            type = "quest",
+            id = 66437,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain24, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 192165,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Engineering",
+        },
+        {
+            type = "quest",
+            id = 70359,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain25, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 187700,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "no apparent requirements,just a hand in",
+        },
+        {
+            type = "quest",
+            id = 70822,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain26, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 381650,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "No apparently requirements, wanted quest, embed with 100113?",
+        },
+        {
+            type = "quest",
+            id = 70992,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain27, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 193304,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "No apparently requirements",
+        },
+        {
+            type = "quest",
+            id = 66612,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain28, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 196827,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "No apparently requirements, maybe connected with 100137",
+        },
+        {
+            type = "quest",
+            id = 71141,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain29, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 187439,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Check if it requires part of 100115",
+        },
+        {
+            type = "quest",
+            id = 66196,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain30, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 187700,
+            comment = "Bunch of single time hand ins, not sure what the deal is. 70822 was available first time here but 70812 wasnt iirc",
+        },
+        {
+            type = "quest",
+            id = 70822,
+        },
+        {
+            type = "quest",
+            id = 70812,
+        },
+        {
+            type = "npc",
+            id = 188265,
+        },
+        {
+            type = "quest",
+            id = 70335,
+        },
+        {
+            type = "npc",
+            id = 189226,
+        },
+        {
+            type = "quest",
+            id = 72023,
+            comment = "Not sure when this became available, some time while handing in the previous quests. Was it rep releated?",
+        },
+    },
+})
+Database:AddChain(Chain.TempChain31, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 381672,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Apparently no requirements",
+        },
+        {
+            type = "quest",
+            id = 71011,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain32, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 194525,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Requires part of the campaign",
+        },
+        {
+            type = "quest",
+            id = 70179,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain33, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            variations = {
+                {
+                    type = "npc",
+                    id = 184449,
+                    restrictions = 924,
+                },
+                {
+                    type = "npc",
+                    id = 184452,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "unknown requirement",
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 67053,
+                    restrictions = 924,
+                },
+                {
+                    type = "quest",
+                    id = 66110,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 70135,
+                    restrictions = 924,
+                },
+                {
+                    type = "quest",
+                    id = 66111,
+                },
+            },
+            x = -2,
+            connections = {
+                3, 
+            },
+            comment = "Triggers achievement criteria Captian Garrick & Sjunka Grimaxe for achievement All Sides of the Story",
+        },
+        {
+            type = "quest",
+            id = 69965,
+            comment = "Requires something else too. Alliance? Engineering? NPC seems to be missing, maybe goes away at 70, or not there for horde? NPC seems to leave when completeing this zone, a new quest becomes available from the same named npc at Ruby Life Pools and this npc vanishes",
+        },
+        {
+            type = "quest",
+            id = 66112,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain34, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 187257,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "unknown requirement",
+        },
+        {
+            type = "quest",
+            id = 66101,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain35, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 192498,
+            comment = "Seems to become available last quest of zone, need to check this though, only visible if missing a profession. The last few quests may have just phased the area",
+        },
+        {
+            type = "quest",
+            id = 70370,
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -1471,7 +2166,7 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 70164,
         },
-        { -- Pruning the Preserve
+        { -- Pruning the Preserve -- Bonus Objective
             type = "quest",
             id = 70196,
         },
@@ -1510,12 +2205,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain01,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain02,
         },
---@end-debug@
         {
             type = "chain",
             id = Chain.TempChain03,
@@ -1568,12 +2261,10 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain01,
     },
---@debug@
     {
         type = "chain",
         id = Chain.TempChain02,
     },
---@end-debug@
     {
         type = "chain",
         id = Chain.TempChain03,

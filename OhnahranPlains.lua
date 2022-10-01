@@ -5,6 +5,8 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.OhnahranPlains
 local Chain = BtWQuests.Constant.Chain.Dragonflight.OhnahranPlains
+local THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.DragonflightToF
+local NOT_THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.NOTDragonflightToF
 local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = 924, 923
 local MAP_ID = 2023
 local CONTINENT_ID = 1978
@@ -14,7 +16,10 @@ local LEVEL_RANGE = {60, 70}
 local LEVEL_PREREQUISITES = {
     {
         type = "level",
-        level = 60,
+        variations = {
+            { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+            { level = 60, },
+        },
     },
 }
 
@@ -33,6 +38,12 @@ Chain.TempChain08 = 100218
 Chain.TempChain09 = 100219
 Chain.TempChain10 = 100220
 Chain.TempChain11 = 100221
+Chain.TempChain12 = 100222
+Chain.TempChain13 = 100223
+Chain.TempChain14 = 100224
+Chain.TempChain15 = 100225
+Chain.TempChain16 = 100226
+
 Chain.OtherAlliance = 100297
 Chain.OtherHorde = 100298
 Chain.OtherBoth = 100299
@@ -47,16 +58,20 @@ Database:AddChain(Chain.IntoThePlains, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
         {
             type = "achievement",
             id = 16334,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
         },
     },
     active = {
         type = "quest",
-        id = 65795,
+        ids = {65795,65779},
         status = {'active', 'completed'},
     },
     completed = {
@@ -65,16 +80,66 @@ Database:AddChain(Chain.IntoThePlains, {
     },
     items = {
         {
-            type = "npc",
-            id = 193377,
+            variations = {
+                {
+                    type = "npc",
+                    id = 193377,
+                    restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+                },
+                {
+                    type = "npc",
+                    id = 193377,
+                    restrictions = {
+                        type = "quest",
+                        id = 65795,
+                        status = {'active', 'completed'},
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 198386,
+                    restrictions = {
+                        type = "quest",
+                        id = 72267,
+                        status = {'active', 'completed'},
+                    },
+                },
+            },
             x = 0,
             connections = {
                 1, 
             },
         },
         {
-            type = "quest",
-            id = 65795,
+            variations = {
+                {
+                    type = "quest",
+                    id = 65795,
+                    restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+                },
+                {
+                    type = "quest",
+                    id = 65795,
+                    restrictions = {
+                        type = "quest",
+                        id = 65795,
+                        status = {'active', 'completed'},
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 72267,
+                    restrictions = {
+                        type = "quest",
+                        id = 72267,
+                        status = {'active', 'completed'},
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 185878,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -191,12 +256,16 @@ Database:AddChain(Chain.Maruukai, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
         {
             type = "achievement",
             id = 16334,
             lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
         },
         {
             type = "chain",
@@ -321,12 +390,16 @@ Database:AddChain(Chain.OhnahrasBlessing, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
         {
             type = "achievement",
             id = 16334,
             lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
         },
         {
             type = "chain",
@@ -466,12 +539,16 @@ Database:AddChain(Chain.BondsRenewed, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
         {
             type = "achievement",
             id = 16334,
             lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
         },
         {
             type = "chain",
@@ -625,7 +702,10 @@ Database:AddChain(Chain.TempChain01, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
         {
             type = "chain",
@@ -903,10 +983,10 @@ Database:AddChain(Chain.TempChain04, {
         id = 66684,
     },
     items = {
-        { -- Apparently no requirements
+        {
             type = "npc",
             id = 190024,
-            x = -1,
+            x = -2,
             connections = {
                 2, 
             },
@@ -914,17 +994,26 @@ Database:AddChain(Chain.TempChain04, {
         {
             type = "npc",
             id = 190025,
+            x = 2,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 66681,
-            x = -1,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66689,
             connections = {
                 2, 
             },
+            comment = "Must be on 66681, maybe 66680?",
         },
         {
             type = "quest",
@@ -940,6 +1029,7 @@ Database:AddChain(Chain.TempChain04, {
             connections = {
                 1, 
             },
+            comment = "Check actual requirements, based on text 66689 seems needed, 66680 IS needed",
         },
         {
             type = "quest",
@@ -1027,12 +1117,15 @@ Database:AddChain(Chain.TempChain06, {
     prerequisites = {
         {
             type = "level",
-            level = 60,
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 60, },
+            },
         },
     },
     active = {
         type = "quest",
-        id = 66651,
+        ids = { 66651, 66652 },
         status = {'active', 'completed'}
     },
     completed = {
@@ -1041,16 +1134,21 @@ Database:AddChain(Chain.TempChain06, {
     },
     items = {
         {
-            type = "npc",
-            id = 188224,
-            x = 0,
-            connections = {
-                1, 
+            variations = {
+                {
+                    type = "quest",
+                    id = 66651,
+                    restrictions = {
+                        type = "quest",
+                        id = 66651,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 188225,
+                },
             },
-        },
-        {
-            type = "quest",
-            id = 66651,
             x = 0,
             connections = {
                 1, 
@@ -1287,13 +1385,22 @@ Database:AddChain(Chain.TempChain08, {
     },
 })
 Database:AddChain(Chain.TempChain09, {
-    name = "The Field of Ferocity: Terror of the Swamp!",
+    name = { -- The Fields of Ferocity
+        type = "quest",
+        id = 70444,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {70444, 66459},
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 66459,
+        id = 66464,
     },
     items = {
         {
@@ -1321,6 +1428,46 @@ Database:AddChain(Chain.TempChain09, {
             type = "quest",
             id = 66459,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66460,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66461,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66462,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66463,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66464,
+            x = 0,
         },
     },
 })
@@ -1333,6 +1480,19 @@ Database:AddChain(Chain.TempChain10, {
         id = 66652,
     },
     items = {
+        {
+            type = "object",
+            id = 381701,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71027,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain11, {
@@ -1344,6 +1504,178 @@ Database:AddChain(Chain.TempChain11, {
         id = 65890,
     },
     items = {
+    },
+})
+Database:AddChain(Chain.TempChain12, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 194904,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Apparently no requirements from Timberstep Outpost",
+        },
+        {
+            type = "quest",
+            id = 70319,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain13, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 187796,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Apparently no requirements",
+        },
+        {
+            type = "quest",
+            id = 66226,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain14, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 186503,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Apparently no requirements",
+        },
+        {
+            type = "quest",
+            id = 70062,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70069,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70070,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain15, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 193108,
+            comment = "This NPC offers a few different quests but some seem to be available in multiple plates. All profession related",
+        },
+        {
+            type = "quest",
+            id = 69915,
+            comment = "Related to Forkriver Crossing",
+        },
+        {
+            type = "quest",
+            id = 69919,
+            comment = "Also from Valdrakken",
+        },
+        {
+            type = "quest",
+            id = 69981,
+            comment = "Also from Valdrakken",
+        },
+    },
+})
+Database:AddChain(Chain.TempChain16, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 65890,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 191924,
+            x = -1,
+            connections = {
+                2, 
+            },
+            comment = "Apparently no requirements",
+        },
+        {
+            type = "npc",
+            id = 190192,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70739,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70730,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70721,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -1404,14 +1736,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 69865,
         },
-        { -- Targeted Ads
-            type = "quest",
-            id = 69915,
-        },
-        { -- A Craft in Need
-            type = "quest",
-            id = 69919,
-        },
         { -- Corrupted Proto-Dragon
             type = "quest",
             id = 69962,
@@ -1419,10 +1743,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Craggravated Elemental
             type = "quest",
             id = 69964,
-        },
-        { -- Customer Satisfaction
-            type = "quest",
-            id = 69981,
         },
     },
 })
@@ -1479,11 +1799,11 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain08,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain09,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.TempChain10,
@@ -1552,11 +1872,11 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain08,
     },
---@debug@
     {
         type = "chain",
         id = Chain.TempChain09,
     },
+--@debug@
     {
         type = "chain",
         id = Chain.TempChain10,

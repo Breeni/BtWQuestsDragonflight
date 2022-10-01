@@ -1,6 +1,28 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddObjectsTable({
+    [376451] = {
+        name = "Bronze Stopwatch",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.389265,
+                    y = 0.742655,
+                },
+            },
+        },
+    },
+    [376757] = {
+        name = "WANTED: Frigellus",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.461618,
+                    y = 0.396166,
+                },
+            },
+        },
+    },
     [377114] = {
         name = "Coil of Heavy Rope",
         locations = {
@@ -30,6 +52,83 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.767393,
                     y = 0.318877,
+                },
+            },
+        },
+    },
+    [381296] = {
+        name = "Horrible Mess",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.388916,
+                    y = 0.452466,
+                },
+            },
+        },
+    },
+    [381297] = {
+        name = "Misplaced Luggage",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.414924,
+                    y = 0.474726,
+                },
+            },
+        },
+    },
+    [381650] = {
+        name = "Archivists' Request",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.480472,
+                    y = 0.822146,
+                },
+            },
+        },
+    },
+    [381672] = {
+        name = "Archivists' Request",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.479842,
+                    y = 0.821207,
+                },
+            },
+        },
+    },
+    [381687] = {
+        name = "Discarded Note",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.477899,
+                    y = 0.465719,
+                },
+            },
+        },
+    },
+    [381701] = {
+        name = "WANTED: Mara'nar the Thunderous",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.395618,
+                    y = 0.564234,
+                },
+            },
+        },
+    },
+    [382166] = {
+        name = "The Ruby Feast!",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.462873,
+                    y = 0.452622,
                 },
             },
         },

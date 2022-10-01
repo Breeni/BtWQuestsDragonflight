@@ -38,6 +38,7 @@ globals = {
     'BtWQuests',
     'BtWQuestsDatabase',
     'BtWQuests_GetAchievementCriteriaNameDelayed',
+    'BtWQuests_GetAchievementNameDelayed',
     'BtWQuests_GetAchievementName',
     'BtWQuests_GetMapName',
 }

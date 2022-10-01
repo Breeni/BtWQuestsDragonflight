@@ -24,6 +24,7 @@ Database/NPCs.lua
 
 Database/Objects.lua
 
+General.lua
 TheWakingShores.lua
 OhnahranPlains.lua
 TheAzureSpan.lua
