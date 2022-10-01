@@ -1,3 +1,9 @@
+# v0.3-beta
+
+- Updated multiple quest chain with requirements, breadcrumbs, some side quests, and such
+- Added Evoker starting zone
+- Added initial support for the new Threads of Fate
+
 # v0.2-beta
 
 - Added multiple side quest chains for the 4 levelling zones
