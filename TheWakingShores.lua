@@ -168,7 +168,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
             variations = {
                 {
                     type = "quest",
-                    id = 0,
+                    id = 72240,
                     restrictions = 924,
                 },
                 {
@@ -211,9 +211,10 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
             },
             x = 0,
             connections = {
-                4, 
+                1, 
             },
         },
+        --[[
         {
             variations = {
                 {
@@ -268,6 +269,7 @@ Database:AddChain(Chain.TheDragonscaleExpedition, {
                 1, 
             },
         },
+        ]]
         {
             variations = {
                 {
