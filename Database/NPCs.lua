@@ -1,9 +1,6 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddNPCsTable({
-    [40904] = {
-        name = "Krom'gar Peon",
-    },
     [181054] = {
         name = "Scalecommander Emberthal",
         locations = {
@@ -1060,6 +1057,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [186869] = {
+        name = "Naleidea Rivergleam",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.478813,
+                    y = 0.824126,
+                },
+            },
+        },
+    },
     [186883] = {
         name = "Scalecommander Cindrethresh",
         locations = {
@@ -1912,6 +1920,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.656368,
                     y = 0.60792,
+                },
+            },
+        },
+    },
+    [189364] = {
+        name = "Tender Xina",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.774409,
+                    y = 0.673177,
                 },
             },
         },
@@ -2785,9 +2804,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [192165] = {
-        name = "Winnie Fingerspring",
-    },
     [192222] = {
         name = "Althanus",
         locations = {
@@ -2817,17 +2833,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.459944,
                     y = 0.384135,
-                },
-            },
-        },
-    },
-    [192438] = {
-        name = "Haephesta",
-        locations = {
-            [2022] = {
-                {
-                    x = 0.76408,
-                    y = 0.344481,
                 },
             },
         },
@@ -3019,6 +3024,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [193110] = {
+        name = "Khadin",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.517653,
+                    y = 0.330098,
+                },
+            },
+        },
+    },
     [193287] = {
         name = "Lord Andestrasz",
         locations = {
@@ -3169,39 +3185,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.140727,
                     y = 0.494463,
-                },
-            },
-        },
-    },
-    [193889] = {
-        name = "Kodethi",
-        locations = {
-            {
-                {
-                    x = 0.559237,
-                    y = 0.127031,
-                },
-            },
-        },
-    },
-    [193890] = {
-        name = "Dervishian",
-        locations = {
-            [84] = {
-                {
-                    x = 0.231006,
-                    y = 0.562683,
-                },
-            },
-        },
-    },
-    [193924] = {
-        name = "Scalecommander Emberthal",
-        locations = {
-            [85] = {
-                {
-                    x = 0.49216,
-                    y = 0.737531,
                 },
             },
         },

@@ -1,19 +1,20 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddQuestsTable({
-    [0] = {
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 40904,
-        },
-    },
     [64863] = {
         name = "Arcane Guardians",
         contentTuningID = 0,
         source = {
             type = "npc",
             id = 181596,
+            locations = {
+                [2109] = {
+                    {
+                        x = 0.330805,
+                        y = 0.806897,
+                    },
+                },
+            },
         },
     },
     [64864] = {
@@ -44,6 +45,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181056,
+            locations = {
+                [2109] = {
+                    {
+                        x = 0.329252,
+                        y = 0.815519,
+                    },
+                },
+            },
         },
     },
     [64866] = {
@@ -52,6 +61,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181594,
+            locations = {
+                [2109] = {
+                    {
+                        x = 0.464446,
+                        y = 0.571076,
+                    },
+                },
+            },
         },
     },
     [64871] = {
@@ -60,6 +77,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186883,
+            locations = {
+                [2109] = {
+                    {
+                        x = 0.623135,
+                        y = 0.364418,
+                    },
+                },
+            },
         },
     },
     [64872] = {
@@ -68,6 +93,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184269,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.443962,
+                        y = 0.614883,
+                    },
+                },
+            },
         },
     },
     [64873] = {
@@ -76,6 +109,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181054,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.445303,
+                        y = 0.6106,
+                    },
+                },
+            },
         },
     },
     [65036] = {
@@ -84,6 +125,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192889,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.447189,
+                        y = 0.57636,
+                    },
+                },
+            },
         },
     },
     [65045] = {
@@ -108,6 +157,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186210,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.703631,
+                        y = 0.645989,
+                    },
+                },
+            },
         },
     },
     [65049] = {
@@ -116,6 +173,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182274,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.704429,
+                        y = 0.643427,
+                    },
+                },
+            },
         },
     },
     [65050] = {
@@ -124,6 +189,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182274,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.704429,
+                        y = 0.643427,
+                    },
+                },
+            },
         },
     },
     [65052] = {
@@ -132,6 +205,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182275,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.795576,
+                        y = 0.622812,
+                    },
+                },
+            },
         },
     },
     [65057] = {
@@ -140,6 +221,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182297,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.812245,
+                        y = 0.539711,
+                    },
+                },
+            },
         },
     },
     [65060] = {
@@ -164,6 +253,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184214,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.188023,
+                        y = 0.158203,
+                    },
+                },
+            },
         },
     },
     [65071] = {
@@ -172,6 +269,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184166,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.334781,
+                        y = 0.33324,
+                    },
+                },
+            },
         },
     },
     [65073] = {
@@ -180,6 +285,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184163,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.200922,
+                        y = 0.190922,
+                    },
+                },
+            },
         },
     },
     [65074] = {
@@ -204,6 +317,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184163,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.200922,
+                        y = 0.190922,
+                    },
+                },
+            },
         },
     },
     [65084] = {
@@ -212,6 +333,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182258,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.448201,
+                        y = 0.577226,
+                    },
+                },
+            },
         },
     },
     [65087] = {
@@ -220,6 +349,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184308,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.567373,
+                        y = 0.281613,
+                    },
+                },
+            },
         },
     },
     [65097] = {
@@ -228,6 +365,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182441,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.541144,
+                        y = 0.323168,
+                    },
+                },
+            },
         },
     },
     [65098] = {
@@ -236,6 +381,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182601,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.470466,
+                        y = 0.354983,
+                    },
+                },
+            },
         },
     },
     [65100] = {
@@ -244,6 +397,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191780,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.416753,
+                        y = 0.445313,
+                    },
+                },
+            },
         },
     },
     [65101] = {
@@ -254,6 +415,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.576573,
+                        y = 0.668856,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -285,6 +454,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.576573,
+                        y = 0.668856,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -316,6 +493,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.576573,
+                        y = 0.668856,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -347,6 +532,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.50009,
+                        y = 0.698744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -378,6 +571,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183997,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.162024,
+                        y = 0.208833,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -406,6 +607,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.499728,
+                        y = 0.698852,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -471,6 +680,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183997,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.162024,
+                        y = 0.208833,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -497,6 +714,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184163,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.200922,
+                        y = 0.190922,
+                    },
+                },
+            },
         },
     },
     [65313] = {
@@ -505,6 +730,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.499728,
+                        y = 0.698852,
+                    },
+                },
+            },
         },
     },
     [65371] = {
@@ -513,6 +746,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.499728,
+                        y = 0.698852,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -544,6 +785,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.50009,
+                        y = 0.698744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -575,6 +824,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.50009,
+                        y = 0.698744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -624,25 +881,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [65436] = {
         name = "The Dragon Isles Await",
-        contentTuningID = 2151,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
+        contentTuningID = -1,
     },
     [65437] = {
         name = "Aspectral Invitation",
@@ -650,6 +889,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190239,
+            locations = {
+                [85] = {
+                    {
+                        x = 0.440759,
+                        y = 0.380022,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -676,6 +923,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193450,
+            locations = {
+                {
+                    {
+                        x = 0.559163,
+                        y = 0.126081,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -702,6 +957,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184793,
+            locations = {
+                [85] = {
+                    {
+                        x = 0.441909,
+                        y = 0.377434,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -728,6 +991,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197279,
+            locations = {
+                {
+                    {
+                        x = 0.558112,
+                        y = 0.126623,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -759,6 +1030,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184844,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.806053,
+                        y = 0.276524,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -790,6 +1069,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184841,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.806171,
+                        y = 0.276069,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -821,6 +1108,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184859,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.80653,
+                        y = 0.27594,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -879,6 +1174,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.499728,
+                        y = 0.698852,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -983,6 +1286,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190239,
+            locations = {
+                [85] = {
+                    {
+                        x = 0.440759,
+                        y = 0.380022,
+                    },
+                },
+            },
         },
     },
     [65615] = {
@@ -991,43 +1302,29 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182251,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.440863,
+                        y = 0.613963,
+                    },
+                },
+            },
         },
     },
     [65686] = {
         name = "To the Azure Span",
-        contentTuningID = 2153,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 185599,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.716567,
+                        y = 0.805864,
+                    },
                 },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    26915, 27150, 27385, 27620, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 6,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 3,
-                maxRank = -1,
             },
         },
     },
@@ -1037,6 +1334,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185627,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.394309,
+                        y = 0.483307,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1068,6 +1373,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192091,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.466365,
+                        y = 0.401933,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1106,6 +1419,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185615,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.409162,
+                        y = 0.549977,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1144,6 +1465,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185627,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.394309,
+                        y = 0.483307,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1175,6 +1504,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185628,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.374318,
+                        y = 0.46617,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1206,6 +1543,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 182258,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.448201,
+                        y = 0.577226,
+                    },
+                },
+            },
         },
     },
     [65702] = {
@@ -1214,6 +1559,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185622,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.407417,
+                        y = 0.590482,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1252,6 +1605,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185623,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.406904,
+                        y = 0.591012,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1329,6 +1690,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.517337,
+                        y = 0.619802,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1360,6 +1729,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.39961,
+                        y = 0.614592,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1398,6 +1775,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.39961,
+                        y = 0.614592,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1436,6 +1821,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.517337,
+                        y = 0.619802,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1467,6 +1860,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193363,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.762694,
+                        y = 0.343915,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1498,6 +1899,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.517337,
+                        y = 0.619802,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1580,32 +1989,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [65779] = {
         name = "Into the Plains",
-        contentTuningID = 2152,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 185878,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.482662,
+                        y = 0.886688,
+                    },
                 },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    26210, 26445, 26680, 26915, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 12,
             },
         },
     },
@@ -1615,6 +2009,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185882,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.777201,
+                        y = 0.239291,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1646,6 +2048,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185628,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.374318,
+                        y = 0.46617,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1716,6 +2126,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185904,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.61585,
+                        y = 0.687095,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1747,6 +2165,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185894,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.242431,
+                        y = 0.558744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1778,6 +2204,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185905,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.623427,
+                        y = 0.730251,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1809,6 +2243,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193377,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.615599,
+                        y = 0.685591,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1840,6 +2282,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181217,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.857443,
+                        y = 0.253344,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1871,6 +2321,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181217,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.857443,
+                        y = 0.253344,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -1980,6 +2438,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184595,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.699634,
+                        y = 0.379686,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2007,7 +2473,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [65806] = {
         name = "Maruukai",
-        contentTuningID = 2152,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 181217,
@@ -2020,29 +2486,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    26210, 26445, 26680, 26915, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
-        },
     },
     [65832] = {
         name = "Dwarven Antifreeze",
@@ -2050,6 +2493,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.489805,
+                        y = 0.642423,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2081,6 +2532,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.489805,
+                        y = 0.642423,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2112,6 +2571,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.489805,
+                        y = 0.642423,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2143,6 +2610,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.810312,
+                        y = 0.589696,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2174,6 +2649,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187873,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.20535,
+                        y = 0.35682,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2232,6 +2715,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186181,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.1676,
+                        y = 0.372526,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2263,6 +2754,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186179,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.167469,
+                        y = 0.372225,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2450,6 +2949,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189793,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.132644,
+                        y = 0.495292,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2481,6 +2988,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185622,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.407417,
+                        y = 0.590482,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2519,6 +3034,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.39961,
+                        y = 0.614592,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2557,6 +3080,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186188,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.394834,
+                        y = 0.630712,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2595,6 +3126,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190225,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.457199,
+                        y = 0.38837,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2626,6 +3165,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191810,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.352786,
+                        y = 0.369382,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2657,6 +3204,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191810,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.352786,
+                        y = 0.369382,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2688,6 +3243,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188809,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.353704,
+                        y = 0.369388,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2719,6 +3282,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187721,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.286882,
+                        y = 0.348175,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2750,6 +3321,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189662,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.343398,
+                        y = 0.310115,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2781,6 +3360,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189642,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.344158,
+                        y = 0.311041,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2812,6 +3399,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186228,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.343717,
+                        y = 0.310209,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2843,6 +3438,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186228,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.343717,
+                        y = 0.310209,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2874,6 +3477,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186280,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.394742,
+                        y = 0.630161,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2912,6 +3523,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189751,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.658068,
+                        y = 0.2532,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2950,6 +3569,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190089,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.660011,
+                        y = 0.25059,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -2981,6 +3608,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186300,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.640203,
+                        y = 0.184488,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3012,6 +3647,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186300,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.640203,
+                        y = 0.184488,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3043,6 +3686,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186300,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.640203,
+                        y = 0.184488,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3090,6 +3741,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186303,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.250614,
+                        y = 0.568876,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3121,6 +3780,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.244548,
+                        y = 0.630525,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3152,6 +3819,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190014,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.562523,
+                        y = 0.759537,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3183,6 +3858,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.244548,
+                        y = 0.630525,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3292,6 +3975,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.244548,
+                        y = 0.630525,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3362,6 +4053,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186177,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.129378,
+                        y = 0.503867,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3393,6 +4092,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190527,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.495394,
+                        y = 0.58861,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3420,6 +4127,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186157,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.447778,
+                        y = 0.506177,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3451,6 +4166,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.496074,
+                        y = 0.587593,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3478,6 +4201,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190527,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.495394,
+                        y = 0.58861,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3509,6 +4240,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.496074,
+                        y = 0.587593,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3540,6 +4279,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190527,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.495394,
+                        y = 0.58861,
+                    },
+                },
+            },
         },
     },
     [65925] = {
@@ -3548,6 +4295,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186157,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.447778,
+                        y = 0.506177,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3618,6 +4373,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.455086,
+                        y = 0.541848,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3688,6 +4451,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.455086,
+                        y = 0.541848,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3719,6 +4490,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.575256,
+                        y = 0.787886,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3781,32 +4560,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [65938] = {
         name = "The Once and Future Team",
-        contentTuningID = 2154,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 186711,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    12850, 13000, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.595728,
+                        y = 0.816926,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    552400, 557096, 561800, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 60,
             },
         },
     },
@@ -3816,6 +4580,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186681,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.339964,
+                        y = 0.612932,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3886,6 +4658,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186304,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.700046,
+                        y = 0.352273,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3924,6 +4704,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186305,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.700245,
+                        y = 0.353374,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3962,6 +4750,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.595728,
+                        y = 0.816926,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -3993,6 +4789,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.595728,
+                        y = 0.816926,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4063,6 +4867,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186650,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.844001,
+                        y = 0.250206,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4094,6 +4906,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186653,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.843449,
+                        y = 0.249965,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4164,6 +4984,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186649,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.805312,
+                        y = 0.307184,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4195,6 +5023,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186649,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.805312,
+                        y = 0.307184,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4226,6 +5062,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186649,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.805312,
+                        y = 0.307184,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4257,6 +5101,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186274,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.424652,
+                        y = 0.668489,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4288,6 +5140,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186274,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.424652,
+                        y = 0.668489,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4319,6 +5179,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186686,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.744684,
+                        y = 0.378174,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4357,6 +5225,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.595728,
+                        y = 0.816926,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4388,6 +5264,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186688,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.744652,
+                        y = 0.378426,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4426,6 +5310,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.71195,
+                        y = 0.407815,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4457,6 +5349,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.71195,
+                        y = 0.407815,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4488,6 +5388,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.71195,
+                        y = 0.407815,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4519,6 +5427,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186640,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.663461,
+                        y = 0.34993,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4550,6 +5466,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186640,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.663461,
+                        y = 0.34993,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4635,6 +5559,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186767,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.627502,
+                        y = 0.331135,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4666,6 +5598,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190155,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.549945,
+                        y = 0.307831,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4697,6 +5637,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187406,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.551825,
+                        y = 0.249569,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4728,6 +5676,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187406,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.551825,
+                        y = 0.249569,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4759,6 +5715,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 377499,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.552548,
+                        y = 0.246886,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4790,6 +5754,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190171,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.5522,
+                        y = 0.248066,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4817,17 +5789,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66004] = {
         name = "Galgresh",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [66005] = {
         name = "Medallion of a Fallen Friend",
@@ -4835,6 +5797,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186678,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.820854,
+                        y = 0.314877,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4905,6 +5875,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186779,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.769483,
+                        y = 0.394156,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -4943,6 +5921,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186862,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.783812,
+                        y = 0.399667,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5020,6 +6006,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187034,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.78225,
+                        y = 0.333261,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5058,6 +6052,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.614341,
+                        y = 0.39487,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5089,6 +6091,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.614341,
+                        y = 0.39487,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5120,6 +6130,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.614341,
+                        y = 0.39487,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5151,6 +6169,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186941,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.591641,
+                        y = 0.376066,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5182,6 +6208,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191595,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.629976,
+                        y = 0.336676,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5213,6 +6247,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186940,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.602968,
+                        y = 0.407571,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5244,6 +6286,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194927,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.609847,
+                        y = 0.392246,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5275,6 +6325,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186942,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.60348,
+                        y = 0.38036,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5306,6 +6364,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191485,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.59519,
+                        y = 0.387513,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5376,6 +6442,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189708,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.28783,
+                        y = 0.347313,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5407,6 +6481,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186280,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.394742,
+                        y = 0.630161,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5445,6 +6527,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5472,6 +6562,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5503,6 +6601,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183860,
+            locations = {
+                [2085] = {
+                    {
+                        x = 0.610798,
+                        y = 0.508149,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5534,6 +6640,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186953,
+            locations = {
+                [2085] = {
+                    {
+                        x = 0.614602,
+                        y = 0.50199,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5565,6 +6679,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183860,
+            locations = {
+                [2085] = {
+                    {
+                        x = 0.610798,
+                        y = 0.508149,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5592,6 +6714,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5621,6 +6751,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187344,
+            locations = {
+                [2092] = {
+                    {
+                        x = 0.598264,
+                        y = 0.661424,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5679,6 +6817,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187344,
+            locations = {
+                [2092] = {
+                    {
+                        x = 0.598264,
+                        y = 0.661424,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5706,6 +6852,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187435,
+            locations = {
+                [2090] = {
+                    {
+                        x = 0.433782,
+                        y = 0.692202,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5776,6 +6930,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186499,
+            locations = {
+                [2089] = {
+                    {
+                        x = 0.534052,
+                        y = 0.439656,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5807,6 +6969,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186933,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.29149,
+                        y = 0.588259,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5838,6 +7008,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192795,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.424673,
+                        y = 0.667807,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5869,6 +7047,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196265,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.264276,
+                        y = 0.587674,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5900,6 +7086,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186493,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.272528,
+                        y = 0.627973,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -5931,6 +7125,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186493,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.272528,
+                        y = 0.627973,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6001,6 +7203,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.499728,
+                        y = 0.698852,
+                    },
+                },
+            },
         },
     },
     [66078] = {
@@ -6009,6 +7219,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186274,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.424652,
+                        y = 0.668489,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6040,6 +7258,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187115,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.460861,
+                        y = 0.782944,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6071,6 +7297,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.575256,
+                        y = 0.787886,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6102,6 +7336,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.549605,
+                        y = 0.756333,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6133,6 +7375,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.549605,
+                        y = 0.756333,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6164,6 +7414,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.575256,
+                        y = 0.787886,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6195,6 +7453,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.575256,
+                        y = 0.787886,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6265,6 +7531,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190929,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.575475,
+                        y = 0.788653,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6296,6 +7570,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191753,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.546812,
+                        y = 0.69473,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6327,6 +7609,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187257,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.758448,
+                        y = 0.334919,
+                    },
+                },
+            },
         },
     },
     [66104] = {
@@ -6335,6 +7625,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.744272,
+                        y = 0.421379,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6366,6 +7664,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.744272,
+                        y = 0.421379,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6397,6 +7703,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186428,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.745123,
+                        y = 0.421778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6428,6 +7742,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186428,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.745123,
+                        y = 0.421778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6459,6 +7781,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.744272,
+                        y = 0.421379,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6490,6 +7820,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184452,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.763571,
+                        y = 0.33076,
+                    },
+                },
+            },
         },
     },
     [66111] = {
@@ -6498,6 +7836,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184449,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.767304,
+                        y = 0.345535,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6529,6 +7875,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187261,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.763565,
+                        y = 0.34642,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6560,6 +7914,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186795,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.550822,
+                        y = 0.310274,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6591,6 +7953,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.623367,
+                        y = 0.730133,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6622,6 +7992,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190293,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.595057,
+                        y = 0.726286,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6680,6 +8058,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187119,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.594174,
+                        y = 0.7587,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6707,32 +8093,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66119] = {
         name = "Defend the Life Pools!",
-        contentTuningID = 2155,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 187145,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.599645,
+                        y = 0.759555,
+                    },
                 },
-                minLevel = 60,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
-                },
-                minLevel = 60,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 25,
             },
         },
     },
@@ -6742,6 +8113,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187129,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.5948,
+                        y = 0.761519,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6773,6 +8152,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187119,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.594174,
+                        y = 0.7587,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6804,6 +8191,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191895,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.536789,
+                        y = 0.801739,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6835,6 +8230,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191895,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.536789,
+                        y = 0.801739,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6866,6 +8269,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6897,6 +8308,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -6924,63 +8343,33 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66136] = {
         name = "Elemental Extract",
-        contentTuningID = 2371,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 187300,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10250, 10400, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    276200, 278548, 280900, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 40,
             },
         },
     },
     [66137] = {
         name = "Lashing Out",
-        contentTuningID = 2371,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 187300,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10250, 10400, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    276200, 278548, 280900, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 40,
             },
         },
     },
@@ -6990,6 +8379,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187310,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.35237,
+                        y = 0.726407,
+                    },
+                },
+            },
         },
     },
     [66139] = {
@@ -6998,6 +8395,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
+                },
+            },
         },
     },
     [66141] = {
@@ -7006,6 +8411,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187301,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.632016,
+                        y = 0.586215,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7037,6 +8450,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187156,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.076402,
+                        y = 0.442288,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7068,6 +8489,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.635017,
+                        y = 0.529724,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7099,6 +8528,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.635017,
+                        y = 0.529724,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7130,6 +8567,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.635017,
+                        y = 0.529724,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7161,6 +8606,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187616,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.609024,
+                        y = 0.505063,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7192,6 +8645,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187535,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.609866,
+                        y = 0.505663,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7223,6 +8684,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187136,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.076681,
+                        y = 0.442695,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7289,28 +8758,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66159] = {
         name = "A Message Most Dire",
-        contentTuningID = 2401,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 187678,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amount = 1300,
-            },
-            {
-                type = "money",
-                amounts = {
-                    27620, 27855, 28090, 
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.582051,
+                        y = 0.347778,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -7320,6 +8778,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189842,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.59375,
+                        y = 0.347232,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7351,6 +8817,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.07647,
+                        y = 0.443283,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7382,6 +8856,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189842,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.59375,
+                        y = 0.347232,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7452,6 +8934,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190180,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.358503,
+                        y = 0.825629,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7483,6 +8973,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.07647,
+                        y = 0.443283,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7514,6 +9012,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.07647,
+                        y = 0.443283,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7545,6 +9051,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188030,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.107685,
+                        y = 0.411776,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7576,6 +9090,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187439,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.801236,
+                        y = 0.428648,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7607,6 +9129,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181198,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.599986,
+                        y = 0.374741,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7638,6 +9168,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186480,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.132423,
+                        y = 0.495557,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7665,32 +9203,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66211] = {
         name = "Brackenhide Hollow: To the Source",
-        contentTuningID = 2153,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 186480,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    19650, 19950, 20250, 20550, 19950, 
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.132423,
+                        y = 0.495557,
+                    },
                 },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    1076592, 1086000, 1095392, 1104800, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 300,
             },
         },
     },
@@ -7700,6 +9223,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186126,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.13488,
+                        y = 0.486057,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7731,6 +9262,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186446,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.123977,
+                        y = 0.494049,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7762,6 +9301,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186568,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.125085,
+                        y = 0.497994,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7793,6 +9340,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186186,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.128994,
+                        y = 0.486987,
+                    },
+                },
+            },
         },
     },
     [66221] = {
@@ -7801,6 +9356,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7832,6 +9395,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187787,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.418884,
+                        y = 0.617947,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7863,6 +9434,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187674,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.105878,
+                        y = 0.468691,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7894,6 +9473,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186290,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.368133,
+                        y = 0.572666,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7925,6 +9512,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195316,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.493583,
+                        y = 0.631208,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7956,6 +9551,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187796,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.470196,
+                        y = 0.711948,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -7987,6 +9590,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185608,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.414596,
+                        y = 0.35626,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8019,6 +9630,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185603,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.414418,
+                        y = 0.356107,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8057,6 +9676,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191753,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.546812,
+                        y = 0.69473,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8088,6 +9715,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186212,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.074558,
+                        y = 0.44279,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8119,6 +9754,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190648,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.493583,
+                        y = 0.631208,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8150,6 +9793,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189386,
+            locations = {
+                {
+                    {
+                        x = 0.456115,
+                        y = 0.128897,
+                    },
+                },
+            },
         },
     },
     [66239] = {
@@ -8158,6 +9809,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186228,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.343717,
+                        y = 0.310209,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8189,6 +9848,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.581083,
+                        y = 0.6896,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8220,6 +9887,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190000,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.39465,
+                        y = 0.630574,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8286,6 +9961,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190180,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.358503,
+                        y = 0.825629,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8317,6 +10000,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190458,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378502,
+                        y = 0.832647,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8348,6 +10039,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 377114,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.385635,
+                        y = 0.834123,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8418,6 +10117,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190558,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.405605,
+                        y = 0.854852,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8449,6 +10156,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190562,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.401457,
+                        y = 0.851296,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8480,6 +10195,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190562,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.401457,
+                        y = 0.851296,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8507,6 +10230,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186290,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.368133,
+                        y = 0.572666,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8538,6 +10269,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.581083,
+                        y = 0.6896,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8569,6 +10308,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.581083,
+                        y = 0.6896,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8600,6 +10347,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187809,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.606548,
+                        y = 0.635374,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8631,6 +10386,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195024,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.61421,
+                        y = 0.627843,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8662,6 +10425,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8698,6 +10469,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8734,6 +10513,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8770,6 +10557,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8806,6 +10601,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8842,6 +10645,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8878,6 +10689,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8914,6 +10733,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8950,6 +10777,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.227302,
+                        y = 0.416751,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -8982,28 +10817,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66278] = {
         name = "One Drakonid's Junk",
-        contentTuningID = 2371,
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 376451,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amount = 1300,
-            },
-            {
-                type = "money",
-                amounts = {
-                    27620, 27855, 28090, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.389265,
+                        y = 0.742655,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -9013,6 +10837,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9079,6 +10911,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187669,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.614872,
+                        y = 0.390855,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9106,6 +10946,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184163,
+            locations = {
+                [2118] = {
+                    {
+                        x = 0.200922,
+                        y = 0.190922,
+                    },
+                },
+            },
         },
     },
     [66327] = {
@@ -9114,6 +10962,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181198,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.599986,
+                        y = 0.374741,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9223,6 +11079,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188106,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.282552,
+                        y = 0.576973,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9254,6 +11118,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189599,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.256288,
+                        y = 0.405163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9285,6 +11157,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.256552,
+                        y = 0.405163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9316,6 +11196,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188150,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.256505,
+                        y = 0.484026,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9347,6 +11235,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.256552,
+                        y = 0.405163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9378,6 +11274,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188601,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.223424,
+                        y = 0.509462,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9409,6 +11313,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188181,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.221314,
+                        y = 0.509674,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9440,6 +11352,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188156,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.724542,
+                        y = 0.507695,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9471,6 +11391,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189166,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.650038,
+                        y = 0.586195,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9502,6 +11430,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189171,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.650172,
+                        y = 0.586074,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9568,17 +11504,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66356] = {
         name = "Irontree",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [66391] = {
         name = "To the Ruins!",
@@ -9586,6 +11512,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188144,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.634388,
+                        y = 0.579878,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9617,6 +11551,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.378577,
+                        y = 0.754632,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9644,6 +11586,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189166,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.650038,
+                        y = 0.586195,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9675,6 +11625,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189236,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.656368,
+                        y = 0.60792,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9706,6 +11664,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188845,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.656345,
+                        y = 0.607553,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9737,6 +11703,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189792,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.684615,
+                        y = 0.604948,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9768,6 +11742,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189791,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.684786,
+                        y = 0.604348,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9799,6 +11781,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189791,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.684786,
+                        y = 0.604348,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9830,6 +11820,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188735,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.660596,
+                        y = 0.581272,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9861,6 +11859,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188735,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.660596,
+                        y = 0.581272,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9892,6 +11898,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187745,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.676017,
+                        y = 0.553957,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9923,6 +11937,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188503,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.665742,
+                        y = 0.56112,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9954,6 +11976,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188053,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.666182,
+                        y = 0.560522,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -9985,6 +12015,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190352,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.665967,
+                        y = 0.560799,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10016,6 +12054,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190353,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.663962,
+                        y = 0.557228,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10047,6 +12093,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.569457,
+                        y = 0.676926,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10078,6 +12132,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.569457,
+                        y = 0.676926,
+                    },
+                },
+            },
         },
     },
     [66459] = {
@@ -10086,6 +12148,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10117,6 +12187,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
     },
     [66461] = {
@@ -10125,6 +12203,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
     },
     [66462] = {
@@ -10133,6 +12219,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
     },
     [66463] = {
@@ -10141,6 +12235,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
     },
     [66464] = {
@@ -10149,6 +12251,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.531622,
+                        y = 0.373246,
+                    },
+                },
+            },
         },
     },
     [66465] = {
@@ -10157,6 +12267,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.569457,
+                        y = 0.676926,
+                    },
+                },
+            },
         },
     },
     [66467] = {
@@ -10165,6 +12283,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.569457,
+                        y = 0.676926,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10196,6 +12322,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189174,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.526576,
+                        y = 0.672867,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10227,6 +12361,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189188,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.54279,
+                        y = 0.651444,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10258,6 +12400,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189188,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.54279,
+                        y = 0.651444,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10367,6 +12517,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 376757,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.461618,
+                        y = 0.396166,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10404,6 +12562,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192335,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.459944,
+                        y = 0.384135,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10441,6 +12607,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188915,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.459925,
+                        y = 0.387893,
+                    },
+                },
+            },
         },
     },
     [66500] = {
@@ -10449,6 +12623,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189198,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.476725,
+                        y = 0.402311,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10486,6 +12668,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183543,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.466442,
+                        y = 0.40163,
+                    },
+                },
+            },
         },
     },
     [66513] = {
@@ -10496,6 +12686,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189208,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.461162,
+                        y = 0.409889,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10533,6 +12731,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187705,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.484942,
+                        y = 0.826716,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10564,6 +12770,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193740,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.390321,
+                        y = 0.832373,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10595,6 +12809,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.390848,
+                        y = 0.832727,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10626,6 +12848,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193740,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.390321,
+                        y = 0.832373,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10657,6 +12887,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.390848,
+                        y = 0.832727,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10688,6 +12926,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.390848,
+                        y = 0.832727,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10719,6 +12965,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189389,
+            locations = {
+                {
+                    {
+                        x = 0.455632,
+                        y = 0.129319,
+                    },
+                },
+            },
         },
     },
     [66553] = {
@@ -10727,6 +12981,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.653846,
+                        y = 0.159529,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10758,6 +13020,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.653846,
+                        y = 0.159529,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10789,6 +13059,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.653846,
+                        y = 0.159529,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10820,6 +13098,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.653846,
+                        y = 0.159529,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10851,6 +13137,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189533,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.13763,
+                        y = 0.476127,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10883,6 +13177,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188030,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.107685,
+                        y = 0.411776,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -10910,59 +13212,39 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66577] = {
         name = "Aspectral Invitation",
-        contentTuningID = 2151,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 189569,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+            locations = {
+                [84] = {
+                    {
+                        x = 0.797975,
+                        y = 0.270151,
+                    },
                 },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
             },
         },
     },
     [66589] = {
         name = "Expeditionary Coordination",
-        contentTuningID = 2573,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 189602,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
+            locations = {
+                [84] = {
+                    {
+                        x = 0.797194,
+                        y = 0.273214,
+                    },
                 },
-                minLevel = 10,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
-                },
-                minLevel = 10,
-                maxLevel = 70,
             },
         },
     },
     [66596] = {
         name = "Whispers on the Winds",
-        contentTuningID = 2573,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 193450,
@@ -10975,31 +13257,21 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
-                },
-                minLevel = 10,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
-                },
-                minLevel = 10,
-                maxLevel = 70,
-            },
-        },
     },
     [66612] = {
         name = "Gills with Gall",
         contentTuningID = 2527,
         source = {
             type = "npc",
-            id = 193304,
+            id = 196827,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.590609,
+                        y = 0.524198,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11031,6 +13303,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186755,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.655699,
+                        y = 0.161777,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11046,6 +13326,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186433,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.595654,
+                        y = 0.826565,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11077,6 +13365,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186305,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.700245,
+                        y = 0.353374,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11115,6 +13411,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188224,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.409323,
+                        y = 0.616316,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11146,6 +13450,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.390509,
+                        y = 0.660107,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11177,6 +13489,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.390509,
+                        y = 0.660107,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11208,6 +13528,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.390509,
+                        y = 0.660107,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11239,6 +13567,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189858,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.337586,
+                        y = 0.653575,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11270,6 +13606,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193985,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.326368,
+                        y = 0.698903,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11301,6 +13645,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193985,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.326368,
+                        y = 0.698903,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11332,6 +13684,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11359,6 +13719,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190001,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.45688,
+                        y = 0.397823,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11396,6 +13764,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187658,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.574593,
+                        y = 0.587296,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11454,6 +13830,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.810312,
+                        y = 0.589696,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11485,6 +13869,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190024,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.810278,
+                        y = 0.589201,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11516,6 +13908,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.810312,
+                        y = 0.589696,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11586,6 +13986,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190164,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.416404,
+                        y = 0.567451,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11613,32 +14021,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66688] = {
         name = "Signs of the Wind",
-        contentTuningID = 2258,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 190164,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.416404,
+                        y = 0.567451,
+                    },
                 },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    262100, 264448, 266800, 269148, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 50,
             },
         },
     },
@@ -11675,6 +14068,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190164,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.416404,
+                        y = 0.567451,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11706,6 +14107,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183543,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.466442,
+                        y = 0.40163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11737,6 +14146,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191154,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.663305,
+                        y = 0.243447,
+                    },
+                },
+            },
         },
     },
     [66703] = {
@@ -11745,6 +14162,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189625,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.583888,
+                        y = 0.420226,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11776,6 +14201,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183855,
+            locations = {
+                [2092] = {
+                    {
+                        x = 0.599787,
+                        y = 0.65971,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11807,6 +14240,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189963,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.590195,
+                        y = 0.391263,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11838,6 +14279,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189963,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.590195,
+                        y = 0.391263,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11869,6 +14318,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.455086,
+                        y = 0.541848,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -11935,32 +14392,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66734] = {
         name = "Leave Bee Alone",
-        contentTuningID = 2295,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 190525,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.552576,
+                        y = 0.634659,
+                    },
                 },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    257400, 259748, 262100, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 40,
             },
         },
     },
@@ -11970,6 +14412,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190525,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.552576,
+                        y = 0.634659,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12001,6 +14451,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190533,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.551959,
+                        y = 0.636999,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12032,6 +14490,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185894,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.242431,
+                        y = 0.558744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12063,6 +14529,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187495,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.244274,
+                        y = 0.554857,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12094,6 +14568,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190691,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.076095,
+                        y = 0.443142,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12125,6 +14607,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188181,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.221314,
+                        y = 0.509674,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12156,6 +14646,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.256552,
+                        y = 0.405163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12187,6 +14685,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190740,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.579515,
+                        y = 0.672999,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12218,6 +14724,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185904,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.61585,
+                        y = 0.687095,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12249,6 +14763,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191025,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.618962,
+                        y = 0.738251,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12280,6 +14802,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190866,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.601633,
+                        y = 0.664244,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12311,6 +14841,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190868,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.601877,
+                        y = 0.663911,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12342,6 +14880,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191011,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.653357,
+                        y = 0.636765,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12373,6 +14919,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191011,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.653357,
+                        y = 0.636765,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12400,32 +14954,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66834] = {
         name = "Rellen, the Learned",
-        contentTuningID = 2258,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 190164,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.416404,
+                        y = 0.567451,
+                    },
                 },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    262100, 264448, 266800, 269148, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 50,
             },
         },
     },
@@ -12435,6 +14974,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190315,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.187335,
+                        y = 0.244744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12466,6 +15013,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190315,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.187335,
+                        y = 0.244744,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12497,6 +15052,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190672,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.189855,
+                        y = 0.232925,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12528,6 +15091,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190679,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.185376,
+                        y = 0.236703,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12559,6 +15130,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190666,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.191603,
+                        y = 0.247315,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12590,6 +15169,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190884,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.192636,
+                        y = 0.268981,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12621,6 +15208,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190892,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.190501,
+                        y = 0.23969,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12652,6 +15247,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190799,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.187365,
+                        y = 0.24425,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12683,6 +15286,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191741,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.187703,
+                        y = 0.244316,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12714,6 +15325,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184595,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.699634,
+                        y = 0.379686,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12741,32 +15360,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [66879] = {
         name = "Hornstrider Havoc",
-        contentTuningID = 2293,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 191176,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.617253,
+                        y = 0.737584,
+                    },
                 },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -12776,6 +15380,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191280,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.534217,
+                        y = 0.583708,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12807,6 +15419,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191280,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.534217,
+                        y = 0.583708,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12838,6 +15458,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.623367,
+                        y = 0.730133,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -12914,6 +15542,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194927,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.609847,
+                        y = 0.392246,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13037,6 +15673,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191698,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.484816,
+                        y = 0.78851,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13107,6 +15751,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192724,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.637965,
+                        y = 0.410705,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13222,6 +15874,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191174,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.618215,
+                        y = 0.735834,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13253,6 +15913,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188297,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.590999,
+                        y = 0.348435,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13284,6 +15952,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381687,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.477899,
+                        y = 0.465719,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13344,6 +16020,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192222,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.466744,
+                        y = 0.397356,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13428,6 +16112,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.517337,
+                        y = 0.619802,
+                    },
+                },
+            },
         },
     },
     [67050] = {
@@ -13436,6 +16128,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189625,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.583888,
+                        y = 0.420226,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13467,6 +16167,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184449,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.767304,
+                        y = 0.345535,
+                    },
+                },
+            },
         },
     },
     [67073] = {
@@ -13475,6 +16183,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192455,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.574494,
+                        y = 0.587593,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13502,6 +16218,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192543,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.602815,
+                        y = 0.818572,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13533,6 +16257,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192522,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.727703,
+                        y = 0.661809,
+                    },
+                },
+            },
         },
     },
     [67100] = {
@@ -13541,6 +16273,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192574,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.394233,
+                        y = 0.701401,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13573,6 +16313,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196254,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.672124,
+                        y = 0.44403,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13609,6 +16357,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192539,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.598593,
+                        y = 0.716015,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13641,6 +16397,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192543,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.602815,
+                        y = 0.818572,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13672,6 +16436,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192750,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.412232,
+                        y = 0.358798,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13704,6 +16476,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192750,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.412232,
+                        y = 0.358798,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13736,6 +16516,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192760,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.414201,
+                        y = 0.364227,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13764,6 +16552,18 @@ BtWQuestsDatabase:AddQuestsTable({
     [67295] = {
         name = "That's My Specialty",
         contentTuningID = 2152,
+        source = {
+            type = "npc",
+            id = 192539,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.598593,
+                        y = 0.716015,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
@@ -13789,12 +16589,36 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [67298] = {
+        name = "The Wonders of the World",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 192539,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.598593,
+                        y = 0.716015,
+                    },
+                },
+            },
+        },
+    },
     [67299] = {
         name = "Drakes be Gone",
         contentTuningID = 2153,
         source = {
             type = "npc",
             id = 189751,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.658068,
+                        y = 0.2532,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13833,6 +16657,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192498,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.579297,
+                        y = 0.682528,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13855,32 +16687,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [67606] = {
         name = "A Dryadic Remedy",
-        contentTuningID = 2401,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 192522,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10250, 10400, 
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.727703,
+                        y = 0.661809,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    276200, 278548, 280900, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 40,
             },
         },
     },
@@ -13890,6 +16707,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189077,
+            locations = {
+                [84] = {
+                    {
+                        x = 0.227198,
+                        y = 0.556655,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13921,6 +16746,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.673402,
+                        y = 0.443415,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -13957,6 +16790,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192621,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.612232,
+                        y = 0.399993,
+                    },
+                },
+            },
         },
     },
     [67921] = {
@@ -13965,6 +16806,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192629,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.71421,
+                        y = 0.496043,
+                    },
+                },
+            },
         },
     },
     [68083] = {
@@ -13973,6 +16822,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192629,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.71421,
+                        y = 0.496043,
+                    },
+                },
+            },
         },
     },
     [68084] = {
@@ -13981,6 +16838,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192621,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.612232,
+                        y = 0.399993,
+                    },
+                },
+            },
         },
     },
     [68085] = {
@@ -13989,6 +16854,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192633,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.49057,
+                        y = 0.410764,
+                    },
+                },
+            },
         },
     },
     [68087] = {
@@ -13997,6 +16870,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192633,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.49057,
+                        y = 0.410764,
+                    },
+                },
+            },
         },
     },
     [68639] = {
@@ -14005,6 +16886,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192825,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.635829,
+                        y = 0.289031,
+                    },
+                },
+            },
         },
     },
     [68641] = {
@@ -14013,6 +16902,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192830,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.63611,
+                        y = 0.288225,
+                    },
+                },
+            },
         },
     },
     [68642] = {
@@ -14021,6 +16918,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192830,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.63611,
+                        y = 0.288225,
+                    },
+                },
+            },
         },
     },
     [68643] = {
@@ -14029,6 +16934,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192825,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.635829,
+                        y = 0.289031,
+                    },
+                },
+            },
         },
     },
     [68644] = {
@@ -14037,6 +16950,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192830,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.63611,
+                        y = 0.288225,
+                    },
+                },
+            },
         },
     },
     [68795] = {
@@ -14045,6 +16966,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.623367,
+                        y = 0.730133,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14076,6 +17005,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.576573,
+                        y = 0.668856,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14107,6 +17044,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193359,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.751793,
+                        y = 0.54971,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14138,6 +17083,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193359,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.751793,
+                        y = 0.54971,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14169,6 +17122,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193359,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.751793,
+                        y = 0.54971,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14232,6 +17193,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192621,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.612232,
+                        y = 0.399993,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14259,17 +17228,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69837] = {
         name = "Sunscale Behemoth",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69840] = {
         name = "Enraged Sapphire",
@@ -14287,31 +17246,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69849] = {
         name = "Enraged Steamburst Elemental",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69850] = {
         name = "Woolfang",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69854] = {
         name = "Solethus' Gravestone",
@@ -14333,17 +17272,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69858] = {
         name = "Blightfur",
-        contentTuningID = 2311,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
-                },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69859] = {
         name = "Sandana the Tempest",
@@ -14377,17 +17306,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69865] = {
         name = "Scaleseeker Mezeri",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69872] = {
         name = "Vakril, the Strongest Tuskarr",
@@ -14395,17 +17314,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69882] = {
         name = "Lord Epochbrgl",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69895] = {
         name = "Summoned Destroyer",
@@ -14417,6 +17326,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193500,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459096,
+                        y = 0.814471,
+                    },
+                },
+            },
         },
     },
     [69898] = {
@@ -14425,6 +17342,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193500,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459096,
+                        y = 0.814471,
+                    },
+                },
+            },
         },
     },
     [69899] = {
@@ -14433,6 +17358,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193500,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459096,
+                        y = 0.814471,
+                    },
+                },
+            },
         },
     },
     [69900] = {
@@ -14441,6 +17374,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192298,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459483,
+                        y = 0.814894,
+                    },
+                },
+            },
         },
     },
     [69901] = {
@@ -14449,6 +17390,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192298,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459483,
+                        y = 0.814894,
+                    },
+                },
+            },
         },
     },
     [69902] = {
@@ -14457,6 +17406,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192298,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.459483,
+                        y = 0.814894,
+                    },
+                },
+            },
         },
     },
     [69904] = {
@@ -14465,6 +17422,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183543,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.466442,
+                        y = 0.40163,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14491,6 +17456,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184870,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.766202,
+                        y = 0.336022,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14522,6 +17495,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193362,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.765826,
+                        y = 0.336586,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14553,6 +17534,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193362,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.765826,
+                        y = 0.336586,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14584,6 +17573,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193372,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.762067,
+                        y = 0.345231,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14615,6 +17612,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193108,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.720525,
+                        y = 0.811376,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14647,6 +17652,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194026,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.353684,
+                        y = 0.587705,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14679,6 +17692,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.502491,
+                        y = 0.675718,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14710,6 +17731,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.502491,
+                        y = 0.675718,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14741,6 +17770,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.502491,
+                        y = 0.675718,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14772,6 +17809,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189858,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.337586,
+                        y = 0.653575,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -14799,14 +17844,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69938] = {
         name = "Fishing Frenzy!",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 60,
-            },
-        },
+        contentTuningID = -1,
     },
     [69942] = {
         name = "Brackenhide Mysteries",
@@ -14819,35 +17857,21 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [69944] = {
-        name = "The Expedition Gathers",
-        contentTuningID = 2307,
-        source = {
-            type = "npc",
-            id = 184786,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
     [69946] = {
         name = "The Master of Their Craft",
         contentTuningID = 2250,
+        source = {
+            type = "npc",
+            id = 192574,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.394233,
+                        y = 0.701401,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
@@ -14875,63 +17899,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69962] = {
         name = "Corrupted Proto-Dragon",
-        contentTuningID = 2154,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10250, 10400, 
-                },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-        },
+        contentTuningID = -1,
     },
     [69964] = {
         name = "Craggravated Elemental",
-        contentTuningID = 2152,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-        },
-    },
-    [69965] = {
-        name = "Quality Assurance",
-        contentTuningID = 2309,
-        source = {
-            type = "npc",
-            id = 192438,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    257400, 259748, 262100, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 50,
-                maxRank = -1,
-            },
-        },
+        contentTuningID = -1,
     },
     [69967] = {
         name = "Lookout Mordren",
@@ -14940,6 +17912,18 @@ BtWQuestsDatabase:AddQuestsTable({
     [69979] = {
         name = "A Worthy Hunt",
         contentTuningID = 2250,
+        source = {
+            type = "npc",
+            id = 193110,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.517653,
+                        y = 0.330098,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
@@ -14971,6 +17955,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194026,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.353684,
+                        y = 0.587705,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15042,6 +18034,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.600469,
+                        y = 0.824778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15069,6 +18069,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193837,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.779862,
+                        y = 0.324581,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15107,6 +18115,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193838,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.763072,
+                        y = 0.343077,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15132,150 +18148,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [70044] = {
-        name = "Truths and Revelations",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 193890,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
-    [70045] = {
-        name = "Truths and Revelations",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 193889,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
-    [70050] = {
-        name = "The Expedition Gathers",
-        contentTuningID = 2307,
-        source = {
-            type = "npc",
-            id = 189603,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
-    [70053] = {
-        name = "Lessons From Our Past",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 193924,
-            locations = {
-                [84] = {
-                    {
-                        x = 0.406118,
-                        y = 0.497362,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
-    [70054] = {
-        name = "Lessons From Our Past",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 193924,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-        },
-    },
     [70058] = {
         name = "Friend on the Mend",
         contentTuningID = 2296,
         source = {
             type = "npc",
             id = 193955,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.598832,
+                        y = 0.703728,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15307,6 +18193,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194174,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.621799,
+                        y = 0.705666,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15338,6 +18232,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.304791,
+                        y = 0.581027,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15396,6 +18298,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.304791,
+                        y = 0.581027,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15427,6 +18337,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.304791,
+                        y = 0.581027,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15469,6 +18387,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189022,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.821331,
+                        y = 0.318731,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15500,6 +18426,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189035,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.821599,
+                        y = 0.318517,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15531,6 +18465,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189021,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.820916,
+                        y = 0.318828,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15562,6 +18504,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187251,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.766327,
+                        y = 0.33621,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15593,6 +18543,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186542,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.161146,
+                        y = 0.504209,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15625,6 +18583,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194076,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.578495,
+                        y = 0.66803,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15656,6 +18622,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184452,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.763571,
+                        y = 0.33076,
+                    },
+                },
+            },
         },
     },
     [70136] = {
@@ -15664,6 +18638,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.549605,
+                        y = 0.756333,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15695,6 +18677,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.496074,
+                        y = 0.587593,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15775,6 +18765,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194415,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.221392,
+                        y = 0.367648,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15802,32 +18800,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70168] = {
         name = "Sad Little Accidents",
-        contentTuningID = 2153,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 194425,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.078682,
+                        y = 0.534504,
+                    },
                 },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    269148, 271500, 273848, 276200, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 75,
             },
         },
     },
@@ -15902,32 +18885,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70179] = {
         name = "A Two for One Deal",
-        contentTuningID = 2466,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 194525,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.544344,
+                        y = 0.308441,
+                    },
                 },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    257400, 259748, 262100, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 40,
             },
         },
     },
@@ -15937,6 +18905,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 379321,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.767393,
+                        y = 0.318877,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15968,6 +18944,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195316,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.493583,
+                        y = 0.631208,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -15995,57 +18979,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70196] = {
         name = "Pruning the Preserve",
-        contentTuningID = 2151,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    13600, 13850, 14050, 13600, 10900, 8150, 5450, 2700, 1350, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    772200, 779244, 786300, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 75,
-            },
-        },
-    },
-    [70197] = {
-        name = "The Call of the Isles",
-        contentTuningID = 2151,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
-            },
-        },
+        contentTuningID = -1,
     },
     [70220] = {
         name = "Shady Sanctuary",
@@ -16053,6 +18987,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188106,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.282552,
+                        y = 0.576973,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16084,6 +19026,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187787,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.418884,
+                        y = 0.617947,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16115,6 +19065,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194801,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.586698,
+                        y = 0.677834,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16151,6 +19109,46 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194805,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.573751,
+                        y = 0.656836,
+                    },
+                },
+            },
+        },
+    },
+    [70241] = {
+        name = "The Bitter End",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 194801,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.568105,
+                        y = 0.644703,
+                    },
+                },
+            },
+        },
+    },
+    [70242] = {
+        name = "Life After Life",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 194805,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.568512,
+                        y = 0.643958,
+                    },
+                },
+            },
         },
     },
     [70244] = {
@@ -16159,6 +19157,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188068,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.730276,
+                        y = 0.405865,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16190,6 +19196,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194904,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.845292,
+                        y = 0.253387,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16225,6 +19239,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195239,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.621144,
+                        y = 0.364356,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16296,6 +19318,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191012,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.617378,
+                        y = 0.737027,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16321,16 +19351,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [70359] = {
-        name = "Dragon Isles Engineering",
-        contentTuningID = 2151,
-    },
     [70370] = {
         name = "Occupation Examination",
         contentTuningID = 0,
         source = {
             type = "npc",
             id = 192498,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.579297,
+                        y = 0.682528,
+                    },
+                },
+            },
         },
     },
     [70371] = {
@@ -16339,6 +19373,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183855,
+            locations = {
+                [2092] = {
+                    {
+                        x = 0.599787,
+                        y = 0.65971,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16397,6 +19439,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190950,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.493376,
+                        y = 0.494033,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16424,32 +19474,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70377] = {
         name = "Derelict Fashion",
-        contentTuningID = 2375,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 197346,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    12850, 13000, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.404777,
+                        y = 0.453136,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    552400, 557096, 561800, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 60,
             },
         },
     },
@@ -16459,6 +19494,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187678,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.582051,
+                        y = 0.347778,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16504,14 +19547,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70625] = {
         name = "Cursed Creations",
-        contentTuningID = 2521,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 100,
-            },
-        },
+        contentTuningID = -1,
     },
     [70627] = {
         name = "What of the Winterpelt Clan?",
@@ -16519,6 +19555,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191123,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.631603,
+                        y = 0.586878,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16554,6 +19598,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190192,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.628164,
+                        y = 0.354405,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16585,6 +19637,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190192,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.628164,
+                        y = 0.354405,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16616,6 +19676,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194717,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.404914,
+                        y = 0.489222,
+                    },
+                },
+            },
         },
     },
     [70739] = {
@@ -16624,6 +19692,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191924,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.63618,
+                        y = 0.404725,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16655,6 +19731,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196160,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.40461,
+                        y = 0.488837,
+                    },
+                },
+            },
         },
     },
     [70741] = {
@@ -16663,6 +19747,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381297,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.414924,
+                        y = 0.474726,
+                    },
+                },
+            },
         },
     },
     [70743] = {
@@ -16671,6 +19763,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194812,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.404897,
+                        y = 0.489726,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16702,6 +19802,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381296,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.388916,
+                        y = 0.452466,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16733,6 +19841,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196160,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.40461,
+                        y = 0.488837,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16783,6 +19899,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196984,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.564608,
+                        y = 0.437451,
+                    },
+                },
+            },
         },
     },
     [70838] = {
@@ -16791,6 +19915,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196416,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.427235,
+                        y = 0.819444,
+                    },
+                },
+            },
         },
     },
     [70842] = {
@@ -16799,6 +19931,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196416,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.427235,
+                        y = 0.819444,
+                    },
+                },
+            },
         },
     },
     [70843] = {
@@ -16807,6 +19947,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196464,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.435814,
+                        y = 0.810084,
+                    },
+                },
+            },
         },
     },
     [70846] = {
@@ -16815,6 +19963,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196448,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.408093,
+                        y = 0.482644,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16829,6 +19985,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196432,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.425777,
+                        y = 0.788172,
+                    },
+                },
+            },
         },
     },
     [70856] = {
@@ -16837,6 +20001,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.673402,
+                        y = 0.443415,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16874,6 +20046,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196254,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.672124,
+                        y = 0.44403,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16911,6 +20091,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196501,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.672985,
+                        y = 0.443378,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -16948,6 +20136,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196562,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.426799,
+                        y = 0.788028,
+                    },
+                },
+            },
         },
     },
     [70875] = {
@@ -16956,6 +20152,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196566,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.424486,
+                        y = 0.788483,
+                    },
+                },
+            },
         },
     },
     [70876] = {
@@ -16964,6 +20168,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196566,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.424486,
+                        y = 0.788483,
+                    },
+                },
+            },
         },
     },
     [70878] = {
@@ -16972,6 +20184,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196608,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.422691,
+                        y = 0.789222,
+                    },
+                },
+            },
         },
     },
     [70879] = {
@@ -16980,6 +20200,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196566,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.424486,
+                        y = 0.788483,
+                    },
+                },
+            },
         },
     },
     [70899] = {
@@ -17011,6 +20239,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189479,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.61661,
+                        y = 0.115026,
+                    },
+                },
+            },
         },
     },
     [70931] = {
@@ -17019,6 +20255,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196501,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.672985,
+                        y = 0.443378,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17067,6 +20311,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.673402,
+                        y = 0.443415,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17108,6 +20360,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.673402,
+                        y = 0.443415,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17139,12 +20399,36 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [70965] = {
+        name = "Wanted: Watcher's Golden Girdle",
+        contentTuningID = -1,
+        source = {
+            type = "object",
+            id = 381579,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.474763,
+                        y = 0.835804,
+                    },
+                },
+            },
+        },
+    },
     [70970] = {
         name = "Good Intentions",
         contentTuningID = 2153,
         source = {
             type = "npc",
             id = 196520,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.673182,
+                        y = 0.443889,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17196,6 +20480,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192629,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.71421,
+                        y = 0.496043,
+                    },
+                },
+            },
         },
     },
     [70992] = {
@@ -17204,6 +20496,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381650,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.480472,
+                        y = 0.822146,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17226,12 +20526,36 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [70995] = {
+        name = "Wanted: Fenistrasza's Skull",
+        contentTuningID = -1,
+        source = {
+            type = "object",
+            id = 381664,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.476469,
+                        y = 0.830217,
+                    },
+                },
+            },
+        },
+    },
     [70996] = {
         name = "A Little Kelp for My Friends",
         contentTuningID = 0,
         source = {
             type = "npc",
             id = 196806,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.011826,
+                        y = 0.392641,
+                    },
+                },
+            },
         },
     },
     [71000] = {
@@ -17240,6 +20564,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196806,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.011826,
+                        y = 0.392641,
+                    },
+                },
+            },
         },
     },
     [71009] = {
@@ -17248,6 +20580,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196816,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.210538,
+                        y = 0.35093,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17279,6 +20619,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381672,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.479842,
+                        y = 0.821207,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17307,6 +20655,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196838,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.215088,
+                        y = 0.354678,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17338,6 +20694,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.587899,
+                        y = 0.349104,
+                    },
+                },
+            },
         },
     },
     [71014] = {
@@ -17346,6 +20710,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.587899,
+                        y = 0.349104,
+                    },
+                },
+            },
         },
     },
     [71015] = {
@@ -17354,6 +20726,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.587899,
+                        y = 0.349104,
+                    },
+                },
+            },
         },
     },
     [71016] = {
@@ -17362,6 +20742,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.587899,
+                        y = 0.349104,
+                    },
+                },
+            },
         },
     },
     [71017] = {
@@ -17370,6 +20758,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196841,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.124707,
+                        y = 0.49225,
+                    },
+                },
+            },
         },
     },
     [71022] = {
@@ -17378,6 +20774,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192633,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.49057,
+                        y = 0.410764,
+                    },
+                },
+            },
         },
     },
     [71024] = {
@@ -17398,32 +20802,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [71027] = {
         name = "WANTED: Mara'nar the Thunderous",
-        contentTuningID = 2263,
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 381701,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    28100, 28600, 29000, 29500, 28600, 22800, 17100, 11400, 
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.395618,
+                        y = 0.564234,
+                    },
                 },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    786300, 793344, 800400, 807444, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 300,
             },
         },
     },
@@ -17433,6 +20822,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.587899,
+                        y = 0.349104,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17577,6 +20974,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197533,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.501431,
+                        y = 0.624139,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17604,6 +21009,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190902,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.725111,
+                        y = 0.561667,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17631,6 +21044,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194613,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.284638,
+                        y = 0.351136,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17657,6 +21078,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193877,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.140727,
+                        y = 0.494463,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17683,6 +21112,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189751,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.658068,
+                        y = 0.2532,
+                    },
+                },
+            },
         },
     },
     [71238] = {
@@ -17691,6 +21128,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 382166,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.462873,
+                        y = 0.452622,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17709,6 +21154,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197986,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.480695,
+                        y = 0.596282,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17736,47 +21189,83 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195303,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.711125,
+                        y = 0.404639,
+                    },
+                },
+            },
+        },
+    },
+    [72189] = {
+        name = "Garden Variety",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 189364,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.774409,
+                        y = 0.673177,
+                    },
+                },
+            },
         },
     },
     [72193] = {
         name = "The Algeth'ar Academy",
-        contentTuningID = 2474,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 187676,
+            locations = {
+                [2112] = {
+                    {
+                        x = 0.615981,
+                        y = 0.361135,
+                    },
+                },
+            },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 1123600,
+    },
+    [72240] = {
+        name = "The Obsidian Warders",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 189603,
+            locations = {
+                [84] = {
+                    {
+                        x = 0.799394,
+                        y = 0.26963,
+                    },
+                },
             },
         },
     },
     [72246] = {
         name = "Serene Dreams",
-        contentTuningID = 2375,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 197670,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amount = 1300,
-            },
-            {
-                type = "money",
-                amounts = {
-                    27620, 27855, 28090, 
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.404123,
+                        y = 0.495296,
+                    },
                 },
-                minLevel = 68,
-                maxLevel = 70,
             },
         },
     },
     [72256] = {
         name = "The Dark Talons",
-        contentTuningID = 2573,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 184786,
@@ -17789,24 +21278,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
-                },
-                minLevel = 10,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
-                },
-                minLevel = 10,
-                maxLevel = 70,
-            },
-        },
     },
     [72263] = {
     },
@@ -17816,6 +21287,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.765152,
+                        y = 0.342297,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17842,6 +21321,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.765152,
+                        y = 0.342297,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17868,6 +21355,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.765152,
+                        y = 0.342297,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -17885,6 +21380,22 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 60,
                 maxLevel = 70,
+            },
+        },
+    },
+    [72397] = {
+        name = "Welcome to the Basecamp",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 186869,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.478813,
+                        y = 0.824126,
+                    },
+                },
             },
         },
     },

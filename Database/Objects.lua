@@ -78,6 +78,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [381579] = {
+        name = "Archivists' Request",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.474763,
+                    y = 0.835804,
+                },
+            },
+        },
+    },
     [381650] = {
         name = "Archivists' Request",
         locations = {
@@ -85,6 +96,17 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.480472,
                     y = 0.822146,
+                },
+            },
+        },
+    },
+    [381664] = {
+        name = "Archivists' Request",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.476469,
+                    y = 0.830217,
                 },
             },
         },
