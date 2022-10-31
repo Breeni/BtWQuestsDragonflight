@@ -1,4 +1,4 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: BtWQuests: Dragonflight
 ## Version: 0.3-beta
 ## Notes: Dragonflight quest data for BtWQuests
