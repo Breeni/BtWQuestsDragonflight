@@ -2548,12 +2548,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.Vakthros,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain01,
         },
---@end-debug@
         {
             type = "chain",
             id = Chain.TempChain02,
@@ -2562,12 +2560,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain03,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain04,
         },
---@end-debug@
         {
             type = "chain",
             id = Chain.TempChain05,
@@ -2600,7 +2596,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain12,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain32,
@@ -2617,6 +2612,7 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain31,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.OtherAlliance,

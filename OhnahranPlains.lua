@@ -1852,7 +1852,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain09,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain13,
@@ -1865,6 +1864,7 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain16,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.OtherAlliance,
@@ -1878,7 +1878,6 @@ Database:AddCategory(CATEGORY_ID, {
             id = Chain.OtherBoth,
         },
 --@end-debug@
-
     },
 })
 

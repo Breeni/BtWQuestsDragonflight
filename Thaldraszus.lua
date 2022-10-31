@@ -1796,10 +1796,12 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.BigTimeAdventurer,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.TheMotherOathstone,
         },
+--@end-debug@
         {
             type = "chain",
             id = Chain.TempChain01,
