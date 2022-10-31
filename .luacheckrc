@@ -40,6 +40,7 @@ globals = {
     'BtWQuests_GetAchievementCriteriaNameDelayed',
     'BtWQuests_GetAchievementNameDelayed',
     'BtWQuests_GetAchievementName',
+    'BtWQuests_GetAreaName',
     'BtWQuests_GetMapName',
 }
 new_read_globals = {

@@ -46,7 +46,6 @@ Chain.TempChain16 = 100326
 Chain.TempChain17 = 100327
 Chain.TempChain18 = 100328
 Chain.TempChain19 = 100329
-Chain.TempChain20 = 100330
 Chain.TempChain21 = 100331
 Chain.TempChain22 = 100332
 Chain.TempChain23 = 100333
@@ -56,6 +55,9 @@ Chain.TempChain26 = 100336
 Chain.TempChain27 = 100337
 Chain.TempChain28 = 100338
 Chain.TempChain29 = 100339
+Chain.TempChain30 = 100340
+Chain.TempChain31 = 100341
+Chain.TempChain32 = 100342
 
 Chain.OtherAlliance = 100397
 Chain.OtherHorde = 100398
@@ -1661,10 +1663,22 @@ Database:AddChain(Chain.TempChain12, {
         id = 66556,
     },
     items = {
+        {
+            visible = false,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain17,
+            aside = true,
+            embed = true,
+            x = 3,
+        },
         { -- Apparently no requirements
             type = "npc",
             id = 189401,
             x = 0,
+            y = 0,
             connections = {
                 1, 2, 
             },
@@ -1711,19 +1725,12 @@ Database:AddChain(Chain.TempChain13, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
-            comment = "Is this actually true or is this just phased out during Camp Antonidas intro quests",
-            upto = 67036,
-        },
-        {
             type = "object",
             id = 376757,
             x = 0,
             connections = {
                 1, 
             },
-            comment = "This, 100333 and 100334 are all just area related. Originally didnt have requirements but did last play through, maybe area is phased during campaign and this is available if you havent gotten that far in the campaign",
         },
         {
             type = "quest",
@@ -1848,15 +1855,11 @@ Database:AddChain(Chain.TempChain17, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements, unrelated to 100322 but could be embedded since they are from same place",
         },
         {
             type = "quest",
             id = 66622,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     }
 })
@@ -1883,20 +1886,37 @@ Database:AddChain(Chain.TempChain18, {
                     id = 190315,
                 },
             },
-            x = 0,
+            x = -1,
             connections = {
-                1, 2, 
+                2, 3, 
             },
-            comment = "Apparently no requirements, follow up quests are in slightly different areas",
+        },
+        {
+            type = "npc",
+            id = 190672,
+            x = 2,
+            connections = {
+                3, 
+            },
         },
         {
             type = "quest",
             id = 66837,
-            x = -1,
+            x = -2,
+            connections = {
+                3, 4, 
+            },
         },
         {
             type = "quest",
             id = 66838,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66839,
             connections = {
                 1, 2, 
             },
@@ -1905,7 +1925,9 @@ Database:AddChain(Chain.TempChain18, {
             type = "quest",
             id = 66840,
             x = -1,
-            comment = "Need to check if only 66838 is required",
+            connections = {
+                2, 
+            },
         },
         {
             type = "quest",
@@ -1913,7 +1935,6 @@ Database:AddChain(Chain.TempChain18, {
             connections = {
                 1, 
             },
-            comment = "Need to check if only 66838 is required",
         },
         {
             type = "quest",
@@ -1922,7 +1943,6 @@ Database:AddChain(Chain.TempChain18, {
             connections = {
                 1, 
             },
-            comment = "Need to check if only 66841 is required",
         },
         {
             type = "quest",
@@ -1948,37 +1968,10 @@ Database:AddChain(Chain.TempChain19, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements, solo quest, maybe embed in other chains near",
         },
         {
             type = "quest",
             id = 66844,
-            x = 0,
-        },
-    }
-})
-Database:AddChain(Chain.TempChain20, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 66556,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 190672,
-            x = 0,
-            connections = {
-                1, 
-            },
-            comment = "Apparently no requirements",
-        },
-        {
-            type = "quest",
-            id = 66839,
             x = 0,
         },
     }
@@ -2000,7 +1993,6 @@ Database:AddChain(Chain.TempChain21, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements, same area as 66837",
         },
         {
             type = "quest",
@@ -2010,13 +2002,33 @@ Database:AddChain(Chain.TempChain21, {
     }
 })
 Database:AddChain(Chain.TempChain22, {
+    name = { -- Sad Little Accidents
+        type = "quest",
+        id = 70168,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 64,
+        },
+        { -- ???
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
+            upto = 65849,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70166,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 66556,
+        id = 70168,
     },
     items = {
         {
@@ -2026,7 +2038,6 @@ Database:AddChain(Chain.TempChain22, {
             connections = {
                 1, 
             },
-            comment = "Unknown requirements, maybe herbing, probably campaign?",
         },
         {
             type = "quest",
@@ -2040,9 +2051,6 @@ Database:AddChain(Chain.TempChain22, {
             type = "quest",
             id = 70168,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     }
 })
@@ -2056,10 +2064,6 @@ Database:AddChain(Chain.TempChain23, {
         id = 66556,
     },
     items = {
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
-        },
         {
             variations = {
                 {
@@ -2107,11 +2111,6 @@ Database:AddChain(Chain.TempChain24, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
-            upto = 67036,
-        },
-        {
             type = "npc",
             id = 189208,
             x = 0,
@@ -2131,7 +2130,6 @@ Database:AddChain(Chain.TempChain24, {
             type = "quest",
             id = 66493,
             x = 0,
-            comment = "Although it doesnt appear related it does become available after the previous quest",
         },
     }
 })
@@ -2168,17 +2166,17 @@ Database:AddChain(Chain.TempChain26, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
-            upto = 65849,
-        },
-        {
             type = "npc",
             id = 186568,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 66217,
+            x = 0,
         },
     }
 })
@@ -2193,21 +2191,25 @@ Database:AddChain(Chain.TempChain27, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
-            upto = 65849,
-        },
-        {
             type = "npc",
             id = 186186,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 66218,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 66223,
+            x = 0,
         },
     }
 })
@@ -2222,21 +2224,25 @@ Database:AddChain(Chain.TempChain28, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
-            upto = 65849,
-        },
-        {
             type = "npc",
             id = 189533,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 66558,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 70129,
+            x = 0,
         },
     }
 })
@@ -2251,18 +2257,156 @@ Database:AddChain(Chain.TempChain29, {
     },
     items = {
         {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
-            comment = "Presumably",
-            upto = 65849,
-        },
-        {
             type = "npc",
             id = 186446,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 66213,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain30, {
+    name = BtWQuests.GetAreaName(13834), -- Camp Antonidas
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 64,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
+            upto = 67036,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {66488, 69904, 66500, 66523},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = {66489, 66503, 66493},
+        count = 3,
+    },
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain13,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain23,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain24,
+            embed = true,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain31, {
+    name = BtWQuests.GetAreaName(13888), -- Three-Falls Lookout
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 64,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {66843, 66844, 71233, 66837, 66838, 66839},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = {66843, 66844, 66846},
+        count = 3,
+    },
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain21,
+            embed = true,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain19,
+            embed = true,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain18,
+            embed = true,
+            x = 1,
+            y = 0,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain32, {
+    name = BtWQuests.GetAreaName(13837), -- Iskaara
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 64,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
+            upto = 65849,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {66218, 66558, 66213, 66217},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = {66223, 70129, 66213, 66217},
+        count = 4,
+    },
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain27,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain28,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain29,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain26,
+            embed = true,
         },
     }
 })
@@ -2457,6 +2601,22 @@ Database:AddCategory(CATEGORY_ID, {
             id = Chain.TempChain12,
         },
 --@debug@
+        {
+            type = "chain",
+            id = Chain.TempChain32,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain22,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain30,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain31,
+        },
         {
             type = "chain",
             id = Chain.OtherAlliance,

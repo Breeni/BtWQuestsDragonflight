@@ -2,6 +2,7 @@
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.Thaldraszus
 local Chain = BtWQuests.Constant.Chain.Dragonflight.Thaldraszus
@@ -965,7 +966,7 @@ Database:AddChain(Chain.TempChain04, {
     prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
-        id = 66134,
+        ids = { 72189, 66134, },
         status = {'active', 'completed'}
     },
     completed = {
@@ -973,9 +974,22 @@ Database:AddChain(Chain.TempChain04, {
         id = 66412,
     },
     items = {
-        { -- no apparent requirements
-            type = "npc",
-            id = 187300,
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 72189,
+                    restrictions = {
+                        type = "quest",
+                        id = 72189,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 187300,
+                },
+            },
             x = -1,
             connections = {
                 1, 
@@ -1064,7 +1078,7 @@ Database:AddChain(Chain.TempChain05, {
     prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
-        id = 65913,
+        ids = { 72190, 65913, },
         status = {'active', 'completed'}
     },
     completed = {
@@ -1072,9 +1086,22 @@ Database:AddChain(Chain.TempChain05, {
         id = 65920,
     },
     items = {
-        { -- Apparently no requirements
-            type = "npc",
-            id = 190527,
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 72190,
+                    restrictions = {
+                        type = "quest",
+                        id = 72190,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 190527,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -1172,10 +1199,16 @@ Database:AddChain(Chain.TempChain06, {
     },
 })
 Database:AddChain(Chain.TempChain07, {
-    name = "Hot Springs", -- BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_2, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_2, 7),
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        ids = {72067, 72246,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 70745,
@@ -1276,10 +1309,16 @@ Database:AddChain(Chain.TempChain07, {
     },
 })
 Database:AddChain(Chain.TempChain08, {
-    name = "Misty Vale", -- BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_2, 8),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_2, 8),
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 71024,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 70879,
@@ -1387,9 +1426,30 @@ Database:AddChain(Chain.TempChain09, {
         id = 66468,
     },
     items = {
+        {
+            type = "npc",
+            id = 193015,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "Unknown requirement",
+        },
+        {
+            type = "quest",
+            id = 72406,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.TempChain10, {
+    name = { -- Archivist Areniel
+        type = "npc",
+        id = 192543,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1419,12 +1479,21 @@ Database:AddChain(Chain.TempChain10, {
     },
 })
 Database:AddChain(Chain.TempChain11, {
+    name = { -- A Dryadic Remedy
+        type = "quest",
+        id = 67606,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    active = {
+        type = "quest",
+        id = 67094,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
-        id = 66468,
+        id = 67606,
     },
     items = {
         {
@@ -1448,9 +1517,6 @@ Database:AddChain(Chain.TempChain11, {
             type = "quest",
             id = 67606,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     },
 })
@@ -1480,12 +1546,27 @@ Database:AddChain(Chain.TempChain12, {
     },
 })
 Database:AddChain(Chain.TempChain13, {
+    name = { -- 10,000 Years of Roasting
+        type = "quest",
+        id = 67063,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        }
+    },
+    active = {
+        type = "quest",
+        ids = { 71238, 70930 },
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 66468,
+        id = 67063,
     },
     items = {
         {
@@ -1526,21 +1607,91 @@ Database:AddChain(Chain.TempChain13, {
                 1, 
             },
         },
+        {
+            type = "quest",
+            id = 67063,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain14, {
+    name = L["SPARK_OF_INGENUITY"],
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        }
+    },
+    active = {
+        type = "quest",
+        ids = {70846, 70180,},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
-        id = 66468,
+        id = 70633,
     },
     items = {
         {
+            variations = {
+                {
+                    type = "quest",
+                    id = 70846,
+                    restrictions = {
+                        type = "quest",
+                        id = 70846,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 196066,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
-            id = 70846,
-            comment = "breadcrumb, unknown requirement",
+            id = 70180,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70845,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70181,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70182,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70633,
+            x = 0,
         },
     },
 })
@@ -1594,14 +1745,6 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- An Anomalous Shrine
-            type = "quest",
-            id = 67093,
-        },
-        { -- Entropic Remnants
-            type = "quest",
-            id = 67154,
-        },
         { -- Enraged Steamburst Elemental
             type = "quest",
             id = 69849,
@@ -1681,7 +1824,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain06,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain07,
@@ -1692,7 +1834,32 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
+            id = Chain.TempChain14,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain13,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain11,
+        },
+--@debug@
+        {
+            type = "chain",
+            id = Chain.TempChain10,
+        },
+        {
+            type = "chain",
             id = Chain.TempChain09,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain12,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain15,
         },
         {
             type = "chain",

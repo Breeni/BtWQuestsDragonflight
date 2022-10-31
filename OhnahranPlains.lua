@@ -37,7 +37,6 @@ Chain.TempChain07 = 100217
 Chain.TempChain08 = 100218
 Chain.TempChain09 = 100219
 Chain.TempChain10 = 100220
-Chain.TempChain11 = 100221
 Chain.TempChain12 = 100222
 Chain.TempChain13 = 100223
 Chain.TempChain14 = 100224
@@ -80,6 +79,18 @@ Database:AddChain(Chain.IntoThePlains, {
     },
     items = {
         {
+            visible = false,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain12,
+            aside = true,
+            embed = true,
+            x = 3,
+            y = 5,
+        },
+        {
             variations = {
                 {
                     type = "npc",
@@ -106,6 +117,7 @@ Database:AddChain(Chain.IntoThePlains, {
                 },
             },
             x = 0,
+            y = 0,
             connections = {
                 1, 
             },
@@ -1063,41 +1075,51 @@ Database:AddChain(Chain.TempChain05, {
     },
     items = {
         {
+            visible = false,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain10,
+            aside = true,
+            embed = true,
+            x = 3,
+        },
+        {
             type = "npc",
             id = 190164,
             x = 0,
+            y = 0,
             connections = {
                 1, 2, 
             },
         },
         {
             type = "quest",
-            id = 66687,
+            id = 66688,
             x = -1,
             connections = {
-                3, 
+                2, 
             },
         },
         {
             type = "quest",
-            id = 66688,
+            id = 66687,
             connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 70374,
-            x = 1,
+            x = -1,
             connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 66834,
-            comment = "Check what is needed, requires 66687",
-            x = 0,
             connections = {
                 1, 
             },
@@ -1495,17 +1517,6 @@ Database:AddChain(Chain.TempChain10, {
         },
     },
 })
-Database:AddChain(Chain.TempChain11, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 65890,
-    },
-    items = {
-    },
-})
 Database:AddChain(Chain.TempChain12, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1522,7 +1533,6 @@ Database:AddChain(Chain.TempChain12, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements from Timberstep Outpost",
         },
         {
             type = "quest",
@@ -1532,12 +1542,27 @@ Database:AddChain(Chain.TempChain12, {
     },
 })
 Database:AddChain(Chain.TempChain13, {
+    name = { -- Emotional Support Companions
+        type = "quest",
+        id = 66226,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 62,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66226,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 65890,
+        id = 66226,
     },
     items = {
         {
@@ -1547,7 +1572,6 @@ Database:AddChain(Chain.TempChain13, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements",
         },
         {
             type = "quest",
@@ -1557,12 +1581,27 @@ Database:AddChain(Chain.TempChain13, {
     },
 })
 Database:AddChain(Chain.TempChain14, {
+    name = { -- But... I Am the Hero of Ducks
+        type = "quest",
+        id = 70070,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 62,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70062,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 65890,
+        id = 70070,
     },
     items = {
         {
@@ -1572,7 +1611,6 @@ Database:AddChain(Chain.TempChain14, {
             connections = {
                 1, 
             },
-            comment = "Apparently no requirements",
         },
         {
             type = "quest",
@@ -1629,12 +1667,27 @@ Database:AddChain(Chain.TempChain15, {
     },
 })
 Database:AddChain(Chain.TempChain16, {
+    name = { -- After My Ohn Heart
+        type = "quest",
+        id = 70721,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 62,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {70739, 70730},
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 65890,
+        id = 70721,
     },
     items = {
         {
@@ -1644,7 +1697,6 @@ Database:AddChain(Chain.TempChain16, {
             connections = {
                 2, 
             },
-            comment = "Apparently no requirements",
         },
         {
             type = "npc",
@@ -1672,9 +1724,6 @@ Database:AddChain(Chain.TempChain16, {
             type = "quest",
             id = 70721,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     },
 })
@@ -1806,11 +1855,15 @@ Database:AddCategory(CATEGORY_ID, {
 --@debug@
         {
             type = "chain",
-            id = Chain.TempChain10,
+            id = Chain.TempChain13,
         },
         {
             type = "chain",
-            id = Chain.TempChain11,
+            id = Chain.TempChain14,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain16,
         },
         {
             type = "chain",
@@ -1883,7 +1936,15 @@ Database:AddContinentItems(CONTINENT_ID, {
     },
     {
         type = "chain",
-        id = Chain.TempChain11,
+        id = Chain.TempChain13,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain14,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain16,
     },
 --@end-debug@
 })
