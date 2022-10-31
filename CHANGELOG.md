@@ -1,3 +1,7 @@
+# v0.4-beta
+
+- Added multiple questlines
+
 # v0.3-beta
 
 - Updated multiple quest chain with requirements, breadcrumbs, some side quests, and such
