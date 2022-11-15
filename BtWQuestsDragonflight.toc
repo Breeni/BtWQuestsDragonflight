@@ -4,6 +4,7 @@
 ## Notes: Dragonflight quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
+## OptionalDeps: BtWQuestsDragonflightPrologue
 ## LoadOnDemand: 1
 ## X-BtWQuests: Dragonflight
 ## X-BtWQuests-Expansion: 9
