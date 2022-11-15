@@ -382,12 +382,14 @@ Database:AddChain(Chain.RedDawn, {
         },
     },
 })
-BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
-    {
-        type = "chain",
-        id = Chain.DracthyrAwaken,
-    },
-})
+if not IsAddOnLoaded("BtWQuestsDragonflightPrologue") then
+    BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
+        {
+            type = "chain",
+            id = Chain.DracthyrAwaken,
+        },
+    })
+end
 
 -- The Forbidden Reach
 Database:AddMapRecursive(2107, {

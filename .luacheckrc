@@ -262,6 +262,7 @@ new_read_globals = {
     'HandleModifiedItemClick',
     'hooksecurefunc',
     'InCombatLockdown',
+    'IsAddOnLoaded',
     'IsAltKeyDown',
     'IsControlKeyDown',
     'IsEncounterInProgress',
