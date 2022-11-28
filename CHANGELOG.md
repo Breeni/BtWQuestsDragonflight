@@ -1,3 +1,9 @@
+# v1.0
+
+- Added Prologue optional dependancy
+- Updated activation check for The Dragonscale Expedition questline
+- Fixed some issues showing chain items incorrectly in the The Dragonscale Expedition questline
+
 # v0.4-beta
 
 - Added multiple questlines
