@@ -25,6 +25,7 @@ ignore = {
     '542', -- empty if branch
     '611', -- lines containing only whitespaces
     '612', -- A line contains trailing whitespace
+    '613', -- A line contains trailing whitespace in a string
     '614', -- Trailing whitespace in a comment
 }
 

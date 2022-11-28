@@ -3,17 +3,27 @@
 BtWQuestsDatabase:AddQuestsTable({
     [64863] = {
         name = "Arcane Guardians",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181596,
-            locations = {
-                [2109] = {
-                    {
-                        x = 0.330805,
-                        y = 0.806897,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
@@ -24,7 +34,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7900, 8050, 9050, 7900, 6300, 4750, 3150, 1600, 800, 
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
                 minLevel = 58,
                 maxLevel = 66,
@@ -41,103 +51,163 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [64865] = {
         name = "Gear Up",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181056,
-            locations = {
-                [2109] = {
-                    {
-                        x = 0.329252,
-                        y = 0.815519,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [64866] = {
         name = "Into the Cauldron",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181594,
-            locations = {
-                [2109] = {
-                    {
-                        x = 0.464446,
-                        y = 0.571076,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9850, 10050, 11350, 11500, 11700, 5900, 3950, 1950, 975, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [64871] = {
         name = "The Dragon at the Door",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 186883,
-            locations = {
-                [2109] = {
-                    {
-                        x = 0.623135,
-                        y = 0.364418,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9850, 10050, 11350, 11500, 11700, 5900, 3950, 1950, 975, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [64872] = {
         name = "The Fire Within",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184269,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.443962,
-                        y = 0.614883,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [64873] = {
         name = "Stretch Your Wings",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181054,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.445303,
-                        y = 0.6106,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65036] = {
         name = "Train Like We Fight",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 192889,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.447189,
-                        y = 0.57636,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    2000, 2000, 2250, 2300, 2350, 1200, 800, 400, 200, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    63180, 63765, 64350, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65045] = {
         name = "Stormsunder Crater",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181054,
@@ -148,92 +218,160 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.611592,
                     },
                 },
+            },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
+                },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65046] = {
         name = "The Primalists",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 186210,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.703631,
-                        y = 0.645989,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65049] = {
         name = "Tangle with the Tarasek",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182274,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.704429,
-                        y = 0.643427,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65050] = {
         name = "Conjured Army",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182274,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.704429,
-                        y = 0.643427,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65052] = {
         name = "The Ebon Scales",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182275,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.795576,
-                        y = 0.622812,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9850, 10050, 11350, 11500, 11700, 5900, 3950, 1950, 975, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65057] = {
         name = "Rally to Emberthal",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182297,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.812245,
-                        y = 0.539711,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65060] = {
         name = "Caldera of the Menders",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 181054,
@@ -246,58 +384,106 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
+                },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [65063] = {
         name = "Into the Hive",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184214,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.188023,
-                        y = 0.158203,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65071] = {
         name = "Halp!",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184166,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.334781,
-                        y = 0.33324,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65073] = {
         name = "A Toxic Problem",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184163,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.200922,
-                        y = 0.190922,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65074] = {
         name = "Easy Prey",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184214,
@@ -310,104 +496,202 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
+                },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [65075] = {
         name = "The Healing Wings",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184163,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.200922,
-                        y = 0.190922,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65084] = {
         name = "The Froststone Vault",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182258,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.448201,
-                        y = 0.577226,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65087] = {
         name = "The Prize Inside",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184308,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.567373,
-                        y = 0.281613,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9850, 10050, 11350, 11500, 11700, 5900, 3950, 1950, 975, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65097] = {
         name = "Run!",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182441,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.541144,
-                        y = 0.323168,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65098] = {
         name = "The Consequence of Courage",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182601,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.470466,
-                        y = 0.354983,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65100] = {
         name = "Final Orders",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 191780,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.416753,
-                        y = 0.445313,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65101] = {
+        name = "An Iconic, Draconic Look",
+        contentTuningID = 2150,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
+                },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [65118] = {
         name = "How to Glide with Your Dragon",
@@ -415,20 +699,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.576573,
-                        y = 0.668856,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -444,30 +720,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
     [65120] = {
-        name = "How To Dive with Your Dragon",
+        name = "How to Dive with Your Dragon",
         contentTuningID = 2296,
         source = {
             type = "npc",
             id = 193287,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.576573,
-                        y = 0.668856,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -483,7 +751,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -493,20 +761,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.576573,
-                        y = 0.668856,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -522,7 +782,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -532,20 +792,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.50009,
-                        y = 0.698744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -561,7 +813,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -571,20 +823,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183997,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.162024,
-                        y = 0.208833,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -600,6 +844,8 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [65286] = {
+        name = "Draconic Connections",
+        contentTuningID = 2150,
     },
     [65287] = {
         name = "Separating the Yolk",
@@ -607,20 +853,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.499728,
-                        y = 0.698852,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -636,7 +874,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -659,7 +897,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -680,20 +918,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183997,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.162024,
-                        y = 0.208833,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -710,33 +940,58 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [65307] = {
         name = "Mercy First",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184163,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.200922,
-                        y = 0.190922,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65313] = {
         name = "A Roc-ing Appetite",
-        contentTuningID = 0,
+        contentTuningID = 2545,
         source = {
             type = "npc",
             id = 183912,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.499728,
-                        y = 0.698852,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
@@ -746,20 +1001,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.499728,
-                        y = 0.698852,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -775,7 +1022,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -785,20 +1032,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.50009,
-                        y = 0.698744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -814,7 +1053,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -824,20 +1063,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184591,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.50009,
-                        y = 0.698744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -853,135 +1084,129 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
     [65435] = {
         name = "The Dragon Isles Await",
-        contentTuningID = 2151,
+        contentTuningID = 2573,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
                 },
-                minLevel = 60,
+                minLevel = 10,
                 maxLevel = 68,
             },
             {
                 type = "money",
                 amounts = {
-                    25740, 25975, 26210, 
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
                 },
-                minLevel = 60,
-                maxLevel = 62,
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [65436] = {
         name = "The Dragon Isles Await",
-        contentTuningID = -1,
-    },
-    [65437] = {
-        name = "Aspectral Invitation",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 190239,
-            locations = {
-                [85] = {
-                    {
-                        x = 0.440759,
-                        y = 0.380022,
-                    },
-                },
-            },
-        },
+        contentTuningID = 2573,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
                 },
-                minLevel = 60,
+                minLevel = 10,
                 maxLevel = 68,
             },
             {
                 type = "money",
                 amounts = {
-                    25740, 25975, 26210, 
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
                 },
-                minLevel = 60,
-                maxLevel = 62,
+                minLevel = 10,
+                maxLevel = 70,
+            },
+        },
+    },
+    [65437] = {
+        name = "Aspectral Invitation",
+        contentTuningID = 2573,
+        source = {
+            type = "npc",
+            id = 190239,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
+                },
+                minLevel = 10,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [65439] = {
         name = "Whispers on the Winds",
-        contentTuningID = 2151,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 193450,
-            locations = {
-                {
-                    {
-                        x = 0.559163,
-                        y = 0.126081,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
                 },
-                minLevel = 60,
+                minLevel = 10,
                 maxLevel = 68,
             },
             {
                 type = "money",
                 amounts = {
-                    25740, 25975, 26210, 
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
                 },
-                minLevel = 60,
-                maxLevel = 62,
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [65443] = {
         name = "Expeditionary Coordination",
-        contentTuningID = 2151,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 184793,
-            locations = {
-                [85] = {
-                    {
-                        x = 0.441909,
-                        y = 0.377434,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
                 },
-                minLevel = 60,
-                maxLevel = 68,
+                minLevel = 10,
+                maxLevel = 69,
             },
             {
                 type = "money",
                 amounts = {
-                    257400, 259748, 262100, 
+                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
                 },
-                minLevel = 60,
-                maxLevel = 62,
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
@@ -991,20 +1216,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197279,
-            locations = {
-                {
-                    {
-                        x = 0.558112,
-                        y = 0.126623,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1017,11 +1234,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
-            },
         },
     },
     [65451] = {
@@ -1030,20 +1242,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184844,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.806053,
-                        y = 0.276524,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1059,7 +1263,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1069,20 +1273,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184841,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.806171,
-                        y = 0.276069,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1098,7 +1294,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1108,20 +1304,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184859,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.80653,
-                        y = 0.27594,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1137,7 +1325,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1148,7 +1336,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    5150, 5200, 
+                    4120.0000613928, 4160.0000619888, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -1164,7 +1352,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
@@ -1174,20 +1362,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183912,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.499728,
-                        y = 0.698852,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -1203,7 +1383,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1226,7 +1406,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -1260,7 +1440,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -1273,58 +1453,83 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 80,
-            },
         },
     },
     [65613] = {
-        name = "An Iconic, Draconic, Look",
+        name = "An Iconic, Draconic Look",
         contentTuningID = 2150,
         source = {
             type = "npc",
             id = 190239,
-            locations = {
-                [85] = {
-                    {
-                        x = 0.440759,
-                        y = 0.380022,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7900, 8050, 9050, 9200, 9350, 4750, 3150, 1600, 800, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    252720, 255060, 257400, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65615] = {
         name = "Arcane Intrusion",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182251,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.440863,
-                        y = 0.613963,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3950, 4000, 4550, 4600, 4700, 2350, 1600, 800, 400, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    126360, 127530, 128700, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
     [65686] = {
         name = "To the Azure Span",
-        contentTuningID = -1,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 185599,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.716567,
-                        y = 0.805864,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1250, 1250, 1250, 1300, 1250, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26915, 27150, 27385, 27620, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
@@ -1334,20 +1539,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185627,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.394309,
-                        y = 0.483307,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1363,7 +1560,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -1373,14 +1570,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192091,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.466365,
-                        y = 0.401933,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1398,18 +1587,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-                maxRank = -1,
             },
         },
     },
@@ -1419,14 +1596,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185615,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.409162,
-                        y = 0.549977,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1445,18 +1614,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-                maxRank = -1,
-            },
         },
     },
     [65690] = {
@@ -1465,20 +1622,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185627,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.394309,
-                        y = 0.483307,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1494,7 +1643,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -1504,20 +1653,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185628,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.374318,
-                        y = 0.46617,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    11350, 11500, 11700, 11700, 9350, 7000, 4700, 2350, 1150, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1533,23 +1674,33 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
     [65701] = {
         name = "Preservation or Devastation",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 182258,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.448201,
-                        y = 0.577226,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    975, 1000, 1150, 1150, 1150, 600, 390, 200, 100, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25270, 25505, 25740, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
@@ -1559,14 +1710,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185622,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.407417,
-                        y = 0.590482,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1588,13 +1731,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -1605,14 +1748,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185623,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.406904,
-                        y = 0.591012,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1634,13 +1769,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -1664,7 +1799,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -1680,7 +1815,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -1690,20 +1825,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.517337,
-                        y = 0.619802,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -1719,7 +1846,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1729,14 +1856,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.39961,
-                        y = 0.614592,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1758,13 +1877,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -1775,14 +1894,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.39961,
-                        y = 0.614592,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -1804,13 +1915,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -1821,20 +1932,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.517337,
-                        y = 0.619802,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -1847,11 +1950,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
-            },
         },
     },
     [65760] = {
@@ -1860,20 +1958,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193363,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.762694,
-                        y = 0.343915,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -1889,7 +1979,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -1899,20 +1989,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185778,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.517337,
-                        y = 0.619802,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -1928,7 +2010,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -1951,7 +2033,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -1967,13 +2049,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65778] = {
         name = "Screechflight Potluck",
-        contentTuningID = 0,
+        contentTuningID = 2545,
         source = {
             type = "npc",
             id = 183912,
@@ -1986,20 +2068,53 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
+            },
+        },
     },
     [65779] = {
         name = "Into the Plains",
-        contentTuningID = -1,
+        contentTuningID = 2152,
         source = {
             type = "npc",
             id = 185878,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.482662,
-                        y = 0.886688,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
             },
         },
     },
@@ -2009,14 +2124,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185882,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.777201,
-                        y = 0.239291,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2038,7 +2145,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 120,
+                amount = 300,
             },
         },
     },
@@ -2048,20 +2155,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185628,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.374318,
-                        y = 0.46617,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -2077,7 +2176,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -2113,11 +2212,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [65791] = {
@@ -2126,20 +2220,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185904,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.61585,
-                        y = 0.687095,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -2155,7 +2241,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -2165,20 +2251,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185894,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.242431,
-                        y = 0.558744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    11350, 11500, 11700, 11700, 9350, 7000, 4700, 2350, 1150, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -2194,30 +2272,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
     [65794] = {
         name = "A Charge of Care",
-        contentTuningID = 2151,
+        contentTuningID = 2296,
         source = {
             type = "npc",
             id = 185905,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.623427,
-                        y = 0.730251,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -2233,7 +2303,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -2243,20 +2313,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193377,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.615599,
-                        y = 0.685591,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -2272,7 +2334,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 24,
+                amount = 50,
             },
         },
     },
@@ -2282,14 +2344,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181217,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.857443,
-                        y = 0.253344,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2311,7 +2365,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2321,14 +2375,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181217,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.857443,
-                        y = 0.253344,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2350,7 +2396,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2385,11 +2431,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -2428,7 +2469,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2438,14 +2479,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184595,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.699634,
-                        y = 0.379686,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2467,13 +2500,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65806] = {
         name = "Maruukai",
-        contentTuningID = -1,
+        contentTuningID = 2152,
         source = {
             type = "npc",
             id = 181217,
@@ -2486,6 +2519,24 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
     },
     [65832] = {
         name = "Dwarven Antifreeze",
@@ -2493,20 +2544,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.489805,
-                        y = 0.642423,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -2522,7 +2565,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -2532,20 +2575,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.489805,
-                        y = 0.642423,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -2561,7 +2596,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -2571,20 +2606,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185806,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.489805,
-                        y = 0.642423,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -2600,7 +2627,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 400,
             },
         },
     },
@@ -2610,20 +2637,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.810312,
-                        y = 0.589696,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -2639,7 +2658,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 75,
+                amount = 200,
             },
         },
     },
@@ -2649,14 +2668,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187873,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.20535,
-                        y = 0.35682,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2678,13 +2689,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65841] = {
         name = "Stop the Spread",
-        contentTuningID = 2153,
+        contentTuningID = 2313,
         rewards = {
             {
                 type = "experience",
@@ -2705,7 +2716,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 100,
+                amount = 400,
             },
         },
     },
@@ -2715,14 +2726,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186181,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.1676,
-                        y = 0.372526,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2744,7 +2747,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2754,14 +2757,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186179,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.167469,
-                        y = 0.372225,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2783,7 +2778,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2822,7 +2817,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2861,7 +2856,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2900,7 +2895,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2939,7 +2934,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -2949,14 +2944,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189793,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.132644,
-                        y = 0.495292,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -2978,7 +2965,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 300,
             },
         },
     },
@@ -2988,14 +2975,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185622,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.407417,
-                        y = 0.590482,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3013,18 +2992,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-                maxRank = -1,
             },
         },
     },
@@ -3034,14 +3001,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186184,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.39961,
-                        y = 0.614592,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3060,18 +3019,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-                maxRank = -1,
-            },
         },
     },
     [65855] = {
@@ -3080,14 +3027,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186188,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.394834,
-                        y = 0.630712,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3109,13 +3048,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 15,
+                amount = 50,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 8,
+                amount = 25,
                 maxRank = -1,
             },
         },
@@ -3126,14 +3065,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190225,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.457199,
-                        y = 0.38837,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3152,11 +3083,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 8,
-            },
         },
     },
     [65866] = {
@@ -3165,14 +3091,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191810,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.352786,
-                        y = 0.369382,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3194,7 +3112,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3204,14 +3122,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191810,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.352786,
-                        y = 0.369382,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3233,7 +3143,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3243,14 +3153,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188809,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.353704,
-                        y = 0.369388,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3272,7 +3174,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3282,14 +3184,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187721,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.286882,
-                        y = 0.348175,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3311,7 +3205,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3321,14 +3215,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189662,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.343398,
-                        y = 0.310115,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3350,7 +3236,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3360,14 +3246,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189642,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.344158,
-                        y = 0.311041,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3389,24 +3267,16 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65872] = {
-        name = "Ill Gnolls With Ill Intent",
+        name = "Ill Gnolls with Ill Intent",
         contentTuningID = 2153,
         source = {
             type = "npc",
             id = 186228,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.343717,
-                        y = 0.310209,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3428,7 +3298,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3438,14 +3308,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186228,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.343717,
-                        y = 0.310209,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3467,7 +3329,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -3477,14 +3339,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186280,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.394742,
-                        y = 0.630161,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3503,18 +3357,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 8,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-                maxRank = -1,
-            },
         },
     },
     [65887] = {
@@ -3523,14 +3365,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189751,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.658068,
-                        y = 0.2532,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -3549,40 +3383,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-                maxRank = -1,
-            },
         },
     },
     [65890] = {
         name = "The Nelthazan Ruins",
-        contentTuningID = 2152,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 190089,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.660011,
-                        y = 0.25059,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3595,33 +3409,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
-            },
         },
     },
     [65891] = {
         name = "Tools of the Tirade",
-        contentTuningID = 2152,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 186300,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.640203,
-                        y = 0.184488,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3637,30 +3438,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
     [65893] = {
         name = "The Relic Inquiry",
-        contentTuningID = 2152,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 186300,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.640203,
-                        y = 0.184488,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4700, 4750, 4850, 4900, 4750, 3800, 2850, 1900, 
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3676,30 +3469,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
     [65895] = {
         name = "Competing Company",
-        contentTuningID = 2152,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 186300,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.640203,
-                        y = 0.184488,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4700, 4750, 4850, 4900, 4750, 3800, 2850, 1900, 
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3715,13 +3500,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
     [65898] = {
         name = "Proto Problems",
-        contentTuningID = 0,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 186300,
@@ -3734,6 +3519,29 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
+            },
+        },
     },
     [65899] = {
         name = "Find Theramus",
@@ -3741,20 +3549,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186303,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.250614,
-                        y = 0.568876,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3770,7 +3570,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -3780,20 +3580,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.244548,
-                        y = 0.630525,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3809,7 +3601,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -3819,20 +3611,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190014,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.562523,
-                        y = 0.759537,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3848,7 +3632,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -3858,20 +3642,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.244548,
-                        y = 0.630525,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3887,7 +3663,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -3910,7 +3686,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3926,7 +3702,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -3949,7 +3725,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -3965,7 +3741,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -3975,20 +3751,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185726,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.244548,
-                        y = 0.630525,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4004,7 +3772,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -4027,7 +3795,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4043,7 +3811,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4053,14 +3821,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186177,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.129378,
-                        y = 0.503867,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4082,7 +3842,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4092,19 +3852,11 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190527,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.495394,
-                        y = 0.58861,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -4113,11 +3865,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -4127,20 +3874,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186157,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.447778,
-                        y = 0.506177,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4156,7 +3895,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4166,32 +3905,23 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.496074,
-                        y = 0.587593,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
             },
             {
                 type = "money",
                 amounts = {
-                    27620, 27855, 28090, 
+                    276200, 278548, 280900, 
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -4201,20 +3931,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190527,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.495394,
-                        y = 0.58861,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -4230,7 +3952,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -4240,20 +3962,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.496074,
-                        y = 0.587593,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -4269,23 +3983,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
     [65921] = {
         name = "Refti Retribution",
-        contentTuningID = 0,
+        contentTuningID = 2154,
         source = {
             type = "npc",
             id = 190527,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.495394,
-                        y = 0.58861,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -4295,20 +4024,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186157,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.447778,
-                        y = 0.506177,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4324,7 +4045,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4347,7 +4068,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4363,7 +4084,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4373,20 +4094,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.455086,
-                        y = 0.541848,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4402,7 +4115,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4425,7 +4138,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4441,7 +4154,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4451,20 +4164,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.455086,
-                        y = 0.541848,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -4480,7 +4185,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -4490,14 +4195,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.575256,
-                        y = 0.787886,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4511,11 +4208,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
             },
         },
     },
@@ -4538,7 +4230,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4554,46 +4246,53 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
     [65938] = {
         name = "The Once and Future Team",
-        contentTuningID = -1,
+        contentTuningID = 2154,
         source = {
             type = "npc",
             id = 186711,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.595728,
-                        y = 0.816926,
-                    },
-                },
-            },
-        },
-    },
-    [65939] = {
-        name = "The Courage of One's Convictions",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 186681,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.339964,
-                        y = 0.612932,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    12850, 13000, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    552400, 557096, 561800, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
+            },
+        },
+    },
+    [65939] = {
+        name = "The Courage of One's Convictions",
+        contentTuningID = 2289,
+        source = {
+            type = "npc",
+            id = 186681,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11350, 11500, 11700, 11700, 9350, 7000, 4700, 2350, 1150, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -4609,7 +4308,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -4645,11 +4344,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [65943] = {
@@ -4658,14 +4352,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186304,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.700046,
-                        y = 0.352273,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4687,13 +4373,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -4704,14 +4390,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186305,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.700245,
-                        y = 0.353374,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4733,13 +4411,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -4750,14 +4428,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.595728,
-                        y = 0.816926,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4779,7 +4449,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -4789,14 +4459,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.595728,
-                        y = 0.816926,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -4818,13 +4480,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [65949] = {
         name = "The Sole Mender",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
@@ -4841,7 +4503,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    4700, 4750, 4850, 4900, 4750, 3800, 2850, 1900, 
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4857,30 +4519,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
     [65950] = {
         name = "Thieving Gorlocs",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186650,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.844001,
-                        y = 0.250206,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4896,30 +4550,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65951] = {
         name = "Sole Supplier",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186653,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.843449,
-                        y = 0.249965,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4700, 4750, 4850, 4900, 4750, 3800, 2850, 1900, 
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4935,13 +4581,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
     [65952] = {
         name = "A Chief of Legends",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
@@ -4958,7 +4604,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -4974,30 +4620,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
     [65953] = {
         name = "The Ora-cull",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.805312,
-                        y = 0.307184,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5013,30 +4651,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65954] = {
         name = "Release the Hounds",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.805312,
-                        y = 0.307184,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5052,30 +4682,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [65955] = {
         name = "A Centaur's Best Friend",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.805312,
-                        y = 0.307184,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4700, 4750, 4850, 4900, 4750, 3800, 2850, 1900, 
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5091,30 +4713,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
     [65956] = {
         name = "Talon Strike",
-        contentTuningID = 2151,
+        contentTuningID = 2270,
         source = {
             type = "npc",
             id = 186274,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.424652,
-                        y = 0.668489,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5130,30 +4744,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [65957] = {
-        name = "No Time For Heroes",
-        contentTuningID = 2151,
+        name = "No Time for Heroes",
+        contentTuningID = 2270,
         source = {
             type = "npc",
             id = 186274,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.424652,
-                        y = 0.668489,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    11350, 11500, 11700, 11700, 9350, 7000, 4700, 2350, 1150, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5169,7 +4775,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -5179,14 +4785,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186686,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.744684,
-                        y = 0.378174,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -5208,13 +4806,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -5225,14 +4823,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186711,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.595728,
-                        y = 0.816926,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -5251,11 +4841,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 8,
-            },
         },
     },
     [65977] = {
@@ -5264,14 +4849,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186688,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.744652,
-                        y = 0.378426,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -5293,13 +4870,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -5310,20 +4887,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.71195,
-                        y = 0.407815,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5339,7 +4908,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -5349,20 +4918,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.71195,
-                        y = 0.407815,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5378,7 +4939,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -5388,20 +4949,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186584,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.71195,
-                        y = 0.407815,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5417,7 +4970,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -5427,20 +4980,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186640,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.663461,
-                        y = 0.34993,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5456,7 +5001,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -5466,20 +5011,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186640,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.663461,
-                        y = 0.34993,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5495,7 +5032,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -5506,7 +5043,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    13600, 13850, 14050, 13600, 10900, 8150, 5450, 2700, 1350, 
+                    13600, 13850, 14050, 14050, 11250, 8450, 5600, 2800, 1400, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5522,7 +5059,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -5533,7 +5070,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5549,7 +5086,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -5559,20 +5096,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186767,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.627502,
-                        y = 0.331135,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5584,11 +5113,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 60,
                 maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -5598,20 +5122,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190155,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.549945,
-                        y = 0.307831,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5624,11 +5140,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
-            },
         },
     },
     [65998] = {
@@ -5637,20 +5148,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187406,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.551825,
-                        y = 0.249569,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5666,7 +5169,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -5676,20 +5179,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187406,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.551825,
-                        y = 0.249569,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5705,7 +5200,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -5715,20 +5210,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 377499,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.552548,
-                        y = 0.246886,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5744,7 +5231,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -5754,20 +5241,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190171,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.5522,
-                        y = 0.248066,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -5783,34 +5262,36 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
     [66004] = {
         name = "Galgresh",
-        contentTuningID = -1,
-    },
-    [66005] = {
-        name = "Medallion of a Fallen Friend",
         contentTuningID = 2152,
-        source = {
-            type = "npc",
-            id = 186678,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.820854,
-                        y = 0.314877,
-                    },
-                },
-            },
-        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
                     9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
+    },
+    [66005] = {
+        name = "Medallion of a Fallen Friend",
+        contentTuningID = 2242,
+        source = {
+            type = "npc",
+            id = 186678,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5826,13 +5307,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [66006] = {
         name = "Return to Roscha",
-        contentTuningID = 2152,
+        contentTuningID = 2242,
         source = {
             type = "npc",
             id = 186649,
@@ -5849,7 +5330,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5865,7 +5346,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -5875,14 +5356,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186779,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.769483,
-                        y = 0.394156,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -5904,13 +5377,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -5921,20 +5394,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186862,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.783812,
-                        y = 0.399667,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    12250, 12450, 12650, 12850, 12450, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -5942,7 +5407,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    269148, 271500, 273848, 276200, 
+                    538296, 543000, 547696, 552400, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -5950,13 +5415,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
                 maxRank = -1,
             },
         },
@@ -5980,7 +5445,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -5996,7 +5461,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -6006,14 +5471,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187034,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.78225,
-                        y = 0.333261,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6035,13 +5492,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
                 maxRank = -1,
             },
         },
@@ -6052,14 +5509,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.614341,
-                        y = 0.39487,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6077,11 +5526,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -6091,14 +5535,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.614341,
-                        y = 0.39487,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6116,11 +5552,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -6130,14 +5561,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191283,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.614341,
-                        y = 0.39487,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6156,11 +5579,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66019] = {
@@ -6169,14 +5587,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186941,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.591641,
-                        y = 0.376066,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6198,7 +5608,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -6208,14 +5618,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191595,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.629976,
-                        y = 0.336676,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6237,7 +5639,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -6247,14 +5649,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186940,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.602968,
-                        y = 0.407571,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6276,7 +5670,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -6286,14 +5680,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194927,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.609847,
-                        y = 0.392246,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6315,7 +5701,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -6325,14 +5711,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186942,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.60348,
-                        y = 0.38036,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6354,7 +5732,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -6364,14 +5742,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191485,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.59519,
-                        y = 0.387513,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6393,7 +5763,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -6432,7 +5802,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 8,
+                amount = 150,
             },
         },
     },
@@ -6442,14 +5812,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189708,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.28783,
-                        y = 0.347313,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6468,11 +5830,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 8,
-            },
         },
     },
     [66027] = {
@@ -6481,14 +5838,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186280,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.394742,
-                        y = 0.630161,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6507,18 +5856,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 8,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-                maxRank = -1,
-            },
         },
     },
     [66028] = {
@@ -6527,14 +5864,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6550,9 +5879,9 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 70,
             },
             {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
+                type = "currency",
+                id = 2118,
+                amount = 10,
             },
         },
     },
@@ -6562,14 +5891,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6591,7 +5912,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -6601,14 +5922,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183860,
-            locations = {
-                [2085] = {
-                    {
-                        x = 0.610798,
-                        y = 0.508149,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6628,9 +5941,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 70,
             },
             {
+                type = "currency",
+                id = 2118,
+                amount = 10,
+            },
+            {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -6640,14 +5958,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186953,
-            locations = {
-                [2085] = {
-                    {
-                        x = 0.614602,
-                        y = 0.50199,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6667,9 +5977,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 70,
             },
             {
+                type = "currency",
+                id = 2118,
+                amount = 10,
+            },
+            {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -6679,14 +5994,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183860,
-            locations = {
-                [2085] = {
-                    {
-                        x = 0.610798,
-                        y = 0.508149,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6700,11 +6007,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
             },
         },
     },
@@ -6714,14 +6016,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6735,11 +6029,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
             },
         },
     },
@@ -6751,14 +6040,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187344,
-            locations = {
-                [2092] = {
-                    {
-                        x = 0.598264,
-                        y = 0.661424,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6780,7 +6061,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -6807,7 +6088,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -6817,14 +6098,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187344,
-            locations = {
-                [2092] = {
-                    {
-                        x = 0.598264,
-                        y = 0.661424,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6839,11 +6112,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66038] = {
@@ -6852,14 +6120,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187435,
-            locations = {
-                [2090] = {
-                    {
-                        x = 0.433782,
-                        y = 0.692202,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6881,7 +6141,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -6920,7 +6180,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -6930,14 +6190,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186499,
-            locations = {
-                [2089] = {
-                    {
-                        x = 0.534052,
-                        y = 0.439656,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -6959,30 +6211,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 75,
+                amount = 200,
             },
         },
     },
     [66044] = {
         name = "Taking the Walls",
-        contentTuningID = 2151,
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 186933,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.29149,
-                        y = 0.588259,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -6998,30 +6242,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66048] = {
         name = "Best Plans and Intentions",
-        contentTuningID = 2151,
+        contentTuningID = 2286,
         source = {
             type = "npc",
             id = 192795,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.424673,
-                        y = 0.667807,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7037,30 +6273,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66049] = {
         name = "Obsidian Oathstone",
-        contentTuningID = 2151,
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 196265,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.264276,
-                        y = 0.587674,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7073,33 +6301,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66055] = {
         name = "A Shattered Past",
-        contentTuningID = 2151,
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 186493,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.272528,
-                        y = 0.627973,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7115,30 +6330,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66056] = {
-        name = "Forging A New Future",
-        contentTuningID = 2151,
+        name = "Forging a New Future",
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 186493,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.272528,
-                        y = 0.627973,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7154,13 +6361,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66057] = {
         name = "Restoring the Faith",
-        contentTuningID = 2151,
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 186493,
@@ -7177,7 +6384,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    11350, 11500, 11700, 11700, 9350, 7000, 4700, 2350, 1150, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7193,46 +6400,53 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
     [66071] = {
         name = "Flying Rocs",
-        contentTuningID = 0,
+        contentTuningID = 2545,
         source = {
             type = "npc",
             id = 183912,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.499728,
-                        y = 0.698852,
-                    },
-                },
-            },
-        },
-    },
-    [66078] = {
-        name = "Sharp Practice",
-        contentTuningID = 2151,
-        source = {
-            type = "npc",
-            id = 186274,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.424652,
-                        y = 0.668489,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
+            },
+        },
+    },
+    [66078] = {
+        name = "Sharp Practice",
+        contentTuningID = 2286,
+        source = {
+            type = "npc",
+            id = 186274,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7248,7 +6462,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7258,20 +6472,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187115,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.460861,
-                        y = 0.782944,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7284,11 +6490,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66080] = {
@@ -7297,14 +6498,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.575256,
-                        y = 0.787886,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7326,7 +6519,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -7336,14 +6529,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.549605,
-                        y = 0.756333,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7365,7 +6550,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7375,14 +6560,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.549605,
-                        y = 0.756333,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7404,7 +6581,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7414,14 +6591,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.575256,
-                        y = 0.787886,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7443,7 +6612,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -7453,14 +6622,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187877,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.575256,
-                        y = 0.787886,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7482,7 +6643,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7521,7 +6682,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7531,14 +6692,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190929,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.575475,
-                        y = 0.788653,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -7560,7 +6713,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -7570,20 +6723,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191753,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.546812,
-                        y = 0.69473,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -7599,23 +6744,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
     [66101] = {
         name = "From Such Great Heights",
-        contentTuningID = 0,
+        contentTuningID = 2309,
         source = {
             type = "npc",
             id = 187257,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.758448,
-                        y = 0.334919,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    128700, 129874, 131050, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
             },
         },
     },
@@ -7625,20 +6785,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.744272,
-                        y = 0.421379,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7654,7 +6806,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7664,20 +6816,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.744272,
-                        y = 0.421379,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7693,7 +6837,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7703,20 +6847,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186428,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.745123,
-                        y = 0.421778,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7732,7 +6868,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7742,20 +6878,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186428,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.745123,
-                        y = 0.421778,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7771,7 +6899,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7781,20 +6909,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186410,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.744272,
-                        y = 0.421379,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7810,23 +6930,33 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66110] = {
         name = "Give Peace a Chance",
-        contentTuningID = 0,
+        contentTuningID = 2309,
         source = {
             type = "npc",
             id = 184452,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.763571,
-                        y = 0.33076,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25740, 25975, 26210, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
             },
         },
     },
@@ -7836,20 +6966,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184449,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.767304,
-                        y = 0.345535,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7865,7 +6987,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -7875,20 +6997,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187261,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.763565,
-                        y = 0.34642,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7904,7 +7018,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -7914,20 +7028,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186795,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.550822,
-                        y = 0.310274,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7943,7 +7049,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -7953,20 +7059,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.623367,
-                        y = 0.730133,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -7982,7 +7080,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -7992,20 +7090,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190293,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.595057,
-                        y = 0.726286,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8021,7 +7111,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8032,7 +7122,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    13600, 13850, 14050, 13600, 10900, 8150, 5450, 2700, 1350, 
+                    13600, 13850, 14050, 14050, 11250, 8450, 5600, 2800, 1400, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8048,7 +7138,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 75,
+                amount = 200,
             },
         },
     },
@@ -8058,20 +7148,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187119,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.594174,
-                        y = 0.7587,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8087,23 +7169,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66119] = {
-        name = "Defend the Life Pools!",
-        contentTuningID = -1,
+        name = "Ruby Life Pools: Primalist Invasion",
+        contentTuningID = 2155,
         source = {
             type = "npc",
             id = 187145,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.599645,
-                        y = 0.759555,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    18150, 18450, 18750, 19050, 19350, 19650, 19950, 20250, 20550, 20850, 
                 },
+                minLevel = 60,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    1029600, 1038992, 1048400, 1057792, 1067200, 1076592, 1086000, 1095392, 1104800, 1114192, 1123600, 
+                },
+                minLevel = 60,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -8113,20 +7210,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187129,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.5948,
-                        y = 0.761519,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8142,7 +7231,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8152,20 +7241,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187119,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.594174,
-                        y = 0.7587,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8181,7 +7262,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8191,20 +7272,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191895,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.536789,
-                        y = 0.801739,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8220,7 +7293,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8230,20 +7303,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191895,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.536789,
-                        y = 0.801739,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -8259,7 +7324,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -8269,20 +7334,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -8298,7 +7355,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8308,20 +7365,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -8337,71 +7386,131 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66136] = {
         name = "Elemental Extract",
-        contentTuningID = -1,
+        contentTuningID = 2371,
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
     [66137] = {
         name = "Lashing Out",
-        contentTuningID = -1,
+        contentTuningID = 2371,
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
     [66138] = {
         name = "Like Sands Through the Hourglass",
-        contentTuningID = 0,
+        contentTuningID = 2371,
         source = {
             type = "npc",
             id = 187310,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.35237,
-                        y = 0.726407,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
     [66139] = {
         name = "Flame at Last",
-        contentTuningID = 0,
+        contentTuningID = 2371,
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    10280.000153184, 10400.000154972, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    552400, 557096, 561800, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
             },
         },
     },
@@ -8411,20 +7520,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187301,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.632016,
-                        y = 0.586215,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8436,11 +7537,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2526,
-                amount = 8,
             },
         },
     },
@@ -8450,20 +7546,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187156,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.076402,
-                        y = 0.442288,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8479,7 +7567,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -8489,20 +7577,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.635017,
-                        y = 0.529724,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8518,7 +7598,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -8528,20 +7608,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.635017,
-                        y = 0.529724,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8557,7 +7629,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -8567,20 +7639,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187308,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.635017,
-                        y = 0.529724,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8596,7 +7660,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -8606,20 +7670,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187616,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.609024,
-                        y = 0.505063,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8635,7 +7691,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -8645,20 +7701,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187535,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.609866,
-                        y = 0.505663,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8671,11 +7719,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2526,
-                amount = 8,
-            },
         },
     },
     [66154] = {
@@ -8684,20 +7727,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187136,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.076681,
-                        y = 0.442695,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8713,7 +7748,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -8736,7 +7771,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8752,23 +7787,29 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 300,
             },
         },
     },
     [66159] = {
         name = "A Message Most Dire",
-        contentTuningID = -1,
+        contentTuningID = 2401,
         source = {
             type = "npc",
             id = 187678,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.582051,
-                        y = 0.347778,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1300,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
                 },
+                minLevel = 68,
+                maxLevel = 70,
             },
         },
     },
@@ -8778,14 +7819,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189842,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.59375,
-                        y = 0.347232,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -8807,7 +7840,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -8817,20 +7850,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.07647,
-                        y = 0.443283,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -8846,7 +7871,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -8856,14 +7881,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189842,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.59375,
-                        y = 0.347232,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -8885,7 +7902,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -8924,7 +7941,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 24,
+                amount = 50,
             },
         },
     },
@@ -8934,14 +7951,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190180,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.358503,
-                        y = 0.825629,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -8963,7 +7972,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -8973,20 +7982,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.07647,
-                        y = 0.443283,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4900, 5000, 5050, 5150, 5000, 
+                    3920.0000584126, 4000.0000596046, 4040.0000602007, 4120.0000613928, 4000.0000596046, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9002,7 +8003,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
@@ -9012,20 +8013,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187198,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.07647,
-                        y = 0.443283,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9041,7 +8034,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -9051,20 +8044,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188030,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.107685,
-                        y = 0.411776,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9080,7 +8065,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
@@ -9090,20 +8075,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187439,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.801236,
-                        y = 0.428648,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -9119,7 +8096,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 100,
             },
         },
     },
@@ -9129,14 +8106,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181198,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.599986,
-                        y = 0.374741,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9155,11 +8124,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66210] = {
@@ -9168,14 +8132,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186480,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.132423,
-                        y = 0.495557,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9197,23 +8153,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [66211] = {
         name = "Brackenhide Hollow: To the Source",
-        contentTuningID = -1,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 186480,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.132423,
-                        y = 0.495557,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    15720.000234246, 15960.000237823, 16200.000241399, 16440.000244975, 15960.000237823, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    1076592, 1086000, 1095392, 1104800, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 750,
             },
         },
     },
@@ -9223,20 +8194,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186126,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.13488,
-                        y = 0.486057,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9252,7 +8215,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9262,20 +8225,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186446,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.123977,
-                        y = 0.494049,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9291,7 +8246,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9301,20 +8256,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186568,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.125085,
-                        y = 0.497994,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    23600.000351667, 23920.000356436, 24320.000362396, 24640.000367165, 23920.000356436, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9322,7 +8269,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    269148, 271500, 273848, 276200, 
+                    807444, 814500, 821544, 828600, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -9330,23 +8277,39 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 400,
             },
         },
     },
     [66218] = {
         name = "Scampering Scamps",
-        contentTuningID = 0,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 186186,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.128994,
-                        y = 0.486987,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3920.0000584126, 4000.0000596046, 4040.0000602007, 4120.0000613928, 4000.0000596046, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    134574, 135750, 136924, 138100, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 200,
+                maxRank = -1,
             },
         },
     },
@@ -9356,14 +8319,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9382,11 +8337,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
-            },
         },
     },
     [66222] = {
@@ -9395,14 +8345,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187787,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.418884,
-                        y = 0.617947,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9424,7 +8366,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -9434,20 +8376,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187674,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.105878,
-                        y = 0.468691,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9463,7 +8397,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9473,14 +8407,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186290,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.368133,
-                        y = 0.572666,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9502,7 +8428,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -9512,14 +8438,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195316,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.493583,
-                        y = 0.631208,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9541,7 +8459,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9551,20 +8469,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187796,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.470196,
-                        y = 0.711948,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -9580,7 +8490,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9590,20 +8500,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185608,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.414596,
-                        y = 0.35626,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9619,7 +8521,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 75,
+                amount = 200,
                 maxRank = -1,
             },
         },
@@ -9630,14 +8532,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185603,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.414418,
-                        y = 0.356107,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9656,18 +8550,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 6,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 3,
-                maxRank = -1,
-            },
         },
     },
     [66230] = {
@@ -9676,20 +8558,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191753,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.546812,
-                        y = 0.69473,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -9705,7 +8579,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -9715,20 +8589,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186212,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.074558,
-                        y = 0.44279,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -9744,7 +8610,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -9754,14 +8620,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190648,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.493583,
-                        y = 0.631208,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9780,27 +8638,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66237] = {
         name = "Spiritual Allies",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 189386,
-            locations = {
-                {
-                    {
-                        x = 0.456115,
-                        y = 0.128897,
-                    },
-                },
-            },
         },
     },
     [66239] = {
@@ -9809,14 +8654,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186228,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.343717,
-                        y = 0.310209,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9835,11 +8672,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 8,
-            },
         },
     },
     [66242] = {
@@ -9848,14 +8680,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.581083,
-                        y = 0.6896,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9877,7 +8701,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -9887,14 +8711,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190000,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.39465,
-                        y = 0.630574,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9908,11 +8724,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
             },
         },
     },
@@ -9951,7 +8762,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -9961,14 +8772,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190180,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.358503,
-                        y = 0.825629,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -9990,7 +8793,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -10000,14 +8803,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190458,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378502,
-                        y = 0.832647,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10029,7 +8824,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -10039,14 +8834,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 377114,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.385635,
-                        y = 0.834123,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10068,7 +8855,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -10107,7 +8894,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -10117,14 +8904,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190558,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.405605,
-                        y = 0.854852,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10146,7 +8925,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -10156,14 +8935,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190562,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.401457,
-                        y = 0.851296,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10185,7 +8956,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -10195,14 +8966,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190562,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.401457,
-                        y = 0.851296,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10220,7 +8983,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 4,
+                amount = 100,
             },
         },
     },
@@ -10230,14 +8993,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186290,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.368133,
-                        y = 0.572666,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10259,7 +9014,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -10269,14 +9024,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.581083,
-                        y = 0.6896,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10298,7 +9045,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -10308,14 +9055,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187804,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.581083,
-                        y = 0.6896,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10337,7 +9076,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -10347,14 +9086,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187809,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.606548,
-                        y = 0.635374,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10376,7 +9107,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -10386,14 +9117,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195024,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.61421,
-                        y = 0.627843,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10412,11 +9135,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 100,
-            },
         },
     },
     [66262] = {
@@ -10425,20 +9143,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10454,12 +9164,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10469,20 +9179,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10498,12 +9200,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10513,20 +9215,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10542,12 +9236,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10557,20 +9251,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10586,12 +9272,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10601,20 +9287,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10630,12 +9308,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10645,20 +9323,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10674,12 +9344,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10689,20 +9359,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10718,12 +9380,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
@@ -10733,20 +9395,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    10191.99962616, 10347.999620438, 10503.999614716, 10659.999608994, 10347.999620438, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10762,35 +9416,27 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 75,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 150,
             },
         },
     },
     [66270] = {
         name = "Whack-a-Gnoll",
-        contentTuningID = 2153,
+        contentTuningID = 2316,
         source = {
             type = "npc",
             id = 187463,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.227302,
-                        y = 0.416751,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    12739.9995327, 12947.99952507, 13155.999517441, 13363.999509811, 12947.99952507, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -10806,50 +9452,26 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 20,
+                amount = 100,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 40,
+                amount = 200,
             },
         },
     },
     [66278] = {
         name = "One Drakonid's Junk",
-        contentTuningID = -1,
+        contentTuningID = 2371,
         source = {
             type = "object",
             id = 376451,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.389265,
-                        y = 0.742655,
-                    },
-                },
-            },
-        },
-    },
-    [66279] = {
-        name = "New Kid on the Clock",
-        contentTuningID = 2154,
-        source = {
-            type = "npc",
-            id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -10859,16 +9481,33 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
+        },
+    },
+    [66279] = {
+        name = "New Kid on the Clock",
+        contentTuningID = 2154,
+        source = {
+            type = "npc",
+            id = 187300,
+        },
+        rewards = {
             {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
             },
         },
     },
     [66299] = {
         name = "The Awaited Egg-splosion",
-        contentTuningID = 2154,
+        contentTuningID = 2545,
         source = {
             type = "npc",
             id = 183912,
@@ -10885,7 +9524,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12850, 13000, 
+                    10280.000153184, 10400.000154972, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -10901,7 +9540,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
@@ -10911,14 +9550,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187669,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.614872,
-                        y = 0.390855,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10933,26 +9564,31 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66324] = {
         name = "Never Forgotten",
-        contentTuningID = 0,
+        contentTuningID = 2150,
         source = {
             type = "npc",
             id = 184163,
-            locations = {
-                [2118] = {
-                    {
-                        x = 0.200922,
-                        y = 0.190922,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9850, 10050, 11350, 11500, 11700, 5900, 3950, 1950, 975, 
                 },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
             },
         },
     },
@@ -10962,14 +9598,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181198,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.599986,
-                        y = 0.374741,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -10987,11 +9615,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -11027,11 +9650,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66329] = {
@@ -11066,11 +9684,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66331] = {
@@ -11079,14 +9692,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188106,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.282552,
-                        y = 0.576973,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11108,7 +9713,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 8,
+                amount = 100,
             },
         },
     },
@@ -11118,14 +9723,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189599,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.256288,
-                        y = 0.405163,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11147,7 +9744,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -11157,14 +9754,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.256552,
-                        y = 0.405163,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11186,7 +9775,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -11196,14 +9785,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188150,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.256505,
-                        y = 0.484026,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11222,11 +9803,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66337] = {
@@ -11235,14 +9811,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.256552,
-                        y = 0.405163,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11264,24 +9832,16 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 300,
             },
         },
     },
     [66339] = {
-        name = "The Wind Belongs to the Sky",
+        name = "The Nokhud Offensive: The Wind Belongs to the Sky",
         contentTuningID = 2152,
         source = {
             type = "npc",
             id = 188601,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.223424,
-                        y = 0.509462,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11303,7 +9863,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 100,
+                amount = 750,
             },
         },
     },
@@ -11313,14 +9873,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188181,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.221314,
-                        y = 0.509674,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11338,28 +9890,15 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 12,
             },
         },
     },
     [66344] = {
-        name = "With the Wind At Our Backs",
+        name = "With the Wind at Our Backs",
         contentTuningID = 2152,
         source = {
             type = "npc",
             id = 188156,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.724542,
-                        y = 0.507695,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -11377,11 +9916,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -11391,20 +9925,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189166,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.650038,
-                        y = 0.586195,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7350, 7500, 7600, 7700, 7500, 
+                    5880.0000876188, 6000.000089407, 6080.0000905991, 6160.0000917912, 6000.000089407, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11420,7 +9946,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 40,
+                amount = 200,
             },
         },
     },
@@ -11430,20 +9956,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189171,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.650172,
-                        y = 0.586074,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7350, 7500, 7600, 7700, 7500, 
+                    5880.0000876188, 6000.000089407, 6080.0000905991, 6160.0000917912, 6000.000089407, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11459,13 +9977,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 40,
+                amount = 200,
             },
         },
     },
     [66354] = {
         name = "The Spark",
-        contentTuningID = 2151,
+        contentTuningID = 2289,
         source = {
             type = "npc",
             id = 186493,
@@ -11482,7 +10000,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -11498,13 +10016,23 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66356] = {
         name = "Irontree",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
     },
     [66391] = {
         name = "To the Ruins!",
@@ -11512,20 +10040,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188144,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.634388,
-                        y = 0.579878,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11537,11 +10057,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
             },
         },
     },
@@ -11551,19 +10066,11 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187300,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.378577,
-                        y = 0.754632,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -11573,11 +10080,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66422] = {
@@ -11586,20 +10088,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189166,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.650038,
-                        y = 0.586195,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11612,11 +10106,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
-            },
         },
     },
     [66423] = {
@@ -11625,20 +10114,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189236,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.656368,
-                        y = 0.60792,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11654,7 +10135,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -11664,20 +10145,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188845,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.656345,
-                        y = 0.607553,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11693,7 +10166,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -11703,20 +10176,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189792,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.684615,
-                        y = 0.604948,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11732,7 +10197,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -11742,20 +10207,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189791,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.684786,
-                        y = 0.604348,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11771,7 +10228,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 400,
             },
         },
     },
@@ -11781,20 +10238,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189791,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.684786,
-                        y = 0.604348,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -11810,7 +10259,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -11820,20 +10269,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188735,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.660596,
-                        y = 0.581272,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -11849,7 +10290,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -11859,20 +10300,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188735,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.660596,
-                        y = 0.581272,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -11888,7 +10321,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -11898,20 +10331,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187745,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.676017,
-                        y = 0.553957,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -11927,7 +10352,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -11937,20 +10362,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188503,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.665742,
-                        y = 0.56112,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -11966,7 +10383,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -11976,20 +10393,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188053,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.666182,
-                        y = 0.560522,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12005,7 +10414,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -12015,20 +10424,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190352,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.665967,
-                        y = 0.560799,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    9080.0001353025, 9200.0001370907, 9360.0001394749, 9360.0001394749, 7480.0001114607, 5600.0000834465, 3760.0000560284, 1880.0000280142, 920.00001370907, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12044,7 +10445,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -12054,20 +10455,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190353,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.663962,
-                        y = 0.557228,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11350, 11500, 11700, 11350, 9050, 6800, 4550, 2250, 1150, 
+                    9080.0001353025, 9200.0001370907, 9360.0001394749, 9360.0001394749, 7480.0001114607, 5600.0000834465, 3760.0000560284, 1880.0000280142, 920.00001370907, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12083,7 +10476,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -12093,20 +10486,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.569457,
-                        y = 0.676926,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12122,23 +10507,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66457] = {
         name = "Ending the Blue Period",
-        contentTuningID = 0,
+        contentTuningID = 2382,
         source = {
             type = "npc",
             id = 187289,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.569457,
-                        y = 0.676926,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -12148,14 +10548,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -12177,103 +10569,193 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 120,
+                amount = 300,
             },
         },
     },
     [66460] = {
         name = "The Field of Ferocity: Lord of Decay!",
-        contentTuningID = 0,
+        contentTuningID = 2249,
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    524200, 528896, 533600, 538296, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
     [66461] = {
         name = "The Field of Ferocity: Foe from the Volcano!",
-        contentTuningID = 0,
+        contentTuningID = 2249,
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    524200, 528896, 533600, 538296, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
     [66462] = {
         name = "The Field of Ferocity: Lost in the Dream!",
-        contentTuningID = 0,
+        contentTuningID = 2249,
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    524200, 528896, 533600, 538296, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
     [66463] = {
         name = "The Field of Ferocity: Elemental Revenge Round!",
-        contentTuningID = 0,
+        contentTuningID = 2249,
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    524200, 528896, 533600, 538296, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
     [66464] = {
         name = "The Field of Ferocity: Master of the Hunt!",
-        contentTuningID = 0,
+        contentTuningID = 2249,
         source = {
             type = "npc",
             id = 188868,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.531622,
-                        y = 0.373246,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    524200, 528896, 533600, 538296, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
     [66465] = {
         name = "Cache and Release",
-        contentTuningID = 0,
+        contentTuningID = 2382,
         source = {
             type = "npc",
             id = 187289,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.569457,
-                        y = 0.676926,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -12283,20 +10765,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187289,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.569457,
-                        y = 0.676926,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12312,7 +10786,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -12322,20 +10796,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189174,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.526576,
-                        y = 0.672867,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12351,7 +10817,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -12361,20 +10827,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189188,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.54279,
-                        y = 0.651444,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12390,7 +10848,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -12400,20 +10858,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189188,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.54279,
-                        y = 0.651444,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12429,7 +10879,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -12452,7 +10902,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    5150, 5200, 
+                    4120.0000613928, 4160.0000619888, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12468,7 +10918,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 24,
             },
         },
     },
@@ -12491,7 +10941,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12850, 13000, 
+                    10280.000153184, 10400.000154972, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -12507,7 +10957,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -12517,20 +10967,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 376757,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.461618,
-                        y = 0.396166,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    23600.000351667, 23920.000356436, 24320.000362396, 24640.000367165, 23920.000356436, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -12538,7 +10980,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    269148, 271500, 273848, 276200, 
+                    807444, 814500, 821544, 828600, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -12546,13 +10988,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 200,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 100,
             },
         },
     },
@@ -12562,20 +11004,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192335,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.459944,
-                        y = 0.384135,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -12591,29 +11025,50 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
             },
         },
     },
     [66493] = {
         name = "Send It!",
-        contentTuningID = 0,
+        contentTuningID = 2317,
         source = {
             type = "npc",
             id = 188915,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.459925,
-                        y = 0.387893,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 50,
             },
         },
     },
@@ -12623,20 +11078,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189198,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.476725,
-                        y = 0.402311,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -12652,33 +11099,56 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
             },
         },
     },
     [66503] = {
         name = "For The Love of Others",
-        contentTuningID = 0,
+        contentTuningID = 2317,
         source = {
             type = "npc",
             id = 183543,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.466442,
-                        y = 0.40163,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 50,
             },
         },
     },
     [66513] = {
+        name = "Ground Leave",
+        contentTuningID = 2150,
     },
     [66523] = {
         name = "Tending the Forge",
@@ -12686,20 +11156,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189208,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.461162,
-                        y = 0.409889,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -12715,13 +11177,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
             },
         },
     },
@@ -12731,20 +11193,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187705,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.484942,
-                        y = 0.826716,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12760,7 +11214,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12770,20 +11224,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193740,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.390321,
-                        y = 0.832373,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12799,7 +11245,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12809,20 +11255,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.390848,
-                        y = 0.832727,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12838,7 +11276,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12848,20 +11286,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193740,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.390321,
-                        y = 0.832373,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12877,7 +11307,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12887,20 +11317,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.390848,
-                        y = 0.832727,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12916,7 +11338,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12926,20 +11348,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193954,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.390848,
-                        y = 0.832727,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -12955,7 +11369,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -12965,14 +11379,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189389,
-            locations = {
-                {
-                    {
-                        x = 0.455632,
-                        y = 0.129319,
-                    },
-                },
-            },
         },
     },
     [66553] = {
@@ -12981,20 +11387,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.653846,
-                        y = 0.159529,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13010,7 +11408,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13020,20 +11418,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.653846,
-                        y = 0.159529,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13049,7 +11439,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13059,20 +11449,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.653846,
-                        y = 0.159529,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13088,7 +11470,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13098,20 +11480,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189401,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.653846,
-                        y = 0.159529,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13127,7 +11501,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2526,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13137,20 +11511,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189533,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.13763,
-                        y = 0.476127,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    3920.0000584126, 4000.0000596046, 4040.0000602007, 4120.0000613928, 4000.0000596046, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13158,7 +11524,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    269148, 271500, 273848, 276200, 
+                    134574, 135750, 136924, 138100, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -13166,7 +11532,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
                 maxRank = -1,
             },
         },
@@ -13177,20 +11543,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188030,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.107685,
-                        y = 0.411776,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4900, 5000, 5050, 5150, 5000, 
+                    3920.0000584126, 4000.0000596046, 4040.0000602007, 4120.0000613928, 4000.0000596046, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -13206,45 +11564,65 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 250,
             },
         },
     },
     [66577] = {
         name = "Aspectral Invitation",
-        contentTuningID = -1,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 189569,
-            locations = {
-                [84] = {
-                    {
-                        x = 0.797975,
-                        y = 0.270151,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
                 },
+                minLevel = 10,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [66589] = {
         name = "Expeditionary Coordination",
-        contentTuningID = -1,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 189602,
-            locations = {
-                [84] = {
-                    {
-                        x = 0.797194,
-                        y = 0.273214,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
                 },
+                minLevel = 10,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [66596] = {
         name = "Whispers on the Winds",
-        contentTuningID = -1,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 193450,
@@ -13257,9 +11635,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    180, 200, 210, 230, 250, 260, 280, 300, 310, 330, 350, 370, 380, 400, 420, 430, 450, 470, 480, 500, 525, 525, 550, 575, 575, 600, 625, 625, 650, 675, 675, 700, 725, 725, 750, 775, 775, 800, 825, 825, 850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
+                },
+                minLevel = 10,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    200, 715, 1230, 1745, 2260, 2775, 3290, 3805, 4320, 4835, 5350, 5865, 6380, 6895, 7410, 7925, 8440, 8955, 9470, 9985, 10500, 11150, 11795, 12445, 13090, 13740, 14390, 15035, 15685, 16330, 16980, 17630, 18275, 18925, 19570, 20220, 20855, 21490, 22130, 22765, 23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 25975, 26210, 26445, 26680, 26915, 27150, 27385, 27620, 27855, 28090, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
+            },
+        },
     },
     [66612] = {
-        name = "Gills with Gall",
+        name = "Crabtender's Quandry",
         contentTuningID = 2527,
         source = {
             type = "npc",
@@ -13277,7 +11673,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -13293,30 +11689,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66622] = {
         name = "Wayward Tools",
-        contentTuningID = 2348,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 186755,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.655699,
-                        y = 0.161777,
-                    },
-                },
-            },
         },
         rewards = {
             {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -13326,14 +11730,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186433,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.595654,
-                        y = 0.826565,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -13355,7 +11751,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -13365,14 +11761,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186305,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.700245,
-                        y = 0.353374,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -13394,13 +11782,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -13411,20 +11799,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188224,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.409323,
-                        y = 0.616316,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13437,11 +11817,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [66652] = {
@@ -13450,20 +11825,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.390509,
-                        y = 0.660107,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13479,7 +11846,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13489,20 +11856,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.390509,
-                        y = 0.660107,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13518,7 +11877,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13528,20 +11887,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188225,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.390509,
-                        y = 0.660107,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13557,7 +11908,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13567,20 +11918,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189858,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.337586,
-                        y = 0.653575,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13596,7 +11939,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -13606,20 +11949,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193985,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.326368,
-                        y = 0.698903,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13635,7 +11970,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -13645,20 +11980,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193985,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.326368,
-                        y = 0.698903,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    18750, 19050, 19350, 19650, 19050, 15200, 11400, 7600, 
+                    15000.000223517, 15240.000227094, 15480.00023067, 15720.000234246, 15240.000227094, 12160.000181198, 9120.0001358986, 6080.0000905991, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13674,7 +12001,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 300,
+                amount = 750,
             },
         },
     },
@@ -13684,14 +12011,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -13706,56 +12025,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66671] = {
         name = "Path to Nowhere",
-        contentTuningID = 2153,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 190001,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.45688,
-                        y = 0.397823,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
-                },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    26915, 27150, 27385, 27620, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 4,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 2,
-            },
         },
     },
     [66675] = {
@@ -13764,24 +12041,16 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187658,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.574593,
-                        y = 0.587296,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "money",
-                amount = 842700,
+                amount = 561800,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13804,7 +12073,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13820,7 +12089,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13830,20 +12099,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.810312,
-                        y = 0.589696,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13859,7 +12120,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13869,20 +12130,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190024,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.810278,
-                        y = 0.589201,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13898,7 +12151,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13908,20 +12161,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190025,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.810312,
-                        y = 0.589696,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13937,7 +12182,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13960,7 +12205,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -13976,7 +12221,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -13986,20 +12231,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190164,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.416404,
-                        y = 0.567451,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -14015,23 +12252,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [66688] = {
         name = "Signs of the Wind",
-        contentTuningID = -1,
+        contentTuningID = 2258,
         source = {
             type = "npc",
             id = 190164,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.416404,
-                        y = 0.567451,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
             },
         },
     },
@@ -14042,7 +12294,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -14058,30 +12310,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [66690] = {
-        name = "The Final Ancestor",
+        name = "The Nokhud Offensive: The Final Ancestor",
         contentTuningID = 2258,
         source = {
             type = "npc",
             id = 190164,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.416404,
-                        y = 0.567451,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    18750, 19050, 19350, 19650, 19050, 15200, 11400, 7600, 
+                    15000.000223517, 15240.000227094, 15480.00023067, 15720.000234246, 15240.000227094, 12160.000181198, 9120.0001358986, 6080.0000905991, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -14097,7 +12341,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 200,
+                amount = 750,
             },
         },
     },
@@ -14107,14 +12351,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183543,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.466442,
-                        y = 0.40163,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14133,26 +12369,36 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 16,
-            },
         },
     },
     [66700] = {
         name = "The Black Locus",
-        contentTuningID = 0,
+        contentTuningID = 2262,
         source = {
             type = "npc",
             id = 191154,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.663305,
-                        y = 0.243447,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3760.0000560284, 3800.0000566244, 3880.0000578165, 3920.0000584126, 3800.0000566244, 3040.0000452995, 2280.0000339746, 1520.0000226498, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    131050, 132224, 133400, 134574, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
@@ -14162,20 +12408,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189625,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.583888,
-                        y = 0.420226,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14188,11 +12426,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 50,
-            },
         },
     },
     [66704] = {
@@ -14201,14 +12434,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183855,
-            locations = {
-                [2092] = {
-                    {
-                        x = 0.599787,
-                        y = 0.65971,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14230,7 +12455,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14240,20 +12465,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189963,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.590195,
-                        y = 0.391263,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14265,11 +12482,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 50,
             },
         },
     },
@@ -14279,20 +12491,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189963,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.590195,
-                        y = 0.391263,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14304,11 +12508,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 50,
             },
         },
     },
@@ -14318,20 +12517,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186386,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.455086,
-                        y = 0.541848,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14347,7 +12538,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -14370,7 +12561,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14386,23 +12577,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 1500,
             },
         },
     },
     [66734] = {
         name = "Leave Bee Alone",
-        contentTuningID = -1,
+        contentTuningID = 2295,
         source = {
             type = "npc",
             id = 190525,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.552576,
-                        y = 0.634659,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -14412,20 +12618,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190525,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.552576,
-                        y = 0.634659,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14441,7 +12639,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14451,20 +12649,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190533,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.551959,
-                        y = 0.636999,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14480,7 +12670,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14490,14 +12680,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 185894,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.242431,
-                        y = 0.558744,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14519,7 +12701,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -14529,14 +12711,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187495,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.244274,
-                        y = 0.554857,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14558,7 +12732,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -14568,20 +12742,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190691,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.076095,
-                        y = 0.443142,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4900, 5000, 5050, 5150, 5000, 
+                    3920.0000584126, 4000.0000596046, 4040.0000602007, 4120.0000613928, 4000.0000596046, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -14597,7 +12763,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
@@ -14607,14 +12773,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188181,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.221314,
-                        y = 0.509674,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14636,7 +12794,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 400,
             },
         },
     },
@@ -14646,14 +12804,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191494,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.256552,
-                        y = 0.405163,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -14675,7 +12825,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
@@ -14685,20 +12835,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190740,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.579515,
-                        y = 0.672999,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14714,30 +12856,22 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [66788] = {
-        name = "Eggcited for the Future",
-        contentTuningID = 2151,
+        name = "Egg-cited for the Future",
+        contentTuningID = 2296,
         source = {
             type = "npc",
             id = 185904,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.61585,
-                        y = 0.687095,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14753,7 +12887,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14763,20 +12897,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191025,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.618962,
-                        y = 0.738251,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14792,7 +12918,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -14802,20 +12928,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190866,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.601633,
-                        y = 0.664244,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14831,7 +12949,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14841,20 +12959,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190868,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.601877,
-                        y = 0.663911,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14870,7 +12980,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -14880,20 +12990,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191011,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.653357,
-                        y = 0.636765,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14909,7 +13011,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -14919,20 +13021,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191011,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.653357,
-                        y = 0.636765,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -14948,23 +13042,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 100,
             },
         },
     },
     [66834] = {
         name = "Rellen, the Learned",
-        contentTuningID = -1,
+        contentTuningID = 2258,
         source = {
             type = "npc",
             id = 190164,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.416404,
-                        y = 0.567451,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
             },
         },
     },
@@ -14974,20 +13083,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190315,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.187335,
-                        y = 0.244744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15003,7 +13104,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15013,20 +13114,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190315,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.187335,
-                        y = 0.244744,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15042,7 +13135,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15052,20 +13145,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190672,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.189855,
-                        y = 0.232925,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15081,7 +13166,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15091,20 +13176,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190679,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.185376,
-                        y = 0.236703,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15120,7 +13197,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15130,14 +13207,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190666,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.191603,
-                        y = 0.247315,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15151,7 +13220,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
+                    193050, 194811, 196575, 198336, 200100, 201861, 203625, 205386, 207150, 208911, 210675, 
                 },
                 minLevel = 60,
                 maxLevel = 70,
@@ -15159,7 +13228,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 40,
+                amount = 200,
             },
         },
     },
@@ -15169,14 +13238,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190884,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.192636,
-                        y = 0.268981,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15198,7 +13259,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15208,20 +13269,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190892,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.190501,
-                        y = 0.23969,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15237,7 +13290,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
@@ -15247,14 +13300,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190799,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.187365,
-                        y = 0.24425,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15276,7 +13321,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -15286,20 +13331,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191741,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.187703,
-                        y = 0.244316,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15315,7 +13352,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 400,
             },
         },
     },
@@ -15325,14 +13362,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184595,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.699634,
-                        y = 0.379686,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15354,23 +13383,33 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 300,
             },
         },
     },
     [66879] = {
         name = "Hornstrider Havoc",
-        contentTuningID = -1,
+        contentTuningID = 2293,
         source = {
             type = "npc",
             id = 191176,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.617253,
-                        y = 0.737584,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 920.00001370907, 920.00001370907, 920.00001370907, 740.00001102686, 560.00000834465, 376.00000560284, 184.00000274181, 96.000001430511, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25740, 25975, 26210, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
             },
         },
     },
@@ -15380,20 +13419,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191280,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.534217,
-                        y = 0.583708,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15409,7 +13440,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -15419,20 +13450,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191280,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.534217,
-                        y = 0.583708,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15448,7 +13471,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -15458,20 +13481,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.623367,
-                        y = 0.730133,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15487,7 +13502,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -15510,7 +13525,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15526,13 +13541,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 40,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 20,
+                amount = 75,
             },
         },
     },
@@ -15542,14 +13557,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194927,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.609847,
-                        y = 0.392246,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15571,13 +13578,31 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [66956] = {
         name = "Dragonhunter Igordan",
         contentTuningID = 2297,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+        },
     },
     [66957] = {
         name = "A Shadow In The Ice",
@@ -15598,7 +13623,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15614,13 +13639,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 40,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 20,
+                amount = 75,
             },
         },
     },
@@ -15643,7 +13668,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15659,13 +13684,31 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
     [66960] = {
         name = "Klozicc the Ascended",
         contentTuningID = 2280,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+        },
     },
     [66963] = {
         name = "Out For Delivery",
@@ -15673,20 +13716,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191698,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.484816,
-                        y = 0.78851,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15698,11 +13733,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 60,
                 maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 8,
             },
         },
     },
@@ -15725,7 +13755,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15741,7 +13771,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
@@ -15751,14 +13781,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192724,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.637965,
-                        y = 0.410705,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15776,11 +13798,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 62,
                 maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
             },
         },
     },
@@ -15803,7 +13820,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15819,7 +13836,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 80,
+                amount = 400,
             },
         },
     },
@@ -15842,7 +13859,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15858,13 +13875,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 40,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 20,
+                amount = 75,
             },
         },
     },
@@ -15874,20 +13891,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191174,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.618215,
-                        y = 0.735834,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    920.00001370907, 920.00001370907, 920.00001370907, 920.00001370907, 740.00001102686, 560.00000834465, 376.00000560284, 184.00000274181, 96.000001430511, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15900,11 +13909,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [66998] = {
@@ -15913,20 +13917,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188297,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.590999,
-                        y = 0.348435,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -15942,7 +13938,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -15952,14 +13948,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381687,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.477899,
-                        y = 0.465719,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -15987,7 +13975,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    9800, 9950, 10100, 10250, 9950, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -15995,7 +13983,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    26915, 27150, 27385, 27620, 
+                    269148, 271500, 273848, 276200, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -16003,13 +13991,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 4,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 2,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -16020,20 +14008,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192222,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.466744,
-                        y = 0.397356,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    9800, 9950, 10100, 10250, 9950, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16041,7 +14021,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    26915, 27150, 27385, 27620, 
+                    269148, 271500, 273848, 276200, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -16049,13 +14029,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 4,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 2,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -16079,7 +14059,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    12250, 12450, 12650, 12850, 12450, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16087,7 +14067,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    26915, 27150, 27385, 27620, 
+                    538296, 543000, 547696, 552400, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -16095,30 +14075,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 4,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 2,
+                amount = 50,
                 maxRank = -1,
             },
         },
     },
     [67047] = {
         name = "Warm Away These Shivers",
-        contentTuningID = 0,
+        contentTuningID = 2078,
         source = {
             type = "npc",
             id = 185778,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.517337,
-                        y = 0.619802,
-                    },
-                },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
             },
         },
     },
@@ -16128,20 +14106,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189625,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.583888,
-                        y = 0.420226,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16154,26 +14124,45 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 50,
-            },
         },
     },
     [67053] = {
         name = "Give Peace a Chance",
-        contentTuningID = 0,
+        contentTuningID = 2309,
         source = {
             type = "npc",
             id = 184449,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.767304,
-                        y = 0.345535,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25740, 25975, 26210, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+        },
+    },
+    [67063] = {
+        name = "10,000 Years of Roasting",
+        contentTuningID = 2522,
+        source = {
+            type = "npc",
+            id = 189207,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
             },
         },
     },
@@ -16183,14 +14172,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192455,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.574494,
-                        y = 0.587593,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -16205,11 +14186,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 6,
-            },
         },
     },
     [67093] = {
@@ -16218,20 +14194,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192543,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.602815,
-                        y = 0.818572,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12850, 13000, 
+                    10280.000153184, 10400.000154972, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -16247,23 +14215,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
     [67094] = {
         name = "A Dryad's Work Is Never Done",
-        contentTuningID = 0,
+        contentTuningID = 2401,
         source = {
             type = "npc",
             id = 192522,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.727703,
-                        y = 0.661809,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    4120.0000613928, 4160.0000619888, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    138100, 139274, 140450, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 50,
             },
         },
     },
@@ -16273,20 +14256,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192574,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.394233,
-                        y = 0.701401,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -16302,8 +14277,8 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2544,
-                amount = 250,
-                maxRank = -1,
+                amount = 50,
+                maxRank = 4,
             },
         },
     },
@@ -16313,20 +14288,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196254,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.672124,
-                        y = 0.44403,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16341,13 +14308,14 @@ BtWQuestsDatabase:AddQuestsTable({
             },
             {
                 type = "reputation",
-                id = 2510,
-                amount = 13,
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -16357,37 +14325,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192539,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.598593,
-                        y = 0.716015,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25740, 25975, 26210, 
-                },
-                minLevel = 60,
-                maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2544,
-                amount = 150,
-                maxRank = -1,
             },
         },
     },
@@ -16397,20 +14343,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192543,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.602815,
-                        y = 0.818572,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -16426,7 +14364,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -16436,20 +14374,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192750,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.412232,
-                        y = 0.358798,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16465,7 +14395,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 75,
+                amount = 200,
                 maxRank = -1,
             },
         },
@@ -16476,20 +14406,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192750,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.412232,
-                        y = 0.358798,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16505,7 +14427,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 75,
+                amount = 200,
                 maxRank = -1,
             },
         },
@@ -16516,14 +14438,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192760,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.414201,
-                        y = 0.364227,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -16545,7 +14459,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 150,
+                amount = 400,
             },
         },
     },
@@ -16555,14 +14469,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192539,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.598593,
-                        y = 0.716015,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -16584,24 +14490,40 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2544,
-                amount = 150,
-                maxRank = -1,
+                amount = 50,
+                maxRank = 4,
             },
         },
     },
     [67298] = {
         name = "The Wonders of the World",
-        contentTuningID = 0,
+        contentTuningID = 2152,
         source = {
             type = "npc",
             id = 192539,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.598593,
-                        y = 0.716015,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2544,
+                amount = 50,
+                maxRank = 4,
             },
         },
     },
@@ -16611,20 +14533,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189751,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.658068,
-                        y = 0.2532,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -16640,13 +14554,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -16657,20 +14571,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192498,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.579297,
-                        y = 0.682528,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -16687,17 +14593,32 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [67606] = {
         name = "A Dryadic Remedy",
-        contentTuningID = -1,
+        contentTuningID = 2401,
         source = {
             type = "npc",
             id = 192522,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.727703,
-                        y = 0.661809,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -16707,20 +14628,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189077,
-            locations = {
-                [84] = {
-                    {
-                        x = 0.227198,
-                        y = 0.556655,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -16733,11 +14646,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 15,
-            },
         },
     },
     [67724] = {
@@ -16746,14 +14654,209 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.673402,
-                        y = 0.443415,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
             },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 100,
+            },
+        },
+    },
+    [67772] = {
+        name = "The Trouble with Taivan",
+        contentTuningID = 2226,
+        source = {
+            type = "npc",
+            id = 192621,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
+    },
+    [67921] = {
+        name = "The Hunting Hound",
+        contentTuningID = 2510,
+        source = {
+            type = "npc",
+            id = 192629,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
+            },
+        },
+    },
+    [68083] = {
+        name = "Try Again, Taivan!",
+        contentTuningID = 2510,
+        source = {
+            type = "npc",
+            id = 192629,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
+    },
+    [68084] = {
+        name = "The Gentle Giant",
+        contentTuningID = 2226,
+        source = {
+            type = "npc",
+            id = 192621,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
+    },
+    [68085] = {
+        name = "Shaping a Shepherd",
+        contentTuningID = 2511,
+        source = {
+            type = "npc",
+            id = 192633,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
+            },
+        },
+    },
+    [68087] = {
+        name = "Danger in Daruukhan",
+        contentTuningID = 2511,
+        source = {
+            type = "npc",
+            id = 192633,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
+    },
+    [68639] = {
+        name = "Prowling Polar Predators",
+        contentTuningID = 2326,
+        source = {
+            type = "npc",
+            id = 192825,
         },
         rewards = {
             {
@@ -16772,191 +14875,109 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 65,
                 maxLevel = 68,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 13,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 25,
-            },
-        },
-    },
-    [67772] = {
-        name = "The Trouble with Taivan",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192621,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.612232,
-                        y = 0.399993,
-                    },
-                },
-            },
-        },
-    },
-    [67921] = {
-        name = "The Hunting Hound",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192629,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.71421,
-                        y = 0.496043,
-                    },
-                },
-            },
-        },
-    },
-    [68083] = {
-        name = "Try Again, Taivan!",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192629,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.71421,
-                        y = 0.496043,
-                    },
-                },
-            },
-        },
-    },
-    [68084] = {
-        name = "The Gentle Giant",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192621,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.612232,
-                        y = 0.399993,
-                    },
-                },
-            },
-        },
-    },
-    [68085] = {
-        name = "Shaping a Shepherd",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192633,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.49057,
-                        y = 0.410764,
-                    },
-                },
-            },
-        },
-    },
-    [68087] = {
-        name = "Danger in Daruukhan",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192633,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.49057,
-                        y = 0.410764,
-                    },
-                },
-            },
-        },
-    },
-    [68639] = {
-        name = "Prowling Polar Predators",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 192825,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.635829,
-                        y = 0.289031,
-                    },
-                },
-            },
         },
     },
     [68641] = {
         name = "Mossing the Mark",
-        contentTuningID = 0,
+        contentTuningID = 2326,
         source = {
             type = "npc",
             id = 192830,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.63611,
-                        y = 0.288225,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
     [68642] = {
         name = "Needles to Say",
-        contentTuningID = 0,
+        contentTuningID = 2326,
         source = {
             type = "npc",
             id = 192830,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.63611,
-                        y = 0.288225,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
     [68643] = {
         name = "Vitamins and Minerals",
-        contentTuningID = 0,
+        contentTuningID = 2326,
         source = {
             type = "npc",
             id = 192825,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.635829,
-                        y = 0.289031,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
     [68644] = {
         name = "Sugar, Spice, and Everything Nice",
-        contentTuningID = 0,
+        contentTuningID = 2326,
         source = {
             type = "npc",
             id = 192830,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.63611,
-                        y = 0.288225,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
@@ -16966,20 +14987,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187290,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.623367,
-                        y = 0.730133,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -16991,11 +15004,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 60,
                 maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
             },
         },
     },
@@ -17005,20 +15013,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193287,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.576573,
-                        y = 0.668856,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17030,11 +15030,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 60,
                 maxLevel = 62,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
             },
         },
     },
@@ -17044,20 +15039,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193359,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.751793,
-                        y = 0.54971,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17070,33 +15057,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [68798] = {
-        name = "Meet the Trainers",
+        name = "Dragon Glyphs and You",
         contentTuningID = 2296,
         source = {
             type = "npc",
             id = 193359,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.751793,
-                        y = 0.54971,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17112,7 +15086,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
@@ -17122,20 +15096,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193359,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.751793,
-                        y = 0.54971,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17151,13 +15117,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 4,
+                amount = 150,
             },
         },
     },
     [69094] = {
-        name = "Saving Centaurs",
-        contentTuningID = 0,
+        name = "Saving Centaur",
+        contentTuningID = 2512,
         source = {
             type = "npc",
             id = 192621,
@@ -17168,12 +15134,35 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.298457,
                     },
                 },
+            },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
             },
         },
     },
     [69095] = {
         name = "Homeward Hound",
-        contentTuningID = 0,
+        contentTuningID = 2512,
         source = {
             type = "npc",
             id = 192621,
@@ -17184,6 +15173,24 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.298457,
                     },
                 },
+            },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26210, 26445, 26680, 26915, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
             },
         },
     },
@@ -17193,20 +15200,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192621,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.612232,
-                        y = 0.399993,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -17222,16 +15221,36 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 8,
+                amount = 300,
             },
         },
     },
     [69837] = {
         name = "Sunscale Behemoth",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+        },
     },
     [69840] = {
-        name = "Enraged Sapphire",
+    },
+    [69849] = {
+        name = "Enraged Steamburst Elemental",
         contentTuningID = 2152,
         rewards = {
             {
@@ -17244,13 +15263,19 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [69849] = {
-        name = "Enraged Steamburst Elemental",
-        contentTuningID = -1,
-    },
     [69850] = {
         name = "Woolfang",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
     },
     [69854] = {
         name = "Solethus' Gravestone",
@@ -17272,7 +15297,17 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69858] = {
         name = "Blightfur",
-        contentTuningID = -1,
+        contentTuningID = 2311,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+        },
     },
     [69859] = {
         name = "Sandana the Tempest",
@@ -17290,7 +15325,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [69862] = {
         name = "Save a Slyvern",
-        contentTuningID = 0,
+        contentTuningID = 2326,
         source = {
             type = "npc",
             id = 192830,
@@ -17303,116 +15338,280 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+        },
     },
     [69865] = {
         name = "Scaleseeker Mezeri",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
     },
     [69872] = {
         name = "Vakril, the Strongest Tuskarr",
         contentTuningID = 2311,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+        },
     },
     [69882] = {
         name = "Lord Epochbrgl",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
     },
     [69895] = {
         name = "Summoned Destroyer",
         contentTuningID = 2311,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9800, 9950, 10100, 10250, 9950, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+        },
     },
     [69897] = {
         name = "Behavior Analysis \"Homework\"",
-        contentTuningID = 0,
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 193500,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459096,
-                        y = 0.814471,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    128700, 129874, 131050, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
             },
         },
     },
     [69898] = {
-        name = "Scientfic Meat-thod",
-        contentTuningID = 0,
+        name = "Scientific Meat-thod",
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 193500,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459096,
-                        y = 0.814471,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
     [69899] = {
         name = "Secret Research",
-        contentTuningID = 0,
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 193500,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459096,
-                        y = 0.814471,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    128700, 129874, 131050, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
             },
         },
     },
     [69900] = {
         name = "Identifying the Source",
-        contentTuningID = 0,
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 192298,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459483,
-                        y = 0.814894,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9080.0001353025, 9200.0001370907, 9360.0001394749, 9360.0001394749, 7480.0001114607, 5600.0000834465, 3760.0000560284, 1880.0000280142, 920.00001370907, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    514800, 519496, 524200, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 400,
             },
         },
     },
     [69901] = {
         name = "Bring In the Expert",
-        contentTuningID = 0,
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 192298,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459483,
-                        y = 0.814894,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
     [69902] = {
-        name = "[WIP] Theory in Practice",
-        contentTuningID = 0,
+        name = "Theory in Practice",
+        contentTuningID = 2304,
         source = {
             type = "npc",
             id = 192298,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.459483,
-                        y = 0.814894,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    128700, 129874, 131050, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
@@ -17422,20 +15621,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183543,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.466442,
-                        y = 0.40163,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -17456,20 +15647,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 184870,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.766202,
-                        y = 0.336022,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17485,7 +15668,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 150,
             },
         },
     },
@@ -17495,20 +15678,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193362,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.765826,
-                        y = 0.336586,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17524,7 +15699,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 60,
+                amount = 150,
             },
         },
     },
@@ -17534,20 +15709,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193362,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.765826,
-                        y = 0.336586,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17563,7 +15730,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 60,
+                amount = 150,
             },
         },
     },
@@ -17573,20 +15740,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193372,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.762067,
-                        y = 0.345231,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -17602,88 +15761,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 30,
+                amount = 400,
             },
         },
     },
     [69915] = {
         name = "Targeted Ads",
-        contentTuningID = 2250,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 193108,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.720525,
-                        y = 0.811376,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
-                },
-                minLevel = 62,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    262100, 264448, 266800, 269148, 
-                },
-                minLevel = 62,
-                maxLevel = 65,
-            },
-            {
-                type = "reputation",
-                id = 2544,
-                amount = 250,
-                maxRank = -1,
-            },
         },
     },
     [69919] = {
         name = "A Craft in Need",
-        contentTuningID = 2424,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 194026,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.353684,
-                        y = 0.587705,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    1150, 1150, 1150, 1200, 1200, 1250, 1250, 1250, 1300, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
-                type = "money",
-                amounts = {
-                    514800, 519496, 524200, 528896, 533600, 538296, 543000, 547696, 552400, 557096, 561800, 
-                },
-                minLevel = 60,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2544,
-                amount = 350,
-                maxRank = -1,
-            },
         },
     },
     [69932] = {
@@ -17692,20 +15787,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.502491,
-                        y = 0.675718,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -17721,7 +15808,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -17731,20 +15818,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.502491,
-                        y = 0.675718,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -17760,7 +15839,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -17770,20 +15849,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193538,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.502491,
-                        y = 0.675718,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -17799,7 +15870,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -17809,20 +15880,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189858,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.337586,
-                        y = 0.653575,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -17838,24 +15901,30 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
     [69938] = {
         name = "Fishing Frenzy!",
-        contentTuningID = -1,
-    },
-    [69942] = {
-        name = "Brackenhide Mysteries",
         contentTuningID = 2437,
         rewards = {
             {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
+                },
+                minLevel = 60,
+                maxLevel = 69,
+            },
+            {
                 type = "reputation",
                 id = 2511,
-                amount = 60,
+                amount = 150,
             },
         },
+    },
+    [69942] = {
     },
     [69946] = {
         name = "The Master of Their Craft",
@@ -17863,14 +15932,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192574,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.394233,
-                        y = 0.701401,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -17892,22 +15953,60 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2544,
-                amount = 150,
-                maxRank = -1,
+                amount = 50,
+                maxRank = 4,
             },
         },
     },
     [69962] = {
         name = "Corrupted Proto-Dragon",
-        contentTuningID = -1,
+        contentTuningID = 2154,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    10250, 10400, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+        },
     },
     [69964] = {
         name = "Craggravated Elemental",
-        contentTuningID = -1,
+        contentTuningID = 2152,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+        },
     },
     [69967] = {
         name = "Lookout Mordren",
         contentTuningID = 2385,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    10250, 10400, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
     },
     [69979] = {
         name = "A Worthy Hunt",
@@ -17915,14 +16014,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193110,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.517653,
-                        y = 0.330098,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -17944,49 +16035,17 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2544,
-                amount = 250,
-                maxRank = -1,
+                amount = 50,
+                maxRank = 4,
             },
         },
     },
     [69981] = {
         name = "Customer Satisfaction",
-        contentTuningID = 2424,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 194026,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.353684,
-                        y = 0.587705,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
-                },
-                minLevel = 60,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
-                },
-                minLevel = 60,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2544,
-                amount = 250,
-                maxRank = -1,
-            },
         },
     },
     [70034] = {
@@ -17996,7 +16055,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6900, 7050, 6800, 5450, 4100, 2700, 1350, 675, 
+                    6800, 6900, 7050, 7050, 5600, 4200, 2800, 1400, 700, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18012,21 +16071,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2544,
-                amount = 250,
-                maxRank = -1,
+                amount = 25,
+                maxRank = 4,
             },
         },
     },
     [70037] = {
-        name = "Unpowered Tools",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 60,
-            },
-        },
     },
     [70040] = {
         name = "Tumbling Through Time",
@@ -18034,14 +16084,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186931,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.600469,
-                        y = 0.824778,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -18056,11 +16098,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [70041] = {
@@ -18069,14 +16106,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193837,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.779862,
-                        y = 0.324581,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -18098,13 +16127,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 50,
                 maxRank = -1,
             },
         },
@@ -18115,20 +16144,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193838,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.763072,
-                        y = 0.343077,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18144,7 +16165,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 250,
             },
         },
     },
@@ -18154,20 +16175,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193955,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.598832,
-                        y = 0.703728,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18183,7 +16196,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 24,
+                amount = 50,
             },
         },
     },
@@ -18193,20 +16206,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194174,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.621799,
-                        y = 0.705666,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18222,7 +16227,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -18232,20 +16237,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.304791,
-                        y = 0.581027,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1200, 1200, 1250, 1200, 950, 725, 480, 
+                    920.00001370907, 960.00001430511, 960.00001430511, 1000.0000149012, 960.00001430511, 760.00001132488, 580.00000864267, 384.00000572205, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -18258,11 +16255,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 20,
-            },
         },
     },
     [70064] = {
@@ -18272,12 +16264,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 50,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 80,
+                amount = 200,
             },
         },
     },
@@ -18288,7 +16280,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 100,
+                amount = 200,
             },
         },
     },
@@ -18298,20 +16290,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.304791,
-                        y = 0.581027,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -18327,7 +16311,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
@@ -18337,20 +16321,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186503,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.304791,
-                        y = 0.581027,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -18366,20 +16342,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 200,
             },
         },
     },
     [70071] = {
-        name = "Gathering the Magic",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 60,
-            },
-        },
     },
     [70122] = {
         name = "Explorers in Peril",
@@ -18387,20 +16354,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189022,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.821331,
-                        y = 0.318731,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18416,7 +16375,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 90,
+                amount = 250,
             },
         },
     },
@@ -18426,20 +16385,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189035,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.821599,
-                        y = 0.318517,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18455,7 +16406,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 90,
+                amount = 250,
             },
         },
     },
@@ -18465,20 +16416,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189021,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.820916,
-                        y = 0.318828,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18494,7 +16437,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 90,
+                amount = 250,
             },
         },
     },
@@ -18504,20 +16447,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187251,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.766327,
-                        y = 0.33621,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    4550, 4600, 4700, 4700, 3750, 2800, 1850, 925, 470, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18533,7 +16468,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 60,
+                amount = 150,
             },
         },
     },
@@ -18543,20 +16478,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 186542,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.161146,
-                        y = 0.504209,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -18572,7 +16499,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 300,
                 maxRank = -1,
             },
         },
@@ -18583,20 +16510,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194076,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.578495,
-                        y = 0.66803,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18612,23 +16531,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 15,
+                amount = 50,
             },
         },
     },
     [70135] = {
         name = "Encroaching Elementals",
-        contentTuningID = 0,
+        contentTuningID = 2309,
         source = {
             type = "npc",
             id = 184452,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.763571,
-                        y = 0.33076,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
             },
         },
     },
@@ -18638,14 +16572,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187098,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.549605,
-                        y = 0.756333,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -18667,7 +16593,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -18677,20 +16603,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 189045,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.496074,
-                        y = 0.587593,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -18706,7 +16624,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -18717,7 +16635,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18739,7 +16657,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -18755,7 +16673,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -18765,20 +16683,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194415,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.221392,
-                        y = 0.367648,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -18794,44 +16704,42 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [70168] = {
         name = "Sad Little Accidents",
-        contentTuningID = -1,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 194425,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.078682,
-                        y = 0.534504,
-                    },
-                },
-            },
         },
-    },
-    [70172] = {
-        name = "Mountain Mysteries",
-        contentTuningID = 2437,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
-                minLevel = 58,
+                minLevel = 65,
                 maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 200,
             },
         },
+    },
+    [70172] = {
     },
     [70174] = {
         name = "The Shikaar",
@@ -18868,7 +16776,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -18877,25 +16785,127 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 2437,
         rewards = {
             {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
+                },
+                minLevel = 60,
+                maxLevel = 69,
+            },
+            {
                 type = "reputation",
                 id = 2511,
-                amount = 60,
+                amount = 100,
             },
         },
     },
     [70179] = {
         name = "A Two for One Deal",
-        contentTuningID = -1,
+        contentTuningID = 2466,
         source = {
             type = "npc",
             id = 194525,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.544344,
-                        y = 0.308441,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
+            },
+        },
+    },
+    [70180] = {
+        name = "Jump-Start? Jump-Starting!",
+        contentTuningID = 2401,
+        source = {
+            type = "npc",
+            id = 196066,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    10250, 10400, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70181] = {
+        name = "First Challenge of Tyr: Finesse",
+        contentTuningID = 2401,
+        source = {
+            type = "object",
+            id = 379290,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    12850, 13000, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    552400, 557096, 561800, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 350,
+            },
+        },
+    },
+    [70182] = {
+        name = "The Sweet Taste of Victory",
+        contentTuningID = 2401,
+        source = {
+            type = "npc",
+            id = 195827,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1300,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
             },
         },
     },
@@ -18905,14 +16915,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 379321,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.767393,
-                        y = 0.318877,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -18934,7 +16936,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -18944,14 +16946,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 195316,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.493583,
-                        y = 0.631208,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -18973,13 +16967,36 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
     [70196] = {
         name = "Pruning the Preserve",
-        contentTuningID = -1,
+        contentTuningID = 2151,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    13600, 13850, 14050, 14050, 11250, 8450, 5600, 2800, 1400, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    772200, 779244, 786300, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 200,
+            },
+        },
     },
     [70220] = {
         name = "Shady Sanctuary",
@@ -18987,14 +17004,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188106,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.282552,
-                        y = 0.576973,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -19016,7 +17025,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 30,
+                amount = 100,
             },
         },
     },
@@ -19026,14 +17035,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 187787,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.418884,
-                        y = 0.617947,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -19052,11 +17053,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 62,
                 maxLevel = 65,
             },
-            {
-                type = "reputation",
-                id = 2503,
-                amount = 8,
-            },
         },
     },
     [70239] = {
@@ -19065,20 +17061,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194801,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.586698,
-                        y = 0.677834,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    4550, 4600, 4700, 4550, 3650, 2700, 1800, 900, 450, 
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -19094,34 +17082,54 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2507,
-                amount = 15,
+                amount = 125,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 8,
+                amount = 25,
             },
         },
     },
     [70240] = {
         name = "Pain Management",
-        contentTuningID = 0,
+        contentTuningID = 2295,
         source = {
             type = "npc",
             id = 194805,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.573751,
-                        y = 0.656836,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 75,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 50,
             },
         },
     },
     [70241] = {
         name = "The Bitter End",
-        contentTuningID = 0,
+        contentTuningID = 2295,
         source = {
             type = "npc",
             id = 194801,
@@ -19134,10 +17142,38 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    3640.0000542402, 3680.0000548363, 3760.0000560284, 3760.0000560284, 3000.0000447035, 2240.0000333786, 1480.0000220537, 740.00001102686, 376.00000560284, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    128700, 129874, 131050, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 125,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 25,
+            },
+        },
     },
     [70242] = {
         name = "Life After Life",
-        contentTuningID = 0,
+        contentTuningID = 2295,
         source = {
             type = "npc",
             id = 194805,
@@ -19150,6 +17186,34 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7240.0001078844, 7360.0001096725, 7480.0001114607, 7480.0001114607, 6000.000089407, 4480.0000667572, 3000.0000447035, 1480.0000220537, 740.00001102686, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 125,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 50,
+            },
+        },
     },
     [70244] = {
         name = "Nokhud Can Come of This",
@@ -19157,14 +17221,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 188068,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.730276,
-                        y = 0.405865,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -19186,7 +17242,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 8,
+                amount = 200,
             },
         },
     },
@@ -19196,20 +17252,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194904,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.845292,
-                        y = 0.253387,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -19225,28 +17273,18 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [70335] = {
-        name = "Simple Excavation Tools",
-        contentTuningID = 2424,
     },
     [70337] = {
         name = "Emberwatch",
-        contentTuningID = 2152,
+        contentTuningID = 2265,
         source = {
             type = "npc",
             id = 195239,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.621144,
-                        y = 0.364356,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -19286,7 +17324,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    12250, 12450, 12650, 12850, 12450, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -19294,7 +17332,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amounts = {
-                    269148, 271500, 273848, 276200, 
+                    538296, 543000, 547696, 552400, 
                 },
                 minLevel = 65,
                 maxLevel = 68,
@@ -19302,13 +17340,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 800,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2510,
-                amount = 13,
+                amount = 400,
             },
         },
     },
@@ -19318,20 +17356,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191012,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.617378,
-                        y = 0.737027,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1150, 1150, 1150, 1150, 900, 675, 450, 230, 110, 
+                    920.00001370907, 920.00001370907, 920.00001370907, 920.00001370907, 740.00001102686, 560.00000834465, 376.00000560284, 184.00000274181, 96.000001430511, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -19344,11 +17374,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 60,
                 maxLevel = 62,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [70370] = {
@@ -19357,14 +17382,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 192498,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.579297,
-                        y = 0.682528,
-                    },
-                },
-            },
         },
     },
     [70371] = {
@@ -19373,14 +17390,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 183855,
-            locations = {
-                [2092] = {
-                    {
-                        x = 0.599787,
-                        y = 0.65971,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -19402,7 +17411,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -19429,7 +17438,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 25,
+                amount = 100,
             },
         },
     },
@@ -19439,20 +17448,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190950,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.493376,
-                        y = 0.494033,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -19468,50 +17469,30 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [70377] = {
         name = "Derelict Fashion",
-        contentTuningID = -1,
+        contentTuningID = 2375,
         source = {
             type = "npc",
             id = 197346,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.404777,
-                        y = 0.453136,
-                    },
-                },
-            },
-        },
-    },
-    [70437] = {
-        name = "To Tyrhold",
-        contentTuningID = 2401,
-        source = {
-            type = "npc",
-            id = 187678,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.582051,
-                        y = 0.347778,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amounts = {
+                    10280.000153184, 10400.000154972, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
             },
             {
                 type = "money",
                 amounts = {
-                    27620, 27855, 28090, 
+                    552400, 557096, 561800, 
                 },
                 minLevel = 68,
                 maxLevel = 70,
@@ -19519,7 +17500,26 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 4,
+                amount = 150,
+            },
+        },
+    },
+    [70437] = {
+        name = "To Tyrhold",
+        contentTuningID = 2474,
+        source = {
+            type = "npc",
+            id = 187678,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -19546,51 +17546,71 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [70625] = {
-        name = "Cursed Creations",
-        contentTuningID = -1,
+        name = "Spellforged Creations",
+        contentTuningID = 2521,
+        rewards = {
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
+            },
+        },
     },
     [70627] = {
         name = "What of the Winterpelt Clan?",
-        contentTuningID = 2153,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 191123,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.631603,
-                        y = 0.586878,
-                    },
-                },
-            },
+        },
+    },
+    [70633] = {
+        name = "Fueling the Engine",
+        contentTuningID = 2401,
+        source = {
+            type = "npc",
+            id = 196475,
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    1250, 1250, 1250, 1300, 1250, 
+                    2550, 2600, 
                 },
-                minLevel = 65,
+                minLevel = 68,
                 maxLevel = 69,
             },
             {
                 type = "money",
                 amounts = {
-                    26915, 27150, 27385, 27620, 
+                    69050, 69637, 70225, 
                 },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2526,
-                amount = 8,
+                minLevel = 68,
+                maxLevel = 70,
             },
         },
     },
     [70648] = {
         name = "Firava the Rekindler",
         contentTuningID = 2285,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    257400, 259748, 262100, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+        },
     },
     [70721] = {
         name = "After My Ohn Heart",
@@ -19598,20 +17618,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190192,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.628164,
-                        y = 0.354405,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    11700, 11900, 12100, 12250, 11900, 9500, 7150, 4750, 
+                    9360.0001394749, 9520.0001418591, 9680.0001442432, 9800.0001460314, 9520.0001418591, 7600.0001132488, 5720.0000852346, 3800.0000566244, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -19627,7 +17639,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 80,
+                amount = 300,
             },
         },
     },
@@ -19637,20 +17649,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 190192,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.628164,
-                        y = 0.354405,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -19666,23 +17670,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [70738] = {
-        name = "Good Reviews",
-        contentTuningID = 0,
+        name = "The You-ga Class",
+        contentTuningID = 2375,
         source = {
             type = "npc",
             id = 194717,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.404914,
-                        y = 0.489222,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -19692,20 +17711,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191924,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.63618,
-                        y = 0.404725,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9500, 9650, 9800, 9500, 7600, 5700, 3800, 
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
                 minLevel = 62,
                 maxLevel = 69,
@@ -19721,39 +17732,69 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2503,
-                amount = 50,
+                amount = 200,
             },
         },
     },
     [70740] = {
         name = "Steam Cleaning",
-        contentTuningID = 0,
+        contentTuningID = 2375,
         source = {
             type = "npc",
             id = 196160,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.40461,
-                        y = 0.488837,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
     [70741] = {
         name = "Some Favorite Things",
-        contentTuningID = 0,
+        contentTuningID = 2375,
         source = {
             type = "object",
             id = 381297,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.414924,
-                        y = 0.474726,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
             },
         },
     },
@@ -19763,20 +17804,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194812,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.404897,
-                        y = 0.489726,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -19792,7 +17825,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -19802,20 +17835,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381296,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.388916,
-                        y = 0.452466,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    10250, 10400, 
+                    8200.0001221895, 8320.0001239777, 
                 },
                 minLevel = 68,
                 maxLevel = 69,
@@ -19831,7 +17856,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2510,
-                amount = 40,
+                amount = 100,
             },
         },
     },
@@ -19841,15 +17866,444 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196160,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.40461,
-                        y = 0.488837,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    10280.000153184, 10400.000154972, 
                 },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    552400, 557096, 561800, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
             },
         },
+    },
+    [70787] = {
+    },
+    [70812] = {
+    },
+    [70822] = {
+    },
+    [70837] = {
+        name = "Follow the Clues",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196984,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70838] = {
+        name = "Rebels With a Cause",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196416,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70842] = {
+        name = "Detonation Locations",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196416,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70843] = {
+        name = "Ruin the Runestones",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196464,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70845] = {
+        name = "In Tyr's Footsteps",
+        contentTuningID = 2401,
+        source = {
+            type = "npc",
+            id = 196475,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1300,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70846] = {
+        name = "Dragonscale Expedition: Help Needed!",
+        contentTuningID = 2474,
+        source = {
+            type = "npc",
+            id = 196448,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [70850] = {
+        name = "Maldra's in Hot Water",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196432,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70856] = {
+        name = "Kill it with Fire",
+        contentTuningID = 2319,
+        source = {
+            type = "npc",
+            id = 191715,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 100,
+            },
+        },
+    },
+    [70858] = {
+        name = "Back into the Action",
+        contentTuningID = 2153,
+        source = {
+            type = "npc",
+            id = 196254,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 100,
+            },
+        },
+    },
+    [70859] = {
+        name = "What the Guardian Beholds",
+        contentTuningID = 2153,
+        source = {
+            type = "npc",
+            id = 196501,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 1090,
+                amount = 100,
+                restrictions = 924,
+            },
+            {
+                type = "reputation",
+                id = 2511,
+                amount = 100,
+            },
+        },
+    },
+    [70874] = {
+        name = "To Breach a Fire Wall",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196562,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70875] = {
+        name = "Worst of the Worst",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196566,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70876] = {
+        name = "Fracture the Foci",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196566,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70878] = {
+        name = "Ring of Fire",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196608,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
+    },
+    [70879] = {
+        name = "Report on the Rebels",
+        contentTuningID = 2378,
+        source = {
+            type = "npc",
+            id = 196566,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 500,
+            },
+        },
+    },
+    [70899] = {
+        name = "Fifth Challenge of Tyr: Ingenuity",
+        contentTuningID = 2401,
         rewards = {
             {
                 type = "experience",
@@ -19867,360 +18321,29 @@ BtWQuestsDatabase:AddQuestsTable({
                 minLevel = 68,
                 maxLevel = 70,
             },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 60,
-            },
-        },
-    },
-    [70787] = {
-        name = "Caught In a Dusk Storm",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2507,
-                amount = 60,
-            },
-        },
-    },
-    [70812] = {
-        name = "Expedition Cloaks",
-        contentTuningID = 2424,
-    },
-    [70822] = {
-        name = "Lost Expedition Scouts",
-        contentTuningID = 2424,
-    },
-    [70837] = {
-        name = "Follow the Clues",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196984,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.564608,
-                        y = 0.437451,
-                    },
-                },
-            },
-        },
-    },
-    [70838] = {
-        name = "Rebels With a Cause",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196416,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.427235,
-                        y = 0.819444,
-                    },
-                },
-            },
-        },
-    },
-    [70842] = {
-        name = "Detonation Locations",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196416,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.427235,
-                        y = 0.819444,
-                    },
-                },
-            },
-        },
-    },
-    [70843] = {
-        name = "Ruin the Runestones",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196464,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.435814,
-                        y = 0.810084,
-                    },
-                },
-            },
-        },
-    },
-    [70846] = {
-        name = "Dragonscale Expedition: Help Needed!",
-        contentTuningID = 2474,
-        source = {
-            type = "npc",
-            id = 196448,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.408093,
-                        y = 0.482644,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 28090,
-            },
-        },
-    },
-    [70850] = {
-        name = "Maldra's in Hot Water",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196432,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.425777,
-                        y = 0.788172,
-                    },
-                },
-            },
-        },
-    },
-    [70856] = {
-        name = "Kill it with Fire",
-        contentTuningID = 2319,
-        source = {
-            type = "npc",
-            id = 191715,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.673402,
-                        y = 0.443415,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
-                },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    269148, 271500, 273848, 276200, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 25,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 25,
-            },
-        },
-    },
-    [70858] = {
-        name = "Back into the Action",
-        contentTuningID = 2153,
-        source = {
-            type = "npc",
-            id = 196254,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.672124,
-                        y = 0.44403,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
-                },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    269148, 271500, 273848, 276200, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 25,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 25,
-            },
-        },
-    },
-    [70859] = {
-        name = "What the Guardian Beholds",
-        contentTuningID = 2153,
-        source = {
-            type = "npc",
-            id = 196501,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.672985,
-                        y = 0.443378,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
-                },
-                minLevel = 65,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    269148, 271500, 273848, 276200, 
-                },
-                minLevel = 65,
-                maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 1090,
-                amount = 25,
-                restrictions = 924,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 25,
-            },
-        },
-    },
-    [70874] = {
-        name = "Breaching the Fire Wall",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196562,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.426799,
-                        y = 0.788028,
-                    },
-                },
-            },
-        },
-    },
-    [70875] = {
-        name = "Worst of the Worst",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196566,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.424486,
-                        y = 0.788483,
-                    },
-                },
-            },
-        },
-    },
-    [70876] = {
-        name = "Fracture the Foci",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196566,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.424486,
-                        y = 0.788483,
-                    },
-                },
-            },
-        },
-    },
-    [70878] = {
-        name = "Ring of Fire",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196608,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.422691,
-                        y = 0.789222,
-                    },
-                },
-            },
-        },
-    },
-    [70879] = {
-        name = "Report on the Rebels",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196566,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.424486,
-                        y = 0.788483,
-                    },
-                },
-            },
-        },
-    },
-    [70899] = {
-        name = "Fifth Challenge of Tyr: Ingenuity",
-        contentTuningID = 2474,
-        rewards = {
-            {
-                type = "money",
-                amount = 561800,
-            },
         },
     },
     [70900] = {
+        name = "Innovating the Engine",
+        contentTuningID = 2401,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    12850, 13000, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    552400, 557096, 561800, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+        },
     },
     [70925] = {
         name = "Community Feast",
@@ -20229,23 +18352,21 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 8,
+                amount = 25,
             },
         },
     },
     [70930] = {
         name = "All Tea, No Shadeleaf",
-        contentTuningID = 0,
+        contentTuningID = 2078,
         source = {
             type = "npc",
             id = 189479,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.61661,
-                        y = 0.115026,
-                    },
-                },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 70225,
             },
         },
     },
@@ -20255,20 +18376,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196501,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.672985,
-                        y = 0.443378,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20284,26 +18397,17 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [70934] = {
-        name = "Salamanther's Embrace",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 60,
-            },
-        },
     },
     [70937] = {
         name = "What Valthrux Once Was",
@@ -20311,20 +18415,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.673402,
-                        y = 0.443415,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20340,19 +18436,17 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [70941] = {
-        name = "Fishing Holes",
-        contentTuningID = 2424,
     },
     [70946] = {
         name = "No One May Wield It",
@@ -20360,20 +18454,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 191715,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.673402,
-                        y = 0.443415,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20389,29 +18475,33 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 25,
+                amount = 100,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 25,
+                amount = 100,
             },
         },
     },
     [70965] = {
         name = "Wanted: Watcher's Golden Girdle",
-        contentTuningID = -1,
+        contentTuningID = 2284,
         source = {
             type = "object",
             id = 381579,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.474763,
-                        y = 0.835804,
-                    },
-                },
+        },
+        rewards = {
+            {
+                type = "currency",
+                id = 2003,
+                amount = 25,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
             },
         },
     },
@@ -20421,20 +18511,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196520,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.673182,
-                        y = 0.443889,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20450,13 +18532,13 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 1090,
-                amount = 40,
+                amount = 150,
                 restrictions = 924,
             },
             {
                 type = "reputation",
                 id = 2511,
-                amount = 40,
+                amount = 150,
             },
         },
     },
@@ -20476,17 +18558,32 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70989] = {
         name = "Part of a Pack",
-        contentTuningID = 0,
+        contentTuningID = 2510,
         source = {
             type = "npc",
             id = 192629,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.71421,
-                        y = 0.496043,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
             },
         },
     },
@@ -20496,81 +18593,94 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381650,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.480472,
-                        y = 0.822146,
-                    },
-                },
-            },
         },
         rewards = {
             {
-                type = "experience",
-                amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
-                },
-                minLevel = 60,
-                maxLevel = 68,
-            },
-            {
                 type = "currency",
                 id = 2003,
-                amount = 30,
+                amount = 25,
             },
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 150,
             },
         },
     },
     [70995] = {
         name = "Wanted: Fenistrasza's Skull",
-        contentTuningID = -1,
+        contentTuningID = 2517,
         source = {
             type = "object",
             id = 381664,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.476469,
-                        y = 0.830217,
-                    },
-                },
+        },
+        rewards = {
+            {
+                type = "currency",
+                id = 2003,
+                amount = 25,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
             },
         },
     },
     [70996] = {
         name = "A Little Kelp for My Friends",
-        contentTuningID = 0,
+        contentTuningID = 2312,
         source = {
             type = "npc",
             id = 196806,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.011826,
-                        y = 0.392641,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 2526,
+                amount = 50,
             },
         },
     },
     [71000] = {
         name = "Barst Recruited",
-        contentTuningID = 0,
+        contentTuningID = 2312,
         source = {
             type = "npc",
             id = 196806,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.011826,
-                        y = 0.392641,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1000.0000149012, 1000.0000149012, 1000.0000149012, 1040.0000154972, 1000.0000149012, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    26915, 27150, 27385, 27620, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
@@ -20580,20 +18690,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196816,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.210538,
-                        y = 0.35093,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20605,11 +18707,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 65,
                 maxLevel = 68,
-            },
-            {
-                type = "reputation",
-                id = 2511,
-                amount = 50,
             },
         },
     },
@@ -20619,33 +18716,17 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 381672,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.479842,
-                        y = 0.821207,
-                    },
-                },
-            },
         },
         rewards = {
             {
-                type = "experience",
-                amounts = {
-                    10250, 10400, 
-                },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
                 type = "currency",
                 id = 2003,
-                amount = 30,
+                amount = 25,
             },
             {
                 type = "reputation",
                 id = 2507,
-                amount = 50,
+                amount = 150,
             },
         },
     },
@@ -20655,20 +18736,64 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196838,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.215088,
-                        y = 0.354678,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9800, 9950, 10100, 10250, 9950, 
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+        },
+    },
+    [71013] = {
+        name = "No Vengeance on an Empty Stomach",
+        contentTuningID = 2312,
+        source = {
+            type = "npc",
+            id = 196812,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
+                },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+        },
+    },
+    [71014] = {
+        name = "A Far Furbolg Friend",
+        contentTuningID = 2312,
+        source = {
+            type = "npc",
+            id = 196812,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20683,110 +18808,128 @@ BtWQuestsDatabase:AddQuestsTable({
             },
             {
                 type = "reputation",
-                id = 2511,
-                amount = 50,
-            },
-        },
-    },
-    [71013] = {
-        name = "No Vengeance on an Empty Stomach",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196812,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.587899,
-                        y = 0.349104,
-                    },
-                },
-            },
-        },
-    },
-    [71014] = {
-        name = "A Far Furbolg Friend",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 196812,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.587899,
-                        y = 0.349104,
-                    },
-                },
+                id = 2526,
+                amount = 100,
             },
         },
     },
     [71015] = {
         name = "All Brawn, No Brains",
-        contentTuningID = 0,
+        contentTuningID = 2312,
         source = {
             type = "npc",
             id = 196812,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.587899,
-                        y = 0.349104,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
+            },
+            {
+                type = "reputation",
+                id = 2526,
+                amount = 100,
             },
         },
     },
     [71016] = {
         name = "Grimtusk's Sister",
-        contentTuningID = 0,
+        contentTuningID = 2312,
         source = {
             type = "npc",
             id = 196812,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.587899,
-                        y = 0.349104,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
     [71017] = {
         name = "Naluki's Letter",
-        contentTuningID = 0,
+        contentTuningID = 2312,
         source = {
             type = "npc",
             id = 196841,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.124707,
-                        y = 0.49225,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7840.0001168251, 7960.0001186132, 8080.0001204014, 8200.0001221895, 7960.0001186132, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    269148, 271500, 273848, 276200, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
     [71022] = {
         name = "Reign of the Ram",
-        contentTuningID = 0,
+        contentTuningID = 2511,
         source = {
             type = "npc",
             id = 192633,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.49057,
-                        y = 0.410764,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7480.0001114607, 7600.0001132488, 7720.000115037, 7840.0001168251, 7600.0001132488, 6080.0000905991, 4560.0000679493, 3040.0000452995, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    262100, 264448, 266800, 269148, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 200,
             },
         },
     },
     [71024] = {
         name = "Chaos and Commotion",
-        contentTuningID = 0,
+        contentTuningID = 2378,
         source = {
             type = "npc",
             id = 189842,
@@ -20799,20 +18942,58 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8200.0001221895, 8320.0001239777, 
+                },
+                minLevel = 68,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    276200, 278548, 280900, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 100,
+            },
+        },
     },
     [71027] = {
         name = "WANTED: Mara'nar the Thunderous",
-        contentTuningID = -1,
+        contentTuningID = 2263,
         source = {
             type = "object",
             id = 381701,
-            locations = {
-                [2023] = {
-                    {
-                        x = 0.395618,
-                        y = 0.564234,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    28100, 28600, 29000, 29500, 28600, 22800, 17100, 11400, 
                 },
+                minLevel = 62,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    786300, 793344, 800400, 807444, 
+                },
+                minLevel = 62,
+                maxLevel = 65,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 300,
             },
         },
     },
@@ -20822,20 +19003,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 196812,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.587899,
-                        y = 0.349104,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    12250, 12450, 12650, 12850, 12450, 
+                    9800.0001460314, 9960.0001484156, 10120.0001508, 10280.000153184, 9960.0001484156, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20851,12 +19024,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 50,
+                amount = 1500,
             },
         },
     },
     [71141] = {
-        name = "Crabtender's Adversary",
+        name = "Gills with Gall",
         contentTuningID = 2527,
         source = {
             type = "npc",
@@ -20874,7 +19047,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9050, 7250, 5450, 3650, 1800, 900, 
+                    9050, 9200, 9350, 9350, 7500, 5600, 3750, 1850, 925, 
                 },
                 minLevel = 60,
                 maxLevel = 68,
@@ -20895,15 +19068,6 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [71164] = {
-        name = "Stolen Bandages",
-        contentTuningID = 2437,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 60,
-            },
-        },
     },
     [71179] = {
         name = "Look to the Overlook",
@@ -20923,7 +19087,7 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -20942,7 +19106,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    2450, 2500, 2550, 2550, 2500, 
+                    1960.0000292063, 2000.0000298023, 2040.0000303984, 2040.0000303984, 2000.0000298023, 
                 },
                 minLevel = 65,
                 maxLevel = 69,
@@ -20964,7 +19128,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 100,
+                amount = 200,
             },
         },
     },
@@ -20974,19 +19138,11 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197533,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.501431,
-                        y = 0.624139,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -21005,37 +19161,10 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [71232] = {
         name = "Renown of the Dragon Isles",
-        contentTuningID = 2154,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 190902,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.725111,
-                        y = 0.561667,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amount = 1300,
-            },
-            {
-                type = "money",
-                amounts = {
-                    27620, 27855, 28090, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 4,
-            },
         },
     },
     [71233] = {
@@ -21044,14 +19173,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 194613,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.284638,
-                        y = 0.351136,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21078,14 +19199,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 193877,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.140727,
-                        y = 0.494463,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21108,17 +19221,27 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [71235] = {
         name = "Field Mages",
-        contentTuningID = 0,
+        contentTuningID = 2153,
         source = {
             type = "npc",
             id = 189751,
-            locations = {
-                [2024] = {
-                    {
-                        x = 0.658068,
-                        y = 0.2532,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    4900, 5000, 5050, 5150, 5000, 
                 },
+                minLevel = 65,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    134574, 135750, 136924, 138100, 
+                },
+                minLevel = 65,
+                maxLevel = 68,
             },
         },
     },
@@ -21128,14 +19251,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 382166,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.462873,
-                        y = 0.452622,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21145,8 +19260,6 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [72023] = {
-        name = "Dragonscale Expedition Supplies",
-        contentTuningID = 2424,
     },
     [72067] = {
         name = "Relaxation Time!",
@@ -21154,19 +19267,11 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 197986,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.480695,
-                        y = 0.596282,
-                    },
-                },
-            },
         },
         rewards = {
             {
                 type = "experience",
-                amount = 1300,
+                amount = 1040.0000154972,
             },
             {
                 type = "money",
@@ -21185,101 +19290,220 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [72122] = {
         name = "Erstwhile Ecologists",
-        contentTuningID = 0,
+        contentTuningID = 2151,
         source = {
             type = "npc",
             id = 195303,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.711125,
-                        y = 0.404639,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    920.00001370907, 920.00001370907, 920.00001370907, 920.00001370907, 740.00001102686, 560.00000834465, 376.00000560284, 184.00000274181, 96.000001430511, 
                 },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25740, 25975, 26210, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 25,
             },
         },
     },
     [72189] = {
         name = "Garden Variety",
-        contentTuningID = 0,
+        contentTuningID = 2382,
         source = {
             type = "npc",
             id = 189364,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.774409,
-                        y = 0.673177,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
                 },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 4,
+            },
+        },
+    },
+    [72190] = {
+        name = "Reservoir Reservations",
+        contentTuningID = 2382,
+        source = {
+            type = "npc",
+            id = 198349,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
+                },
+                minLevel = 68,
+                maxLevel = 70,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 4,
             },
         },
     },
     [72193] = {
         name = "The Algeth'ar Academy",
-        contentTuningID = -1,
+        contentTuningID = 2474,
         source = {
             type = "npc",
             id = 187676,
-            locations = {
-                [2112] = {
-                    {
-                        x = 0.615981,
-                        y = 0.361135,
-                    },
-                },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 1123600,
             },
         },
     },
     [72240] = {
         name = "The Obsidian Warders",
-        contentTuningID = -1,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 189603,
-            locations = {
-                [84] = {
-                    {
-                        x = 0.799394,
-                        y = 0.26963,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
                 },
+                minLevel = 10,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
+            },
+        },
+    },
+    [72241] = {
+        name = "Lessons From Our Past",
+        contentTuningID = 2151,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1150, 1150, 1150, 1150, 925, 700, 470, 230, 120, 
+                },
+                minLevel = 60,
+                maxLevel = 68,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25740, 25975, 26210, 
+                },
+                minLevel = 60,
+                maxLevel = 62,
             },
         },
     },
     [72246] = {
         name = "Serene Dreams",
-        contentTuningID = -1,
+        contentTuningID = 2375,
         source = {
             type = "npc",
             id = 197670,
-            locations = {
-                [2025] = {
-                    {
-                        x = 0.404123,
-                        y = 0.495296,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 1040.0000154972,
+            },
+            {
+                type = "money",
+                amounts = {
+                    27620, 27855, 28090, 
                 },
+                minLevel = 68,
+                maxLevel = 70,
             },
         },
     },
     [72256] = {
         name = "The Dark Talons",
-        contentTuningID = -1,
+        contentTuningID = 2573,
         source = {
             type = "npc",
             id = 184786,
-            locations = {
-                [85] = {
-                    {
-                        x = 0.440357,
-                        y = 0.382483,
-                    },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1400, 1550, 1700, 1800, 1950, 2100, 2250, 2350, 2500, 2650, 2750, 2900, 3050, 3150, 3300, 3450, 3600, 3700, 3850, 4000, 4100, 4250, 4400, 4500, 4650, 4800, 4950, 5050, 5200, 5350, 5450, 5600, 5750, 5850, 6000, 6150, 6300, 6400, 6550, 6700, 6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 9050, 9200, 9350, 9500, 9650, 9800, 9950, 10100, 10250, 10400, 
                 },
+                minLevel = 10,
+                maxLevel = 69,
+            },
+            {
+                type = "money",
+                amounts = {
+                    2000, 7150, 12300, 17450, 22600, 27750, 32900, 38050, 43200, 48350, 53500, 58650, 63800, 68950, 74100, 79250, 84400, 89550, 94700, 99850, 105000, 111480, 117960, 124440, 130920, 137400, 143880, 150360, 156840, 163320, 169800, 176280, 182760, 189240, 195720, 202200, 208560, 214920, 221280, 227640, 234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 259748, 262100, 264448, 266800, 269148, 271500, 273848, 276200, 278548, 280900, 
+                },
+                minLevel = 10,
+                maxLevel = 70,
             },
         },
     },
     [72263] = {
+        name = "Cavalry Has Its Place",
+        contentTuningID = 2418,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    975, 1000, 1150, 1150, 1150, 600, 390, 200, 100, 
+                },
+                minLevel = 58,
+                maxLevel = 66,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25270, 25505, 25740, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [72267] = {
         name = "Ohn'ahran Plains",
@@ -21287,14 +19511,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.765152,
-                        y = 0.342297,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21321,14 +19537,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.765152,
-                        y = 0.342297,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21355,14 +19563,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 198386,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.765152,
-                        y = 0.342297,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -21384,19 +19584,19 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [72397] = {
-        name = "Welcome to the Basecamp",
-        contentTuningID = 0,
+        name = "Orientation: Dragonscale Basecamp",
+        contentTuningID = 2277,
         source = {
             type = "npc",
             id = 186869,
-            locations = {
-                [2022] = {
-                    {
-                        x = 0.478813,
-                        y = 0.824126,
-                    },
-                },
-            },
+        },
+    },
+    [72406] = {
+        name = "Orientation: Valdrakken",
+        contentTuningID = 2277,
+        source = {
+            type = "npc",
+            id = 193015,
         },
     },
 })

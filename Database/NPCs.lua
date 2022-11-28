@@ -314,8 +314,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [85] = {
                 {
-                    x = 0.494318,
-                    y = 0.73561,
+                    x = 0.440357,
+                    y = 0.382483,
                 },
             },
         },
@@ -1899,6 +1899,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [189207] = {
+        name = "Griftah",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.255881,
+                    y = 0.54332,
+                },
+            },
+        },
+    },
     [189208] = {
         name = "Custodian Vernagos",
         locations = {
@@ -2028,8 +2039,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [84] = {
                 {
-                    x = 0.404188,
-                    y = 0.500745,
+                    x = 0.799394,
+                    y = 0.26963,
                 },
             },
         },
@@ -2244,7 +2255,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [190171] = {
-        name = "Ruby Egg Guardian",
+        name = "Sendrax",
         locations = {
             [2022] = {
                 {
@@ -2684,7 +2695,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [191494] = {
-        name = "Teerai Battlemaster",
+        name = "Khanam Matra Sarest",
         locations = {
             [2023] = {
                 {
@@ -3013,6 +3024,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [193015] = {
+        name = "Unatos",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.581601,
+                    y = 0.350988,
+                },
+            },
+        },
+    },
     [193108] = {
         name = "Azley",
         locations = {
@@ -3201,7 +3223,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [193955] = {
-        name = "Lillistrazsa",
+        name = "Lillistrasza",
         locations = {
             [2022] = {
                 {
@@ -3212,7 +3234,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [193985] = {
-        name = "Ohn'ir Initiate",
+        name = "Initiate Zorig",
         locations = {
             [2023] = {
                 {
@@ -3333,7 +3355,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [194812] = {
-        name = "Elzara",
+        name = "Cae'Ryn",
         locations = {
             [2025] = {
                 {
@@ -3409,6 +3431,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [195827] = {
+        name = "Maiden of Inspiration",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.671297,
+                    y = 0.309013,
+                },
+            },
+        },
+    },
+    [196066] = {
+        name = "Greyzik Cobblefinger",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.842152,
+                    y = 0.543993,
+                },
+            },
+        },
+    },
     [196160] = {
         name = "Quilius",
         locations = {
@@ -3476,12 +3520,23 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [196464] = {
-        name = "Incendiary Runestone",
+        name = "Unfinished Runestone",
         locations = {
             [2025] = {
                 {
                     x = 0.435814,
                     y = 0.810084,
+                },
+            },
+        },
+    },
+    [196475] = {
+        name = "Maiden of Inspiration",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.843527,
+                    y = 0.535561,
                 },
             },
         },
@@ -3669,6 +3724,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.480695,
                     y = 0.596282,
+                },
+            },
+        },
+    },
+    [198349] = {
+        name = "Talikka",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.254964,
+                    y = 0.409318,
                 },
             },
         },

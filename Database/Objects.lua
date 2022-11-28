@@ -45,6 +45,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [379290] = {
+        name = "Ornamented Statue",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.671757,
+                    y = 0.307084,
+                },
+            },
+        },
+    },
     [379321] = {
         name = "Mysterious Paw Print",
         locations = {
