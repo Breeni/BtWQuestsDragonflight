@@ -1,3 +1,8 @@
+# v1.1
+
+- Added category button images
+- Fixed Opportunities Abound quest showing for non-rogues and updated it to no longer be required for Wingrest Embassy quest chain
+
 # v1.0
 
 - Added Localizations
