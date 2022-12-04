@@ -1728,6 +1728,10 @@ Database:AddChain(Chain.TempChain21, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    restrictions = {
+        type = "class",
+        id = BtWQuests.Constant.Class.Rogue,
+    },
     items = {
         {
             type = "npc",
@@ -2203,12 +2207,12 @@ Database:AddChain(Chain.TempChain41, {
     },
     active = {
         type = "quest",
-        ids = {70042, 66110, 66101},
+        ids = {66110, 66101},
         status = {'active', 'completed'},
     },
     completed = {
         type = "quest",
-        ids = {70042, 66101, 66111, 70135, 66112},
+        ids = {66101, 66111, 70135, 66112},
         count = 4,
     },
     items = {
@@ -2216,6 +2220,7 @@ Database:AddChain(Chain.TempChain41, {
             type = "chain",
             id = Chain.TempChain21,
             embed = true,
+            aside = true,
         },
         {
             type = "chain",
