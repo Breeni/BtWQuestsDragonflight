@@ -2213,7 +2213,7 @@ Database:AddChain(Chain.TempChain41, {
     completed = {
         type = "quest",
         ids = {66101, 66111, 70135, 66112},
-        count = 4,
+        count = 3,
     },
     items = {
         {
