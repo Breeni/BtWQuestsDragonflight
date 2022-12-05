@@ -1567,11 +1567,31 @@ Database:AddChain(Chain.TempChain14, {
         {
             type = "level",
             level = 70,
-        }
+        },
+        {
+            type = "achievement",
+            id = 16336,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.ValdrakkenCityOfDragons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TimeManagement,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.BigTimeAdventurer,
+        },
     },
     active = {
         type = "quest",
-        ids = {70846, 70180,},
+        ids = {70846, 72773, 70180,},
         status = {'active', 'completed'}
     },
     completed = {
@@ -1587,6 +1607,15 @@ Database:AddChain(Chain.TempChain14, {
                     restrictions = {
                         type = "quest",
                         id = 70846,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 72773,
+                    restrictions = {
+                        type = "quest",
+                        id = 72773,
                         status = { "active", "completed", },
                     },
                 },
