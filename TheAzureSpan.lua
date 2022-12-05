@@ -1086,7 +1086,7 @@ Database:AddChain(Chain.TempChain05, {
     prerequisites = LEVEL_PREREQUISITES,
     active = {
         type = "quest",
-        ids = {66262, 66263, 66264},
+        id = 66262,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1099,20 +1099,21 @@ Database:AddChain(Chain.TempChain05, {
             id = 187463,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1,
             },
         },
         {
             type = "quest",
             id = 66262,
-            x = -2,
+            x = 0,
             connections = {
-                3, 4, 5, 
+                1, 2, 
             },
         },
         {
             type = "quest",
             id = 66263,
+            x = -1,
             connections = {
                 2, 3, 4, 
             },
