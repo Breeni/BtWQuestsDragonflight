@@ -2734,4 +2734,8 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain18,
     },
+    {
+        type = "chain",
+        id = Chain.TempChain17,
+    },
 })
