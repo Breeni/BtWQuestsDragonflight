@@ -630,7 +630,7 @@ Database:AddChain(Chain.BigTimeAdventurer, {
     },
 })
 Database:AddChain(Chain.TheMotherOathstone, {
-    name = "Uknown", -- BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
+    name = L["THE_MOTHER_OATHSTONE"],
     questline = 1333,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -672,7 +672,7 @@ Database:AddChain(Chain.TheMotherOathstone, {
     },
     completed = {
         type = "quest",
-        id = 66675,
+        id = 67073,
     },
     items = {
         {
@@ -694,6 +694,14 @@ Database:AddChain(Chain.TheMotherOathstone, {
         {
             type = "quest",
             id = 66675,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67073,
             x = 0,
         },
     },
