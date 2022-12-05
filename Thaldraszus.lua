@@ -609,6 +609,15 @@ Database:AddChain(Chain.BigTimeAdventurer, {
             type = "quest",
             id = 66221,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72192,
+            aside = true,
+            x = 0,
         },
         {
             type = "quest",
