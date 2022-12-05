@@ -1701,7 +1701,15 @@ Database:AddChain(Chain.TempChain16, {
             type = "quest",
             id = 70132,
             x = 0,
-            comment = "Check Availability",
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70134,
+            x = 0,
         },
     },
 })
