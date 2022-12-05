@@ -1821,7 +1821,7 @@ Database:AddChain(Chain.TempChain16, {
     items = {
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain11,
+            id = Chain.TempChain11,
         },
         {
             type = "npc",
@@ -2018,7 +2018,7 @@ Database:AddChain(Chain.TempChain22, {
         },
         { -- ???
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
+            id = Chain.DecayedRoots,
             upto = 65849,
         },
     },
@@ -2146,7 +2146,7 @@ Database:AddChain(Chain.TempChain25, {
     items = {
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
+            id = Chain.IntoTheArchives,
             upto = 67036,
         },
         {
@@ -2285,7 +2285,7 @@ Database:AddChain(Chain.TempChain30, {
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.IntoTheArchives,
+            id = Chain.IntoTheArchives,
             upto = 67036,
         },
     },
@@ -2302,17 +2302,17 @@ Database:AddChain(Chain.TempChain30, {
     items = {
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain13,
+            id = Chain.TempChain13,
             embed = true,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain23,
+            id = Chain.TempChain23,
             embed = true,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain24,
+            id = Chain.TempChain24,
             embed = true,
         },
     }
@@ -2342,19 +2342,19 @@ Database:AddChain(Chain.TempChain31, {
     items = {
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain21,
+            id = Chain.TempChain21,
             embed = true,
             x = -3,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain19,
+            id = Chain.TempChain19,
             embed = true,
             x = -3,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain18,
+            id = Chain.TempChain18,
             embed = true,
             x = 1,
             y = 0,
@@ -2374,7 +2374,7 @@ Database:AddChain(Chain.TempChain32, {
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.DecayedRoots,
+            id = Chain.DecayedRoots,
             upto = 65849,
         },
     },
@@ -2391,22 +2391,22 @@ Database:AddChain(Chain.TempChain32, {
     items = {
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain27,
+            id = Chain.TempChain27,
             embed = true,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain28,
+            id = Chain.TempChain28,
             embed = true,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain29,
+            id = Chain.TempChain29,
             embed = true,
         },
         {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Dragonflight.TheAzureSpan.TempChain26,
+            id = Chain.TempChain26,
             embed = true,
         },
     }
@@ -2642,12 +2642,10 @@ Database:AddMapRecursive(MAP_ID, {
 })
 
 Database:AddContinentItems(CONTINENT_ID, {
---@debug@
     {
         type = "chain",
         id = Chain.TempChain01,
     },
---@end-debug@
     {
         type = "chain",
         id = Chain.TempChain02,
@@ -2656,12 +2654,10 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain03,
     },
---@debug@
     {
         type = "chain",
         id = Chain.TempChain04,
     },
---@end-debug@
     {
         type = "chain",
         id = Chain.TempChain05,
@@ -2693,5 +2689,49 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.TempChain12,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain27,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain28,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain29,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain26,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain22,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain13,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain23,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain24,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain21,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain19,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain18,
     },
 })
