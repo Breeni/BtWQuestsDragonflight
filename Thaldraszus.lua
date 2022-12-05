@@ -43,6 +43,7 @@ Chain.TempChain12 = 100422
 Chain.TempChain13 = 100423
 Chain.TempChain14 = 100424
 Chain.TempChain15 = 100425
+Chain.TempChain16 = 100426
 Chain.OtherAlliance = 100497
 Chain.OtherHorde = 100498
 Chain.OtherBoth = 100499
@@ -1732,6 +1733,122 @@ Database:AddChain(Chain.TempChain15, {
         },
     },
 })
+Database:AddChain(Chain.TempChain16, {
+    name = L["BORN_TO_BE_WILDER"],
+    questline = 1366,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 66, },
+            },
+        },
+        {
+            type = "achievement",
+            id = 16336,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.ValdrakkenCityOfDragons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TimeManagement,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.BigTimeAdventurer,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70647,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70854,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 185563,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70647,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70697,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70722,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70732,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70849,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70851,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70853,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70854,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -1855,6 +1972,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TempChain11,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain16,
         },
 --@debug@
         {
