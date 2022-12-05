@@ -629,83 +629,6 @@ Database:AddChain(Chain.BigTimeAdventurer, {
         },
     },
 })
-Database:AddChain(Chain.TheMotherOathstone, {
-    name = L["THE_MOTHER_OATHSTONE"],
-    questline = 1333,
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    major = true,
-    prerequisites = {
-        {
-            type = "level",
-            variations = {
-                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
-                { level = 66, },
-            },
-        },
-        {
-            type = "achievement",
-            id = 16336,
-            lowPriority = true,
-            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
-        },
-        {
-            type = "chain",
-            id = Chain.ValdrakkenCityOfDragons,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.TimeManagement,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.BigTimeAdventurer,
-        },
-    },
-    active = {
-        type = "quest",
-        id = 70437,
-        status = {'active', 'completed'},
-    },
-    completed = {
-        type = "quest",
-        id = 67073,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 186931,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 70437,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 66675,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 67073,
-            x = 0,
-        },
-    },
-})
 Database:AddChain(Chain.TempChain01, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_2, 1),
     category = CATEGORY_ID,
@@ -1934,12 +1857,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.BigTimeAdventurer,
         },
---@debug@
-        {
-            type = "chain",
-            id = Chain.TheMotherOathstone,
-        },
---@end-debug@
         {
             type = "chain",
             id = Chain.TempChain14,
