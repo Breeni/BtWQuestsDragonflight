@@ -55,6 +55,7 @@ Chain.TempChain38 = 100148
 Chain.TempChain39 = 100149
 Chain.TempChain40 = 100150
 Chain.TempChain41 = 100151
+Chain.TempChain42 = 100152
 
 Chain.OtherAlliance = 100197
 Chain.OtherHorde = 100198
@@ -2234,6 +2235,49 @@ Database:AddChain(Chain.TempChain41, {
         },
     },
 })
+Database:AddChain(Chain.TempChain42, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "quest",
+            id = 65998,
+        },
+        {
+            type = "quest",
+            id = 65999,
+        },
+        {
+            type = "quest",
+            id = 66000,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70179,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70179,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 194525,
+            x = 0,
+            connections = {
+                1
+            }
+        },
+        {
+            type = "quest",
+            id = 70179,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -2459,6 +2503,10 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.TempChain34,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain42,
     },
 --@debug@
     {
