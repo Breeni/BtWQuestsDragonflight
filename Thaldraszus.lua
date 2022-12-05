@@ -1575,6 +1575,9 @@ Database:AddChain(Chain.TempChain13, {
         {
             type = "level",
             level = 70,
+        },
+        {
+            name = L["UNKNOWN"]
         }
     },
     active = {
@@ -1607,7 +1610,6 @@ Database:AddChain(Chain.TempChain13, {
             connections = {
                 1, 
             },
-            comments = "Unknown requirements",
         },
         {
             type = "quest",
