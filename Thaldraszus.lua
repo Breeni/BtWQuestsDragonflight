@@ -1639,6 +1639,7 @@ Database:AddChain(Chain.TempChain14, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    major = true,
     prerequisites = {
         {
             type = "level",
@@ -1941,6 +1942,10 @@ Database:AddCategory(CATEGORY_ID, {
 --@end-debug@
         {
             type = "chain",
+            id = Chain.TempChain14,
+        },
+        {
+            type = "chain",
             id = Chain.TempChain01,
         },
         {
@@ -1970,10 +1975,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TempChain08,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain14,
         },
         {
             type = "chain",
