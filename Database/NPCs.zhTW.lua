@@ -36,6 +36,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [184793] = {
         name = "娜蕾迪亞‧河光",
     },
+    [185563] = {
+        name = "吉哈納",
+    },
     [185599] = {
         name = "『智者』瑪蘇德",
     },
@@ -71,6 +74,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [186446] = {
         name = "納帕長者",
+    },
+    [186480] = {
+        name = "布蕾娜",
     },
     [186503] = {
         name = "葛瑞克斯",
@@ -116,6 +122,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187669] = {
         name = "諾茲多姆",
+    },
+    [187674] = {
+        name = "尼洛",
     },
     [187676] = {
         name = "卡雷苟斯",
@@ -294,11 +303,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [196254] = {
         name = "卡提加",
     },
+    [196499] = {
+        name = "瑟拉澤爾",
+    },
     [196812] = {
         name = "老厲牙",
     },
     [196827] = {
         name = "護蟹者卡迪爾薩",
+    },
+    [196841] = {
+        name = "娜露琪",
     },
     [197533] = {
         name = "道路守衛羅林",

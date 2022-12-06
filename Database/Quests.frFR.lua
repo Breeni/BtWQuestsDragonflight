@@ -1749,11 +1749,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Alimentation du moteur",
     },
+    [70647] = {
+        name = "Où peut-il bien être ?",
+    },
     [70648] = {
         name = "Firava le Raviveur",
     },
+    [70697] = {
+        name = "L’avis d’une experte",
+    },
     [70721] = {
         name = "Là où mon cœur me porte",
+    },
+    [70722] = {
+        name = "Les besoins de Lubbins",
     },
     [70730] = {
         name = "Générosité shikaar",
@@ -1914,6 +1923,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Archivistes imprévisibles",
     },
+    [71196] = {
+        name = "Apprivoiser une échine-de-tonnerre",
+    },
     [71212] = {
         name = "À l’assaut des Fougerobes",
     },
@@ -1943,6 +1955,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72190] = {
         name = "Les réserves du réservoir",
+    },
+    [72192] = {
+        name = "Salles de l’Imprégnation : du chaos à l’ordre",
     },
     [72193] = {
         name = "Académie d’Algeth’ar",
@@ -1976,6 +1991,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Orientation : Valdrakken",
+    },
+    [72773] = {
+        name = "Apprentissage d’ingéniosité",
+    },
+    [72783] = {
+        name = "Commandes d’artisanat",
     },
 })
 ]])()

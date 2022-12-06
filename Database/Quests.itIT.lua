@@ -1728,14 +1728,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Alimentare il Motore",
     },
+    [70647] = {
+        name = "Oh, dove, oh, dove mai sarà?",
+    },
     [70648] = {
         name = "Firava il Riaccenditore",
+    },
+    [70697] = {
+        name = "L'opinione dell'esperta",
     },
     [70721] = {
         name = "Proposta di matrimohnio",
     },
+    [70722] = {
+        name = "Le necessità di Lubbins",
+    },
     [70730] = {
         name = "Generosità degli Shikaar",
+    },
+    [70732] = {
+        name = "Uno scontro amichevole",
     },
     [70738] = {
         name = "La lezione di yoga",
@@ -1893,6 +1905,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Archivisti ribelli",
     },
+    [71196] = {
+        name = "Domare uno spinatonante",
+    },
     [71212] = {
         name = "Attaccare i Felcepelle",
     },
@@ -1922,6 +1937,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72190] = {
         name = "Riserve del bacino",
+    },
+    [72192] = {
+        name = "Sale dell'Infusione: Entropia su ordinazione",
     },
     [72193] = {
         name = "L'Accademia di Algeth'ar",
@@ -1955,6 +1973,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Orientamento: Valdrakken",
+    },
+    [72773] = {
+        name = "Apprendere l'ingegno",
+    },
+    [72783] = {
+        name = "Ordini d'Artigianato",
     },
 })
 ]])()

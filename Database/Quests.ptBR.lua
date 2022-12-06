@@ -1476,6 +1476,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68799] = {
         name = "Volte ao Santuário da Vida Rubi",
     },
+    [69093] = {
+        name = "Um novo mistério",
+    },
     [69094] = {
         name = "Salvando centauro",
     },
@@ -1737,14 +1740,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Energizando o Engenho",
     },
+    [70647] = {
+        name = "Ah, onde é que ele foi parar?",
+    },
     [70648] = {
         name = "Firava Reavivada",
+    },
+    [70697] = {
+        name = "Uma opinião de especialista",
     },
     [70721] = {
         name = "Para Ohn'ir dois corações",
     },
+    [70722] = {
+        name = "As necessidades de Traco",
+    },
     [70730] = {
         name = "Doação Shikaar",
+    },
+    [70732] = {
+        name = "Uma luta de treino",
     },
     [70738] = {
         name = "A aula de yog-ai",
@@ -1785,8 +1800,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70846] = {
         name = "Expedição Escama de Dragão: pedido de ajuda!",
     },
+    [70849] = {
+        name = "Isso pede uma especialista",
+    },
     [70850] = {
         name = "Chapa quente para a Maldra",
+    },
+    [70851] = {
+        name = "Nascido e criado na selva",
+    },
+    [70853] = {
+        name = "Um amigo para o Traco",
+    },
+    [70854] = {
+        name = "Então, como foi?",
     },
     [70856] = {
         name = "Bota fogo",
@@ -1826,6 +1853,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [70931] = {
         name = "Fragmentos sussurrados",
+    },
+    [70934] = {
+        name = "Abraço da Salamantra",
     },
     [70937] = {
         name = "O que Valthrux outrora foi",
@@ -1902,6 +1932,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Arquivistas errantes",
     },
+    [71195] = {
+        name = "Domando um dorso-do-trovão",
+    },
+    [71196] = {
+        name = "Domando um dorso-do-trovão",
+    },
+    [71197] = {
+        name = "Domando um dorso-do-trovão",
+    },
+    [71198] = {
+        name = "Domando um dorso-do-trovão",
+    },
+    [71199] = {
+        name = "Domando um dorso-do-trovão",
+    },
     [71212] = {
         name = "Atacando os Courambaia",
     },
@@ -1931,6 +1976,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72190] = {
         name = "Reservas do reservatório",
+    },
+    [72192] = {
+        name = "Salões da Infusão: da entropia à ordem",
     },
     [72193] = {
         name = "A Academia Algeth'ar",
@@ -1964,6 +2012,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Orientação: Valdrakken",
+    },
+    [72773] = {
+        name = "Aprendendo a ingenuidade",
+    },
+    [72783] = {
+        name = "Pedidos de criação",
     },
 })
 ]])()

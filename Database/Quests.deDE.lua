@@ -1473,6 +1473,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68799] = {
         name = "Rückkehr zum Rubinlebensschrein",
     },
+    [69093] = {
+        name = "Ein neues Mysterium",
+    },
     [69094] = {
         name = "Zentauren retten",
     },
@@ -1734,14 +1737,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Die Maschine auf Touren bringen",
     },
+    [70647] = {
+        name = "Wo nur, wo könnte er bloß sein?",
+    },
     [70648] = {
         name = "Firava der Entzünder",
+    },
+    [70697] = {
+        name = "Eine Expertenmeinung",
     },
     [70721] = {
         name = "So schön, ich fall in Ohn'macht...",
     },
+    [70722] = {
+        name = "Was Lubbins braucht",
+    },
     [70730] = {
         name = "Geber der Shikaar",
+    },
+    [70732] = {
+        name = "Übungskampf",
     },
     [70738] = {
         name = "Die Yougaklasse",
@@ -1782,8 +1797,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70846] = {
         name = "Drachenschuppenexpedition: Hilfe gesucht!",
     },
+    [70849] = {
+        name = "Das schreit nach einem Spezialisten",
+    },
     [70850] = {
         name = "Maldra steht das Wasser bis zum Hals",
+    },
+    [70851] = {
+        name = "Extreme Wildheit im Blut",
+    },
+    [70853] = {
+        name = "Ein Freund für Lubbins",
+    },
+    [70854] = {
+        name = "Wie ist es gelaufen?",
     },
     [70856] = {
         name = "Tötet sie mit Feuer",
@@ -1823,6 +1850,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [70931] = {
         name = "Flüsternde Fragmente",
+    },
+    [70934] = {
+        name = "Umarmung des Salamanthers",
     },
     [70937] = {
         name = "Was Valthrux einst war",
@@ -1899,6 +1929,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Archivare auf Abwegen",
     },
+    [71195] = {
+        name = "Donnerrückgrat zähmen leicht gemacht",
+    },
+    [71196] = {
+        name = "Donnerrückgrat zähmen leicht gemacht",
+    },
+    [71197] = {
+        name = "Donnerrückgrat zähmen leicht gemacht",
+    },
+    [71198] = {
+        name = "Donnerrückgrat zähmen leicht gemacht",
+    },
+    [71199] = {
+        name = "Donnerrückgrat zähmen leicht gemacht",
+    },
     [71212] = {
         name = "Angriff auf die Brackenfelle",
     },
@@ -1928,6 +1973,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72190] = {
         name = "Reservoirreservierungen",
+    },
+    [72192] = {
+        name = "Hallen der Infusion: Entropie zu Ordnung",
     },
     [72193] = {
         name = "Die Akademie von Algeth'ar",
@@ -1961,6 +2009,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Ausrichtung: Valdrakken",
+    },
+    [72773] = {
+        name = "Genialität erlernen",
+    },
+    [72783] = {
+        name = "Handwerksaufträge",
     },
 })
 ]])()

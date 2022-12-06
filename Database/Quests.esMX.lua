@@ -1473,6 +1473,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68799] = {
         name = "Regreso al Santuario Vital Rubí",
     },
+    [69093] = {
+        name = "Un nuevo misterio",
+    },
     [69094] = {
         name = "Rescate de centauros",
     },
@@ -1734,14 +1737,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Activación de la máquina",
     },
+    [70647] = {
+        name = "¿Dónde estará? ¿DÓNDE ESTARÁ?",
+    },
     [70648] = {
         name = "Llamarava, el Reavivador",
+    },
+    [70697] = {
+        name = "Una opinión experta",
     },
     [70721] = {
         name = "Corazohnes gemelos",
     },
+    [70722] = {
+        name = "Las necesidades de Lubín",
+    },
     [70730] = {
         name = "Propuesta shikaar",
+    },
+    [70732] = {
+        name = "Una pelea de práctica",
     },
     [70738] = {
         name = "La clase de yogau",
@@ -1782,8 +1797,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70846] = {
         name = "Expedición Dragontina: ¡búsqueda laboral!",
     },
+    [70849] = {
+        name = "En busca de una especialista",
+    },
     [70850] = {
         name = "Maldra en agua hirviendo",
+    },
+    [70851] = {
+        name = "Naturaleza salvaje",
+    },
+    [70853] = {
+        name = "Un amigo para Lubín",
+    },
+    [70854] = {
+        name = "Dime, ¿cómo te fue?",
     },
     [70856] = {
         name = "El fuego todo lo purifica",
@@ -1823,6 +1850,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [70931] = {
         name = "Fragmentos y susurros",
+    },
+    [70934] = {
+        name = "Calor de salamantra",
     },
     [70937] = {
         name = "Lo que Valthrux supo ser",
@@ -1899,6 +1929,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Archivistas empecinados",
     },
+    [71195] = {
+        name = "Cómo domar a tu truenoespín",
+    },
+    [71196] = {
+        name = "Cómo domar a tu truenoespín",
+    },
+    [71197] = {
+        name = "Cómo domar a tu truenoespín",
+    },
+    [71198] = {
+        name = "Cómo domar a tu truenoespín",
+    },
+    [71199] = {
+        name = "Cómo domar a tu truenoespín",
+    },
     [71212] = {
         name = "Ataque a los Frondacuero",
     },
@@ -1929,6 +1974,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72190] = {
         name = "Problemas en la reserva",
     },
+    [72192] = {
+        name = "Salas de Infusión: La entropía del orden",
+    },
     [72193] = {
         name = "La Academia Algeth'ar",
     },
@@ -1958,6 +2006,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Orientación: Valdrakken",
+    },
+    [72773] = {
+        name = "Ingenio y sagacidad",
+    },
+    [72783] = {
+        name = "Pedidos de fabricación",
     },
 })
 ]])()

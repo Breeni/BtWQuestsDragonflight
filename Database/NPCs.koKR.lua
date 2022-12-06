@@ -36,6 +36,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [184793] = {
         name = "날레디아 리버글림",
     },
+    [185563] = {
+        name = "자이한나",
+    },
     [185599] = {
         name = "현자 마수드",
     },
@@ -71,6 +74,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [186446] = {
         name = "장로 나파",
+    },
+    [186480] = {
+        name = "브레나",
     },
     [186503] = {
         name = "그라쿠스",
@@ -116,6 +122,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187669] = {
         name = "노즈도르무",
+    },
+    [187674] = {
+        name = "닐로",
     },
     [187676] = {
         name = "칼렉고스",
@@ -294,11 +303,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [196254] = {
         name = "카티가트",
     },
+    [196499] = {
+        name = "테라잘",
+    },
     [196812] = {
         name = "늙은 음울엄니",
     },
     [196827] = {
         name = "게 사육사 카디르자",
+    },
+    [196841] = {
+        name = "날루키",
     },
     [197533] = {
         name = "길잡이 로린",

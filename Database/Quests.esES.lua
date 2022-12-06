@@ -1740,14 +1740,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70633] = {
         name = "Combustible para el motor",
     },
+    [70647] = {
+        name = "Ay, ay, ¿dónde estará, dónde estará?",
+    },
     [70648] = {
         name = "Firava el Reavivador",
+    },
+    [70697] = {
+        name = "Una opinión experta",
     },
     [70721] = {
         name = "Mi corazón de Ohn",
     },
+    [70722] = {
+        name = "Lo que Loche necesita",
+    },
     [70730] = {
         name = "Asignador Shikaar",
+    },
+    [70732] = {
+        name = "Un duelo de práctica",
     },
     [70738] = {
         name = "Clase de youga",
@@ -1905,6 +1917,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71182] = {
         name = "Archivistas díscolos",
     },
+    [71196] = {
+        name = "Domesticar un espinatrueno",
+    },
     [71212] = {
         name = "Atacar a los Frondacuero",
     },
@@ -1934,6 +1949,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72190] = {
         name = "Reservas sobre la reserva",
+    },
+    [72192] = {
+        name = "Salas de Infusión: Entropía al orden",
     },
     [72193] = {
         name = "La Academia Algeth'ar",
@@ -1967,6 +1985,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72406] = {
         name = "Orientación: Valdrakken",
+    },
+    [72773] = {
+        name = "Aprendizaje de inventiva",
+    },
+    [72783] = {
+        name = "Pedidos de fabricación",
     },
 })
 ]])()

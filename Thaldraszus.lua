@@ -1,5 +1,3 @@
--- AUTO GENERATED - NEEDS UPDATING
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local L = BtWQuests.L
@@ -27,7 +25,6 @@ local LEVEL_PREREQUISITES = {
 Chain.ValdrakkenCityOfDragons = 100401
 Chain.TimeManagement = 100402
 Chain.BigTimeAdventurer = 100403
-Chain.TheMotherOathstone = 100404
 Chain.TempChain01 = 100411
 Chain.TempChain02 = 100412
 Chain.TempChain03 = 100413
@@ -1914,10 +1911,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.BigTimeAdventurer,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain14,
         },
         {
             type = "chain",

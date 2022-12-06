@@ -36,6 +36,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [184793] = {
         name = "娜蕾迪亚·流光",
     },
+    [185563] = {
+        name = "扎哈纳",
+    },
     [185599] = {
         name = "睿智的玛苏德",
     },
@@ -71,6 +74,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [186446] = {
         name = "长老纳帕",
+    },
+    [186480] = {
+        name = "布莉娜",
     },
     [186503] = {
         name = "格拉库斯",
@@ -116,6 +122,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187669] = {
         name = "诺兹多姆",
+    },
+    [187674] = {
+        name = "尼娄",
     },
     [187676] = {
         name = "卡雷苟斯",
@@ -294,11 +303,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [196254] = {
         name = "卡蒂加特",
     },
+    [196499] = {
+        name = "瑟拉扎尔",
+    },
     [196812] = {
         name = "老灰牙",
     },
     [196827] = {
         name = "螃蟹照看者卡德伊尔萨",
+    },
+    [196841] = {
+        name = "纳鲁姬",
     },
     [197533] = {
         name = "守路者洛琳",

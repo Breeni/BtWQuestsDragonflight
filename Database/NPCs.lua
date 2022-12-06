@@ -375,6 +375,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [185563] = {
+        name = "Jyhanna",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.104303,
+                    y = 0.582895,
+                },
+            },
+        },
+    },
     [185599] = {
         name = "Masud the Wise",
         locations = {
@@ -459,6 +470,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.374318,
                     y = 0.46617,
+                },
+            },
+        },
+    },
+    [185651] = {
+        name = "Akunda the Cataloger",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.498825,
+                    y = 0.684088,
                 },
             },
         },
@@ -1068,6 +1090,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [186870] = {
+        name = "Naleidea Rivergleam",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.544864,
+                    y = 0.556778,
+                },
+            },
+        },
+    },
     [186883] = {
         name = "Scalecommander Cindrethresh",
         locations = {
@@ -1500,6 +1533,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [187707] = {
+        name = "Cataloger Coralie",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.485544,
+                    y = 0.826735,
+                },
+            },
+        },
+    },
     [187721] = {
         name = "Brena",
         locations = {
@@ -1833,6 +1877,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [189066] = {
+        name = "Thaelin Darkanvil",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.472013,
+                    y = 0.902475,
+                },
+            },
+        },
+    },
     [189077] = {
         name = "Toddy Whiskers",
         locations = {
@@ -1923,6 +1978,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [189226] = {
         name = "Cataloger Jakes",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.471135,
+                    y = 0.825795,
+                },
+            },
+        },
     },
     [189236] = {
         name = "Lathos Sunband",
@@ -2100,6 +2163,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [189764] = {
+        name = "Warpcaster Delandra",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.459311,
+                    y = 0.406556,
+                },
+            },
+        },
+    },
     [189791] = {
         name = "Rannan Korren",
         locations = {
@@ -2255,7 +2329,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [190171] = {
-        name = "Sendrax",
+        name = "Ruby Egg Guardian",
         locations = {
             [2022] = {
                 {
@@ -2496,6 +2570,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [190855] = {
+        name = "Naleidea Rivergleam",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.622395,
+                    y = 0.182852,
+                },
+            },
+        },
+    },
     [190866] = {
         name = "Akora",
         locations = {
@@ -2536,17 +2621,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.190501,
                     y = 0.23969,
-                },
-            },
-        },
-    },
-    [190902] = {
-        name = "Alexstrasza the Life-Binder",
-        locations = {
-            [2025] = {
-                {
-                    x = 0.725111,
-                    y = 0.561667,
                 },
             },
         },
@@ -2628,6 +2702,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [191159] = {
+        name = "Toddy Whiskers",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.399576,
+                    y = 0.675012,
+                },
+            },
+        },
+    },
     [191174] = {
         name = "Vaeros",
         locations = {
@@ -2683,6 +2768,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [191369] = {
+        name = "Watcher Koranos",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.543982,
+                    y = 0.409369,
+                },
+            },
+        },
+    },
     [191485] = {
         name = "Scout Tomul",
         locations = {
@@ -2695,7 +2791,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [191494] = {
-        name = "Khanam Matra Sarest",
+        name = "Teerai Battlemaster",
         locations = {
             [2023] = {
                 {
@@ -2859,6 +2955,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [192480] = {
+        name = "Watcher Koranos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.581532,
+                    y = 0.588349,
+                },
+            },
+        },
+    },
+    [192496] = {
+        name = "Keeper Tyr",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.621972,
+                    y = 0.592045,
+                },
+            },
+        },
+    },
     [192498] = {
         name = "Haephesta",
         locations = {
@@ -2899,6 +3017,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.602815,
                     y = 0.818572,
+                },
+            },
+        },
+    },
+    [192573] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.621256,
+                    y = 0.592849,
                 },
             },
         },
@@ -3079,6 +3208,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [193350] = {
+        name = "Naleidea Rivergleam",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.53876,
+                    y = 0.506992,
+                },
+            },
+        },
+    },
     [193359] = {
         name = "Lord Andestrasz",
         locations = {
@@ -3234,7 +3374,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [193985] = {
-        name = "Initiate Zorig",
+        name = "Ohn'ir Initiate",
         locations = {
             [2023] = {
                 {
@@ -3355,7 +3495,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [194812] = {
-        name = "Cae'Ryn",
+        name = "Elzara",
         locations = {
             [2025] = {
                 {
@@ -3453,6 +3593,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [196069] = {
+        name = "Patchu",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.138852,
+                    y = 0.49845,
+                },
+            },
+        },
+    },
     [196160] = {
         name = "Quilius",
         locations = {
@@ -3471,6 +3622,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.672124,
                     y = 0.44403,
+                },
+            },
+        },
+    },
+    [196264] = {
+        name = "Haniko",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.389068,
+                    y = 0.832749,
                 },
             },
         },
@@ -3537,6 +3699,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.843527,
                     y = 0.535561,
+                },
+            },
+        },
+    },
+    [196499] = {
+        name = "Therazal",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.501368,
+                    y = 0.562137,
                 },
             },
         },

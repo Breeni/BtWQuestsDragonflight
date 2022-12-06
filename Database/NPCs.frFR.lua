@@ -81,6 +81,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [187495] = {
         name = "Irion",
     },
+    [187674] = {
+        name = "Nilo",
+    },
     [187678] = {
         name = "Alexstrasza la Lieuse-de-Vie",
     },
@@ -197,6 +200,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [196066] = {
         name = "Grizik Rasfitodoigt",
+    },
+    [196499] = {
+        name = "Thérazal",
     },
     [196812] = {
         name = "Vieux Défense-Sinistre",
