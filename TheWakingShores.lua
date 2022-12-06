@@ -2,6 +2,7 @@
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.TheWakingShores
 local Chain = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores
@@ -56,6 +57,8 @@ Chain.TempChain39 = 100149
 Chain.TempChain40 = 100150
 Chain.TempChain41 = 100151
 Chain.TempChain42 = 100152
+Chain.TempChain43 = 100153
+Chain.TempChain44 = 100154
 
 Chain.OtherAlliance = 100197
 Chain.OtherHorde = 100198
@@ -2286,6 +2289,144 @@ Database:AddChain(Chain.TempChain42, {
         },
     },
 })
+Database:AddChain(Chain.TempChain43, {
+    name = L["ANCIENT_WAYGATES"],
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "currency",
+            id = 2021,
+            amount = 7,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {66595, 66597,},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70156,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 66595,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66597,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66598,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70215,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66582,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70154,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70156,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain44, {
+    name = L["CATALOGING_THE_EXPEIDITION"],
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "currency",
+            id = 2021,
+            amount = 8,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {69869, 72525,},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70179,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 69869,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72525,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69870,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65486,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -2428,6 +2569,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain13,
         },
+        {
+            type = "chain",
+            id = Chain.TempChain43,
+        },
 --@debug@
         {
             type = "chain",
@@ -2523,6 +2668,10 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.TempChain23,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain43,
     },
 --@debug@
     {
