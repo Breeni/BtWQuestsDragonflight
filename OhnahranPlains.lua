@@ -42,6 +42,7 @@ Chain.TempChain13 = 100223
 Chain.TempChain14 = 100224
 Chain.TempChain15 = 100225
 Chain.TempChain16 = 100226
+Chain.TempChain17 = 100227
 
 Chain.OtherAlliance = 100297
 Chain.OtherHorde = 100298
@@ -1727,6 +1728,86 @@ Database:AddChain(Chain.TempChain16, {
         },
     },
 })
+Database:AddChain(Chain.TempChain17, {
+    name = { -- To Tame A Thunderspine
+        type = "quest",
+        id = 71195,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain02,
+        },
+        {
+            type = "currency",
+            id = 2002,
+            amount = 9,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 71196,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 71195,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 190014,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71196,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71197,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71198,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71199,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71195,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -1865,6 +1946,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain16,
         },
+        {
+            type = "chain",
+            id = Chain.TempChain17,
+        },
 --@debug@
         {
             type = "chain",
@@ -1929,7 +2014,6 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain09,
     },
---@debug@
     {
         type = "chain",
         id = Chain.TempChain10,
@@ -1946,5 +2030,8 @@ Database:AddContinentItems(CONTINENT_ID, {
         type = "chain",
         id = Chain.TempChain16,
     },
---@end-debug@
+    {
+        type = "chain",
+        id = Chain.TempChain17,
+    },
 })
