@@ -1394,6 +1394,35 @@ Database:AddChain(Chain.TempChain10, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 66, },
+            },
+        },
+        {
+            type = "achievement",
+            id = 16336,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.ValdrakkenCityOfDragons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TimeManagement,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70040,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 66468,
@@ -1934,11 +1963,11 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain16,
         },
---@debug@
         {
             type = "chain",
             id = Chain.TempChain10,
         },
+--@debug@
         {
             type = "chain",
             id = Chain.TempChain09,
@@ -2001,6 +2030,10 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.TempChain06,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain10,
     },
 --@debug@
     {
