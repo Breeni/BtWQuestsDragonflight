@@ -7,19 +7,30 @@ local L = BtWQuests.L
 local Database = BtWQuests.Database
 BtWQuests.Constant.Expansions.Dragonflight = LE_EXPANSION_DRAGONFLIGHT or 9
 
+if BtWQuests.Characters.AddCurrency then
+    BtWQuests.Characters:AddCurrency(2002);
+    BtWQuests.Characters:AddCurrency(2021);
+    BtWQuests.Characters:AddCurrency(2087);
+    BtWQuests.Characters:AddCurrency(2088);
+end
+
 BtWQuests.Constant.Category.Dragonflight = {
     TheWakingShores = 1001,
     OhnahranPlains = 1002,
     TheAzureSpan = 1003,
     Thaldraszus = 1004,
+    Dragonflight = 1005,
 }
 BtWQuests.Constant.Chain.Dragonflight = {
     DracthyrAwaken = 100001,
-    RedDawn = 100002,
+    DragonIslesEmissary = 100002,
+    TheMotherOathstone = 100003,
+    TheSparkOfIngenuity = 100004,
     TheWakingShores = {},
     OhnahranPlains = {},
     TheAzureSpan = {},
     Thaldraszus = {},
+    Dragonflight = {},
 }
 
 BtWQuests.Constant.Restrictions.DragonflightToF = -100001;

@@ -1,8 +1,11 @@
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local Category = BtWQuests.Constant.Category.Dragonflight
 local Chain = BtWQuests.Constant.Chain.Dragonflight
+local THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.DragonflightToF
+local NOT_THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.NOTDragonflightToF
 local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = 924, 923
 local LEVEL_RANGE = {58, 70}
 local LEVEL_PREREQUISITES = {
@@ -346,22 +349,90 @@ Database:AddChain(Chain.DracthyrAwaken, {
         },
     },
 })
-Database:AddChain(Chain.RedDawn, {
-    name = "Red Dawn",
+Database:AddChain(Chain.DragonIslesEmissary, {
+    name = L["DRAGON_ISLES_EMISSARY"],
+    questline = 1367,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {70846, 72773, 70180,},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 70633,
+    },
+    items = {
+    },
+})
+Database:AddChain(Chain.TheMotherOathstone, {
+    name = L["THE_MOTHER_OATHSTONE"],
+    questline = 1333,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            variations = {
+                { level = 58, restrictions = THREADS_OF_FATE_RESTRICTION, },
+                { level = 66, },
+            },
+        },
+        {
+            type = "achievement",
+            id = 16336,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.Thaldraszus.ValdrakkenCityOfDragons,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.Thaldraszus.TimeManagement,
+            lowPriority = true,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+        {
+            type = "chain",
+            id = Chain.Thaldraszus.BigTimeAdventurer,
+            restrictions = NOT_THREADS_OF_FATE_RESTRICTION,
+        },
+    },
     completed = {
         type = "quest",
         ids = { 65613, 65101, },
     },
     items = {
         {
-            type = "chain",
-            id = 100404,
+            type = "npc",
+            id = 187678,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
-            type = "npc",
-            id = 192455,
+            type = "quest",
+            id = 70437,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66675,
             x = 0,
             connections = {
                 1, 
@@ -377,7 +448,105 @@ Database:AddChain(Chain.RedDawn, {
         },
         {
             type = "quest",
-            id = 71232,
+            id = 66847,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TheSparkOfIngenuity, {
+    name = L["SPARK_OF_INGENUITY"],
+    questline = 1390,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {70846, 72773, 70180,},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 70633,
+    },
+    items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 70846,
+                    restrictions = {
+                        type = "quest",
+                        id = 70846,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 72773,
+                    restrictions = {
+                        type = "quest",
+                        id = 72773,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 196066,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70180,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70845,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70181,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70182,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70633,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72783,
             x = 0,
         },
     },
@@ -390,6 +559,22 @@ if not IsAddOnLoaded("BtWQuestsDragonflightPrologue") then
         },
     })
 end
+BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
+--@debug@
+    {
+        type = "chain",
+        id = Chain.DragonIslesEmissary,
+    },
+    {
+        type = "chain",
+        id = Chain.TheMotherOathstone,
+    },
+--@end-debug@
+    {
+        type = "chain",
+        id = Chain.TheSparkOfIngenuity,
+    },
+})
 
 -- The Forbidden Reach
 Database:AddMapRecursive(2107, {
