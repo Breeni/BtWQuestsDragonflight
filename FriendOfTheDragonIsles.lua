@@ -6,6 +6,7 @@ local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.Dragonflight
 local Chain = BtWQuests.Constant.Chain.Dragonflight.Dragonflight
 local THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.DragonflightToF
 local NOT_THREADS_OF_FATE_RESTRICTION = BtWQuests.Constant.Restrictions.NOTDragonflightToF
+local CONTINENT_ID = 1978
 local ACHIEVEMENT_ID_1 = 16808
 local LEVEL_RANGE = {70, 70}
 
@@ -15,6 +16,7 @@ Chain.TheSilverPurpose = 100503
 Chain.InTheHallsOfTitans = 100504
 Chain.GardenOfSecrets = 100505
 Chain.TheDreamer = 100506
+Chain.EmbedChain01 = 100511
 
 Database:AddChain(Chain.TheChieftainsDuty, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
@@ -150,7 +152,7 @@ Database:AddChain(Chain.TheChieftainsDuty, {
         },
         {
             type = "chain",
-            id = 100511,
+            id = Chain.EmbedChain01,
             embed = true,
             x = 3,
             y = 3,
@@ -463,6 +465,48 @@ Database:AddChain(Chain.TheDreamer, {
     },
 })
 
+Database:AddChain(Chain.EmbedChain01, {
+    questline = 1388,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            type = "currency",
+            id = 2087,
+            amount = 11,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66413,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 66413,
+    },
+    items = {
+        {
+            type = "object",
+            id = 384405,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66413,
+            x = 0,
+        },
+    }
+})
+
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetAchievementNameDelayed(ACHIEVEMENT_ID_1),
     expansion = EXPANSION_ID,
@@ -500,5 +544,12 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
         type = "category",
         id = CATEGORY_ID,
+    },
+})
+
+Database:AddContinentItems(CONTINENT_ID, {
+    {
+        type = "chain",
+        id = Chain.EmbedChain01,
     },
 })
