@@ -279,14 +279,18 @@ Database:AddChain(Chain.TheSilverPurpose, {
             level = 70,
         },
         {
-            type = "currency",
-            id = 2088,
-            amount = 12,
-        },
+            name = {
+                type = "currency",
+                id = 2088,
+                amount = 12,
+            },
+            type = "achievement",
+            id = 16988, -- Account bound achievement for Rank 12
+        }
     },
     active = {
         type = "quest",
-        ids = {68794, 67074,},
+        id = 67074,
         status = {'active', 'completed'}
     },
     completed = {
@@ -294,7 +298,7 @@ Database:AddChain(Chain.TheSilverPurpose, {
         id = 67084,
     },
     items = {
-        {
+        { -- Dont track this quest for active since its flagged completed account bound
             type = "quest",
             id = 68794,
             x = 0,
