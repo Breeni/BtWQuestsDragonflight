@@ -261,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192830] = {
         name = "Стерия Закатная Роща",
     },
+    [193006] = {
+        name = "Мурик",
+    },
     [193015] = {
         name = "Унатос",
     },

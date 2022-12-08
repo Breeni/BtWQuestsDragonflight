@@ -1376,6 +1376,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [187323] = {
+        name = "Tutaqan",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.537009,
+                    y = 0.379669,
+                },
+            },
+        },
+    },
     [187344] = {
         name = "Andantenormu",
         locations = {
@@ -1745,6 +1756,28 @@ BtWQuestsDatabase:AddNPCsTable({
     [188265] = {
         name = "Rae'ana",
     },
+    [188283] = {
+        name = "Elder Unujaak",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.536576,
+                    y = 0.379147,
+                },
+            },
+        },
+    },
+    [188285] = {
+        name = "Crafter Kuliqa",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.536475,
+                    y = 0.380047,
+                },
+            },
+        },
+    },
     [188297] = {
         name = "Caretaker Ventraz",
         locations = {
@@ -1752,6 +1785,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.590999,
                     y = 0.348435,
+                },
+            },
+        },
+    },
+    [188301] = {
+        name = "Guard Hakota",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.551198,
+                    y = 0.382631,
                 },
             },
         },
@@ -3153,6 +3197,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [193006] = {
+        name = "Murik",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.131412,
+                    y = 0.492664,
+                },
+            },
+        },
+    },
     [193015] = {
         name = "Unatos",
         locations = {
@@ -3413,6 +3468,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.621799,
                     y = 0.705666,
+                },
+            },
+        },
+    },
+    [194323] = {
+        name = "Hudson",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.08684,
+                    y = 0.535242,
                 },
             },
         },
@@ -3875,6 +3941,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.501431,
                     y = 0.624139,
+                },
+            },
+        },
+    },
+    [197631] = {
+        name = "Rowie",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.131412,
+                    y = 0.492664,
                 },
             },
         },

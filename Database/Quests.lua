@@ -10118,6 +10118,30 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [66409] = {
+        name = "Pressing Matters",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188301,
+        },
+    },
+    [66410] = {
+        name = "Worst Impressions",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188301,
+        },
+    },
+    [66411] = {
+        name = "Troubled Waters",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188283,
+        },
+    },
     [66412] = {
         name = "Carry On, Basilton",
         contentTuningID = 2371,
@@ -10137,6 +10161,62 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
+            },
+        },
+    },
+    [66413] = {
+        name = "Encroaching Heat",
+        contentTuningID = 0,
+        source = {
+            type = "object",
+            id = 384405,
+        },
+    },
+    [66414] = {
+        name = "All But One",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 187323,
+        },
+    },
+    [66415] = {
+        name = "The Only Way Past Is Through",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 187323,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.538882,
+                        y = 0.412855,
+                    },
+                },
+            },
+        },
+    },
+    [66417] = {
+        name = "Salvaging Supplies",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188285,
+        },
+    },
+    [66418] = {
+        name = "Testing the Tuskarrsenal",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188285,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.542622,
+                        y = 0.386609,
+                    },
+                },
             },
         },
     },
@@ -10321,6 +10401,22 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [66431] = {
+        name = "In Mourning",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188283,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.536398,
+                        y = 0.393025,
+                    },
+                },
+            },
+        },
+    },
     [66435] = {
         name = "Site Salvage",
         contentTuningID = 2284,
@@ -10476,6 +10572,22 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [66440] = {
+        name = "Closure",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 188283,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.549506,
+                        y = 0.364626,
+                    },
+                },
+            },
+        },
+    },
     [66441] = {
         name = "Distilled Effort",
         contentTuningID = 2284,
@@ -10504,6 +10616,26 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2510,
                 amount = 150,
+            },
+        },
+    },
+    [66443] = {
+        name = "Calling the Hunting Party",
+        contentTuningID = 0,
+    },
+    [66444] = {
+        name = "While the Iron Is Hot",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 187323,
+            locations = {
+                [2022] = {
+                    {
+                        x = 0.538684,
+                        y = 0.381471,
+                    },
+                },
             },
         },
     },
@@ -15147,6 +15279,14 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [68640] = {
+        name = "Sudden Isolation",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 193006,
+        },
+    },
     [68641] = {
         name = "Mossing the Mark",
         contentTuningID = 2326,
@@ -15399,6 +15539,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 id = 2510,
                 amount = 150,
             },
+        },
+    },
+    [68863] = {
+        name = "A Lost Tribe",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 197631,
         },
     },
     [69093] = {
@@ -16874,6 +17022,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [70134] = {
+        name = "Memories",
     },
     [70135] = {
         name = "Encroaching Elementals",
@@ -17139,7 +17288,48 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [70169] = {
+        name = "Even Trees Need Friends",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 194323,
+        },
+    },
+    [70170] = {
+        name = "Beat the Demons Out of It",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 194425,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.085776,
+                        y = 0.534948,
+                    },
+                },
+            },
+        },
+    },
+    [70171] = {
+        name = "Happy Little Accidents",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 194425,
+            locations = {
+                [2024] = {
+                    {
+                        x = 0.079347,
+                        y = 0.53267,
+                    },
+                },
+            },
+        },
+    },
     [70172] = {
+        name = "Mountain Mysteries",
     },
     [70174] = {
         name = "The Shikaar",
@@ -18077,6 +18267,9 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 187678,
         },
+    },
+    [70708] = {
+        name = "Hollow",
     },
     [70721] = {
         name = "After My Ohn Heart",

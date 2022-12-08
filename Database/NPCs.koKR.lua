@@ -261,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192830] = {
         name = "스테리아 더스크그로브",
     },
+    [193006] = {
+        name = "무리크",
+    },
     [193015] = {
         name = "우나토스",
     },

@@ -166,4 +166,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [384405] = {
+        name = "Half-Boiled Fish",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.531088,
+                    y = 0.353186,
+                },
+            },
+        },
+    },
 })

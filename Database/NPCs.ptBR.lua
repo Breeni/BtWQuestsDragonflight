@@ -198,6 +198,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [197533] = {
         name = "Vigia do Caminho Lorin",
     },
+    [197631] = {
+        name = "Remo",
+    },
     [197670] = {
         name = "Concierge do Spa",
     },

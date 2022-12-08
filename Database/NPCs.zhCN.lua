@@ -261,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192830] = {
         name = "斯泰丽雅·暮林",
     },
+    [193006] = {
+        name = "穆里克",
+    },
     [193015] = {
         name = "乌纳托斯",
     },
