@@ -2029,7 +2029,7 @@ Database:AddChain(Chain.TempChain22, {
     },
     completed = {
         type = "quest",
-        id = 70168,
+        id = 70171,
     },
     items = {
         {
@@ -2051,6 +2051,30 @@ Database:AddChain(Chain.TempChain22, {
         {
             type = "quest",
             id = 70168,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70169,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70170,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70171,
             x = 0,
         },
     }
