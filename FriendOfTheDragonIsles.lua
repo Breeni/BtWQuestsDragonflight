@@ -176,7 +176,7 @@ Database:AddChain(Chain.AMysterySealed, {
     },
     active = {
         type = "quest",
-        ids = {69093, 66012,},
+        id = 66012,
         status = {'active', 'completed'}
     },
     completed = {
@@ -184,7 +184,7 @@ Database:AddChain(Chain.AMysterySealed, {
         id = 66128,
     },
     items = {
-        {
+        { -- Dont track this quest for active since its flagged completed account bound
             type = "quest",
             id = 69093,
             x = 0,
