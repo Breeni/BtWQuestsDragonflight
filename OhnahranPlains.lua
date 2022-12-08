@@ -1498,9 +1498,15 @@ Database:AddChain(Chain.TempChain10, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 71027,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
-        id = 66652,
+        id = 71027,
     },
     items = {
         {

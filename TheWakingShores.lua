@@ -1627,6 +1627,36 @@ Database:AddChain(Chain.TempChain14, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DragonsInDistress,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.InDefenseOfLife,
+            upto = 66114,
+        }
+    },
+    active = {
+        type = "quest",
+        id = 70058,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70058,
+    },
     items = {
         {
             type = "npc",
@@ -1647,6 +1677,36 @@ Database:AddChain(Chain.TempChain15, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DragonsInDistress,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.InDefenseOfLife,
+            upto = 66114,
+        }
+    },
+    active = {
+        type = "quest",
+        id = 70239,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70708,
+    },
     items = {
         {
             type = "npc",
@@ -1699,6 +1759,36 @@ Database:AddChain(Chain.TempChain16, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DragonsInDistress,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.InDefenseOfLife,
+            upto = 66114,
+        }
+    },
+    active = {
+        type = "quest",
+        id = 70132,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70134,
+    },
     items = {
         {
             type = "npc",
@@ -1711,7 +1801,6 @@ Database:AddChain(Chain.TempChain16, {
         {
             type = "quest",
             id = 70132,
-            x = 0,
             x = 0,
             connections = {
                 1, 
@@ -1728,6 +1817,21 @@ Database:AddChain(Chain.TempChain19, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66998,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66998,
+    },
     items = {
         {
             type = "npc",
@@ -1752,6 +1856,34 @@ Database:AddChain(Chain.TempChain21, {
         type = "class",
         id = BtWQuests.Constant.Class.Rogue,
     },
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            variations = {
+                {
+                    upto = 70122,
+                    restrictions = 924,
+                },
+                {
+                    upto = 65452,
+                }
+            }
+        }
+    },
+    active = {
+        type = "quest",
+        id = 70042,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70042,
+    },
     items = {
         {
             type = "npc",
@@ -1760,7 +1892,6 @@ Database:AddChain(Chain.TempChain21, {
             connections = {
                 1, 
             },
-            comment = "general sidequest, no apparent requirements",
         },
         {
             type = "quest",
@@ -1773,6 +1904,16 @@ Database:AddChain(Chain.TempChain23, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 66437,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 66437,
+    },
     items = {
         {
             type = "kill",
@@ -1949,6 +2090,34 @@ Database:AddChain(Chain.TempChain33, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            variations = {
+                {
+                    upto = 70122,
+                    restrictions = 924,
+                },
+                {
+                    upto = 65452,
+                }
+            }
+        }
+    },
+    active = {
+        type = "quest",
+        ids = {67053, 66110},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66112,
+    },
     items = {
         {
             variations = {
@@ -2015,6 +2184,34 @@ Database:AddChain(Chain.TempChain34, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = Chain.TheDragonscaleExpedition,
+            variations = {
+                {
+                    upto = 70122,
+                    restrictions = 924,
+                },
+                {
+                    upto = 65452,
+                }
+            }
+        }
+    },
+    active = {
+        type = "quest",
+        id = 66101,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66101,
+    },
     items = {
         {
             type = "npc",
@@ -2023,7 +2220,6 @@ Database:AddChain(Chain.TempChain34, {
             connections = {
                 1, 
             },
-            comment = "unknown requirement",
         },
         {
             type = "quest",
