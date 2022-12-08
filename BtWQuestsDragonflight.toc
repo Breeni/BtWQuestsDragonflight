@@ -1,6 +1,6 @@
 ## Interface: 100002
 ## Title: BtWQuests: Dragonflight
-## Version: 1.2
+## Version: 1.3
 ## Notes: Dragonflight quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests

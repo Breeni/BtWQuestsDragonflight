@@ -1,3 +1,13 @@
+# v1.3
+
+- Added The Chieftain's Duty quest chain to Friend of the Dragon Isles category
+- Updated Sad Little Accidents chain in Azure Span with the quests following the first dungeon quest
+- Updated Ruby Life Pools quest chain in The Waking shores with missing quests
+- Updated the prerequisites for The Silver Purpose to be account wide unlock
+- Fixed The Silver Purpose chain incorrectly showing as active on alts
+- Fixed A Mystery Sealed chain incorrectly showing as active on alts
+- Fixed multiple quests showing on the world map before available
+
 # v1.2
 
 - Added multiple quest chains including A Mystery, Solved and The Silver Purpose.
