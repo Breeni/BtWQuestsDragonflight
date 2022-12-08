@@ -35,14 +35,126 @@ Database:AddChain(Chain.TheChieftainsDuty, {
     },
     active = {
         type = "quest",
-        ids = {70846, 72773, 70180,},
+        id = 68640,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 66444,
     },
     items = {
+        { -- Dont track this quest for active since its flagged completed account bound
+            type = "quest",
+            id = 68863,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 68640,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66409,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66410,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66411,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66417,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66418,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66414,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66440,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66431,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66415,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66443,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66444,
+            x = 0,
+        },
+        {
+            visible = false,
+            x = -3,
+            y = 3,
+        },
+        {
+            type = "chain",
+            id = 100511,
+            embed = true,
+            x = 3,
+            y = 3,
+        },
     },
 })
 Database:AddChain(Chain.AMysterySealed, {
@@ -352,12 +464,10 @@ Database:AddCategory(CATEGORY_ID, {
     expansion = EXPANSION_ID,
     buttonImage = 4742925,
     items = {
---@debug@
         {
             type = "chain",
             id = Chain.TheChieftainsDuty,
         },
---@end-debug@
         {
             type = "chain",
             id = Chain.AMysterySealed,
