@@ -67,6 +67,28 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [380540] = {
+        name = "Ornamented Statue",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.661384,
+                    y = 0.55203,
+                },
+            },
+        },
+    },
+    [380918] = {
+        name = "Broken Ornamented Statue",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.640532,
+                    y = 0.414957,
+                },
+            },
+        },
+    },
     [381296] = {
         name = "Horrible Mess",
         locations = {

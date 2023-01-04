@@ -1794,6 +1794,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "強迫放鬆",
     },
+    [70750] = {
+        name = "支援協調者",
+    },
     [70837] = {
         name = "跟隨線索",
     },

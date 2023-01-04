@@ -1797,6 +1797,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "强制休闲",
     },
+    [70750] = {
+        name = "援助联军",
+    },
     [70837] = {
         name = "纠察线索",
     },

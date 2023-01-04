@@ -1779,6 +1779,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Relajación forzada",
     },
+    [70750] = {
+        name = "Ayuda al Acuerdo",
+    },
     [70837] = {
         name = "Sigue las pistas",
     },

@@ -1794,6 +1794,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "강제 휴식",
     },
+    [70750] = {
+        name = "협의회 지원",
+    },
     [70837] = {
         name = "단서를 따라서",
     },

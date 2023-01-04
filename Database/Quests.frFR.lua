@@ -1788,6 +1788,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Détente forcée",
     },
+    [70750] = {
+        name = "Aider le concordat",
+    },
     [70837] = {
         name = "Sur la piste des indices",
     },

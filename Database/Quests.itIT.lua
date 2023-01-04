@@ -1770,6 +1770,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Rilassamento Forzato",
     },
+    [70750] = {
+        name = "Aiutare l'Accordo",
+    },
     [70837] = {
         name = "Segui gli indizi",
     },

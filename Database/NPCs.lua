@@ -837,6 +837,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [186469] = {
+        name = "Somnikus",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.220134,
+                    y = 0.509962,
+                },
+            },
+        },
+    },
     [186480] = {
         name = "Brena",
         locations = {
@@ -866,6 +877,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.534052,
                     y = 0.439656,
+                },
+            },
+        },
+    },
+    [186502] = {
+        name = "Sugarbough",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.285697,
+                    y = 0.605064,
                 },
             },
         },
@@ -1178,6 +1200,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [186955] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.297822,
+                    y = 0.600083,
+                },
+            },
+        },
+    },
+    [187025] = {
+        name = "Warden Captain Sinjoirmi",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.602938,
+                    y = 0.821815,
+                },
+            },
+        },
+    },
     [187034] = {
         name = "Kalecgos",
         locations = {
@@ -1453,6 +1497,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [187509] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.283677,
+                    y = 0.486902,
+                },
+            },
+        },
+    },
+    [187525] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.332175,
+                    y = 0.517592,
+                },
+            },
+        },
+    },
     [187535] = {
         name = "Garz",
         locations = {
@@ -1460,6 +1526,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.609866,
                     y = 0.505663,
+                },
+            },
+        },
+    },
+    [187561] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.220654,
+                    y = 0.49186,
+                },
+            },
+        },
+    },
+    [187594] = {
+        name = "Somnikus",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.283814,
+                    y = 0.579561,
+                },
+            },
+        },
+    },
+    [187609] = {
+        name = "Earthcaller Yevaa",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.374533,
+                    y = 0.717739,
                 },
             },
         },
@@ -1475,6 +1574,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [187634] = {
+        name = "Ysera",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.458816,
+                    y = 0.609121,
+                },
+            },
+        },
+    },
+    [187636] = {
+        name = "Malfurion Stormrage",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.458283,
+                    y = 0.608593,
+                },
+            },
+        },
+    },
+    [187646] = {
+        name = "Ysera",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.188205,
+                    y = 0.518693,
+                },
+            },
+        },
+    },
     [187658] = {
         name = "Alexstrasza the Life-Binder",
         locations = {
@@ -1482,6 +1614,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.574593,
                     y = 0.587296,
+                },
+            },
+        },
+    },
+    [187660] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.188848,
+                    y = 0.51106,
                 },
             },
         },
@@ -1800,6 +1943,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [188348] = {
+        name = "Ysera",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.452927,
+                    y = 0.636238,
+                },
+            },
+        },
+    },
     [188503] = {
         name = "Examiner Tae'shara Bloodwatcher",
         locations = {
@@ -1833,6 +1987,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [188787] = {
+        name = "Gerithus",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.219862,
+                    y = 0.76066,
+                },
+            },
+        },
+    },
     [188809] = {
         name = "Elder Poa",
         locations = {
@@ -1844,6 +2009,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [188840] = {
+        name = "Somnikus",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.209214,
+                    y = 0.797789,
+                },
+            },
+        },
+    },
     [188845] = {
         name = "Rannan Korren",
         locations = {
@@ -1851,6 +2027,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.656345,
                     y = 0.607553,
+                },
+            },
+        },
+    },
+    [188847] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.197822,
+                    y = 0.816478,
+                },
+            },
+        },
+    },
+    [188850] = {
+        name = "Ysera",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.198086,
+                    y = 0.816874,
                 },
             },
         },
@@ -2075,6 +2273,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [189400] = {
+        name = "Meliane Enorath",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.651558,
+                    y = 0.58072,
+                },
+            },
+        },
+    },
     [189401] = {
         name = "Sonova Snowden",
         locations = {
@@ -2091,8 +2300,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2112] = {
                 {
-                    x = 0.61661,
-                    y = 0.115026,
+                    x = 0.616239,
+                    y = 0.114958,
                 },
             },
         },
@@ -2258,6 +2467,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.59375,
                     y = 0.347232,
+                },
+            },
+        },
+    },
+    [189849] = {
+        name = "Gerithus",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.284125,
+                    y = 0.486134,
+                },
+            },
+        },
+    },
+    [189850] = {
+        name = "Rymek",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.285026,
+                    y = 0.487029,
+                },
+            },
+        },
+    },
+    [189857] = {
+        name = "Rymek",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.221002,
+                    y = 0.508747,
                 },
             },
         },
@@ -2669,6 +2911,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [190902] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.725111,
+                    y = 0.561667,
+                },
+            },
+        },
+    },
     [190929] = {
         name = "Aeonormu",
         locations = {
@@ -2922,6 +3175,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [191838] = {
+        name = "Toddy Whiskers",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.542691,
+                    y = 0.554111,
+                },
+            },
+        },
+    },
     [191895] = {
         name = "Majordomo Selistra",
         locations = {
@@ -3164,6 +3428,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [192820] = {
+        name = "Toddy Whiskers",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.551284,
+                    y = 0.563444,
+                },
+            },
+        },
+    },
     [192825] = {
         name = "Callisto Windsor",
         locations = {
@@ -3193,6 +3468,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.447189,
                     y = 0.57636,
+                },
+            },
+        },
+    },
+    [192967] = {
+        name = "Toddy Whiskers",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.544568,
+                    y = 0.555593,
                 },
             },
         },
@@ -3314,6 +3600,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.762067,
                     y = 0.345231,
+                },
+            },
+        },
+    },
+    [193374] = {
+        name = "Toddy Whiskers",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.572914,
+                    y = 0.53663,
                 },
             },
         },
@@ -3543,8 +3840,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2022] = {
                 {
-                    x = 0.586698,
-                    y = 0.677834,
+                    x = 0.584432,
+                    y = 0.675131,
                 },
             },
         },
@@ -3604,6 +3901,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [195234] = {
+        name = "Earthmender Govrum",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.370978,
+                    y = 0.560486,
+                },
+            },
+        },
+    },
     [195239] = {
         name = "Windsage Kven",
         locations = {
@@ -3637,6 +3945,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [195737] = {
+        name = "Maiden of Inspiration",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.641034,
+                    y = 0.414017,
+                },
+            },
+        },
+    },
     [195827] = {
         name = "Maiden of Inspiration",
         locations = {
@@ -3644,6 +3963,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.671297,
                     y = 0.309013,
+                },
+            },
+        },
+    },
+    [195924] = {
+        name = "Maiden of Inspiration",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.662777,
+                    y = 0.553221,
                 },
             },
         },
@@ -3677,6 +4007,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.40461,
                     y = 0.488837,
+                },
+            },
+        },
+    },
+    [196161] = {
+        name = "Ilana",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.858763,
+                    y = 0.352314,
                 },
             },
         },
@@ -3864,6 +4205,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.210538,
                     y = 0.35093,
+                },
+            },
+        },
+    },
+    [196820] = {
+        name = "Zikkori",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.705038,
+                    y = 0.568453,
                 },
             },
         },

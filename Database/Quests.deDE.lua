@@ -1779,6 +1779,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Erzwungene Entspannung",
     },
+    [70750] = {
+        name = "Unterstützt das Abkommen",
+    },
     [70837] = {
         name = "Verfolgung der Spur",
     },

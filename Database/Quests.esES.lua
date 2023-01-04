@@ -1782,6 +1782,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Relajación forzosa",
     },
+    [70750] = {
+        name = "Ayudar al Acuerdo de Valdrakken",
+    },
     [70837] = {
         name = "Seguir las pistas",
     },

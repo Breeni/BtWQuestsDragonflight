@@ -1782,6 +1782,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70745] = {
         name = "Relaxamento obrigatório",
     },
+    [70750] = {
+        name = "Ajudando o Acordo",
+    },
     [70837] = {
         name = "Siga as pistas",
     },
