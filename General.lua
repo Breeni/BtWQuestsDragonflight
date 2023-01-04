@@ -475,7 +475,7 @@ Database:AddChain(Chain.TheMotherOathstone, {
     },
     completed = {
         type = "quest",
-        ids = { 65613, 65101, },
+        id = 72380,
     },
     items = {
         {
@@ -514,8 +514,16 @@ Database:AddChain(Chain.TheMotherOathstone, {
             type = "quest",
             id = 66847,
             x = 0,
+            connections = {
+                1, 
+            },
         },
-    },
+        {
+            type = "quest",
+            id = 72380,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.TheSparkOfIngenuity, {
     name = L["SPARK_OF_INGENUITY"],
