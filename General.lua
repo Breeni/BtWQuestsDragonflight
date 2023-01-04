@@ -362,15 +362,79 @@ Database:AddChain(Chain.DragonIslesEmissary, {
     },
     active = {
         type = "quest",
-        ids = {70846, 72773, 70180,},
+        id = 71232,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 72585,
     },
     items = {
-    },
+        {
+            name = "Not sure if this is really needed in the addon, or what exactly the requirements are, check vod?",
+        },
+        {
+            type = "npc",
+            id = 187678,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71232,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72585,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70750,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72068,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72373,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72374,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72375,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.TheMotherOathstone, {
     name = L["THE_MOTHER_OATHSTONE"],
