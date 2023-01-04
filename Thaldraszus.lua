@@ -1513,9 +1513,9 @@ Database:AddChain(Chain.TempChain12, {
     },
 })
 Database:AddChain(Chain.TempChain13, {
-    name = { -- 10,000 Years of Roasting
+    name = { -- The Ruby Feast
         type = "quest",
-        id = 67063,
+        id = 71238,
     },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1536,9 +1536,22 @@ Database:AddChain(Chain.TempChain13, {
     },
     completed = {
         type = "quest",
-        id = 67063,
+        id = 67071,
     },
     items = {
+        {
+            visible = false,
+            x = -2,
+        },
+        -- {
+        --     type = "quest",
+        --     id = 67055,
+        --     x = -1,
+        -- },
+        -- {
+        --     type = "quest",
+        --     id = 72009,
+        -- },
         {
             variations = {
                 {
@@ -1573,6 +1586,36 @@ Database:AddChain(Chain.TempChain13, {
             id = 67047,
             x = 0,
             connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67047,
+                },
+                {
+                    type = "quest",
+                    id = 70932,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70932,
+            x = 0,
+            connections = {
                 1, 
             },
         },
@@ -1580,8 +1623,228 @@ Database:AddChain(Chain.TempChain13, {
             type = "quest",
             id = 67063,
             x = 0,
+            connections = {
+                2, 
+            },
         },
-    },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67063,
+                },
+                {
+                    type = "quest",
+                    id = 70957,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70957,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67064,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67064,
+                },
+                {
+                    type = "quest",
+                    id = 70958,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70958,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67065,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67065,
+                },
+                {
+                    type = "quest",
+                    id = 70981,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70981,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67066,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67066,
+                },
+                {
+                    type = "quest",
+                    id = 70987,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70987,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67067,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67067,
+                },
+                {
+                    type = "quest",
+                    id = 70988,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70988,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67068,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 67068,
+                },
+                {
+                    type = "quest",
+                    id = 67071,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72009,
+                status = { "pending", },
+            },
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67071,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.TempChain14, {
     name = L["SPARK_OF_INGENUITY"],
