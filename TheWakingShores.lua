@@ -38,6 +38,7 @@ Chain.TempChain13 = 100123
 Chain.TempChain14 = 100124
 Chain.TempChain15 = 100125
 Chain.TempChain16 = 100126
+Chain.TempChain17 = 100127
 Chain.TempChain19 = 100129
 Chain.TempChain21 = 100131
 Chain.TempChain23 = 100133
@@ -59,6 +60,9 @@ Chain.TempChain41 = 100151
 Chain.TempChain42 = 100152
 Chain.TempChain43 = 100153
 Chain.TempChain44 = 100154
+Chain.TempChain45 = 100155
+Chain.TempChain46 = 100156
+Chain.TempChain47 = 100157
 
 Chain.OtherAlliance = 100197
 Chain.OtherHorde = 100198
@@ -989,8 +993,12 @@ Database:AddChain(Chain.TempChain01, {
     },
     items = {
         {
-            visible = false,
+            type = "chain",
+            id = Chain.TempChain17,
+            aside = true,
+            embed = true,
             x = -3,
+            y = 0,
         },
         {
             type = "chain",
@@ -1541,16 +1549,19 @@ Database:AddChain(Chain.TempChain13, {
             type = "chain",
             id = Chain.TheDragonscaleExpedition,
             lowPriority = true,
+            restrictions = THREADS_OF_FATE_RESTRICTION,
         },
         {
             type = "chain",
             id = Chain.DragonsInDistress,
             lowPriority = true,
+            restrictions = THREADS_OF_FATE_RESTRICTION,
         },
         {
             type = "chain",
             id = Chain.InDefenseOfLife,
             upto = 66114,
+            restrictions = THREADS_OF_FATE_RESTRICTION,
         }
     },
     active = {
@@ -1560,8 +1571,7 @@ Database:AddChain(Chain.TempChain13, {
     },
     completed = {
         type = "quest",
-        ids = {69979, 67298},
-        count = 2,
+        id = 67137,
     },
     items = {
         {
@@ -1592,34 +1602,6 @@ Database:AddChain(Chain.TempChain13, {
             type = "quest",
             id = 67137,
             x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 67295,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 69946,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 67298,
-        },
-        {
-            type = "quest",
-            id = 69979,
-            x = -1,
         },
     },
 })
@@ -1810,8 +1792,67 @@ Database:AddChain(Chain.TempChain16, {
             type = "quest",
             id = 70134,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "item",
+            id = 198661,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+            comment = "There is an object to loot but there is also an extra requirement (probably campaign) thats preventing it from showing for my alt",
+            onClick = {
+                type = "coords",
+                mapID = 2022,
+                x = 23,
+                y = 60,
+            },
+        },
+        {
+            type = "quest",
+            id = 70268,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain17, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
         },
     },
+    active = {
+        type = "quest",
+        id = 70994,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70994,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 196820,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70994,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.TempChain19, {
     category = CATEGORY_ID,
@@ -2597,7 +2638,7 @@ Database:AddChain(Chain.TempChain44, {
     },
     completed = {
         type = "quest",
-        id = 70179,
+        id = 65486,
     },
     items = {
         {
@@ -2630,6 +2671,127 @@ Database:AddChain(Chain.TempChain44, {
             x = 0,
         },
     },
+})
+Database:AddChain(Chain.TempChain45, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66003,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66369,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 187609,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66003,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66369,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66368,
+            aside = true,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain46, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 70414,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 70414,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 195234,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70414,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.TempChain47, {
+    name = L["THE_EARTHEN_RING"],
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {66003, 70414,},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = {66369, 70414,},
+        count = 2,
+    },
+    items = {
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.TempChain45,
+            embed = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.TempChain46,
+            embed = true,
+        },
+    }
 })
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
@@ -2777,6 +2939,14 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TempChain43,
         },
+        {
+            type = "chain",
+            id = Chain.TempChain44,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain47,
+        },
 --@debug@
         {
             type = "chain",
@@ -2876,6 +3046,14 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.TempChain43,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain44,
+    },
+    {
+        type = "chain",
+        id = Chain.TempChain47,
     },
 --@debug@
     {
