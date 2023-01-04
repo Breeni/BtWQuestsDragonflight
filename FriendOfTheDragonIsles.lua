@@ -19,7 +19,7 @@ Chain.TheDreamer = 100506
 Chain.EmbedChain01 = 100511
 
 Database:AddChain(Chain.TheChieftainsDuty, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
+    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57034),
     questline = 1385,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -160,7 +160,7 @@ Database:AddChain(Chain.TheChieftainsDuty, {
     },
 })
 Database:AddChain(Chain.AMysterySealed, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
+    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57032),
     questline = 1386,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -270,7 +270,7 @@ Database:AddChain(Chain.AMysterySealed, {
     },
 })
 Database:AddChain(Chain.TheSilverPurpose, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 5),
+    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57037),
     questline = 1389,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -380,7 +380,7 @@ Database:AddChain(Chain.TheSilverPurpose, {
     },
 })
 Database:AddChain(Chain.InTheHallsOfTitans, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 2),
+    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57033),
     questline = 1384,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -394,21 +394,86 @@ Database:AddChain(Chain.InTheHallsOfTitans, {
             type = "chain",
             id = Chain.AMysterySealed,
         },
+        {
+            type = "currency",
+            id = 2021,
+            amount = 24,
+        },
     },
     active = {
         type = "quest",
-        ids = {70846, 72773, 70180,},
+        id = 67722,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 66547,
     },
     items = {
-    },
+        {
+            type = "quest",
+            id = 69097,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67722,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66636,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66173,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66174,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 71152,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66546,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66547,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.GardenOfSecrets, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 3),
+    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57035),
     questline = 1387,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -430,38 +495,271 @@ Database:AddChain(Chain.GardenOfSecrets, {
     },
     active = {
         type = "quest",
-        ids = {70846, 72773, 70180,},
+        id = 66178,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 66191,
     },
     items = {
-    },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 66620,
+                },
+                {
+                    type = "npc",
+                    id = 186955,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66178,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66179,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66180,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66182,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66183,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66181,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66184,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66393,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66395,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66396,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66190,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66191,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.TheDreamer, {
-    -- name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57036)
+    end,
     questline = 1388,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    restrictions = {
+        type = "chain",
+        id = Chain.GardenOfSecrets,
+    },
     prerequisites = {
         {
             type = "level",
             level = 70,
         },
+        {
+            type = "chain",
+            id = Chain.TheSilverPurpose,
+        },
+        {
+            type = "currency",
+            id = 2088,
+            amount = 19,
+        },
+        {
+            type = "chain",
+            id = Chain.GardenOfSecrets,
+        },
     },
     active = {
         type = "quest",
-        ids = {70846, 72773, 70180,},
+        id = 66392,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 66402,
     },
     items = {
+        {
+            type = "npc",
+            id = 187561,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66392,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66185,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66186,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66188,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66189,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66394,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66397,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66635,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66398,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66399,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66400,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66401,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 66402,
+            x = 0,
+        },
     },
 })
 
@@ -524,7 +822,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TheSilverPurpose,
         },
---@debug@
         {
             type = "chain",
             id = Chain.InTheHallsOfTitans,
@@ -537,7 +834,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TheDreamer,
         },
---@end-debug@
     },
 })
 BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
