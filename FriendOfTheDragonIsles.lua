@@ -19,7 +19,9 @@ Chain.TheDreamer = 100506
 Chain.EmbedChain01 = 100511
 
 Database:AddChain(Chain.TheChieftainsDuty, {
-    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57034),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57034)
+    end,
     questline = 1385,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -160,7 +162,9 @@ Database:AddChain(Chain.TheChieftainsDuty, {
     },
 })
 Database:AddChain(Chain.AMysterySealed, {
-    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57032),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57032)
+    end,
     questline = 1386,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -270,7 +274,9 @@ Database:AddChain(Chain.AMysterySealed, {
     },
 })
 Database:AddChain(Chain.TheSilverPurpose, {
-    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57037),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57037)
+    end,
     questline = 1389,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -380,7 +386,9 @@ Database:AddChain(Chain.TheSilverPurpose, {
     },
 })
 Database:AddChain(Chain.InTheHallsOfTitans, {
-    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57033),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57033)
+    end,
     questline = 1384,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -473,7 +481,9 @@ Database:AddChain(Chain.InTheHallsOfTitans, {
     }
 })
 Database:AddChain(Chain.GardenOfSecrets, {
-    name = GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57035),
+    name = function ()
+        return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57035)
+    end,
     questline = 1387,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
