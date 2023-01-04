@@ -26,6 +26,7 @@ BtWQuests.Constant.Chain.Dragonflight = {
     DragonIslesEmissary = 100002,
     TheMotherOathstone = 100003,
     TheSparkOfIngenuity = 100004,
+    DragonShardOfKnowledge = 100005,
     TheWakingShores = {},
     OhnahranPlains = {},
     TheAzureSpan = {},

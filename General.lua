@@ -676,12 +676,64 @@ Database:AddChain(Chain.TheSparkOfIngenuity, {
         },
     }
 })
+Database:AddChain(Chain.DragonShardOfKnowledge, {
+    name = L["DRAGON_SHARD_OF_KNOWLEDGE"],
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.TheWakingShores.IntoTheArchives,
+            upto = 65686,
+        }
+    },
+    active = {
+        type = "quest",
+        id = 67295,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        ids = {69979, 67298},
+        count = 2,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 192539,
+            x = 0,
+            connections = {
+                1,
             },
         },
         {
             type = "quest",
-            id = 72783,
+            id = 67295,
             x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69946,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 67298,
+        },
+        {
+            type = "quest",
+            id = 69979,
+            x = -1,
         },
     },
 })
@@ -707,6 +759,10 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
         type = "chain",
         id = Chain.TheSparkOfIngenuity,
+    },
+    {
+        type = "chain",
+        id = Chain.DragonShardOfKnowledge,
     },
 })
 
