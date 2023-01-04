@@ -12363,6 +12363,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [66620] = {
+        name = "Emerald Summons",
     },
     [66622] = {
         name = "Wayward Tools",
@@ -19533,6 +19534,7 @@ BtWQuestsDatabase:AddQuestsTable({
     [70787] = {
     },
     [70812] = {
+        name = "Expedition Cloaks",
     },
     [70822] = {
         name = "Lost Expedition Scouts",
