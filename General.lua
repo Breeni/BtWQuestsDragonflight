@@ -543,7 +543,7 @@ Database:AddChain(Chain.TheSparkOfIngenuity, {
     },
     completed = {
         type = "quest",
-        id = 70633,
+        id = 70341,
     },
     items = {
         {
@@ -613,7 +613,69 @@ Database:AddChain(Chain.TheSparkOfIngenuity, {
             id = 70633,
             x = 0,
             connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72783,
+            aside = true,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 70339,
+            connections = {
                 1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70376,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70341,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70650,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70509,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70621,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 70510,
+            x = 0,
+        },
+    }
+})
             },
         },
         {
