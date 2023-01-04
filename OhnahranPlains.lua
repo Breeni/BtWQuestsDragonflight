@@ -2,6 +2,7 @@
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Dragonflight
 local CATEGORY_ID = BtWQuests.Constant.Category.Dragonflight.OhnahranPlains
 local Chain = BtWQuests.Constant.Chain.Dragonflight.OhnahranPlains
@@ -1764,9 +1765,13 @@ Database:AddChain(Chain.TempChain17, {
     },
     completed = {
         type = "quest",
-        id = 71195,
+        id = 71209,
     },
     items = {
+        {
+            visible = false,
+            x = -2,
+        },
         {
             type = "npc",
             id = 190014,
@@ -1780,6 +1785,28 @@ Database:AddChain(Chain.TempChain17, {
             id = 71196,
             x = 0,
             connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 71196,
+                },
+                {
+                    type = "quest",
+                    id = 71197,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 71203,
+                status = { "pending", },
+            },
+            connections = {
                 1, 
             },
         },
@@ -1788,13 +1815,61 @@ Database:AddChain(Chain.TempChain17, {
             id = 71197,
             x = 0,
             connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 71197,
+                },
+                {
+                    type = "quest",
+                    id = 71198,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 71203,
+                status = { "pending", },
+            },
+            connections = {
                 1, 
+            },
+            restriction = {
+                type = "quest",
+                id = 71198,
             },
         },
         {
             type = "quest",
             id = 71198,
             x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 71198,
+                },
+                {
+                    type = "quest",
+                    id = 71199,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 71203,
+                status = { "pending", },
+            },
             connections = {
                 1, 
             },
@@ -1804,6 +1879,28 @@ Database:AddChain(Chain.TempChain17, {
             id = 71199,
             x = 0,
             connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_DAILY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 71199,
+                },
+                {
+                    type = "quest",
+                    id = 71195,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 71203,
+                status = { "pending", },
+            },
+            connections = {
                 1, 
             },
         },
@@ -1811,8 +1908,16 @@ Database:AddChain(Chain.TempChain17, {
             type = "quest",
             id = 71195,
             x = 0,
+            connections = {
+                1, 
+            },
         },
-    },
+        {
+            type = "quest",
+            id = 71209,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
