@@ -1,3 +1,19 @@
+# v1.5
+
+- Updated The Spark of Ingenuity questline with the rest of the quests
+- Updated In The Halls of Titans questline with missing follow up
+- Updated for 10.0.5
+
+# v1.4
+
+- Added a few missing quests to The Waking Shore
+- Added a Dragon Shard of Knowledge questline
+- Added In The Halls of Titans, Gardens of Secrets and it's follow up quest line
+- Updated To Tame a Thunderspine questline with daily reset markers and final quest
+- Updated The Spark of Ingenuity questline
+- Updated The Mother Oathstone questline
+- Updated 10,000 Years of Roasting quest chain and renamed it to The Ruby Feast
+
 # v1.3
 
 - Added The Chieftain's Duty quest chain to Friend of the Dragon Isles category
