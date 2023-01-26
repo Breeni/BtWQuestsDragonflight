@@ -477,6 +477,38 @@ Database:AddChain(Chain.InTheHallsOfTitans, {
             type = "quest",
             id = 66547,
             x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_WEEKLY_RESET"],
+            visible = {
+                {
+                    type = "quest",
+                    id = 66547,
+                },
+                {
+                    type = "quest",
+                    id = 69888,
+                    status = { "notcompleted", },
+                },
+            },
+            completed = {
+                type = "quest",
+                id = 72822,
+                status = { "pending", },
+            },
+            aside = true,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 69888,
+            x = 0,
+            aside = true,
         },
     }
 })
