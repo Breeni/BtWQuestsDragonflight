@@ -222,5 +222,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [198386] = {
         name = "Carte de reconnaissance",
     },
+    [199201] = {
+        name = "Squammandante Viridia",
+    },
+    [201180] = {
+        name = "Inventoriste Wulfred",
+    },
+    [202656] = {
+        name = "Mayla Haut-Roc",
+    },
 })
 ]])()

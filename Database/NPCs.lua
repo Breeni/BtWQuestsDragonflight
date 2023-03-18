@@ -4320,7 +4320,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [197986] = {
-        name = "Hot Springs Spa Promoter",
+        name = "Serene Dreams Spa Promoter",
         locations = {
             [2112] = {
                 {
@@ -4348,6 +4348,270 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.765152,
                     y = 0.342297,
+                },
+            },
+        },
+    },
+    [199201] = {
+        name = "Scalecommander Viridia",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.346142,
+                    y = 0.576912,
+                },
+            },
+        },
+    },
+    [199323] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.666208,
+                    y = 0.385567,
+                },
+            },
+        },
+    },
+    [199330] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.66634,
+                    y = 0.386755,
+                },
+            },
+        },
+    },
+    [199409] = {
+        name = "Windsage Boku",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.565642,
+                    y = 0.738293,
+                },
+            },
+        },
+    },
+    [200040] = {
+        name = "Pathfinder Jeb",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.291002,
+                    y = 0.531119,
+                },
+            },
+        },
+    },
+    [200041] = {
+        name = "Pathfinder Tacha",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.291572,
+                    y = 0.531381,
+                },
+            },
+        },
+    },
+    [200492] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.7333,
+                    y = 0.550675,
+                },
+            },
+        },
+    },
+    [200724] = {
+        name = "Researcher Imareth",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.351853,
+                    y = 0.575924,
+                },
+            },
+        },
+    },
+    [200831] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.727551,
+                    y = 0.558122,
+                },
+            },
+        },
+    },
+    [200932] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.809271,
+                    y = 0.576182,
+                },
+            },
+        },
+    },
+    [200933] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.809069,
+                    y = 0.577197,
+                },
+            },
+        },
+    },
+    [200938] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.871828,
+                    y = 0.515217,
+                },
+            },
+        },
+    },
+    [201180] = {
+        name = "Cataloger Wulferd",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.292633,
+                    y = 0.52677,
+                },
+            },
+        },
+    },
+    [201398] = {
+        name = "Kurazidaia",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.610085,
+                    y = 0.260599,
+                },
+            },
+        },
+    },
+    [201424] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.568679,
+                    y = 0.715398,
+                },
+            },
+        },
+    },
+    [201488] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.380874,
+                    y = 0.340041,
+                },
+            },
+        },
+    },
+    [201516] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.333352,
+                    y = 0.426354,
+                },
+            },
+        },
+    },
+    [201517] = {
+        name = "Voraxian",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.292777,
+                    y = 0.529803,
+                },
+            },
+        },
+    },
+    [201530] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.334053,
+                    y = 0.428211,
+                },
+            },
+        },
+    },
+    [201566] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.727043,
+                    y = 0.560952,
+                },
+            },
+        },
+    },
+    [202656] = {
+        name = "Mayla Highmountain",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.507554,
+                    y = 0.58628,
+                },
+            },
+        },
+    },
+    [202706] = {
+        name = "Scout Tomul",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.694012,
+                    y = 0.477353,
+                },
+            },
+        },
+    },
+    [202707] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.693264,
+                    y = 0.477015,
+                },
+            },
+        },
+    },
+    [203204] = {
+        name = "Baine Bloodhoof",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.333099,
+                    y = 0.426144,
                 },
             },
         },

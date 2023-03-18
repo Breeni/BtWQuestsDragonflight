@@ -210,5 +210,17 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [198386] = {
         name = "Mapa de Patrulha",
     },
+    [199201] = {
+        name = "Comandante-de-escama Virídia",
+    },
+    [201180] = {
+        name = "Catalogador Volfredo",
+    },
+    [201517] = {
+        name = "Voraxiano",
+    },
+    [202656] = {
+        name = "Mayla Alta Montanha",
+    },
 })
 ]])()

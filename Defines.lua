@@ -27,6 +27,12 @@ BtWQuests.Constant.Chain.Dragonflight = {
     TheMotherOathstone = 100003,
     TheSparkOfIngenuity = 100004,
     DragonShardOfKnowledge = 100005,
+
+    OldHatreds = 100006,
+    ReturnToTheReach = 100007,
+    ZskeraVaults = 100008,
+    AcademicAcquisitions = 100009,
+
     TheWakingShores = {},
     OhnahranPlains = {},
     TheAzureSpan = {},

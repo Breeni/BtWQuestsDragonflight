@@ -1989,17 +1989,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72375] = {
+        name = "Aider le concordat : l’appel des îles",
+    },
     [72397] = {
         name = "Orientation : camp de base du Dracaret",
     },
     [72406] = {
         name = "Orientation : Valdrakken",
     },
+    [72546] = {
+        name = "Assistance académique",
+    },
+    [72547] = {
+        name = "Acquisitions académiques",
+    },
+    [72588] = {
+        name = "Tire-laine primalistes",
+    },
+    [72589] = {
+        name = "Honorer leur sacrifice",
+    },
+    [72591] = {
+        name = "Une dette à honorer",
+    },
+    [72592] = {
+        name = "Les cicatrices du passé",
+    },
+    [72593] = {
+        name = "Une relation tumultueuse",
+    },
+    [72594] = {
+        name = "Mauvaises nouvelles",
+    },
+    [72595] = {
+        name = "À la recherche de Bovan Totem-de-Vent",
+    },
+    [72599] = {
+        name = "Collaboration de sauvetage",
+    },
+    [72600] = {
+        name = "Souvenir des Shikaars",
+    },
+    [72601] = {
+        name = "Le dernier espoir de Bovan",
+    },
+    [72602] = {
+        name = "Un mystique optimiste",
+    },
+    [72603] = {
+        name = "La valeur des mots",
+    },
+    [72604] = {
+        name = "Sauvetage désespéré",
+    },
+    [72605] = {
+        name = "Il faut sauver Bovan Totem-de-Vent",
+    },
+    [72606] = {
+        name = "Voir rouge",
+    },
+    [72607] = {
+        name = "De vieilles rancœurs",
+    },
+    [72609] = {
+        name = "Affaire classée",
+    },
+    [72611] = {
+        name = "Lâcher prise",
+    },
+    [72662] = {
+        name = "Ravitaillement",
+    },
+    [72663] = {
+        name = "La piste de la Pinède",
+    },
     [72773] = {
         name = "Apprentissage d’ingéniosité",
     },
     [72783] = {
         name = "Commandes d’artisanat",
+    },
+    [72953] = {
+        name = "Le caveau Az de Zskera",
+    },
+    [73076] = {
+        name = "Retour dans les confins",
+    },
+    [73089] = {
+        name = "Au-delà de la porte",
+    },
+    [73155] = {
+        name = "L’anneau oublié",
+    },
+    [73157] = {
+        name = "Ailes de miséricorde",
+    },
+    [73159] = {
+        name = "L’exploration de notre passé",
+    },
+    [73160] = {
+        name = "Une main ou une griffe secourable",
+    },
+    [74355] = {
+        name = "Embellissement primordial",
+    },
+    [74381] = {
+        name = "Héritages cachés",
+    },
+    [74442] = {
+        name = "Le dépotoir d’un Dragon…",
+    },
+    [74443] = {
+        name = "… est le trésor d’un autre ?",
+    },
+    [74447] = {
+        name = "Archéologie verbale",
+    },
+    [74769] = {
+        name = "Les Lamineurs laminés",
+    },
+    [74847] = {
+        name = "Ardenthal vous attend",
+    },
+    [74946] = {
+        name = "Un endroit où se réfugier",
+    },
+    [74984] = {
+        name = "Cachet certifié",
+    },
+    [75050] = {
+        name = "Un concordat hétéroclite",
     },
 })
 ]])()

@@ -12363,7 +12363,6 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [66620] = {
-        name = "Emerald Summons",
     },
     [66622] = {
         name = "Wayward Tools",
@@ -16477,6 +16476,16 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [69888] = {
+        name = "Unusual Suspects",
+        contentTuningID = 2078,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [69895] = {
         name = "Summoned Destroyer",
         contentTuningID = 2311,
@@ -19534,7 +19543,6 @@ BtWQuestsDatabase:AddQuestsTable({
     [70787] = {
     },
     [70812] = {
-        name = "Expedition Cloaks",
     },
     [70822] = {
         name = "Lost Expedition Scouts",
@@ -19975,6 +19983,8 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 500,
             },
         },
+    },
+    [70881] = {
     },
     [70899] = {
         name = "Fifth Challenge of Tyr: Ingenuity",
@@ -21042,7 +21052,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2511,
-                amount = 200,
+                amount = 250,
             },
         },
     },
@@ -21613,6 +21623,35 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [72546] = {
+        name = "Academic Assistance",
+        contentTuningID = 2600,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72547] = {
+        name = "Academic Acquisitions",
+        contentTuningID = 2600,
+        source = {
+            type = "npc",
+            id = 189401,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2526,
+                amount = 3000,
+            },
+        },
+    },
     [72585] = {
         name = "Open Orientation",
         contentTuningID = 2401,
@@ -21636,6 +21675,294 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
                 minLevel = 68,
                 maxLevel = 70,
+            },
+        },
+    },
+    [72588] = {
+        name = "Primalist Pillagers",
+        contentTuningID = 2600,
+        source = {
+            type = "npc",
+            id = 189401,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72589] = {
+        name = "Honor Their Sacrifice",
+        contentTuningID = 2600,
+        source = {
+            type = "npc",
+            id = 189401,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72591] = {
+        name = "A Debt That Must Be Paid",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 202656,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72592] = {
+        name = "Scars from the Past",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 199323,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [72593] = {
+        name = "A Tomul-tuous Beginning",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 199330,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72594] = {
+        name = "Delivering Bad News",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 200492,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [72595] = {
+        name = "The Search for Bovan Windtotem",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 202707,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72599] = {
+        name = "Joint Rescue Operation",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 200932,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72600] = {
+        name = "A Proper Shikaar Send-Off",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 200933,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72601] = {
+        name = "Bovan's Last Hope",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 200938,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72602] = {
+        name = "Optimistic Mystic",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 199409,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72603] = {
+        name = "What Words Are Worth",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 199409,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.568596,
+                        y = 0.716375,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72604] = {
+        name = "Desperate Rescue",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 201424,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72605] = {
+        name = "Saving Bovan Windtotem",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 201488,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+        },
+    },
+    [72606] = {
+        name = "See Red",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 201516,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+        },
+    },
+    [72607] = {
+        name = "Old Hatreds",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 203204,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 842700,
+            },
+        },
+    },
+    [72609] = {
+        name = "Case Closed",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 201530,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72611] = {
+        name = "Letting Go",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 201566,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [72662] = {
+        name = "Resupplying Supplies",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 202706,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [72663] = {
+        name = "Pinewood Trail",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 200831,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
             },
         },
     },
@@ -21686,5 +22013,366 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 70,
             },
         },
+    },
+    [72953] = {
+        name = "Zskera Vault: Az",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 200040,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
+            },
+        },
+    },
+    [73076] = {
+        name = "Return to the Reach",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 201398,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 210675,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 150,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 150,
+                restrictions = 924,
+            },
+        },
+    },
+    [73089] = {
+        name = "What's Behind The Next Door",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 200041,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [73155] = {
+        name = "The Forgotten Ring",
+        contentTuningID = 2589,
+        source = {
+            type = "object",
+            id = 385952,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [73157] = {
+        name = "Wings of Mercy",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2118,
+                amount = 300,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 250,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 250,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [73159] = {
+        name = "Exploring Our Past",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 75,
+            },
+        },
+    },
+    [73160] = {
+        name = "Helping Hand and Claw",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 250,
+            },
+        },
+    },
+    [74355] = {
+        name = "Primordial Embellishment",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 200724,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [74381] = {
+        name = "Hidden Legacies",
+        contentTuningID = 2589,
+        rewards = {
+            {
+                type = "money",
+                amount = 210675,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
+            },
+        },
+    },
+    [74442] = {
+        name = "One Dragon's Junk...",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 201517,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [74443] = {
+        name = "Is Another Dragon's Treasure?",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 201517,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [74447] = {
+        name = "Verbal Archaeology",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 201517,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [74769] = {
+        name = "Stemming the Irontide",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2118,
+                amount = 350,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 250,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 250,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [74847] = {
+        name = "Emberthal Awaits",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 150,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 150,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 150,
+                restrictions = 924,
+            },
+        },
+    },
+    [74946] = {
+        name = "A Place of Refuge",
+        contentTuningID = 2590,
+        source = {
+            type = "npc",
+            id = 202707,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [74984] = {
+        name = "Authentic Authorization",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 201180,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2507,
+                amount = 150,
+            },
+        },
+    },
+    [75050] = {
+        name = "An Eclectic Accord",
+        contentTuningID = 2589,
+        source = {
+            type = "npc",
+            id = 199201,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2118,
+                amount = 350,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 250,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 250,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [75258] = {
     },
 })

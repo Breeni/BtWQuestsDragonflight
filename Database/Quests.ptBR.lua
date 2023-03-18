@@ -2010,17 +2010,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72375] = {
+        name = "Ajudando o Acordo: o chamado das Ilhas",
+    },
     [72397] = {
         name = "Orientação: Acampamento Escama de Dragão",
     },
     [72406] = {
         name = "Orientação: Valdrakken",
     },
+    [72546] = {
+        name = "Apoio acadêmico",
+    },
+    [72547] = {
+        name = "Aquisições acadêmicas",
+    },
+    [72588] = {
+        name = "Primevistas pilhadores",
+    },
+    [72589] = {
+        name = "Honre seus sacrifícios",
+    },
+    [72591] = {
+        name = "Uma dívida a ser paga",
+    },
+    [72592] = {
+        name = "Cicatrizes do passado",
+    },
+    [72593] = {
+        name = "Um início \"Tomultuoso\"",
+    },
+    [72594] = {
+        name = "Dando as más notícias",
+    },
+    [72595] = {
+        name = "À procura de Bovan Totem do Vento",
+    },
+    [72599] = {
+        name = "Operação \"resgate em dobro\"",
+    },
+    [72600] = {
+        name = "Aviso Shikaar à moda antiga",
+    },
+    [72601] = {
+        name = "A última esperança de Bovan",
+    },
+    [72602] = {
+        name = "Místico otimista",
+    },
+    [72603] = {
+        name = "O valor das palavras",
+    },
+    [72604] = {
+        name = "Resgate desesperado",
+    },
+    [72605] = {
+        name = "Salvando Bovan Totem do Vento",
+    },
+    [72606] = {
+        name = "O tauren sabe onde arromba a cerca",
+    },
+    [72607] = {
+        name = "Velhos ódios",
+    },
+    [72609] = {
+        name = "Caso encerrado",
+    },
+    [72611] = {
+        name = "Aceitação",
+    },
+    [72662] = {
+        name = "Suprindo suprimentos",
+    },
+    [72663] = {
+        name = "A trilha do pinho",
+    },
     [72773] = {
         name = "Aprendendo a ingenuidade",
     },
     [72783] = {
         name = "Pedidos de criação",
+    },
+    [72953] = {
+        name = "Câmara de Zskera: Az",
+    },
+    [73076] = {
+        name = "Retorno ao Recôndito",
+    },
+    [73089] = {
+        name = "O que há atrás da porta seguinte?",
+    },
+    [73155] = {
+        name = "O anel esquecido",
+    },
+    [73157] = {
+        name = "Asas da misericórdia",
+    },
+    [73159] = {
+        name = "Explorando o nosso passado",
+    },
+    [73160] = {
+        name = "Mão e garra amigas",
+    },
+    [74355] = {
+        name = "Ornamentação primordial",
+    },
+    [74381] = {
+        name = "Legados escondidos",
+    },
+    [74442] = {
+        name = "A tralha de um dragão...",
+    },
+    [74443] = {
+        name = "É o tesouro de outro?",
+    },
+    [74447] = {
+        name = "Arqueologia verbal",
+    },
+    [74769] = {
+        name = "Detendo a Maré-férrea",
+    },
+    [74847] = {
+        name = "Brasathal aguarda",
+    },
+    [74946] = {
+        name = "Um local de refúgio",
+    },
+    [74984] = {
+        name = "Autorização autêntica",
+    },
+    [75050] = {
+        name = "Um acordo eclético",
     },
 })
 ]])()

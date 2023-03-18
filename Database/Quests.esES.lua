@@ -1983,17 +1983,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72375] = {
+        name = "Ayudar al Acuerdo de Valdrakken: La llamada de las islas",
+    },
     [72397] = {
         name = "Orientación: Campamento Base Dragontina",
     },
     [72406] = {
         name = "Orientación: Valdrakken",
     },
+    [72546] = {
+        name = "Ayuda académica",
+    },
+    [72547] = {
+        name = "Adquisiciones académicas",
+    },
+    [72588] = {
+        name = "Saqueadores primalistas",
+    },
+    [72589] = {
+        name = "Honrar su sacrificio",
+    },
+    [72591] = {
+        name = "Una deuda que debe saldarse",
+    },
+    [72592] = {
+        name = "Cicatrices de tiempos pasados",
+    },
+    [72593] = {
+        name = "Un comienzo Tomul-tuoso",
+    },
+    [72594] = {
+        name = "Portador de malas noticias",
+    },
+    [72595] = {
+        name = "En busca de Bovan Tótem de Viento",
+    },
+    [72599] = {
+        name = "Operación de rescate conjunta",
+    },
+    [72600] = {
+        name = "Una despedida Shikaar adecuada",
+    },
+    [72601] = {
+        name = "La última esperanza de Bovan",
+    },
+    [72602] = {
+        name = "El místico optimista",
+    },
+    [72603] = {
+        name = "Lo que valen las palabras",
+    },
+    [72604] = {
+        name = "Rescate desesperado",
+    },
+    [72605] = {
+        name = "Salvar a Bovan Tótem de Viento",
+    },
+    [72606] = {
+        name = "Un baño de sangre",
+    },
+    [72607] = {
+        name = "Odios antiguos",
+    },
+    [72609] = {
+        name = "Caso cerrado",
+    },
+    [72611] = {
+        name = "Dejarlo ir",
+    },
+    [72662] = {
+        name = "Reabastecimiento de suministros",
+    },
+    [72663] = {
+        name = "El rastro del pinar",
+    },
     [72773] = {
         name = "Aprendizaje de inventiva",
     },
     [72783] = {
         name = "Pedidos de fabricación",
+    },
+    [72953] = {
+        name = "Cámara de Zskera: Az",
+    },
+    [73076] = {
+        name = "Regreso al confín",
+    },
+    [73089] = {
+        name = "Lo que hay tras la siguiente puerta",
+    },
+    [73155] = {
+        name = "El anillo olvidado",
+    },
+    [73157] = {
+        name = "Alas de piedad",
+    },
+    [73159] = {
+        name = "Explorar nuestro pasado",
+    },
+    [73160] = {
+        name = "Manos y zarpas amigas",
+    },
+    [74355] = {
+        name = "Adornos primordiales",
+    },
+    [74381] = {
+        name = "Legados ocultos",
+    },
+    [74442] = {
+        name = "Lo que es basura para un dragón...",
+    },
+    [74443] = {
+        name = "¿Otro tesoro de dragón?",
+    },
+    [74447] = {
+        name = "Arqueología verbal",
+    },
+    [74769] = {
+        name = "Contener la Marea de Hierro",
+    },
+    [74847] = {
+        name = "Pavethal espera",
+    },
+    [74946] = {
+        name = "En busca de un refugio",
+    },
+    [74984] = {
+        name = "Autorización auténtica",
+    },
+    [75050] = {
+        name = "Un acuerdo ecléctico",
     },
 })
 ]])()

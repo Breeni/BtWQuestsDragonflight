@@ -2007,17 +2007,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72375] = {
+        name = "Helft dem Abkommen: Der Ruf der Inseln",
+    },
     [72397] = {
         name = "Ausrichtung: Drachenschuppenbasislager",
     },
     [72406] = {
         name = "Ausrichtung: Valdrakken",
     },
+    [72546] = {
+        name = "Akademische Unterstützung",
+    },
+    [72547] = {
+        name = "Akademische Beschaffungen",
+    },
+    [72588] = {
+        name = "Plünderer der Primalisten",
+    },
+    [72589] = {
+        name = "Ehret ihr Opfer",
+    },
+    [72591] = {
+        name = "Eine Schuld, die beglichen werden muss",
+    },
+    [72592] = {
+        name = "Narben der Vergangenheit",
+    },
+    [72593] = {
+        name = "Ein Tomul-tartiger Anfang",
+    },
+    [72594] = {
+        name = "Schlechte Nachrichten überbringen",
+    },
+    [72595] = {
+        name = "Die Suche nach Bovan Windtotem",
+    },
+    [72599] = {
+        name = "Gemeinsame Rettungsmission",
+    },
+    [72600] = {
+        name = "Eine ordentliche Shikaarverabschiedung",
+    },
+    [72601] = {
+        name = "Bovans letzte Hoffnung",
+    },
+    [72602] = {
+        name = "Ein optimistischer Mystiker",
+    },
+    [72603] = {
+        name = "Der Wert der Worte",
+    },
+    [72604] = {
+        name = "Verzweifelte Rettung",
+    },
+    [72605] = {
+        name = "Bovan Windtotem retten",
+    },
+    [72606] = {
+        name = "Rot sehen",
+    },
+    [72607] = {
+        name = "Alter Hass",
+    },
+    [72609] = {
+        name = "Fall abgeschlossen",
+    },
+    [72611] = {
+        name = "Loslassen",
+    },
+    [72662] = {
+        name = "Vorräte auffüllen",
+    },
+    [72663] = {
+        name = "Nadelholzspur",
+    },
     [72773] = {
         name = "Genialität erlernen",
     },
     [72783] = {
         name = "Handwerksaufträge",
+    },
+    [72953] = {
+        name = "Gewölbe von Zskera: Az",
+    },
+    [73076] = {
+        name = "Zurück zur Insel",
+    },
+    [73089] = {
+        name = "Was ist hinter der nächsten Tür?",
+    },
+    [73155] = {
+        name = "Der vergessene Ring",
+    },
+    [73157] = {
+        name = "Barmherzige Schwingen",
+    },
+    [73159] = {
+        name = "Erkundung unserer Vergangenheit",
+    },
+    [73160] = {
+        name = "Helfende Hände und Klauen",
+    },
+    [74355] = {
+        name = "Urzeitliche Verzierung",
+    },
+    [74381] = {
+        name = "Verborgene Vermächtnisse",
+    },
+    [74442] = {
+        name = "Der Plunder eines Drachen...",
+    },
+    [74443] = {
+        name = "...ist des anderen Drachen Schatz?",
+    },
+    [74447] = {
+        name = "Verbale Archäologie",
+    },
+    [74769] = {
+        name = "Gegen die Eisenflut stemmen",
+    },
+    [74847] = {
+        name = "Glutthal wartet",
+    },
+    [74946] = {
+        name = "Ein Ort der Zuflucht",
+    },
+    [74984] = {
+        name = "Authentische Autorisierung",
+    },
+    [75050] = {
+        name = "Ein vielschichtiger Pakt",
     },
 })
 ]])()

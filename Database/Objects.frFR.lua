@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "Note abandonnée",
     },
+    [385952] = {
+        name = "Anneau inhabituel",
+    },
 })
 ]])()

@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "Nota desechada",
     },
+    [385952] = {
+        name = "Anillo inusual",
+    },
 })
 ]])()

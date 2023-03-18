@@ -199,4 +199,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [385952] = {
+        name = "Unusual Ring",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.298698,
+                    y = 0.572975,
+                },
+            },
+        },
+    },
 })

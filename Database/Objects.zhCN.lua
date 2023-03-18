@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "被丢弃的笔记",
     },
+    [385952] = {
+        name = "不同寻常的戒指",
+    },
 })
 ]])()

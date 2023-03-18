@@ -210,5 +210,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [198386] = {
         name = "Mapa de exploración",
     },
+    [199201] = {
+        name = "Dracomandante Veridia",
+    },
+    [201180] = {
+        name = "Catalogador Wulferd",
+    },
+    [202656] = {
+        name = "Mayla Altamontaña",
+    },
 })
 ]])()

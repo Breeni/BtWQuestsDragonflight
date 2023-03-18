@@ -2004,17 +2004,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Trecho Azur",
     },
+    [72375] = {
+        name = "Ayuda para el Acuerdo: El llamado de las Islas",
+    },
     [72397] = {
         name = "Orientación: Campamento Dragontino",
     },
     [72406] = {
         name = "Orientación: Valdrakken",
     },
+    [72546] = {
+        name = "Asistencia académica",
+    },
+    [72547] = {
+        name = "Adquisiciones académicas",
+    },
+    [72588] = {
+        name = "Saqueadores primalistas",
+    },
+    [72589] = {
+        name = "Honra su sacrificio",
+    },
+    [72591] = {
+        name = "Una deuda que debe pagarse",
+    },
+    [72592] = {
+        name = "Cicatrices del pasado",
+    },
+    [72593] = {
+        name = "Un comienzo Tomul-tuoso",
+    },
+    [72594] = {
+        name = "Portador de malas noticias",
+    },
+    [72595] = {
+        name = "¿Dónde está Bovan Tótem de Viento?",
+    },
+    [72599] = {
+        name = "Operación conjunta de rescate",
+    },
+    [72600] = {
+        name = "Una despedida shikaar",
+    },
+    [72601] = {
+        name = "La última esperanza de Bovan",
+    },
+    [72602] = {
+        name = "Místico optimístico",
+    },
+    [72603] = {
+        name = "El valor de las palabras",
+    },
+    [72604] = {
+        name = "Rescate desesperado",
+    },
+    [72605] = {
+        name = "El rescate de Bovan Tótem de Viento",
+    },
+    [72606] = {
+        name = "Preso de ira",
+    },
+    [72607] = {
+        name = "Rencores arraigados",
+    },
+    [72609] = {
+        name = "Caso cerrado",
+    },
+    [72611] = {
+        name = "Aprender a perdonar",
+    },
+    [72662] = {
+        name = "Reabastecimiento de suministros",
+    },
+    [72663] = {
+        name = "El sendero de los pinares",
+    },
     [72773] = {
         name = "Ingenio y sagacidad",
     },
     [72783] = {
         name = "Pedidos de fabricación",
+    },
+    [72953] = {
+        name = "Bóvedas de Zskera: Az",
+    },
+    [73076] = {
+        name = "Regreso al Confín",
+    },
+    [73089] = {
+        name = "Qué hay detrás de la puerta",
+    },
+    [73155] = {
+        name = "El anillo olvidado",
+    },
+    [73157] = {
+        name = "Alas piadosas",
+    },
+    [73159] = {
+        name = "La exploración de nuestro pasado",
+    },
+    [73160] = {
+        name = "Una garra no se le niega a nadie",
+    },
+    [74355] = {
+        name = "Adorno primordial",
+    },
+    [74381] = {
+        name = "Legados ocultos",
+    },
+    [74442] = {
+        name = "La basura de un dragón...",
+    },
+    [74443] = {
+        name = "... ¿es el tesoro de otro dragón?",
+    },
+    [74447] = {
+        name = "Arqueología verbal",
+    },
+    [74769] = {
+        name = "Controlar la marea férrea",
+    },
+    [74847] = {
+        name = "Brasathal espera",
+    },
+    [74946] = {
+        name = "Un refugio para valientes",
+    },
+    [74984] = {
+        name = "Autorización auténtica",
+    },
+    [75050] = {
+        name = "Un acuerdo ecléctico",
     },
 })
 ]])()

@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "Nota Scartata",
     },
+    [385952] = {
+        name = "Anello Inusuale",
+    },
 })
 ]])()

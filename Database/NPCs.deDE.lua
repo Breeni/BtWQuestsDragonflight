@@ -204,5 +204,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [198386] = {
         name = "Späherkarte",
     },
+    [199201] = {
+        name = "Schuppenkommandantin Viridia",
+    },
+    [201180] = {
+        name = "Katalogisierer Wulferd",
+    },
+    [202656] = {
+        name = "Mayla Hochberg",
+    },
 })
 ]])()

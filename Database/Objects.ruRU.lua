@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "Выброшенная записка",
     },
+    [385952] = {
+        name = "Необычное кольцо",
+    },
 })
 ]])()

@@ -9,5 +9,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [381687] = {
         name = "Weggeworfene Notiz",
     },
+    [385952] = {
+        name = "Ungewöhnlicher Ring",
+    },
 })
 ]])()

@@ -1971,17 +1971,137 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72375] = {
+        name = "Aiutare l'Accordo: la chiamata delle isole",
+    },
     [72397] = {
         name = "Orientamento: Campo delle Scaglie di Drago",
     },
     [72406] = {
         name = "Orientamento: Valdrakken",
     },
+    [72546] = {
+        name = "Aiuto accademico",
+    },
+    [72547] = {
+        name = "Acquisizioni accademiche",
+    },
+    [72588] = {
+        name = "Primalisti saccheggiatori",
+    },
+    [72589] = {
+        name = "Onore al loro sacrificio",
+    },
+    [72591] = {
+        name = "Un debito che deve essere pagato",
+    },
+    [72592] = {
+        name = "Cicatrici dal passato",
+    },
+    [72593] = {
+        name = "Un inizio Tomul-tuoso",
+    },
+    [72594] = {
+        name = "Riferire brutte notizie",
+    },
+    [72595] = {
+        name = "Alla ricerca di Bovan Totem Fulgido",
+    },
+    [72599] = {
+        name = "Operazione di salvataggio congiunta",
+    },
+    [72600] = {
+        name = "Gli Shikaar mandano i loro saluti",
+    },
+    [72601] = {
+        name = "L'ultima speranza di Bovan",
+    },
+    [72602] = {
+        name = "Mistico ottimista",
+    },
+    [72603] = {
+        name = "Quando le parole contano",
+    },
+    [72604] = {
+        name = "Salvataggio disperato",
+    },
+    [72605] = {
+        name = "Il salvataggio di Bovan Totem Fulgido",
+    },
+    [72606] = {
+        name = "Vedere rosso",
+    },
+    [72607] = {
+        name = "Vecchi rancori",
+    },
+    [72609] = {
+        name = "Il caso è chiuso",
+    },
+    [72611] = {
+        name = "Dire addio",
+    },
+    [72662] = {
+        name = "Rifornire i rifornimenti",
+    },
+    [72663] = {
+        name = "Dirigersi a Pignadura",
+    },
     [72773] = {
         name = "Apprendere l'ingegno",
     },
     [72783] = {
         name = "Ordini d'Artigianato",
+    },
+    [72953] = {
+        name = "Cripta di Zskera: Az",
+    },
+    [73076] = {
+        name = "Ritorno all'Isola",
+    },
+    [73089] = {
+        name = "Cosa c'è dietro la porta successiva",
+    },
+    [73155] = {
+        name = "L'anello dimenticato",
+    },
+    [73157] = {
+        name = "Ali della pietà",
+    },
+    [73159] = {
+        name = "Esplorare il nostro passato",
+    },
+    [73160] = {
+        name = "Aiutare con le unghie e con i denti",
+    },
+    [74355] = {
+        name = "Un gioiello primordiale",
+    },
+    [74381] = {
+        name = "Retaggi nascosti",
+    },
+    [74442] = {
+        name = "Le cianfrusaglie di un drago...",
+    },
+    [74443] = {
+        name = "Sono il tesoro di un altro drago?",
+    },
+    [74447] = {
+        name = "Archeologia verbale",
+    },
+    [74769] = {
+        name = "Contenere i Marferreo",
+    },
+    [74847] = {
+        name = "Bracithal attende",
+    },
+    [74946] = {
+        name = "Un luogo in cui rifugiarsi",
+    },
+    [74984] = {
+        name = "Autorizzazione autentica",
+    },
+    [75050] = {
+        name = "Un accordo eclettico",
     },
 })
 ]])()

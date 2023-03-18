@@ -78,6 +78,7 @@ Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
 General.lua
+10.0.7.lua
 FriendOfTheDragonIsles.lua
 TheWakingShores.lua
 OhnahranPlains.lua
