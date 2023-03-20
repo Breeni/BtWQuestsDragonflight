@@ -1,3 +1,7 @@
+# v2.0
+
+- Added multiple quest chains for 10.0.7
+
 # v1.5
 
 - Updated The Spark of Ingenuity questline with the rest of the quests
