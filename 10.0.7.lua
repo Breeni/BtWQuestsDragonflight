@@ -216,7 +216,7 @@ Database:AddChain(Chain.ReturnToTheReach, {
     },
     completed = {
         type = "quest",
-        id = 74847,
+        id = 73156,
     },
     items = {
         {
@@ -261,8 +261,85 @@ Database:AddChain(Chain.ReturnToTheReach, {
             type = "quest",
             id = 74847,
             x = 0,
+            breadcrumb = true,
+            connections = {
+                1, 
+            },
         },
-    },
+        {
+            type = "quest",
+            id = 72712,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72713,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73107,
+            visible = false,
+        },
+        {
+            type = "quest",
+            id = 72545,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73094,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72715,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72714,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73137,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72717,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73156,
+            x = 0,
+        },
+    }
 })
 Database:AddChain(Chain.ZskeraVaults, {
     name = L["ZSKERA_VAULTS"],
@@ -349,7 +426,7 @@ Database:AddChain(Chain.ZskeraVaults, {
         },
         {
             type = "quest",
-            id = 74984,
+            id = 74983,
             x = -3,
             aside = true,
         },

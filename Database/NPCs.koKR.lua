@@ -333,6 +333,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "비늘사령관 비리디아",
     },
+    [199532] = {
+        name = "비늘사령관 엠버탈",
+    },
     [201180] = {
         name = "분류학자 울퍼드",
     },

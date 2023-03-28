@@ -792,8 +792,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66177] = {
         name = "On n’abandonne aucun Nain !",
     },
+    [66179] = {
+        name = "Les graines de l’avenir",
+    },
+    [66180] = {
+        name = "Le réveil des anciens",
+    },
+    [66181] = {
+        name = "Une défense effrénée",
+    },
+    [66182] = {
+        name = "Les recherches de Gérithus",
+    },
+    [66183] = {
+        name = "Les larmes d’émeraude",
+    },
+    [66184] = {
+        name = "Ancrages de vie",
+    },
+    [66185] = {
+        name = "De l’autre côté de la sylve",
+    },
+    [66186] = {
+        name = "Le prix à payer",
+    },
     [66187] = {
         name = "Mordigan le Fol et le roi de cristal",
+    },
+    [66188] = {
+        name = "Le repos de la tempête",
+    },
+    [66189] = {
+        name = "Retour à la vie",
+    },
+    [66190] = {
+        name = "Si proche",
+    },
+    [66191] = {
+        name = "Et pourtant si loin",
     },
     [66196] = {
         name = "Un coin-coin à l’abri",
@@ -993,8 +1029,62 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66391] = {
         name = "En route pour les ruines",
     },
+    [66392] = {
+        name = "Ralliement des alliés de la nature",
+    },
+    [66393] = {
+        name = "Auprès de Somnikus",
+    },
+    [66394] = {
+        name = "Un voile à déchirer",
+    },
+    [66395] = {
+        name = "Rochers babillards",
+    },
+    [66396] = {
+        name = "Bons et loyaux services",
+    },
+    [66397] = {
+        name = "Ralliement de toutes nos troupes",
+    },
+    [66398] = {
+        name = "Le Vol draconique émeraude",
+    },
+    [66399] = {
+        name = "Un obstacle glacial",
+    },
+    [66400] = {
+        name = "La chute de l’hiver",
+    },
+    [66401] = {
+        name = "La Rêveuse",
+    },
+    [66409] = {
+        name = "Affaire pressante",
+    },
+    [66410] = {
+        name = "Impressions catastrophiques",
+    },
+    [66411] = {
+        name = "Eaux troubles",
+    },
     [66412] = {
         name = "Basilton, jusqu’au bout",
+    },
+    [66413] = {
+        name = "Une chaleur envahissante",
+    },
+    [66414] = {
+        name = "Le compte y est… presque",
+    },
+    [66415] = {
+        name = "La seule solution est d’avancer",
+    },
+    [66417] = {
+        name = "Sauvetage de fournitures",
+    },
+    [66418] = {
+        name = "Test du roharsenal",
     },
     [66422] = {
         name = "L’expédition continue !",
@@ -1014,6 +1104,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66429] = {
         name = "Je ne l’oublierai pas",
     },
+    [66431] = {
+        name = "Jour de deuil",
+    },
     [66435] = {
         name = "Site de sauvetage",
     },
@@ -1029,8 +1122,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66439] = {
         name = "Plans en rafales",
     },
+    [66440] = {
+        name = "Tourner la page",
+    },
     [66441] = {
         name = "Effort distillé",
+    },
+    [66443] = {
+        name = "Appel à la chasse",
+    },
+    [66444] = {
+        name = "Tant que le fer est chaud",
     },
     [66447] = {
         name = "Au-delà de la barrière",
@@ -1149,8 +1251,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66612] = {
         name = "Une soigne-crabes dans l’embarras",
     },
+    [66620] = {
+        name = "Invocations d’émeraude",
+    },
     [66622] = {
         name = "Outils égarés",
+    },
+    [66635] = {
+        name = "À nouveau réunis",
     },
     [66646] = {
         name = "Apaiser les causalités",
@@ -1458,6 +1566,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68639] = {
         name = "Prédateurs polaires en maraude",
     },
+    [68640] = {
+        name = "Isolation soudaine",
+    },
     [68641] = {
         name = "Mousse toujours",
     },
@@ -1484,6 +1595,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [68799] = {
         name = "Retour au sanctuaire de l’Essence rubis",
+    },
+    [68863] = {
+        name = "La tribu perdue",
     },
     [69094] = {
         name = "Sauver les Centaures",
@@ -1577,6 +1691,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [69938] = {
         name = "Frénésie de pêche !",
+    },
+    [69942] = {
+        name = "Mystères fougerobes",
     },
     [69946] = {
         name = "Le maître de son art",
@@ -1998,6 +2115,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72406] = {
         name = "Orientation : Valdrakken",
     },
+    [72545] = {
+        name = "Les morts du couvoir",
+    },
     [72546] = {
         name = "Assistance académique",
     },
@@ -2064,6 +2184,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72663] = {
         name = "La piste de la Pinède",
     },
+    [72712] = {
+        name = "Les plus braves d’entre nous",
+    },
+    [72713] = {
+        name = "Héritage",
+    },
+    [72714] = {
+        name = "Une approche interdisciplinaire",
+    },
+    [72715] = {
+        name = "Tenir la Flamme à distance",
+    },
+    [72717] = {
+        name = "Un couvoir divisé",
+    },
     [72773] = {
         name = "Apprentissage d’ingéniosité",
     },
@@ -2079,8 +2214,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73089] = {
         name = "Au-delà de la porte",
     },
+    [73094] = {
+        name = "Au secours de l’expédition",
+    },
+    [73107] = {
+        name = "Pierre d’envoi : rapport initial",
+    },
+    [73137] = {
+        name = "À la poursuite de la Flamme",
+    },
     [73155] = {
         name = "L’anneau oublié",
+    },
+    [73156] = {
+        name = "Retour auprès de Viridia",
     },
     [73157] = {
         name = "Ailes de miséricorde",
@@ -2115,11 +2262,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74946] = {
         name = "Un endroit où se réfugier",
     },
-    [74984] = {
+    [74983] = {
         name = "Cachet certifié",
     },
     [75050] = {
         name = "Un concordat hétéroclite",
+    },
+    [75258] = {
+        name = "Un dernier mot",
     },
 })
 ]])()

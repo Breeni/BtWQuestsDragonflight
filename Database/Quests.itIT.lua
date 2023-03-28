@@ -777,8 +777,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66177] = {
         name = "Nessun Nano verrà abbandonato",
     },
+    [66179] = {
+        name = "Semi per il futuro",
+    },
+    [66180] = {
+        name = "Svegliare gli Antichi",
+    },
+    [66181] = {
+        name = "Il difensore furioso",
+    },
+    [66182] = {
+        name = "La ricerca di Gerithus",
+    },
+    [66183] = {
+        name = "Lacrime di smeraldo",
+    },
+    [66184] = {
+        name = "Ancoraggio alla vita",
+    },
+    [66185] = {
+        name = "Oltre il Bosco",
+    },
+    [66186] = {
+        name = "Il prezzo",
+    },
     [66187] = {
         name = "Mordigan il Folle e il Re di Cristallo",
+    },
+    [66188] = {
+        name = "Riposo della Tempesta",
+    },
+    [66189] = {
+        name = "Un passo verso la vita",
+    },
+    [66190] = {
+        name = "Così vicino",
+    },
+    [66191] = {
+        name = "Eppure così lontano",
     },
     [66196] = {
         name = "Uno starnazzo d'aiuto",
@@ -978,8 +1014,62 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66391] = {
         name = "Verso le rovine!",
     },
+    [66392] = {
+        name = "Riunire gli alleati della natura",
+    },
+    [66393] = {
+        name = "Da Somnikus",
+    },
+    [66394] = {
+        name = "Assottiglia il Velo",
+    },
+    [66395] = {
+        name = "Le rocce scroscianti",
+    },
+    [66396] = {
+        name = "Gratitudine guardinga",
+    },
+    [66397] = {
+        name = "La nostra forza assoluta",
+    },
+    [66398] = {
+        name = "Lo Stormo dei Draghi di Smeraldo",
+    },
+    [66399] = {
+        name = "Attraverseremo quel ponte",
+    },
+    [66400] = {
+        name = "L'arrivo dell'inverno",
+    },
+    [66401] = {
+        name = "La Sognatrice",
+    },
+    [66409] = {
+        name = "Questioni urgenti",
+    },
+    [66410] = {
+        name = "Brutte impressioni",
+    },
+    [66411] = {
+        name = "Acque torbide",
+    },
     [66412] = {
         name = "Continua pure, Basilton",
+    },
+    [66413] = {
+        name = "Calura opprimente",
+    },
+    [66414] = {
+        name = "Tutti tranne una",
+    },
+    [66415] = {
+        name = "Una questione da affrontare di petto",
+    },
+    [66417] = {
+        name = "Recuperare rifornimenti",
+    },
+    [66418] = {
+        name = "Provare il Tuskarrsenale",
     },
     [66422] = {
         name = "La spedizione continua!",
@@ -999,6 +1089,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66429] = {
         name = "Non dimenticherò",
     },
+    [66431] = {
+        name = "In lutto",
+    },
     [66435] = {
         name = "Recupero del sito",
     },
@@ -1014,8 +1107,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66439] = {
         name = "Piani avvampanti",
     },
+    [66440] = {
+        name = "Trovare pace",
+    },
     [66441] = {
         name = "Impegno distillato",
+    },
+    [66443] = {
+        name = "Chiamare il gruppo di caccia",
+    },
+    [66444] = {
+        name = "Finché il ferro è caldo",
     },
     [66447] = {
         name = "Oltre la barriera",
@@ -1134,8 +1236,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66612] = {
         name = "Il dilemma del Guardiagranchi",
     },
+    [66620] = {
+        name = "Convocazione di smeraldo",
+    },
     [66622] = {
         name = "Attrezzi ribelli",
+    },
+    [66635] = {
+        name = "Insieme, ancora una volta",
     },
     [66646] = {
         name = "Causalità letali",
@@ -1440,6 +1548,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68639] = {
         name = "Predatori polari furtivi",
     },
+    [68640] = {
+        name = "Isolamento improvviso",
+    },
     [68641] = {
         name = "Un muschio di ingredienti",
     },
@@ -1466,6 +1577,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [68799] = {
         name = "Ritorno al Tempio della Vita di Rubino",
+    },
+    [68863] = {
+        name = "Una tribù perduta",
     },
     [69094] = {
         name = "Salvataggio del Centauro",
@@ -1559,6 +1673,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [69938] = {
         name = "Pesca frenetica!",
+    },
+    [69942] = {
+        name = "Misteri dei Felcepelle",
     },
     [69946] = {
         name = "Un maestro della sua professione",
@@ -1980,6 +2097,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72406] = {
         name = "Orientamento: Valdrakken",
     },
+    [72545] = {
+        name = "Caduti dell'Asilo",
+    },
     [72546] = {
         name = "Aiuto accademico",
     },
@@ -2046,6 +2166,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72663] = {
         name = "Dirigersi a Pignadura",
     },
+    [72712] = {
+        name = "Il meglio che abbiamo",
+    },
+    [72713] = {
+        name = "Eredità",
+    },
+    [72714] = {
+        name = "Un approccio interdisciplinare",
+    },
+    [72715] = {
+        name = "Tenere a bada la Fiamma",
+    },
+    [72717] = {
+        name = "Un Asilo diviso",
+    },
     [72773] = {
         name = "Apprendere l'ingegno",
     },
@@ -2061,8 +2196,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73089] = {
         name = "Cosa c'è dietro la porta successiva",
     },
+    [73094] = {
+        name = "Aiutare la spedizione",
+    },
+    [73107] = {
+        name = "Pietra dell'Invio: Rapporto Iniziale",
+    },
+    [73137] = {
+        name = "In cerca della fiamma",
+    },
     [73155] = {
         name = "L'anello dimenticato",
+    },
+    [73156] = {
+        name = "Torna da Viridia.",
     },
     [73157] = {
         name = "Ali della pietà",
@@ -2097,11 +2244,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74946] = {
         name = "Un luogo in cui rifugiarsi",
     },
-    [74984] = {
+    [74983] = {
         name = "Autorizzazione autentica",
     },
     [75050] = {
         name = "Un accordo eclettico",
+    },
+    [75258] = {
+        name = "Un'ultima parola",
     },
 })
 ]])()

@@ -213,6 +213,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "Comandante-de-escama Virídia",
     },
+    [199532] = {
+        name = "Comandante-de-escama Brasathal",
+    },
     [201180] = {
         name = "Catalogador Volfredo",
     },

@@ -789,8 +789,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66177] = {
         name = "Hasta el último enano",
     },
+    [66179] = {
+        name = "Semillas para el futuro",
+    },
+    [66180] = {
+        name = "Despertar a los ancestros",
+    },
+    [66181] = {
+        name = "Un defensor demenciado",
+    },
+    [66182] = {
+        name = "La investigación de Gerithus",
+    },
+    [66183] = {
+        name = "Lágrimas esmeralda",
+    },
+    [66184] = {
+        name = "Anclajes a la vida",
+    },
+    [66185] = {
+        name = "Al otro lado de la foresta",
+    },
+    [66186] = {
+        name = "El precio",
+    },
     [66187] = {
         name = "Mordigan el Loco y el rey de cristal",
+    },
+    [66188] = {
+        name = "El reposo de la tormenta",
+    },
+    [66189] = {
+        name = "Entrar en la vida",
+    },
+    [66190] = {
+        name = "Tan cerca",
+    },
+    [66191] = {
+        name = "Y a la vez tan lejos",
     },
     [66196] = {
         name = "Un graznido de ayuda",
@@ -990,8 +1026,62 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66391] = {
         name = "¡A las ruinas!",
     },
+    [66392] = {
+        name = "Los aliados de la naturaleza",
+    },
+    [66393] = {
+        name = "Acudir a Somnikus",
+    },
+    [66394] = {
+        name = "Dispersar el velo",
+    },
+    [66395] = {
+        name = "El ruido de las rocas",
+    },
+    [66396] = {
+        name = "Apreciación cautelosa",
+    },
+    [66397] = {
+        name = "Nuestra fuerza al completo",
+    },
+    [66398] = {
+        name = "El Vuelo Esmeralda",
+    },
+    [66399] = {
+        name = "El puente que cruzaremos",
+    },
+    [66400] = {
+        name = "La caída del invierno",
+    },
+    [66401] = {
+        name = "La Soñadora",
+    },
+    [66409] = {
+        name = "Asuntos urgentes",
+    },
+    [66410] = {
+        name = "Últimas impresiones",
+    },
+    [66411] = {
+        name = "Aguas turbulentas",
+    },
     [66412] = {
         name = "Adelante, Albahácaton",
+    },
+    [66413] = {
+        name = "Calor acechante",
+    },
+    [66414] = {
+        name = "Todos menos uno",
+    },
+    [66415] = {
+        name = "La única forma de pasar es a través",
+    },
+    [66417] = {
+        name = "Recuperando suministros",
+    },
+    [66418] = {
+        name = "Probando el colmillarrsenal",
     },
     [66422] = {
         name = "¡La expedición continúa!",
@@ -1011,6 +1101,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66429] = {
         name = "Lo recordaré",
     },
+    [66431] = {
+        name = "De luto",
+    },
     [66435] = {
         name = "Recuperación del sitio",
     },
@@ -1026,8 +1119,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66439] = {
         name = "Planes de fuego rápido",
     },
+    [66440] = {
+        name = "Final",
+    },
     [66441] = {
         name = "Esfuerzo destilado",
+    },
+    [66443] = {
+        name = "Llamando al grupo de caza",
+    },
+    [66444] = {
+        name = "A hierro",
     },
     [66447] = {
         name = "Más allá de la barrera",
@@ -1146,8 +1248,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66612] = {
         name = "El dilema de la cuidadora de cangrejos",
     },
+    [66620] = {
+        name = "Invocaciones esmeralda",
+    },
     [66622] = {
         name = "Las herramientas extraviadas",
+    },
+    [66635] = {
+        name = "Reunidos de nuevo",
     },
     [66646] = {
         name = "Reducción de las causalidades",
@@ -1455,6 +1563,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68639] = {
         name = "Depredadores polares merodeadores",
     },
+    [68640] = {
+        name = "Aislamiento súbito",
+    },
     [68641] = {
         name = "Marcando musgo",
     },
@@ -1481,6 +1592,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [68799] = {
         name = "Retorno al Vitasagrario Rubí",
+    },
+    [68863] = {
+        name = "Una tribu perdida",
     },
     [69094] = {
         name = "Salvando centauros",
@@ -1571,6 +1685,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [69938] = {
         name = "¡Locos por la pesca!",
+    },
+    [69942] = {
+        name = "Misterios de Frondacuero",
     },
     [69946] = {
         name = "El maestro de su oficio",
@@ -1992,6 +2109,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72406] = {
         name = "Orientación: Valdrakken",
     },
+    [72545] = {
+        name = "Nido caído",
+    },
     [72546] = {
         name = "Ayuda académica",
     },
@@ -2058,6 +2178,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72663] = {
         name = "El rastro del pinar",
     },
+    [72712] = {
+        name = "Lo mejor que tenemos",
+    },
+    [72713] = {
+        name = "Herencia",
+    },
+    [72714] = {
+        name = "Un enfoque interdisciplinario",
+    },
+    [72715] = {
+        name = "Mantener las llamas a raya",
+    },
+    [72717] = {
+        name = "Un nido dividido",
+    },
     [72773] = {
         name = "Aprendizaje de inventiva",
     },
@@ -2073,8 +2208,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73089] = {
         name = "Lo que hay tras la siguiente puerta",
     },
+    [73094] = {
+        name = "Ayudar a la Expedición",
+    },
+    [73107] = {
+        name = "Tablilla de envío: Informe inicial",
+    },
+    [73137] = {
+        name = "Perseguir a la llama",
+    },
     [73155] = {
         name = "El anillo olvidado",
+    },
+    [73156] = {
+        name = "Volver con Viridia",
     },
     [73157] = {
         name = "Alas de piedad",
@@ -2109,11 +2256,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74946] = {
         name = "En busca de un refugio",
     },
-    [74984] = {
+    [74983] = {
         name = "Autorización auténtica",
     },
     [75050] = {
         name = "Un acuerdo ecléctico",
+    },
+    [75258] = {
+        name = "Una última palabra",
     },
 })
 ]])()

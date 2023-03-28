@@ -4352,6 +4352,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199175] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.615605,
+                    y = 0.616457,
+                },
+            },
+        },
+    },
     [199201] = {
         name = "Scalecommander Viridia",
         locations = {
@@ -4396,6 +4407,72 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199520] = {
+        name = "Ebyssian",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.616802,
+                    y = 0.612717,
+                },
+            },
+        },
+    },
+    [199521] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.588271,
+                    y = 0.703262,
+                },
+            },
+        },
+    },
+    [199531] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.551266,
+                    y = 0.359027,
+                },
+            },
+        },
+    },
+    [199532] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.325643,
+                    y = 0.60574,
+                },
+            },
+        },
+    },
+    [199538] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.743761,
+                    y = 0.369033,
+                },
+            },
+        },
+    },
+    [199539] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.767267,
+                    y = 0.385176,
+                },
+            },
+        },
+    },
     [200040] = {
         name = "Pathfinder Jeb",
         locations = {
@@ -4414,6 +4491,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.291572,
                     y = 0.531381,
+                },
+            },
+        },
+    },
+    [200403] = {
+        name = "Talon Damos",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.551322,
+                    y = 0.373975,
                 },
             },
         },

@@ -333,6 +333,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "龍隊指揮官維利迪亞",
     },
+    [199532] = {
+        name = "龍隊指揮官安珀莎",
+    },
     [201180] = {
         name = "編目員沃福德",
     },

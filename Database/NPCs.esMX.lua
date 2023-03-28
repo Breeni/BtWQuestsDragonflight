@@ -213,6 +213,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "Dracomandante Veridia",
     },
+    [199532] = {
+        name = "Dracomandante Brasathal",
+    },
     [201180] = {
         name = "Catalogador Wulferd",
     },

@@ -216,6 +216,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "Comandante delle Scaglie Viridia",
     },
+    [199532] = {
+        name = "Comandante delle Scaglie Bracithal",
+    },
     [201180] = {
         name = "Catalogatore Wulferd",
     },

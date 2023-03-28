@@ -333,6 +333,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "鳞长薇莉迪亚",
     },
+    [199532] = {
+        name = "鳞长安波莎",
+    },
     [201180] = {
         name = "编目员乌尔菲德",
     },

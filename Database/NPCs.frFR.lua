@@ -225,6 +225,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "Squammandante Viridia",
     },
+    [199532] = {
+        name = "Squammandante Ardenthal",
+    },
     [201180] = {
         name = "Inventoriste Wulfred",
     },

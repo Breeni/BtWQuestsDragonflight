@@ -207,6 +207,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199201] = {
         name = "Schuppenkommandantin Viridia",
     },
+    [199532] = {
+        name = "Schuppenkommandantin Glutthal",
+    },
     [201180] = {
         name = "Katalogisierer Wulferd",
     },

@@ -786,8 +786,44 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66177] = {
         name = "Kein Zwerg bleibt zurück",
     },
+    [66179] = {
+        name = "Die Saat der Zukunft",
+    },
+    [66180] = {
+        name = "Erweckt die Urtume",
+    },
+    [66181] = {
+        name = "Ein rasender Verteidiger",
+    },
+    [66182] = {
+        name = "Gerithus' Forschung",
+    },
+    [66183] = {
+        name = "Smaragdgrüne Tränen",
+    },
+    [66184] = {
+        name = "Lebensanker",
+    },
+    [66185] = {
+        name = "Durch den Wald",
+    },
+    [66186] = {
+        name = "Der Preis",
+    },
     [66187] = {
         name = "Der verrückte Mordigan und der Kristallkönig",
+    },
+    [66188] = {
+        name = "Sturmruh",
+    },
+    [66189] = {
+        name = "Der Schritt ins Leben",
+    },
+    [66190] = {
+        name = "So knapp",
+    },
+    [66191] = {
+        name = "Und doch so fern",
     },
     [66196] = {
         name = "Ein Hilfequaken",
@@ -984,8 +1020,62 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66391] = {
         name = "In die Ruinen!",
     },
+    [66392] = {
+        name = "Ansporn für die Verbündeten der Natur",
+    },
+    [66393] = {
+        name = "Zu Somnikus",
+    },
+    [66394] = {
+        name = "Den Schleier schwächen",
+    },
+    [66395] = {
+        name = "Die flüsternden Felsen",
+    },
+    [66396] = {
+        name = "Bewachte Anerkennung",
+    },
+    [66397] = {
+        name = "Mit voller Kraft",
+    },
+    [66398] = {
+        name = "Der smaragdgrüne Drachenschwarm",
+    },
+    [66399] = {
+        name = "Über die Brücke",
+    },
+    [66400] = {
+        name = "Wintersturz",
+    },
+    [66401] = {
+        name = "Die Träumerin",
+    },
+    [66409] = {
+        name = "Drückende Anliegen",
+    },
+    [66410] = {
+        name = "Schlechtester Eindruck",
+    },
+    [66411] = {
+        name = "Aufgewühltes Wasser",
+    },
     [66412] = {
         name = "Weiter so, Blattington",
+    },
+    [66413] = {
+        name = "Übergreifende Hitze",
+    },
+    [66414] = {
+        name = "Alle bis auf einen",
+    },
+    [66415] = {
+        name = "Mitten durch",
+    },
+    [66417] = {
+        name = "Vorratssicherung",
+    },
+    [66418] = {
+        name = "Tuskarrsenal im Test",
     },
     [66422] = {
         name = "Die Expedition geht weiter!",
@@ -1005,6 +1095,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66429] = {
         name = "In ewiger Erinnerung",
     },
+    [66431] = {
+        name = "In Trauer",
+    },
     [66435] = {
         name = "Bergungsunternehmung",
     },
@@ -1020,8 +1113,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66439] = {
         name = "Schnellfeuerpläne",
     },
+    [66440] = {
+        name = "Abschluss",
+    },
     [66441] = {
         name = "Destillierte Anstrengungen",
+    },
+    [66443] = {
+        name = "Ruf an den Jagdtrupp",
+    },
+    [66444] = {
+        name = "Solange das Eisen heiß ist",
     },
     [66447] = {
         name = "Jenseits der Barriere",
@@ -1140,8 +1242,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66612] = {
         name = "Dilemma der Krabbenhüterin",
     },
+    [66620] = {
+        name = "Smaragdbeschwörungen",
+    },
     [66622] = {
         name = "Entlaufene Werkzeuge",
+    },
+    [66635] = {
+        name = "Wieder wiedervereint",
     },
     [66646] = {
         name = "Kausalitäten unter Kontrolle bringen",
@@ -1446,6 +1554,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68639] = {
         name = "Eisbären auf der Jagd",
     },
+    [68640] = {
+        name = "Plötzliche Isolation",
+    },
     [68641] = {
         name = "Ohne Moos nix los",
     },
@@ -1472,6 +1583,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [68799] = {
         name = "Rückkehr zum Rubinlebensschrein",
+    },
+    [68863] = {
+        name = "Ein verlorener Stamm",
     },
     [69093] = {
         name = "Ein neues Mysterium",
@@ -1568,6 +1682,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [69938] = {
         name = "Angelwahnsinn!",
+    },
+    [69942] = {
+        name = "Brackenfellmysterien",
     },
     [69946] = {
         name = "Eine Meisterin ihres Fachs",
@@ -2016,6 +2133,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72406] = {
         name = "Ausrichtung: Valdrakken",
     },
+    [72545] = {
+        name = "Hort der Gefallenen",
+    },
     [72546] = {
         name = "Akademische Unterstützung",
     },
@@ -2082,6 +2202,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72663] = {
         name = "Nadelholzspur",
     },
+    [72712] = {
+        name = "Unsere Besten",
+    },
+    [72713] = {
+        name = "Hinterlassenschaft",
+    },
+    [72714] = {
+        name = "Ein interdisziplinärer Ansatz",
+    },
+    [72715] = {
+        name = "Die Flamme klein halten",
+    },
+    [72717] = {
+        name = "Ein gespaltener Hort",
+    },
     [72773] = {
         name = "Genialität erlernen",
     },
@@ -2097,8 +2232,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73089] = {
         name = "Was ist hinter der nächsten Tür?",
     },
+    [73094] = {
+        name = "Hilfe für die Expedition",
+    },
+    [73107] = {
+        name = "Sendestein: Erster Bericht",
+    },
+    [73137] = {
+        name = "Auf den Spuren der Flamme",
+    },
     [73155] = {
         name = "Der vergessene Ring",
+    },
+    [73156] = {
+        name = "Zurück zu Viridia",
     },
     [73157] = {
         name = "Barmherzige Schwingen",
@@ -2133,11 +2280,14 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74946] = {
         name = "Ein Ort der Zuflucht",
     },
-    [74984] = {
+    [74983] = {
         name = "Authentische Autorisierung",
     },
     [75050] = {
         name = "Ein vielschichtiger Pakt",
+    },
+    [75258] = {
+        name = "Ein letztes Wort",
     },
 })
 ]])()
