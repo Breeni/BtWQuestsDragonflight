@@ -1,3 +1,11 @@
+# v2.2
+
+- Added most Embers of Neltharion quest chains
+
+# v2.1
+
+- Updated multiple quest chains for 10.0.7
+
 # v2.0
 
 - Added multiple quest chains for 10.0.7
