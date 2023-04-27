@@ -2196,6 +2196,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72611] = {
         name = "Loslassen",
     },
+    [72658] = {
+        name = "Flugsteine",
+    },
     [72662] = {
         name = "Vorräte auffüllen",
     },
@@ -2223,8 +2226,200 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72783] = {
         name = "Handwerksaufträge",
     },
+    [72872] = {
+        name = "Schinden der Tiefe",
+    },
+    [72873] = {
+        name = "Es hat nicht gereicht",
+    },
+    [72874] = {
+        name = "Geheimnisse unseres Vaters",
+    },
+    [72878] = {
+        name = "Jetzt wird's schleimig",
+    },
+    [72879] = {
+        name = "Ich kann machen, dass die Luft riecht",
+    },
+    [72880] = {
+        name = "Räucherwerkbelohnung",
+    },
+    [72881] = {
+        name = "Eine Schwalbe macht noch keinen Sommer",
+    },
+    [72882] = {
+        name = "Schwalben auf der Flucht",
+    },
+    [72883] = {
+        name = "Eine tote Schwalbe macht gar keinen Sommer",
+    },
+    [72886] = {
+        name = "Dem Verräter den Garaus",
+    },
+    [72908] = {
+        name = "Grenzenlose Sicht",
+    },
+    [72909] = {
+        name = "Legenden der Zaqali",
+    },
+    [72910] = {
+        name = "Kennt Euren Feind",
+    },
+    [72911] = {
+        name = "Fehlt erst mal der Kopf",
+    },
+    [72912] = {
+        name = "Konsequenzen",
+    },
+    [72913] = {
+        name = "Rettung auf dem Schlachtfeld",
+    },
+    [72914] = {
+        name = "Eile ist geboten",
+    },
+    [72915] = {
+        name = "Zweckbündnis",
+    },
+    [72916] = {
+        name = "Ihr Ende wartet schon",
+    },
+    [72917] = {
+        name = "Aus dem Herzen der Hölle",
+    },
+    [72918] = {
+        name = "Kein Drache bleibt zurück",
+    },
+    [72919] = {
+        name = "Durch die Kohlen harken",
+    },
+    [72920] = {
+        name = "Der unendlich brennende Himmel",
+    },
+    [72922] = {
+        name = "Schwindende Glut",
+    },
+    [72923] = {
+        name = "Ein Flüstern an Sabellian",
+    },
+    [72924] = {
+        name = "Appell an den Schwarzen Prinzen",
+    },
+    [72925] = {
+        name = "Mit vereinter Kraft",
+    },
+    [72926] = {
+        name = "In guten Händen",
+    },
+    [72927] = {
+        name = "Sarkareth finden",
+    },
+    [72928] = {
+        name = "Operation Auslöschung",
+    },
+    [72929] = {
+        name = "Seinen Panzer knacken",
+    },
+    [72930] = {
+        name = "Sarkareths Ende",
+    },
+    [72931] = {
+        name = "Vorhutslager",
+    },
     [72953] = {
         name = "Gewölbe von Zskera: Az",
+    },
+    [72958] = {
+        name = "Maulwurfrettung",
+    },
+    [72959] = {
+        name = "Wessen Gewölbe ist das eigentlich?",
+    },
+    [72961] = {
+        name = "Aufladen",
+    },
+    [72962] = {
+        name = "Die Tür muss auf!",
+    },
+    [72963] = {
+        name = "Die Oberhand",
+    },
+    [72964] = {
+        name = "Angesengt",
+    },
+    [72965] = {
+        name = "Aspekte unseres Vermächtnisses",
+    },
+    [72966] = {
+        name = "Wo Rauch ist, da ist auch Feuer",
+    },
+    [72970] = {
+        name = "Niffen und Goliath",
+    },
+    [72973] = {
+        name = "Riecht nach Loamm",
+    },
+    [72974] = {
+        name = "Willkommen in der Stadt der Düfte",
+    },
+    [72975] = {
+        name = "Das Land unter der Erde",
+    },
+    [72976] = {
+        name = "Ein Riss in der Welt",
+    },
+    [72977] = {
+        name = "Wo die Flammen fielen",
+    },
+    [72978] = {
+        name = "Narbe von Erde und Feuer",
+    },
+    [72979] = {
+        name = "Die Erde macht den Weg frei",
+    },
+    [72980] = {
+        name = "Nicht ohne meinen Bruder",
+    },
+    [72981] = {
+        name = "Geduld der Prinzen",
+    },
+    [72987] = {
+        name = "Die nächste Runde",
+    },
+    [73036] = {
+        name = "Medizinische Pilze",
+    },
+    [73037] = {
+        name = "Heilkristalle",
+    },
+    [73038] = {
+        name = "Zimmer ohne Aussicht",
+    },
+    [73039] = {
+        name = "Ruheloser Tod",
+    },
+    [73040] = {
+        name = "Unordnung in die Ordnung bringen",
+    },
+    [73041] = {
+        name = "Verschnaufpause",
+    },
+    [73042] = {
+        name = "Ein Turm hoch hinaus",
+    },
+    [73043] = {
+        name = "Ein grauenvolles Vermächtnis",
+    },
+    [73044] = {
+        name = "Katalogisierung des Horrors",
+    },
+    [73045] = {
+        name = "Fleckenentfernung",
+    },
+    [73046] = {
+        name = "Höhleneskapaden",
+    },
+    [73047] = {
+        name = "Terrestrisches Tunnelgraben",
     },
     [73076] = {
         name = "Zurück zur Insel",
@@ -2256,11 +2451,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73160] = {
         name = "Helfende Hände und Klauen",
     },
+    [74334] = {
+        name = "Zukünftige Aspekte",
+    },
     [74355] = {
         name = "Urzeitliche Verzierung",
     },
+    [74375] = {
+        name = "Forschungsergebnisse zusammentragen",
+    },
     [74381] = {
         name = "Verborgene Vermächtnisse",
+    },
+    [74393] = {
+        name = "Bericht: Schlachtfeldruinen",
     },
     [74442] = {
         name = "Der Plunder eines Drachen...",
@@ -2271,14 +2475,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74447] = {
         name = "Verbale Archäologie",
     },
+    [74494] = {
+        name = "Schuppe um Schuppe",
+    },
+    [74538] = {
+        name = "Bomben auf Ballisten",
+    },
+    [74539] = {
+        name = "Ausdünnen ihrer Verteidigung",
+    },
+    [74540] = {
+        name = "Abfangen der Kommunikation",
+    },
+    [74542] = {
+        name = "Luftüberlegenheit",
+    },
+    [74557] = {
+        name = "Untersuchung des Unbekannten",
+    },
+    [74562] = {
+        name = "Befreiungsaktion",
+    },
+    [74563] = {
+        name = "Schlimmer geht's nicht",
+    },
     [74769] = {
         name = "Gegen die Eisenflut stemmen",
     },
     [74847] = {
         name = "Glutthal wartet",
     },
+    [74876] = {
+        name = "Das Freundschaftssystem",
+    },
+    [74877] = {
+        name = "Beste Freunde",
+    },
+    [74878] = {
+        name = "Alte Freunde, liebe Freunde",
+    },
     [74946] = {
         name = "Ein Ort der Zuflucht",
+    },
+    [74953] = {
+        name = "Schwer wiegt die Krone",
     },
     [74983] = {
         name = "Authentische Autorisierung",
@@ -2286,8 +2526,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75050] = {
         name = "Ein vielschichtiger Pakt",
     },
+    [75145] = {
+        name = "Nach der Asche",
+    },
     [75258] = {
         name = "Ein letztes Wort",
+    },
+    [75367] = {
+        name = "Die Obsidianrast",
+    },
+    [75419] = {
+        name = "Splitterflammen",
+    },
+    [75440] = {
+        name = "Scharfschnabel sättigen",
+    },
+    [75456] = {
+        name = "Neues von unter der Erde",
+    },
+    [75506] = {
+        name = "Schattenflammenwappen",
+    },
+    [75507] = {
+        name = "Auf dem neuesten Stand",
+    },
+    [75643] = {
+        name = "Ausrichtung: Niffen von Loamm",
+    },
+    [75644] = {
+        name = "Tief unter der Erde",
+    },
+    [75665] = {
+        name = "Ein würdiger Verbündeter: Die Niffen von Loamm",
+    },
+    [75694] = {
+        name = "Aberrus, Schmelztiegel der Schatten: Sarkareth",
+    },
+    [75885] = {
+        name = "Im Handumdrehen reich",
+    },
+    [75985] = {
+        name = "Ruht sanft, Krieger",
+    },
+    [76101] = {
+        name = "Tiefer, schneller, weiter",
     },
 })
 ]])()

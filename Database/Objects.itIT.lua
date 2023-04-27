@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Anello Inusuale",
     },
+    [387520] = {
+        name = "BIGLIETTO: Giochi di Scintillogg",
+    },
 })
 ]])()

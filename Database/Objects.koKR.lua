@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "특이한 반지",
     },
+    [387520] = {
+        name = "입장권: 글리머로그 경기",
+    },
 })
 ]])()

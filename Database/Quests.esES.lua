@@ -2172,6 +2172,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72611] = {
         name = "Dejarlo ir",
     },
+    [72658] = {
+        name = "Las piedras de vuelo",
+    },
     [72662] = {
         name = "Reabastecimiento de suministros",
     },
@@ -2199,8 +2202,203 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72783] = {
         name = "Pedidos de fabricación",
     },
+    [72872] = {
+        name = "Matanza en las profundidades",
+    },
+    [72873] = {
+        name = "No fue suficiente",
+    },
+    [72874] = {
+        name = "Secretos de nuestro padre",
+    },
+    [72878] = {
+        name = "La hora de las babas en directo",
+    },
+    [72879] = {
+        name = "Aquí huele a niffen",
+    },
+    [72880] = {
+        name = "Te lo agradezco inciensamente",
+    },
+    [72881] = {
+        name = "Érase una vez una golondrina",
+    },
+    [72882] = {
+        name = "Ave a la fuga",
+    },
+    [72883] = {
+        name = "La última migración",
+    },
+    [72884] = {
+        name = "En busca de Efervesta",
+    },
+    [72886] = {
+        name = "Un impostor delatado",
+    },
+    [72908] = {
+        name = "Vista más allá de la vista",
+    },
+    [72909] = {
+        name = "Leyendas de los zaqali",
+    },
+    [72910] = {
+        name = "Conoce a fondo a tu enemigo",
+    },
+    [72911] = {
+        name = "Acabar con la cabeza",
+    },
+    [72912] = {
+        name = "Consecuencias",
+    },
+    [72913] = {
+        name = "Triaje de campaña",
+    },
+    [72914] = {
+        name = "Auxilio acelerado",
+    },
+    [72915] = {
+        name = "Alianza de conveniencia",
+    },
+    [72916] = {
+        name = "Destrucción necesaria",
+    },
+    [72917] = {
+        name = "Desde el corazón del infierno",
+    },
+    [72918] = {
+        name = "Hasta el último dragón",
+    },
+    [72919] = {
+        name = "Barrer las brasas",
+    },
+    [72920] = {
+        name = "El cielo infinito en llamas",
+    },
+    [72922] = {
+        name = "Ascuas moribundas",
+    },
+    [72923] = {
+        name = "Un susurro para Sabellian",
+    },
+    [72924] = {
+        name = "Apelar al Príncipe Negro",
+    },
+    [72925] = {
+        name = "Juntos somos más fuertes",
+    },
+    [72926] = {
+        name = "En buenas manos",
+    },
+    [72927] = {
+        name = "En busca de Sarkareth",
+    },
+    [72928] = {
+        name = "Acabar con ellos",
+    },
+    [72929] = {
+        name = "Agrietar el caparazón",
+    },
+    [72930] = {
+        name = "Detener a Sarkareth",
+    },
+    [72931] = {
+        name = "Avanzada",
+    },
     [72953] = {
         name = "Cámara de Zskera: Az",
+    },
+    [72958] = {
+        name = "Salvar al topo Tuberros",
+    },
+    [72959] = {
+        name = "¿De quién es la cámara?",
+    },
+    [72961] = {
+        name = "Recargando",
+    },
+    [72962] = {
+        name = "¡Abre esa puerta!",
+    },
+    [72963] = {
+        name = "Sacar ventaja",
+    },
+    [72964] = {
+        name = "El rastro del fuego",
+    },
+    [72965] = {
+        name = "Aspectos de nuestro legado",
+    },
+    [72966] = {
+        name = "Donde hay humo, hay fuego",
+    },
+    [72970] = {
+        name = "Niffen y Goliat",
+    },
+    [72973] = {
+        name = "Huele a Loamm",
+    },
+    [72974] = {
+        name = "La ciudad de los aromas",
+    },
+    [72975] = {
+        name = "El mundo subterráneo",
+    },
+    [72976] = {
+        name = "Una grieta en el mundo",
+    },
+    [72977] = {
+        name = "Donde caían las llamas",
+    },
+    [72978] = {
+        name = "Cicatriz de tierra y fuego",
+    },
+    [72979] = {
+        name = "La tierra deja paso",
+    },
+    [72980] = {
+        name = "El guardián de un hermano",
+    },
+    [72981] = {
+        name = "La paciencia de los príncipes",
+    },
+    [72987] = {
+        name = "Allá vamos",
+    },
+    [73036] = {
+        name = "Hongos medicinales",
+    },
+    [73037] = {
+        name = "Cristales de sanación",
+    },
+    [73038] = {
+        name = "Una habitación sin vistas",
+    },
+    [73039] = {
+        name = "Muerte insomne",
+    },
+    [73040] = {
+        name = "Llevar el caos al orden",
+    },
+    [73041] = {
+        name = "Descanso",
+    },
+    [73042] = {
+        name = "Una torre demasiado lejana",
+    },
+    [73043] = {
+        name = "Un legado espectral",
+    },
+    [73044] = {
+        name = "Catalogar el horror",
+    },
+    [73045] = {
+        name = "El fin de la vieja mancha",
+    },
+    [73046] = {
+        name = "Excursiones cavernosas",
+    },
+    [73047] = {
+        name = "Tunelamiento terrestre",
     },
     [73076] = {
         name = "Regreso al confín",
@@ -2232,11 +2430,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73160] = {
         name = "Manos y zarpas amigas",
     },
+    [74334] = {
+        name = "Aspectos futuros",
+    },
     [74355] = {
         name = "Adornos primordiales",
     },
+    [74375] = {
+        name = "Recopilar la investigación",
+    },
     [74381] = {
         name = "Legados ocultos",
+    },
+    [74393] = {
+        name = "Informe: Ruinas del Campo de Batalla",
     },
     [74442] = {
         name = "Lo que es basura para un dragón...",
@@ -2247,14 +2454,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74447] = {
         name = "Arqueología verbal",
     },
+    [74494] = {
+        name = "Escama por escama",
+    },
+    [74538] = {
+        name = "Destrucción o muerte",
+    },
+    [74539] = {
+        name = "Reducir sus defensas",
+    },
+    [74540] = {
+        name = "Interceptar las comunicaciones",
+    },
+    [74542] = {
+        name = "Superioridad aérea",
+    },
+    [74557] = {
+        name = "Investigar lo desconocido",
+    },
+    [74562] = {
+        name = "Liberarlos a todos",
+    },
+    [74563] = {
+        name = "Lo peor de lo peor",
+    },
     [74769] = {
         name = "Contener la Marea de Hierro",
     },
     [74847] = {
         name = "Pavethal espera",
     },
+    [74876] = {
+        name = "Una de colegas",
+    },
+    [74877] = {
+        name = "Amigos del alma",
+    },
+    [74878] = {
+        name = "Viejos y queridos amigos",
+    },
     [74946] = {
         name = "En busca de un refugio",
+    },
+    [74953] = {
+        name = "El peso de la corona",
     },
     [74983] = {
         name = "Autorización auténtica",
@@ -2262,8 +2505,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75050] = {
         name = "Un acuerdo ecléctico",
     },
+    [75145] = {
+        name = "Tras la estela de las cenizas",
+    },
     [75258] = {
         name = "Una última palabra",
+    },
+    [75367] = {
+        name = "El Reposo Obsidiana",
+    },
+    [75419] = {
+        name = "Llamas Hendidas",
+    },
+    [75440] = {
+        name = "Un bocado para Picoafilado",
+    },
+    [75456] = {
+        name = "Noticias subterráneas",
+    },
+    [75506] = {
+        name = "Los blasones de llama de las Sombras",
+    },
+    [75507] = {
+        name = "Ponerse al día con tus amigos",
+    },
+    [75643] = {
+        name = "Orientación: Niffen de Loamm",
+    },
+    [75644] = {
+        name = "A doscientos metros bajo tierra",
+    },
+    [75665] = {
+        name = "Un aliado digno: Niffen de Loamm",
+    },
+    [75694] = {
+        name = "Aberrus, el Crisol Ensombrecido: Sarkareth",
+    },
+    [75885] = {
+        name = "Dinero rápido",
+    },
+    [75985] = {
+        name = "Que descanses, guerrero",
+    },
+    [76101] = {
+        name = "Bajo tierra somos más duros",
     },
 })
 ]])()

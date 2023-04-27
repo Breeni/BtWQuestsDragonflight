@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Необычное кольцо",
     },
+    [387520] = {
+        name = "Билет: игры Мерцающего Огга",
+    },
 })
 ]])()

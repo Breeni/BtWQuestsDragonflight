@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Anel Incomum",
     },
+    [387520] = {
+        name = "Ingresso: Jogos de Lumerogg",
+    },
 })
 ]])()

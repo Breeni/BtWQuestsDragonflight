@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Ungewöhnlicher Ring",
     },
+    [387520] = {
+        name = "TICKET: Glimmeroggspiele",
+    },
 })
 ]])()

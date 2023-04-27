@@ -216,6 +216,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Comandante-de-escama Brasathal",
     },
+    [200054] = {
+        name = "Anciã Pelomel",
+    },
+    [200238] = {
+        name = "Andorinha das Cavernas Morta",
+    },
+    [200291] = {
+        name = "Rupert, o Elemental Cavalheiro",
+    },
+    [200953] = {
+        name = "Reparadora da Terra Narvra",
+    },
     [201180] = {
         name = "Catalogador Volfredo",
     },
@@ -224,6 +236,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [202656] = {
         name = "Mayla Alta Montanha",
+    },
+    [202788] = {
+        name = "Khazar",
+    },
+    [204522] = {
+        name = "Aurântia",
     },
 })
 ]])()

@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "不同寻常的戒指",
     },
+    [387520] = {
+        name = "入场券：格里梅罗格运动会",
+    },
 })
 ]])()

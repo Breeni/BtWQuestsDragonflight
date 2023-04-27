@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Anillo extraño",
     },
+    [387520] = {
+        name = "CUPÓN: juegos de Destellorogg",
+    },
 })
 ]])()

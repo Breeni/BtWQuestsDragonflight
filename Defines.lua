@@ -20,6 +20,7 @@ BtWQuests.Constant.Category.Dragonflight = {
     TheAzureSpan = 1003,
     Thaldraszus = 1004,
     Dragonflight = 1005,
+    EmbersOfNeltharion = 1006,
 }
 BtWQuests.Constant.Chain.Dragonflight = {
     DracthyrAwaken = 100001,
@@ -38,6 +39,7 @@ BtWQuests.Constant.Chain.Dragonflight = {
     TheAzureSpan = {},
     Thaldraszus = {},
     Dragonflight = {},
+    EmbersOfNeltharion = {},
 }
 
 BtWQuests.Constant.Restrictions.DragonflightToF = -100001;

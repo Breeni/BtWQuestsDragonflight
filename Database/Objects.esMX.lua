@@ -12,5 +12,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [385952] = {
         name = "Anillo inusual",
     },
+    [387520] = {
+        name = "BOLETO: Juegos de Lumbrerrogg",
+    },
 })
 ]])()

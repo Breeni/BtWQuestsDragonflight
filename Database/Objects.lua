@@ -210,4 +210,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [387520] = {
+        name = "TICKET: Glimmerogg Games",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.556091,
+                    y = 0.545668,
+                },
+            },
+        },
+    },
 })

@@ -216,11 +216,38 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Dracomandante Brasathal",
     },
+    [199965] = {
+        name = "Ebisio",
+    },
+    [200054] = {
+        name = "Anciana Pelimiel",
+    },
+    [200238] = {
+        name = "Golondrina de cueva muerta",
+    },
+    [200291] = {
+        name = "Rupert, el Elemental elegante",
+    },
+    [200953] = {
+        name = "Ensalmadora de la tierra Narva",
+    },
     [201180] = {
         name = "Catalogador Wulferd",
     },
+    [201366] = {
+        name = "Ebisio",
+    },
+    [201784] = {
+        name = "Ebisio",
+    },
     [202656] = {
         name = "Mayla Altamontaña",
+    },
+    [202995] = {
+        name = "Ebisio",
+    },
+    [203965] = {
+        name = "Ebisio",
     },
 })
 ]])()
