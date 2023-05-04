@@ -378,6 +378,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [201784] = {
         name = "에비시안",
     },
+    [202597] = {
+        name = "야렌",
+    },
     [202656] = {
         name = "마일라 하이마운틴",
     },

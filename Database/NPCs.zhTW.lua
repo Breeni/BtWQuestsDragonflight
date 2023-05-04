@@ -378,6 +378,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [201784] = {
         name = "厄比西昂",
     },
+    [202597] = {
+        name = "亞倫",
+    },
     [202656] = {
         name = "梅拉‧高嶺",
     },

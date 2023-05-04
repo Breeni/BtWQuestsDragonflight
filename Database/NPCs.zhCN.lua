@@ -378,6 +378,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [201784] = {
         name = "艾比西安",
     },
+    [202597] = {
+        name = "亚尔伦",
+    },
     [202656] = {
         name = "梅拉·高岭",
     },

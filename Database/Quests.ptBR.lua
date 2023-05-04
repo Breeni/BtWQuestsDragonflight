@@ -2511,6 +2511,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Brasathal aguarda",
     },
+    [74857] = {
+        name = "À procura da rata",
+    },
+    [74858] = {
+        name = "Agrulcultura",
+    },
+    [74859] = {
+        name = "Exterminador de marisporos",
+    },
+    [74860] = {
+        name = "Um encontro amigável",
+    },
+    [74861] = {
+        name = "Um confronto nada amigável",
+    },
     [74876] = {
         name = "Sistema de parceria",
     },
@@ -2549,6 +2564,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Notícias de baixo",
+    },
+    [75462] = {
+        name = "Salvadores de ratos",
     },
     [75506] = {
         name = "Brasões da Chama Sombria",

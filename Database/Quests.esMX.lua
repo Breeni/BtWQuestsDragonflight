@@ -2523,6 +2523,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Brasathal espera",
     },
+    [74857] = {
+        name = "Detective de ratones",
+    },
+    [74858] = {
+        name = "Agricultura",
+    },
+    [74859] = {
+        name = "Exterminador de espolillas",
+    },
+    [74860] = {
+        name = "Una presentación amigable",
+    },
+    [74861] = {
+        name = "Una confrontación hostil",
+    },
     [74876] = {
         name = "El sistema Juntos es mejor",
     },
@@ -2564,6 +2579,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Noticias de las profundidades",
+    },
+    [75462] = {
+        name = "Rescatistas de ratones",
     },
     [75506] = {
         name = "Crestas de llama de las sombras",

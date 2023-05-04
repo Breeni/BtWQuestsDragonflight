@@ -378,6 +378,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [201784] = {
         name = "Абиссиан",
     },
+    [202597] = {
+        name = "Акаций",
+    },
     [202656] = {
         name = "Майла Крутогор",
     },

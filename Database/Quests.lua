@@ -17780,8 +17780,16 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70064] = {
         name = "For Imbu!",
-        contentTuningID = 2521,
+        contentTuningID = 2330,
         rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11350, 11500, 11700, 11900, 12100, 12250, 12450, 12650, 12850, 13000, 
+                },
+                minLevel = 60,
+                maxLevel = 69,
+            },
             {
                 type = "reputation",
                 id = 2510,
@@ -17796,8 +17804,16 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [70068] = {
         name = "Cobalt Catastrophe",
-        contentTuningID = 2521,
+        contentTuningID = 2475,
         rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11350, 11500, 11700, 11900, 12100, 12250, 12450, 12650, 12850, 13000, 
+                },
+                minLevel = 60,
+                maxLevel = 69,
+            },
             {
                 type = "reputation",
                 id = 2510,
@@ -22615,14 +22631,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 199532,
-            locations = {
-                [2151] = {
-                    {
-                        x = 0.325643,
-                        y = 0.60574,
-                    },
-                },
-            },
         },
         rewards = {
             {
@@ -22932,6 +22940,17 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 200056,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
     },
     [72883] = {
         name = "A Bitter Pill to Swallow",
@@ -23238,6 +23257,29 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 201619,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+            {
+                type = "reputation",
+                id = 2523,
+                amount = 50,
+                restrictions = 923,
+            },
+            {
+                type = "reputation",
+                id = 2524,
+                amount = 50,
+                restrictions = 924,
+            },
         },
     },
     [72963] = {
@@ -24109,6 +24151,101 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [74857] = {
+        name = "Mouse Detective",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202597,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [74858] = {
+        name = "Agrulculture",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202600,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [74859] = {
+        name = "Sporemoth Exterminator",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202600,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [74860] = {
+        name = "A Friendly Introduction",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202600,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [74861] = {
+        name = "An Unfriendly Confrontation",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202597,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
     [74876] = {
         name = "The Buddy System",
         contentTuningID = 2633,
@@ -24228,6 +24365,22 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 201784,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 130,
+            },
+        },
     },
     [75233] = {
         name = "Flesh to Bone",
@@ -24240,6 +24393,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
             },
         },
     },
@@ -24284,6 +24442,33 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [75456] = {
         contentTuningID = 2627,
+    },
+    [75462] = {
+        name = "Mouse Rescuers",
+        contentTuningID = 2631,
+        source = {
+            type = "npc",
+            id = 202600,
+            locations = {
+                [2133] = {
+                    {
+                        x = 0.468853,
+                        y = 0.795752,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
     },
     [75506] = {
         name = "Shadowflame Crests",
@@ -24417,6 +24602,12 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.556501,
                     },
                 },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
             },
         },
     },

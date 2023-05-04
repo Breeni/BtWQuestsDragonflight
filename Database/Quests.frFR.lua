@@ -2490,6 +2490,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Ardenthal vous attend",
     },
+    [74857] = {
+        name = "En quête de souris",
+    },
+    [74859] = {
+        name = "Extermination de sporalènes",
+    },
+    [74860] = {
+        name = "Une présentation amicale",
+    },
+    [74861] = {
+        name = "Une confrontation inamicale",
+    },
     [74876] = {
         name = "Esprit d’équipe",
     },
@@ -2528,6 +2540,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Des nouvelles du sous-sol",
+    },
+    [75462] = {
+        name = "Sauvetage de souris",
     },
     [75506] = {
         name = "Les écus d’ombreflamme",

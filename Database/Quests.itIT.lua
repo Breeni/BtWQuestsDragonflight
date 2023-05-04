@@ -2472,6 +2472,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Bracithal attende",
     },
+    [74857] = {
+        name = "Investigatopo",
+    },
+    [74858] = {
+        name = "Agrulcultura",
+    },
+    [74859] = {
+        name = "Sterminio di Falene delle Spore",
+    },
+    [74860] = {
+        name = "Una presentazione amichevole",
+    },
+    [74861] = {
+        name = "Un confronto poco amichevole",
+    },
     [74876] = {
         name = "Il sistema degli amici",
     },
@@ -2510,6 +2525,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Notizie dal profondo",
+    },
+    [75462] = {
+        name = "Salvatori di topi",
     },
     [75506] = {
         name = "Gli Emblemi d'Ombrofuoco",

@@ -2505,6 +2505,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Glutthal wartet",
     },
+    [74857] = {
+        name = "Mausdetektiv",
+    },
+    [74858] = {
+        name = "Agrulkultur",
+    },
+    [74859] = {
+        name = "Sporenmottenjäger",
+    },
+    [74860] = {
+        name = "Eine nette Vorstellung",
+    },
+    [74861] = {
+        name = "Eine unfreundliche Konfrontation",
+    },
     [74876] = {
         name = "Das Freundschaftssystem",
     },
@@ -2543,6 +2558,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Neues von unter der Erde",
+    },
+    [75462] = {
+        name = "Mäuserettung",
     },
     [75506] = {
         name = "Schattenflammenwappen",

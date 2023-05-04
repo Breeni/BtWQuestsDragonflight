@@ -4445,8 +4445,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2151] = {
                 {
-                    x = 0.325711,
-                    y = 0.605903,
+                    x = 0.325643,
+                    y = 0.60574,
                 },
             },
         },
@@ -5184,6 +5184,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.535991,
                     y = 0.302073,
+                },
+            },
+        },
+    },
+    [202597] = {
+        name = "Yarren",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.510491,
+                    y = 0.741341,
+                },
+            },
+        },
+    },
+    [202600] = {
+        name = "Agrul",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.503917,
+                    y = 0.763699,
                 },
             },
         },

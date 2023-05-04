@@ -34,6 +34,7 @@ Chain.EmbedChain04 = 100619
 Chain.EmbedChain05 = 100620
 Chain.TempChain21 = 100621
 Chain.TempChain22 = 100622
+Chain.Chain06 = 100623
 
 Database:AddChain(Chain.BreakingGround, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
@@ -47,6 +48,11 @@ Database:AddChain(Chain.BreakingGround, {
             type = "level",
             level = 70,
         },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.ReturnToTheReach,
+            upto = 72717,
+        }
     },
     active = {
         type = "quest",
@@ -1661,6 +1667,84 @@ Database:AddChain(Chain.TempChain21, {
         },
     },
 })
+Database:AddChain(Chain.Chain06, { -- Agrulculture
+    name = {
+        type = "quest",
+        id = 74858,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 74857,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 75462,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 202597,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74857,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74858,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74859,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74860,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74861,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75462,
+            x = 0,
+        },
+    },
+})
 
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetAchievementNameDelayed(ACHIEVEMENT_ID_1),
@@ -1716,6 +1800,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.Chain05,
         },
+        {
+            type = "chain",
+            id = Chain.Chain06,
+        },
     },
 })
 
@@ -1747,6 +1835,10 @@ Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
         id = Chain.Chain05,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain06,
     },
     {
         type = "chain",

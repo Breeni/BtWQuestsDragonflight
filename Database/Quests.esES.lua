@@ -2484,6 +2484,21 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74847] = {
         name = "Pavethal espera",
     },
+    [74857] = {
+        name = "Detective ratón",
+    },
+    [74858] = {
+        name = "Agrulcultura",
+    },
+    [74859] = {
+        name = "Exterminador de polillesporas",
+    },
+    [74860] = {
+        name = "Una presentación amistosa",
+    },
+    [74861] = {
+        name = "Una confrontación poco amistosa",
+    },
     [74876] = {
         name = "Una de colegas",
     },
@@ -2522,6 +2537,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75456] = {
         name = "Noticias subterráneas",
+    },
+    [75462] = {
+        name = "Rescatarratones",
     },
     [75506] = {
         name = "Los blasones de llama de las Sombras",
