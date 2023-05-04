@@ -1,3 +1,9 @@
+# v3.0
+
+- Added misisng 10.1.0 quest line Agrulculture
+- Fixed showing The Buddy System as active before it was completely available
+- Updated the requirements for The Dragons and The Scale Expedition
+
 # v2.2
 
 - Added most Embers of Neltharion quest chains
