@@ -1194,7 +1194,7 @@ Database:AddChain(Chain.Chain04, {
     },
     active = {
         type = "quest",
-        ids = {74876, 74877},
+        id = 74877,
         status = {'active', 'completed'}
     },
     completed = {
