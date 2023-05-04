@@ -808,7 +808,7 @@ Database:AddChain(Chain.ACrecheDivided, {
         
     },
 })
-Database:AddChain(Chain.TheDragonsAndTheScaleExpedition, {
+Database:AddChain(Chain.TheDragonsAndTheScaleExpedition, { -- Seems to require TheAncientBargain chapter of the campaign on 1 character, cant find a tracking quest though
     name = L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"],
     questline = 5353,
     category = CATEGORY_ID,
@@ -819,6 +819,11 @@ Database:AddChain(Chain.TheDragonsAndTheScaleExpedition, {
             type = "level",
             level = 70,
         },
+        {
+            type = "achievement",
+            id = ACHIEVEMENT_ID_1,
+            criteria = 3,
+        }
     },
     active = {
         type = "quest",
