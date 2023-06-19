@@ -156,6 +156,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [65475] = {
         name = "Dê um rolê e você vai ouvir o guincho",
     },
+    [65486] = {
+        name = "Bem na Foto",
+    },
     [65490] = {
         name = "Excremento explosivo",
     },
@@ -190,7 +193,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "A sombra de suas asas",
     },
     [65701] = {
-        name = "Preservação ou devastação",
+        name = "Preservação, Aprimoramento ou Devastação",
     },
     [65702] = {
         name = "À loucura",
@@ -522,6 +525,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66001] = {
         name = "Uma última esperança",
     },
+    [66003] = {
+        name = "Anéis vinculativos",
+    },
     [66005] = {
         name = "Medalhão de uma amizade falecida",
     },
@@ -536,6 +542,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66011] = {
         name = "Em memória de Ysera",
+    },
+    [66012] = {
+        name = "A porta lacrada",
+    },
+    [66013] = {
+        name = "Investigar a porta",
     },
     [66015] = {
         name = "Pedra do Juramento do dragão azul",
@@ -657,6 +669,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66087] = {
         name = "Hora de fechar",
     },
+    [66094] = {
+        name = "As ruínas de Szar Skeleth",
+    },
     [66100] = {
         name = "Abastecimento pesado",
     },
@@ -716,6 +731,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66124] = {
         name = "Saída triunfante",
+    },
+    [66128] = {
+        name = "Próximos passos",
     },
     [66134] = {
         name = "Controle de pragas de Azeroth",
@@ -780,11 +798,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66169] = {
         name = "Vingança, prato servido quente",
     },
+    [66173] = {
+        name = "Salão de amostras",
+    },
+    [66174] = {
+        name = "Salão dos aspectos",
+    },
     [66175] = {
         name = "Experimento de campo",
     },
     [66177] = {
         name = "Nenhum anão fica para trás",
+    },
+    [66178] = {
+        name = "Um dia no bosque",
     },
     [66179] = {
         name = "Sementes para o futuro",
@@ -1017,6 +1044,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66356] = {
         name = "Ferrarbol",
     },
+    [66368] = {
+        name = "Ilha numa tempestade",
+    },
+    [66369] = {
+        name = "A Proteção Terrena",
+    },
     [66391] = {
         name = "Para as ruínas!",
     },
@@ -1049,6 +1082,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66401] = {
         name = "A Sonhadora",
+    },
+    [66402] = {
+        name = "Tal mãe, tal filha",
     },
     [66409] = {
         name = "Questões urgentes",
@@ -1215,6 +1251,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66534] = {
         name = "Folga em terra",
     },
+    [66546] = {
+        name = "Recupere os discos",
+    },
+    [66547] = {
+        name = "O lugar disso é no museu... Um dia",
+    },
     [66553] = {
         name = "Vazio",
     },
@@ -1236,11 +1278,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66577] = {
         name = "Convite aspectivo",
     },
+    [66582] = {
+        name = "Habilitar o pórtico do Acampamento Escama de Dragão",
+    },
     [66589] = {
         name = "Coordenação expedicionária",
     },
+    [66595] = {
+        name = "Descoberta dormente",
+    },
     [66596] = {
         name = "Sussurros aos ventos",
+    },
+    [66597] = {
+        name = "Essa pedra velha",
+    },
+    [66598] = {
+        name = "Conhecimento dos Filhos da Noite",
     },
     [66612] = {
         name = "O dilema da caranguejeira",
@@ -1253,6 +1307,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66635] = {
         name = "Juntos novamente",
+    },
+    [66636] = {
+        name = "O Outro Lado",
     },
     [66646] = {
         name = "Causalidades Supressoras",
@@ -1283,6 +1340,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66660] = {
         name = "Em suas marcas... Preparem-se...",
+    },
+    [66673] = {
+        name = "Falar com Koranos",
     },
     [66675] = {
         name = "Poder dos Aspectos",
@@ -1365,6 +1425,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [66788] = {
         name = "Futuro prosperovo",
     },
+    [66814] = {
+        name = "O Julgamento de Tyr",
+    },
     [66825] = {
         name = "Um chamamento de vida rubi",
     },
@@ -1409,6 +1472,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [66846] = {
         name = "O coração das cartas",
+    },
+    [66847] = {
+        name = "Câmara dos Encarnados: fúria da Devoradora de Tempestade",
     },
     [66848] = {
         name = "Agouros ao vento",
@@ -1488,6 +1554,51 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [67063] = {
         name = "Dez mil anos de assar",
     },
+    [67064] = {
+        name = "Delícia divagante",
+    },
+    [67065] = {
+        name = "Fungos do frescor futuro",
+    },
+    [67066] = {
+        name = "Delícias debaixo d'água",
+    },
+    [67067] = {
+        name = "Navegação do saltamilho",
+    },
+    [67068] = {
+        name = "Nada além de uma brisa",
+    },
+    [67071] = {
+        name = "Foi uma longa e doce viagem",
+    },
+    [67073] = {
+        name = "Alvorada Vermelha",
+    },
+    [67074] = {
+        name = "A dádiva da prata",
+    },
+    [67075] = {
+        name = "A mágica interior",
+    },
+    [67076] = {
+        name = "Uma centelha de descoberta",
+    },
+    [67077] = {
+        name = "Lembranças do passado",
+    },
+    [67078] = {
+        name = "Instruções finais",
+    },
+    [67079] = {
+        name = "Vida trancafiada",
+    },
+    [67081] = {
+        name = "Salões da Infusão: Uma Infusão de Materiais",
+    },
+    [67084] = {
+        name = "O propósito de prata",
+    },
     [67093] = {
         name = "Um Santuário Anômalo",
     },
@@ -1533,6 +1644,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [67700] = {
         name = "Rumo às Ilhas do Dragão!",
     },
+    [67722] = {
+        name = "Escapatória",
+    },
     [67724] = {
         name = "A proteção do fogo",
     },
@@ -1572,6 +1686,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [68644] = {
         name = "Açúcar, tempero e tudo que há de bom",
     },
+    [68794] = {
+        name = "Ao lado dos dragões",
+    },
     [68795] = {
         name = "Dragonaria",
     },
@@ -1602,6 +1719,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [69096] = {
         name = "Desígnio de Taivan",
     },
+    [69097] = {
+        name = "Um cofre não lacrado",
+    },
     [69837] = {
         name = "Beemote Helióscamo",
     },
@@ -1629,11 +1749,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [69865] = {
         name = "Cacescama Mezeri",
     },
+    [69869] = {
+        name = "O paraíso das Catalogadoras",
+    },
+    [69870] = {
+        name = "Fotos com propósito",
+    },
     [69872] = {
         name = "Vakril, o morsano mais forte",
     },
     [69882] = {
         name = "Lorde Erabrigol",
+    },
+    [69888] = {
+        name = "Suspeitos incomuns",
     },
     [69895] = {
         name = "Destruidor evocado",
@@ -1705,7 +1834,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "Caçada digna",
     },
     [70034] = {
-        name = "Suprimentos do Artífice: Escala de salamandra",
+        name = "Suprimentos do Artífice: Escamas de Salamandra",
     },
     [70040] = {
         name = "Caindo através do tempo",
@@ -1755,6 +1884,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70132] = {
         name = "Fique um pouco mais",
     },
+    [70134] = {
+        name = "Lembranças",
+    },
     [70135] = {
         name = "Elementais invasores",
     },
@@ -1767,6 +1899,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70148] = {
         name = "Sem propósito",
     },
+    [70154] = {
+        name = "Um portal para algum lugar",
+    },
+    [70156] = {
+        name = "Um despertar ancestral",
+    },
     [70164] = {
         name = "A chance de um Faz-tudo",
     },
@@ -1775,6 +1913,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [70168] = {
         name = "Pequenos acidentes tristes",
+    },
+    [70169] = {
+        name = "Até as árvores precisam de amigos",
+    },
+    [70170] = {
+        name = "Acabe com os demônios",
+    },
+    [70171] = {
+        name = "Pequenos acidentes felizes",
     },
     [70174] = {
         name = "Os Shikaar",
@@ -1803,6 +1950,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70196] = {
         name = "Podando a reserva",
     },
+    [70215] = {
+        name = "Curiosidade é a chave",
+    },
     [70220] = {
         name = "Santuário Sombreado",
     },
@@ -1824,11 +1974,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70244] = {
         name = "Nada com Nokhid",
     },
+    [70268] = {
+        name = "Lembrança revivida",
+    },
     [70337] = {
         name = "Patrulha das Brasas",
     },
     [70338] = {
         name = "Levaram meus filhotes",
+    },
+    [70339] = {
+        name = "Seguindo os passos de Tyr: Chapada Ohn'ahrana",
+    },
+    [70341] = {
+        name = "Vitória muito merecida",
     },
     [70351] = {
         name = "Festa no jardim",
@@ -1842,14 +2001,35 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70374] = {
         name = "Himia, a Abençoada",
     },
+    [70376] = {
+        name = "Segundo Desafio de Tyr: Poder",
+    },
     [70377] = {
         name = "Moda abandonada",
+    },
+    [70414] = {
+        name = "Terreno trêmulo",
     },
     [70437] = {
         name = "Para Baluarte de Tyr",
     },
     [70444] = {
         name = "Arenas da Ferocidade",
+    },
+    [70503] = {
+        name = "A Vigilância de Tyr",
+    },
+    [70507] = {
+        name = "A Percepção de Tyr",
+    },
+    [70509] = {
+        name = "Terceiro Desafio de Tyr: Persistência",
+    },
+    [70510] = {
+        name = "Vitória",
+    },
+    [70621] = {
+        name = "Terceiro Desafio de Tyr: Persistência Encarnada",
     },
     [70625] = {
         name = "Criações forjadas em magia",
@@ -1863,8 +2043,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70648] = {
         name = "Firava Reavivada",
     },
+    [70650] = {
+        name = "Seguindo os passos de Tyr: Costa Desperta",
+    },
     [70697] = {
         name = "Uma opinião de especialista",
+    },
+    [70703] = {
+        name = "O Legado do Baluarte de Tyr",
+    },
+    [70708] = {
+        name = "Vazio",
     },
     [70721] = {
         name = "Para Ohn'ir dois corações",
@@ -1901,6 +2090,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [70750] = {
         name = "Ajudando o Acordo",
+    },
+    [70784] = {
+        name = "O posto avançado abandonado",
+    },
+    [70785] = {
+        name = "A cidade dos mortos",
+    },
+    [70787] = {
+        name = "Pego em uma tempestade crepuscular",
     },
     [70837] = {
         name = "Siga as pistas",
@@ -1959,6 +2157,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70879] = {
         name = "Relato sobre os rebeldes",
     },
+    [70881] = {
+        name = "Quarto Desafio de Tyr: Desenvoltura",
+    },
     [70899] = {
         name = "Quinto Desafio de Tyr: Engenhosidade",
     },
@@ -1974,6 +2175,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70931] = {
         name = "Fragmentos sussurrados",
     },
+    [70932] = {
+        name = "O tempero da vida",
+    },
     [70934] = {
         name = "Abraço da Salamantra",
     },
@@ -1983,20 +2187,38 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70946] = {
         name = "Ninguém pode por a mão",
     },
+    [70957] = {
+        name = "O mar do oeste",
+    },
+    [70958] = {
+        name = "Fungo fino do futuro",
+    },
     [70965] = {
         name = "Procura-se: cinturão dourado do vigia",
     },
     [70970] = {
         name = "Boas intenções",
     },
+    [70981] = {
+        name = "Mares saborosos",
+    },
     [70986] = {
         name = "Recruta Shikzar",
+    },
+    [70987] = {
+        name = "Corações de amido",
+    },
+    [70988] = {
+        name = "Ovo é o que há",
     },
     [70989] = {
         name = "Membro da matilha",
     },
     [70992] = {
         name = "Procura-se: pipa morsana perdida",
+    },
+    [70994] = {
+        name = "Soluções de drenagem",
     },
     [70995] = {
         name = "Procura-se: crânio de Fenistrasza",
@@ -2046,6 +2268,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71141] = {
         name = "Guelras contra garras",
     },
+    [71152] = {
+        name = "De volta ao salão principal",
+    },
+    [71164] = {
+        name = "Bandagens Roubadas",
+    },
     [71179] = {
         name = "Mirando o mirante",
     },
@@ -2067,11 +2295,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [71199] = {
         name = "Domando um dorso-do-trovão",
     },
+    [71209] = {
+        name = "Fera da chapada",
+    },
     [71212] = {
         name = "Atacando os Courambaia",
     },
     [71219] = {
         name = "A Vigia Caprichosa",
+    },
+    [71232] = {
+        name = "Renome das Ilhas do Dragão",
     },
     [71233] = {
         name = "Água cadente",
@@ -2087,6 +2321,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72067] = {
         name = "De boa na lagoa",
+    },
+    [72068] = {
+        name = "Ajudando o Acordo: um banquete para todos",
     },
     [72122] = {
         name = "Ex-ecologistas",
@@ -2127,14 +2364,98 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72269] = {
         name = "Thaldraszus",
     },
+    [72373] = {
+        name = "Ajudando o Acordo: a caçada começou",
+    },
+    [72374] = {
+        name = "Ajudando o Acordo: Bastilha de Ruína Dragônica",
+    },
     [72375] = {
         name = "Ajudando o Acordo: o chamado das Ilhas",
+    },
+    [72380] = {
+        name = "Juntos, somos imbatíveis!",
     },
     [72397] = {
         name = "Orientação: Acampamento Escama de Dragão",
     },
     [72406] = {
         name = "Orientação: Valdrakken",
+    },
+    [72411] = {
+        name = "Uma causa sem uma rebelde",
+    },
+    [72412] = {
+        name = "Interrupção explosiva",
+    },
+    [72413] = {
+        name = "Desavenças irreconciliáveis",
+    },
+    [72414] = {
+        name = "Tá amarrado",
+    },
+    [72415] = {
+        name = "Como incentivar um rebelde",
+    },
+    [72416] = {
+        name = "Acomodações temporárias",
+    },
+    [72417] = {
+        name = "Dissidentes persistentes",
+    },
+    [72418] = {
+        name = "Opiniões solicitadas",
+    },
+    [72419] = {
+        name = "De frente para o precipício",
+    },
+    [72420] = {
+        name = "Quebrando as desavenças",
+    },
+    [72421] = {
+        name = "Cálamos calados",
+    },
+    [72422] = {
+        name = "Parem as máquinas!",
+    },
+    [72440] = {
+        name = "Prata da casa",
+    },
+    [72441] = {
+        name = "Violando a Tumba",
+    },
+    [72442] = {
+        name = "O que restou de Tyr",
+    },
+    [72443] = {
+        name = "A queda de Tyr",
+    },
+    [72444] = {
+        name = "Um punhado de prata",
+    },
+    [72525] = {
+        name = "Equipamentos de catalogação básicos",
+    },
+    [72526] = {
+        name = "Pouso do Guardião",
+    },
+    [72527] = {
+        name = "Azar não existe",
+    },
+    [72529] = {
+        name = "Informação é tudo",
+    },
+    [72530] = {
+        name = "Na base do suborno",
+    },
+    [72532] = {
+        name = "Dinheiro, dinheiro e dinheiro!",
+    },
+    [72533] = {
+        name = "Cristais crimestosos",
+    },
+    [72534] = {
+        name = "Em dia com o barão",
     },
     [72545] = {
         name = "Tombados no abrigo",
@@ -2144,6 +2465,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72547] = {
         name = "Aquisições acadêmicas",
+    },
+    [72585] = {
+        name = "Orientação aberta",
     },
     [72588] = {
         name = "Primevistas pilhadores",
@@ -2199,14 +2523,56 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72611] = {
         name = "Aceitação",
     },
+    [72650] = {
+        name = "Água e ventos amenos",
+    },
+    [72651] = {
+        name = "Cuidados com carpas",
+    },
+    [72652] = {
+        name = "Autocuidado",
+    },
+    [72653] = {
+        name = "Entregas locais",
+    },
+    [72654] = {
+        name = "Para o alto e para casa",
+    },
+    [72655] = {
+        name = "Uma bebida com Kalecgos",
+    },
+    [72656] = {
+        name = "Hibérnia",
+    },
+    [72657] = {
+        name = "Uma protetora da magia",
+    },
     [72658] = {
         name = "Pedras volantes",
+    },
+    [72659] = {
+        name = "Cobaia",
+    },
+    [72660] = {
+        name = "E então, de \"repena\"...",
+    },
+    [72661] = {
+        name = "O repouso da serpe",
     },
     [72662] = {
         name = "Suprindo suprimentos",
     },
     [72663] = {
         name = "A trilha do pinho",
+    },
+    [72670] = {
+        name = "Aqueles que deixamos",
+    },
+    [72674] = {
+        name = "Um legado estilhaçado",
+    },
+    [72679] = {
+        name = "Um réquiem arcano",
     },
     [72712] = {
         name = "O melhor que temos",
@@ -2228,6 +2594,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72783] = {
         name = "Pedidos de criação",
+    },
+    [72831] = {
+        name = "Soluções criativas",
+    },
+    [72832] = {
+        name = "Tremores secundários",
+    },
+    [72833] = {
+        name = "Rompendo o ciclo",
     },
     [72872] = {
         name = "Esvaziando as profundezas",
@@ -2261,6 +2636,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72886] = {
         name = "A sabotagem do impostor",
+    },
+    [72900] = {
+        name = "O coveiro do ossuário",
     },
     [72908] = {
         name = "Visão além do alcance",
@@ -2301,6 +2679,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72920] = {
         name = "O infinito céu flamejante",
     },
+    [72921] = {
+        name = "No rastro novamente",
+    },
     [72922] = {
         name = "Brasas esmaecidas",
     },
@@ -2330,6 +2711,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [72931] = {
         name = "Acampamento avançado",
+    },
+    [72933] = {
+        name = "Rolando",
+    },
+    [72934] = {
+        name = "Que jamais esqueçamos",
+    },
+    [72935] = {
+        name = "Retorno ao arquivo",
+    },
+    [72936] = {
+        name = "O apoio de Azuregos",
+    },
+    [72937] = {
+        name = "Interferências incomuns",
+    },
+    [72938] = {
+        name = "A chegada ao arquivo",
+    },
+    [72940] = {
+        name = "Onde estaria um dragão azul perdido?",
+    },
+    [72942] = {
+        name = "Problemas velados",
+    },
+    [72946] = {
+        name = "Caos no Ossuário Velado",
+    },
+    [72947] = {
+        name = "Memórias de antigamente",
+    },
+    [72948] = {
+        name = "O que ainda resta",
+    },
+    [72949] = {
+        name = "Depressa, para o arquivo",
+    },
+    [72950] = {
+        name = "O último confronto",
+    },
+    [72951] = {
+        name = "Um adeus pacífico",
     },
     [72953] = {
         name = "Câmara de Zskera: Az",
@@ -2391,6 +2814,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72987] = {
         name = "Lá vamos nós de novo",
     },
+    [72988] = {
+        name = "Diário da Angra do Butim",
+    },
+    [73026] = {
+        name = "Angra do Butim",
+    },
     [73036] = {
         name = "Fungo medicinal",
     },
@@ -2427,11 +2856,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73047] = {
         name = "Escavação terrestre",
     },
+    [73069] = {
+        name = "Descanso de Sindragosa e Malygos",
+    },
     [73076] = {
         name = "Retorno ao Recôndito",
     },
     [73089] = {
         name = "O que há atrás da porta seguinte?",
+    },
+    [73090] = {
+        name = "Arrependimentos cristalinos",
+    },
+    [73091] = {
+        name = "Floresta do Canto Cristalino",
     },
     [73094] = {
         name = "Ajudar a Expedição",
@@ -2457,11 +2895,59 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [73160] = {
         name = "Mão e garra amigas",
     },
+    [73181] = {
+        name = "Zerando a dívida",
+    },
+    [73188] = {
+        name = "O Estandarte Maculado",
+    },
+    [73227] = {
+        name = "Floresta de Jade",
+    },
+    [73399] = {
+        name = "A procura pelos dragões azuis",
+    },
+    [73404] = {
+        name = "Dragões azuis perdidos",
+    },
+    [73405] = {
+        name = "Um par de dragões azuis",
+    },
+    [73406] = {
+        name = "O último dragão azul perdido",
+    },
+    [73707] = {
+        name = "Ingresso: Jogos de Lumerogg",
+    },
+    [73708] = {
+        name = "Pague para jogar",
+    },
+    [73709] = {
+        name = "Favor secundário",
+    },
+    [73710] = {
+        name = "Pedra sobre pedra",
+    },
+    [73711] = {
+        name = "A marca dos campeões",
+    },
+    [74291] = {
+        name = "Azul é minha cor favorita",
+    },
     [74334] = {
         name = "Aspectos futuros",
     },
+    [74335] = {
+        name = "Momento de reflexão",
+    },
+    [74354] = {
+        name = "Artefatos em abundância",
+    },
     [74355] = {
         name = "Ornamentação primordial",
+    },
+    [74356] = {
+        name = "Azul é a cor mais quente",
     },
     [74375] = {
         name = "Coletânea de pesquisa",
@@ -2483,6 +2969,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [74494] = {
         name = "Escama por escama",
+    },
+    [74521] = {
+        name = "Uma chama extinta",
+    },
+    [74522] = {
+        name = "Vestígios",
+    },
+    [74523] = {
+        name = "O fim dos traidores",
+    },
+    [74525] = {
+        name = "Brigada da honra",
     },
     [74538] = {
         name = "Mande pelos ares",
@@ -2507,6 +3005,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [74769] = {
         name = "Detendo a Maré-férrea",
+    },
+    [74783] = {
+        name = "O som do silêncio",
+    },
+    [74787] = {
+        name = "Caracolando",
     },
     [74847] = {
         name = "Brasathal aguarda",
@@ -2544,17 +3048,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [74983] = {
         name = "Autorização autêntica",
     },
+    [75018] = {
+        name = "Treva adentro",
+    },
+    [75023] = {
+        name = "Memórias de Sindragosa e Malygos",
+    },
+    [75028] = {
+        name = "Todos os pedaços quebrados",
+    },
+    [75029] = {
+        name = "Um legado reforjado",
+    },
     [75050] = {
         name = "Um acordo eclético",
     },
     [75145] = {
         name = "No rastro das cinzas",
     },
+    [75230] = {
+        name = "Dissidentes reconciliáveis",
+    },
+    [75233] = {
+        name = "Pele em Ossos",
+    },
+    [75244] = {
+        name = "Juntos novamente",
+    },
     [75258] = {
         name = "Uma palavra final",
     },
     [75367] = {
         name = "O Refúgio Obsidiano",
+    },
+    [75417] = {
+        name = "Símbolo de Esperança",
     },
     [75419] = {
         name = "Chamas Partidas",

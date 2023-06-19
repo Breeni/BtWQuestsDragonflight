@@ -1,6 +1,17 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddNPCsTable({
+    [2846] = {
+        name = "Blixrez Goodstitch",
+        locations = {
+            [210] = {
+                {
+                    x = 0.42831,
+                    y = 0.741385,
+                },
+            },
+        },
+    },
     [181054] = {
         name = "Scalecommander Emberthal",
         locations = {
@@ -701,6 +712,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.343717,
                     y = 0.310209,
+                },
+            },
+        },
+    },
+    [186240] = {
+        name = "Senegos",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.394925,
+                    y = 0.630023,
                 },
             },
         },
@@ -4352,6 +4374,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [198941] = {
+        name = "Nozdormu",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.603878,
+                    y = 0.588255,
+                },
+            },
+        },
+    },
+    [198947] = {
+        name = "Travard",
+        locations = {
+            [20] = {
+                {
+                    x = 0.391382,
+                    y = 0.412288,
+                },
+            },
+        },
+    },
+    [199114] = {
+        name = "Watcher Koranos",
+        locations = {
+            [20] = {
+                {
+                    x = 0.379518,
+                    y = 0.548812,
+                },
+            },
+        },
+    },
     [199175] = {
         name = "Scalecommander Emberthal",
         locations = {
@@ -4363,6 +4418,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199184] = {
+        name = "Lanigosa",
+        locations = {
+            [127] = {
+                {
+                    x = 0.913268,
+                    y = 0.572119,
+                },
+            },
+        },
+    },
+    [199185] = {
+        name = "Zeros",
+        locations = {
+            [210] = {
+                {
+                    x = 0.413178,
+                    y = 0.730579,
+                },
+            },
+        },
+    },
     [199201] = {
         name = "Scalecommander Viridia",
         locations = {
@@ -4370,6 +4447,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.346142,
                     y = 0.576912,
+                },
+            },
+        },
+    },
+    [199301] = {
+        name = "Investigator Erima",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.464074,
+                    y = 0.559296,
                 },
             },
         },
@@ -4392,6 +4480,83 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.66634,
                     y = 0.386755,
+                },
+            },
+        },
+    },
+    [199361] = {
+        name = "Kirygosa",
+        locations = {
+            [371] = {
+                {
+                    x = 0.464976,
+                    y = 0.444995,
+                },
+            },
+        },
+    },
+    [199370] = {
+        name = "Haleh",
+        locations = {
+            [83] = {
+                {
+                    x = 0.480704,
+                    y = 0.590671,
+                },
+            },
+        },
+    },
+    [199382] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.388914,
+                    y = 0.525667,
+                },
+            },
+        },
+    },
+    [199391] = {
+        name = "Maldra Flametongue",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.465021,
+                    y = 0.558109,
+                },
+            },
+        },
+    },
+    [199396] = {
+        name = "Maldra Flametongue",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.46358,
+                    y = 0.507182,
+                },
+            },
+        },
+    },
+    [199397] = {
+        name = "Investigator Erima",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.464173,
+                    y = 0.50863,
+                },
+            },
+        },
+    },
+    [199404] = {
+        name = "Sindragosa",
+        locations = {
+            [83] = {
+                {
+                    x = 0.475303,
+                    y = 0.602224,
                 },
             },
         },
@@ -4473,6 +4638,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199736] = {
+        name = "Surigosa",
+        locations = {
+            [70] = {
+                {
+                    x = 0.629714,
+                    y = 0.496477,
+                },
+            },
+        },
+    },
+    [199737] = {
+        name = "Kalecgos",
+        locations = {
+            [70] = {
+                {
+                    x = 0.627908,
+                    y = 0.49731,
+                },
+            },
+        },
+    },
     [199849] = {
         name = "Sabellian",
         locations = {
@@ -4528,6 +4715,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199923] = {
+        name = "Senegos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.622296,
+                    y = 0.179,
+                },
+            },
+        },
+    },
     [199949] = {
         name = "Sabellian",
         locations = {
@@ -4572,6 +4770,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199961] = {
+        name = "Senegos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.639481,
+                    y = 0.123444,
+                },
+            },
+        },
+    },
     [199964] = {
         name = "Scalecommander Emberthal",
         locations = {
@@ -4594,6 +4803,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199969] = {
+        name = "Senegos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.666741,
+                    y = 0.120037,
+                },
+            },
+        },
+    },
     [199973] = {
         name = "Sabellian",
         locations = {
@@ -4601,6 +4821,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.47061,
                     y = 0.280718,
+                },
+            },
+        },
+    },
+    [199976] = {
+        name = "Azuregos",
+        locations = {
+            [114] = {
+                {
+                    x = 0.224965,
+                    y = 0.238288,
+                },
+            },
+        },
+    },
+    [200019] = {
+        name = "Azuregos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.662,
+                    y = 0.122852,
                 },
             },
         },
@@ -4737,6 +4979,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [200078] = {
+        name = "Watcher Koranos",
+        locations = {
+            [20] = {
+                {
+                    x = 0.42056,
+                    y = 0.857488,
+                },
+            },
+        },
+    },
     [200080] = {
         name = "Ebyssian",
         locations = {
@@ -4836,6 +5089,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [200447] = {
+        name = "Senegos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.670988,
+                    y = 0.117667,
+                },
+            },
+        },
+    },
+    [200478] = {
+        name = "Senegos",
+        locations = {
+            [210] = {
+                {
+                    x = 0.420633,
+                    y = 0.776366,
+                },
+            },
+        },
+    },
     [200492] = {
         name = "Scout Tomul",
         locations = {
@@ -4858,6 +5133,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [200754] = {
+        name = "Investigator Erima",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.557759,
+                    y = 0.336378,
+                },
+            },
+        },
+    },
+    [200788] = {
+        name = "Captain Drine",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.3885,
+                    y = 0.526723,
+                },
+            },
+        },
+    },
     [200831] = {
         name = "Baine Bloodhoof",
         locations = {
@@ -4865,6 +5162,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.727551,
                     y = 0.558122,
+                },
+            },
+        },
+    },
+    [200839] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.76735,
+                    y = 0.335471,
                 },
             },
         },
@@ -4913,6 +5221,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [201019] = {
+        name = "Kalecgos",
+        locations = {
+            [371] = {
+                {
+                    x = 0.49203,
+                    y = 0.424997,
+                },
+            },
+        },
+    },
+    [201061] = {
+        name = "Azuregos",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.670691,
+                    y = 0.118259,
+                },
+            },
+        },
+    },
     [201098] = {
         name = "Brogg the Beast",
         locations = {
@@ -4935,6 +5265,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [201125] = {
+        name = "Senegos",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.394925,
+                    y = 0.630023,
+                },
+            },
+        },
+    },
     [201180] = {
         name = "Cataloger Wulferd",
         locations = {
@@ -4942,6 +5283,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.292633,
                     y = 0.52677,
+                },
+            },
+        },
+    },
+    [201211] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.388025,
+                    y = 0.525963,
                 },
             },
         },
@@ -5155,6 +5507,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [201727] = {
+        name = "Ebyssian",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.480103,
+                    y = 0.118538,
+                },
+            },
+        },
+    },
     [201752] = {
         name = "Briggul",
         locations = {
@@ -5276,6 +5639,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [202809] = {
+        name = "Wrathion",
+        locations = {
+            [2171] = {
+                {
+                    x = 0.51614,
+                    y = 0.690289,
+                },
+            },
+        },
+    },
+    [202810] = {
+        name = "Sabellian",
+        locations = {
+            [2171] = {
+                {
+                    x = 0.509868,
+                    y = 0.689999,
+                },
+            },
+        },
+    },
     [202857] = {
         name = "Scalecommander Emberthal",
         locations = {
@@ -5283,6 +5668,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.630124,
                     y = 0.739664,
+                },
+            },
+        },
+    },
+    [202858] = {
+        name = "Drained Djaradin",
+        locations = {
+            [2171] = {
+                {
+                    x = 0.432782,
+                    y = 0.518604,
+                },
+            },
+        },
+    },
+    [202928] = {
+        name = "Ebyssian",
+        locations = {
+            [2174] = {
+                {
+                    x = 0.499566,
+                    y = 0.709108,
                 },
             },
         },

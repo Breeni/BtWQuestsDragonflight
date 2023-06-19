@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "布里克雷兹·古斯提",
+    },
     [181198] = {
         name = "尊可汗萨雷丝特",
     },
@@ -102,6 +105,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [186931] = {
         name = "诺兹多姆",
     },
+    [186955] = {
+        name = "麦琳瑟拉",
+    },
     [187115] = {
         name = "阿莱克丝塔萨，生命的缚誓者",
     },
@@ -119,6 +125,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "拉希奥",
+    },
+    [187561] = {
+        name = "麦琳瑟拉",
+    },
+    [187609] = {
+        name = "唤地者耶法",
     },
     [187669] = {
         name = "诺兹多姆",
@@ -249,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192522] = {
         name = "莎伦德拉",
     },
+    [192539] = {
+        name = "米格尔·布莱特",
+    },
     [192543] = {
         name = "档案员阿雷尼尔",
     },
@@ -300,6 +315,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "雨触者木库尔",
     },
+    [195234] = {
+        name = "大地治愈者高弗伦",
+    },
     [196066] = {
         name = "格雷基克·圆指",
     },
@@ -312,6 +330,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [196812] = {
         name = "老灰牙",
     },
+    [196820] = {
+        name = "吉可丽",
+    },
     [196827] = {
         name = "螃蟹照看者卡德伊尔萨",
     },
@@ -321,14 +342,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [197533] = {
         name = "守路者洛琳",
     },
+    [197631] = {
+        name = "罗威",
+    },
     [197670] = {
         name = "温泉礼宾部",
     },
     [197986] = {
-        name = "温泉推广员",
+        name = "宁梦温泉推广员",
     },
     [198386] = {
         name = "侦察地图",
+    },
+    [198941] = {
+        name = "诺兹多姆",
     },
     [199201] = {
         name = "鳞长薇莉迪亚",
@@ -363,6 +390,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [200953] = {
         name = "大地治愈者纳尔弗拉",
     },
+    [201098] = {
+        name = "“巨兽”布罗格",
+    },
+    [201100] = {
+        name = "斯托鲁尔·重石",
+    },
     [201180] = {
         name = "编目员乌尔菲德",
     },
@@ -374,6 +407,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [201517] = {
         name = "沃拉克西安",
+    },
+    [201727] = {
+        name = "艾比西安",
+    },
+    [201752] = {
+        name = "布里谷尔",
     },
     [201784] = {
         name = "艾比西安",
@@ -389,6 +428,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [202995] = {
         name = "艾比西安",
+    },
+    [203378] = {
+        name = "古戴格",
     },
     [203404] = {
         name = "瓦斯卡尔恩",

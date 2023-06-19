@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Beaupiqué",
+    },
     [183543] = {
         name = "Noriko la Mnésique",
     },
@@ -69,6 +72,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [186869] = {
         name = "Naleïdéa Mirerive",
     },
+    [186955] = {
+        name = "Mérithra",
+    },
     [187115] = {
         name = "Alexstrasza la Lieuse-de-Vie",
     },
@@ -80,6 +86,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "Irion",
+    },
+    [187561] = {
+        name = "Mérithra",
+    },
+    [187609] = {
+        name = "Imploratrice de la terre Yevaa",
     },
     [187674] = {
         name = "Nilo",
@@ -174,6 +186,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [191924] = {
         name = "Chasseur Narman",
     },
+    [192539] = {
+        name = "Miguel Briand",
+    },
     [192543] = {
         name = "Archiviste Areniel",
     },
@@ -198,6 +213,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "Muqur Pluviot",
     },
+    [195234] = {
+        name = "Soigneterre Govrum",
+    },
     [196066] = {
         name = "Grizik Rasfitodoigt",
     },
@@ -217,7 +235,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Concierge du spa",
     },
     [197986] = {
-        name = "Organisatrice du spa des sources chaudes",
+        name = "Organisatrice du spa Rêves sereins",
     },
     [198386] = {
         name = "Carte de reconnaissance",
@@ -242,6 +260,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [200953] = {
         name = "Soigneterre Narvra",
+    },
+    [201098] = {
+        name = "Brogg la Bête",
+    },
+    [201100] = {
+        name = "Storul Lourderoche",
     },
     [201180] = {
         name = "Inventoriste Wulfred",

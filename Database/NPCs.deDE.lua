@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Gutstich",
+    },
     [183543] = {
         name = "Noriko die Allerinnernde",
     },
@@ -74,6 +77,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "Furorion",
+    },
+    [187609] = {
+        name = "Erdenruferin Yevaa",
     },
     [187678] = {
         name = "Alexstrasza die Lebensbinderin",
@@ -159,6 +165,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [191924] = {
         name = "Jäger Narman",
     },
+    [192539] = {
+        name = "Miguel Heller",
+    },
     [192543] = {
         name = "Archivar Areniel",
     },
@@ -183,6 +192,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "Muqur der Regenberührte",
     },
+    [195234] = {
+        name = "Erdheiler Govrum",
+    },
     [196066] = {
         name = "Greyzik Flickfinger",
     },
@@ -199,7 +211,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Badconcierge",
     },
     [197986] = {
-        name = "Badveranstalterin der Thermalquellen",
+        name = "Badveranstalterin des Bades der Ruhigen Träume",
     },
     [198386] = {
         name = "Späherkarte",
@@ -221,6 +233,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [200953] = {
         name = "Erdheilerin Narvra",
+    },
+    [201098] = {
+        name = "Brogg die Bestie",
+    },
+    [201100] = {
+        name = "Storul Schwerstein",
     },
     [201180] = {
         name = "Katalogisierer Wulferd",

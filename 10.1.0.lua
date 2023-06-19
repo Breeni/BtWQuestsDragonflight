@@ -21,6 +21,10 @@ Chain.InevitableConfrontation = 100605
 Chain.AFlameExtinguished = 100606
 Chain.ACrecheDivided = 100607
 Chain.TheDragonsAndTheScaleExpedition = 100608
+Chain.TheVeiledOssuary = 100609
+Chain.UnitedAgain = 100610
+Chain.RebelResurgence = 100629
+Chain.TyrsFall = 100630
 
 Chain.Chain01 = 100611
 Chain.Chain02 = 100612
@@ -35,6 +39,13 @@ Chain.EmbedChain05 = 100620
 Chain.TempChain21 = 100621
 Chain.TempChain22 = 100622
 Chain.Chain06 = 100623
+Chain.Chain07 = 100624
+Chain.Chain08 = 100625
+Chain.Chain09 = 100626
+Chain.Chain10 = 100627
+Chain.Chain11 = 100628
+
+Chain.Chain14 = 100621
 
 Database:AddChain(Chain.BreakingGround, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
@@ -774,18 +785,88 @@ Database:AddChain(Chain.AFlameExtinguished, {
             id = Chain.InheritedSin,
             lowPriority = true,
         },
+        {
+            type = "chain",
+            id = Chain.InevitableConfrontation,
+        },
     },
     active = {
         type = "quest",
-        id = 72591,
+        id = 74521,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 72611,
+        id = 75417,
     },
     items = {
-        
+        {
+            type = "npc",
+            id = 201727,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74521,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74522,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74523,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74525,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75018,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75028,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75029,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75417,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.ACrecheDivided, {
@@ -972,6 +1053,599 @@ Database:AddChain(Chain.TheDragonsAndTheScaleExpedition, { -- Seems to require T
             embed = true,
             x = 3,
             y = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TheVeiledOssuary, {
+    name = L["THE_VEILED_OSSUARY"],
+    questline = 1398,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 72900,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "chain",
+        ids = {
+            100624, 100625, 100626, 100627, 100628, 
+        },
+        count = 5,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 187676,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72900,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72921,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72933,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72934,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73069,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75023,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72935,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72936,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72937,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72938,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 72940,
+                    restrictions = {
+                        type = "chain",
+                        ids = {
+                            100624, 100625, 100626, 100627, 100628, 
+                        },
+                        count = 1,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 72940,
+                },
+            },
+            completed = {
+                type = "chain",
+                ids = {
+                    100624, 100625, 100626, 100627, 100628, 
+                },
+                count = 1,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 73399,
+                    restrictions = {
+                        type = "chain",
+                        ids = {
+                            100624, 100625, 100626, 100627, 100628, 
+                        },
+                        count = 1,
+                        notequals = true,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 73399,
+                },
+            },
+            completed = {
+                type = "chain",
+                ids = {
+                    100624, 100625, 100626, 100627, 100628, 
+                },
+                count = 2,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 73404,
+                    restrictions = {
+                        type = "chain",
+                        ids = {
+                            100624, 100625, 100626, 100627, 100628, 
+                        },
+                        count = 2,
+                        notequals = true,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 73404,
+                },
+            },
+            completed = {
+                type = "chain",
+                ids = {
+                    100624, 100625, 100626, 100627, 100628, 
+                },
+                count = 3,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 73405,
+                    restrictions = {
+                        type = "chain",
+                        ids = {
+                            100624, 100625, 100626, 100627, 100628, 
+                        },
+                        count = 3,
+                        notequals = true,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 73405,
+                },
+            },
+            completed = {
+                type = "chain",
+                ids = {
+                    100624, 100625, 100626, 100627, 100628, 
+                },
+                count = 4,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 73406,
+                    restrictions = {
+                        type = "chain",
+                        ids = {
+                            100624, 100625, 100626, 100627, 100628, 
+                        },
+                        count = 4,
+                        notequals = true,
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain07,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain08,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain09,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain10,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "chain",
+                    id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                    restrictions = {
+                        type = "chain",
+                        id = BtWQuests.Constant.Chain.Dragonflight.EmbersOfNeltharion.Chain11,
+                        status = { "active", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 73406,
+                },
+            },
+            completed = {
+                type = "chain",
+                ids = {
+                    100624, 100625, 100626, 100627, 100628, 
+                },
+                count = 5,
+            },
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.UnitedAgain, {
+    name = L["UNITED_AGAIN"],
+    questline = 1404,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            type = "chain",
+            id = Chain.TheVeiledOssuary,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 75244,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 72951,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 190000,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75244,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72942,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72946,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72947,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72948,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72949,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72950,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72951,
+            x = 0,
+        },
+        {
+            type = "quest",
+            id = 72943,
+            restrictions = false,
+            x = -3,
         },
     },
 })
@@ -1746,6 +2420,637 @@ Database:AddChain(Chain.Chain06, { -- Agrulculture
     },
 })
 
+Database:AddChain(Chain.Chain07, {
+    name = { -- Crystalsong Forest
+        type = "quest",
+        id = 73091,
+    },
+    questline = 1399,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 73091,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 74783,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 73091,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73090,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72670,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72674,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72679,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74783,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain08, {
+    name = { -- Theramore
+        type = "quest",
+        id = 72939,
+    },
+    questline = 1400,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 72939,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 74335,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 72939,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73188,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72831,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72832,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72833,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74335,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain09, {
+    name = { -- Booty Bay
+        type = "quest",
+        id = 73026,
+    },
+    questline = 1401,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 73026,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 73181,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 73026,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72988,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72527,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72529,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72530,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72532,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72533,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72534,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 73181,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain10, {
+    name = { -- Jade Forest
+        type = "quest",
+        id = 73227,
+    },
+    questline = 1402,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 73227,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 74291,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 73227,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72650,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72651,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72653,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72654,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72652,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72655,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74291,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain11, {
+    name = { -- Winterspring
+        type = "quest",
+        id = 72656,
+    },
+    questline = 1403,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 72656,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 74356,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 72656,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72657,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74354,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72659,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72660,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72661,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 74356,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.RebelResurgence, {
+    name = L["REBEL_RESURGENCE"],
+    questline = 5368,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.Thaldraszus.TempChain08,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 72411,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 75230,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 189842,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72411,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72412,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72413,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72414,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72415,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72416,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72417,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72418,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72419,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72420,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72421,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72422,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 75230,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TyrsFall, {
+    name = { -- Tyr's Fall
+        type = "quest",
+        id = 72443,
+    },
+    questline = 1377,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            name = {
+                type = "currency",
+                id = 2088,
+                amount = 12,
+            },
+            type = "achievement",
+            id = 16988, -- Account bound achievement for Rank 12
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.Dragonflight.TheSilverPurpose,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 72440,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 72444,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 198941,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72440,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72441,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72442,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72526,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72443,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 72444,
+            x = 0,
+        },
+    },
+})
+
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetAchievementNameDelayed(ACHIEVEMENT_ID_1),
     expansion = EXPANSION_ID,
@@ -1773,12 +3078,27 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.AFlameExtinguished,
-            visible = false
+            id = Chain.AFlameExtinguished
         },
         {
             type = "chain",
             id = Chain.TheDragonsAndTheScaleExpedition
+        },
+        {
+            type = "chain",
+            id = Chain.TheVeiledOssuary
+        },
+        {
+            type = "chain",
+            id = Chain.UnitedAgain
+        },
+        {
+            type = "chain",
+            id = Chain.RebelResurgence,
+        },
+        {
+            type = "chain",
+            id = Chain.TyrsFall,
         },
         {
             type = "chain",
@@ -1803,7 +3123,7 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain06,
-        },
+        }
     },
 })
 

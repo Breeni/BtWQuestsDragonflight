@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "블릭스레즈 굿스티치",
+    },
     [181198] = {
         name = "카남 마트라 사레스트",
     },
@@ -102,6 +105,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [186931] = {
         name = "노즈도르무",
     },
+    [186955] = {
+        name = "메리스라",
+    },
     [187115] = {
         name = "생명의 어머니 알렉스트라자",
     },
@@ -119,6 +125,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "래시온",
+    },
+    [187561] = {
+        name = "메리스라",
+    },
+    [187609] = {
+        name = "대지술사 예바",
     },
     [187669] = {
         name = "노즈도르무",
@@ -249,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192522] = {
         name = "탈렌드라",
     },
+    [192539] = {
+        name = "미구엘 브라이트",
+    },
     [192543] = {
         name = "기록관 아레니엘",
     },
@@ -300,6 +315,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "비에 물든 무쿠르",
     },
+    [195234] = {
+        name = "대지치유사 고브룸",
+    },
     [196066] = {
         name = "그레이직 코블핑거",
     },
@@ -311,6 +329,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [196812] = {
         name = "늙은 음울엄니",
+    },
+    [196820] = {
+        name = "지코리",
     },
     [196827] = {
         name = "게 사육사 카디르자",
@@ -325,10 +346,13 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "온천 관리인",
     },
     [197986] = {
-        name = "온천 홍보대사",
+        name = "평온의 꿈 온천 홍보대사",
     },
     [198386] = {
         name = "정찰 지도",
+    },
+    [198941] = {
+        name = "노즈도르무",
     },
     [199201] = {
         name = "비늘사령관 비리디아",
@@ -363,6 +387,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [200953] = {
         name = "대지치유사 나브라",
     },
+    [201098] = {
+        name = "야수 브록",
+    },
+    [201100] = {
+        name = "스토룰 헤비스톤",
+    },
     [201180] = {
         name = "분류학자 울퍼드",
     },
@@ -374,6 +404,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [201517] = {
         name = "보락시안",
+    },
+    [201727] = {
+        name = "에비시안",
+    },
+    [201752] = {
+        name = "브리굴",
     },
     [201784] = {
         name = "에비시안",
@@ -389,6 +425,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [202995] = {
         name = "에비시안",
+    },
+    [203378] = {
+        name = "구데그",
     },
     [203404] = {
         name = "바스카른",

@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Cortefino",
+    },
     [181198] = {
         name = "Khanam matra Sarest",
     },
@@ -74,6 +77,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187257] = {
         name = "Aster Miranubes",
+    },
+    [187609] = {
+        name = "Clamatierras Yevaa",
     },
     [187678] = {
         name = "Alexstrasza, la Protectora",
@@ -162,6 +168,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192498] = {
         name = "Hefesta",
     },
+    [192539] = {
+        name = "Miguel Radiante",
+    },
     [192543] = {
         name = "Archivista Areniel",
     },
@@ -186,6 +195,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "Muqur Tactolluvia",
     },
+    [195234] = {
+        name = "Ensalmador de la tierra Govrum",
+    },
     [196066] = {
         name = "Greyzik Dedoquín",
     },
@@ -205,7 +217,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Conserje del spa",
     },
     [197986] = {
-        name = "Promotora del spa de baños termales",
+        name = "Promotora del Spa Sueños Serenos",
     },
     [198386] = {
         name = "Mapa de exploración",
@@ -231,10 +243,19 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [200953] = {
         name = "Ensalmadora de la tierra Narva",
     },
+    [201098] = {
+        name = "Brogg, la Bestia",
+    },
+    [201100] = {
+        name = "Storul Piedrapesada",
+    },
     [201180] = {
         name = "Catalogador Wulferd",
     },
     [201366] = {
+        name = "Ebisio",
+    },
+    [201727] = {
         name = "Ebisio",
     },
     [201784] = {

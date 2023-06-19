@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Cortefino",
+    },
     [183543] = {
         name = "Noriko la que Todo lo Recuerda",
     },
@@ -74,6 +77,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187463] = {
         name = "Detry Cuernofronda",
+    },
+    [187609] = {
+        name = "Clamatierras Yevaa",
     },
     [187678] = {
         name = "Alexstrasza la Protectora",
@@ -162,6 +168,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [191924] = {
         name = "Cazador Narman",
     },
+    [192539] = {
+        name = "Miguel Brillante",
+    },
     [192543] = {
         name = "Archivista Areniel",
     },
@@ -183,6 +192,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "Muqur Tocado por la Lluvia",
     },
+    [195234] = {
+        name = "Ensalmador de la tierra Govrum",
+    },
     [196066] = {
         name = "Greyzik Dedoguijarro",
     },
@@ -199,7 +211,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Conserje de la sauna",
     },
     [197986] = {
-        name = "Promotora de la sauna Fuentes Termales",
+        name = "Promotora de la Sauna de Sueños Serenos",
     },
     [198386] = {
         name = "Mapa de exploración",
@@ -224,6 +236,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [200953] = {
         name = "Ensalmadora de la tierra Narvra",
+    },
+    [201098] = {
+        name = "Brogg la Bestia",
+    },
+    [201100] = {
+        name = "Storul Piedrapesada",
     },
     [201180] = {
         name = "Catalogador Wulferd",

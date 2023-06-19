@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "布里克雷茲‧古斯提",
+    },
     [181198] = {
         name = "大可汗瑪托拉‧薩列斯",
     },
@@ -102,6 +105,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [186931] = {
         name = "諾茲多姆",
     },
+    [186955] = {
+        name = "麥琳瑟拉",
+    },
     [187115] = {
         name = "『生命守縛者』雅立史卓莎",
     },
@@ -119,6 +125,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "怒西昂",
+    },
+    [187561] = {
+        name = "麥琳瑟拉",
+    },
+    [187609] = {
+        name = "喚地者伊瓦",
     },
     [187669] = {
         name = "諾茲多姆",
@@ -249,6 +261,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192522] = {
         name = "莎蓮卓",
     },
+    [192539] = {
+        name = "米蓋爾‧布萊特",
+    },
     [192543] = {
         name = "文獻管理員亞仁尼爾",
     },
@@ -300,6 +315,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "慕克‧雨觸",
     },
+    [195234] = {
+        name = "大地治癒者戈福浪",
+    },
     [196066] = {
         name = "葛雷茲‧煤指",
     },
@@ -312,6 +330,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [196812] = {
         name = "老厲牙",
     },
+    [196820] = {
+        name = "齊克莉",
+    },
     [196827] = {
         name = "護蟹者卡迪爾薩",
     },
@@ -321,14 +342,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [197533] = {
         name = "道路守衛羅林",
     },
+    [197631] = {
+        name = "洛威",
+    },
     [197670] = {
         name = "水療中心看門人",
     },
     [197986] = {
-        name = "溫泉水療中心宣傳者",
+        name = "安詳夢境水療中心宣傳員",
     },
     [198386] = {
         name = "偵察地圖",
+    },
+    [198941] = {
+        name = "諾茲多姆",
     },
     [199201] = {
         name = "龍隊指揮官維利迪亞",
@@ -363,6 +390,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [200953] = {
         name = "大地治癒者娜爾芙拉",
     },
+    [201098] = {
+        name = "『野獸』布洛葛",
+    },
+    [201100] = {
+        name = "史托魯‧重石",
+    },
     [201180] = {
         name = "編目員沃福德",
     },
@@ -374,6 +407,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [201517] = {
         name = "沃拉西安",
+    },
+    [201727] = {
+        name = "厄比西昂",
+    },
+    [201752] = {
+        name = "布莉古爾",
     },
     [201784] = {
         name = "厄比西昂",
@@ -389,6 +428,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [202995] = {
         name = "厄比西昂",
+    },
+    [203378] = {
+        name = "古德格",
     },
     [203404] = {
         name = "維史康",

@@ -22,29 +22,6 @@ local LEVEL_PREREQUISITES = {
     },
 }
 
-Chain.ValdrakkenCityOfDragons = 100401
-Chain.TimeManagement = 100402
-Chain.BigTimeAdventurer = 100403
-Chain.TempChain01 = 100411
-Chain.TempChain02 = 100412
-Chain.TempChain03 = 100413
-Chain.TempChain04 = 100414
-Chain.TempChain05 = 100415
-Chain.TempChain06 = 100416
-Chain.TempChain07 = 100417
-Chain.TempChain08 = 100418
-Chain.TempChain09 = 100419
-Chain.TempChain10 = 100420
-Chain.TempChain11 = 100421
-Chain.TempChain12 = 100422
-Chain.TempChain13 = 100423
-Chain.TempChain14 = 100424
-Chain.TempChain15 = 100425
-Chain.TempChain16 = 100426
-Chain.OtherAlliance = 100497
-Chain.OtherHorde = 100498
-Chain.OtherBoth = 100499
-
 Database:AddChain(Chain.ValdrakkenCityOfDragons, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
     questline = 1310,

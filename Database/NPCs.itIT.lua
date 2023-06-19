@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Puntaspilli",
+    },
     [183543] = {
         name = "Noriko l'Onnisciente",
     },
@@ -77,6 +80,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187495] = {
         name = "Irathion",
+    },
+    [187609] = {
+        name = "Invocatrice della Terra Yevaa",
     },
     [187678] = {
         name = "Alexstrasza la Protettrice della Vita",
@@ -187,10 +193,13 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Vish il Furtivo",
     },
     [194801] = {
-        name = "Guardiafiamma Kolgar",
+        name = "Kolgar Guardiafiamma",
     },
     [194904] = {
         name = "Muqur il Piovoso",
+    },
+    [195234] = {
+        name = "Curaterra Govrum",
     },
     [196066] = {
         name = "Greyzik Ditanere",
@@ -208,7 +217,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Concierge della Spa",
     },
     [197986] = {
-        name = "Promotore della Spa degli Sorgenti",
+        name = "Promotrice della Spa Sogni Sereni",
     },
     [198386] = {
         name = "Mappa d'Esplorazione",
@@ -234,10 +243,19 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [200953] = {
         name = "Curaterra Narvra",
     },
+    [201098] = {
+        name = "Brogg la Bestia",
+    },
+    [201100] = {
+        name = "Storul Granpietra",
+    },
     [201180] = {
         name = "Catalogatore Wulferd",
     },
     [201366] = {
+        name = "Ebissian",
+    },
+    [201727] = {
         name = "Ebissian",
     },
     [201784] = {

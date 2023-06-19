@@ -76,7 +76,6 @@ Database/Index.ptBR.lua
 Database/Index.ruRU.lua
 Database/Index.zhCN.lua
 Database/Index.zhTW.lua
-Database/Index.10.1.0.lua
 
 General.lua
 10.0.7.lua

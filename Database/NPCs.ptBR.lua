@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [2846] = {
+        name = "Blixrez Pontobom",
+    },
     [183543] = {
         name = "Noriko, a Que Tudo Lembra",
     },
@@ -74,6 +77,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [187463] = {
         name = "Detri Chiflora",
+    },
+    [187609] = {
+        name = "Arauto da Terra Yevaa",
     },
     [187678] = {
         name = "Alexstrasza, a Mãe da Vida",
@@ -162,6 +168,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [192498] = {
         name = "Hefesta",
     },
+    [192539] = {
+        name = "Miguel Lume",
+    },
     [192543] = {
         name = "Arquivista Areniel",
     },
@@ -186,6 +195,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [194904] = {
         name = "Muqur Tocado pela Chuva",
     },
+    [195234] = {
+        name = "Reparador da Terra Govrum",
+    },
     [196066] = {
         name = "Griszik Penededo",
     },
@@ -205,7 +217,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Concierge do Spa",
     },
     [197986] = {
-        name = "Promotora do Spa de Fontes Termais",
+        name = "Promotora do Spa Sonhos Serenos",
     },
     [198386] = {
         name = "Mapa de Patrulha",
@@ -227,6 +239,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [200953] = {
         name = "Reparadora da Terra Narvra",
+    },
+    [201098] = {
+        name = "Brogg, a Fera",
+    },
+    [201100] = {
+        name = "Storul Pesopedra",
     },
     [201180] = {
         name = "Catalogador Volfredo",
