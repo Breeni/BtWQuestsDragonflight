@@ -1,6 +1,10 @@
+# v4.0
+
+- Added questlines The Veiled Ossuary, United Again, Revel Resurgence, and Tyr's Fall
+
 # v3.0
 
-- Added misisng 10.1.0 quest line Agrulculture
+- Added missing 10.1.0 quest line Agrulculture
 - Fixed showing The Buddy System as active before it was completely available
 - Updated the requirements for The Dragons and The Scale Expedition
 

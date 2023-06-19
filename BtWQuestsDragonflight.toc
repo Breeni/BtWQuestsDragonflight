@@ -1,6 +1,6 @@
 ## Interface: 100100
 ## Title: BtWQuests: Dragonflight
-## Version: 3.0
+## Version: 4.0
 ## Notes: Dragonflight quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
