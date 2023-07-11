@@ -1,3 +1,8 @@
+# v5.0
+
+- Added Dawn of the Infinite questline
+- Updated for 10.1.5
+
 # v4.0
 
 - Added questlines The Veiled Ossuary, United Again, Revel Resurgence, and Tyr's Fall
