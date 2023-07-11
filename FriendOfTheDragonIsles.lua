@@ -10,14 +10,6 @@ local CONTINENT_ID = 1978
 local ACHIEVEMENT_ID_1 = 16808
 local LEVEL_RANGE = {70, 70}
 
-Chain.TheChieftainsDuty = 100501
-Chain.AMysterySealed = 100502
-Chain.TheSilverPurpose = 100503
-Chain.InTheHallsOfTitans = 100504
-Chain.GardenOfSecrets = 100505
-Chain.TheDreamer = 100506
-Chain.EmbedChain01 = 100511
-
 Database:AddChain(Chain.TheChieftainsDuty, {
     name = function ()
         return GetAchievementCriteriaInfoByID(ACHIEVEMENT_ID_1, 57034)

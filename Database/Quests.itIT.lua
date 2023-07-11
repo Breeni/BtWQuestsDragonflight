@@ -3111,5 +3111,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Rinforzi dal sottosuolo",
     },
+    [76140] = {
+        name = "Alba degli Infiniti",
+    },
+    [76141] = {
+        name = "Riallineare la sabbia",
+    },
+    [76142] = {
+        name = "Sul tempo rubato",
+    },
+    [76143] = {
+        name = "Cro-mia? Tua?",
+    },
+    [76144] = {
+        name = "Il disastro di Morcie",
+    },
+    [76145] = {
+        name = "Che Cromie è quella?",
+    },
 })
 ]])()

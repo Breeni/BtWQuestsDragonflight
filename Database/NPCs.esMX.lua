@@ -270,5 +270,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [203965] = {
         name = "Ebisio",
     },
+    [205706] = {
+        name = "Cromi futura",
+    },
+    [205707] = {
+        name = "Cromi",
+    },
+    [206149] = {
+        name = "Cromi",
+    },
 })
 ]])()

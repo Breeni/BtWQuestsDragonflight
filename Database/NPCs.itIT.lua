@@ -270,5 +270,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [203965] = {
         name = "Ebissian",
     },
+    [205706] = {
+        name = "Cromie del Futuro",
+    },
+    [205707] = {
+        name = "Cromie",
+    },
+    [206149] = {
+        name = "Cromie",
+    },
 })
 ]])()

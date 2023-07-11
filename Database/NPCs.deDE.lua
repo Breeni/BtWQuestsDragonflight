@@ -246,5 +246,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Hochberg",
     },
+    [205706] = {
+        name = "Zukunftschromie",
+    },
+    [205707] = {
+        name = "Chromie",
+    },
+    [206149] = {
+        name = "Chromie",
+    },
 })
 ]])()

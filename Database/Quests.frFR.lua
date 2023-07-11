@@ -3129,5 +3129,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Coriace en profondeur",
     },
+    [76140] = {
+        name = "Aube de l’Infini",
+    },
+    [76141] = {
+        name = "Terrain sableux",
+    },
+    [76142] = {
+        name = "En sursis",
+    },
+    [76143] = {
+        name = "Chro-mignonnes",
+    },
+    [76144] = {
+        name = "L’anarchie par Morchie",
+    },
+    [76145] = {
+        name = "Qui qui qui sont les Chromie ?",
+    },
 })
 ]])()

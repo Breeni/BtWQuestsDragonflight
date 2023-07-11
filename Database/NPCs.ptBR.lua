@@ -261,5 +261,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [204522] = {
         name = "Aurântia",
     },
+    [205706] = {
+        name = "Crona do Futuro",
+    },
+    [205707] = {
+        name = "Crona",
+    },
+    [206149] = {
+        name = "Crona",
+    },
 })
 ]])()

@@ -5804,4 +5804,37 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [205706] = {
+        name = "Future Chromie",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.52284,
+                    y = 0.794704,
+                },
+            },
+        },
+    },
+    [205707] = {
+        name = "Chromie",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.614296,
+                    y = 0.796926,
+                },
+            },
+        },
+    },
+    [206149] = {
+        name = "Chromie",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.620519,
+                    y = 0.815296,
+                },
+            },
+        },
+    },
 })

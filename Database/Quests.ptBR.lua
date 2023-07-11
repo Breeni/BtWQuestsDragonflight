@@ -3123,5 +3123,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Por baixo é mais duro",
     },
+    [76140] = {
+        name = "Despertar do infinito",
+    },
+    [76141] = {
+        name = "Alinhamento na areia",
+    },
+    [76142] = {
+        name = "Ganhando tempo",
+    },
+    [76143] = {
+        name = "Tem Crona eu?",
+    },
+    [76144] = {
+        name = "Anarquia da Anorc",
+    },
+    [76145] = {
+        name = "Quem é essa Crona?",
+    },
 })
 ]])()

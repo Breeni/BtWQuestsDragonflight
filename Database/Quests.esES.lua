@@ -3123,5 +3123,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Bajo tierra somos más duros",
     },
+    [76140] = {
+        name = "El Amanecer del Infinito",
+    },
+    [76141] = {
+        name = "Alineación en la arena",
+    },
+    [76142] = {
+        name = "En tiempo prestado",
+    },
+    [76143] = {
+        name = "¿Qué Cromi?",
+    },
+    [76144] = {
+        name = "Mocri y el caos",
+    },
+    [76145] = {
+        name = "¿Quién es esa Cromi?",
+    },
 })
 ]])()

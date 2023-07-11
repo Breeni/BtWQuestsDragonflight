@@ -273,5 +273,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Haut-Roc",
     },
+    [205706] = {
+        name = "Chromie du futur",
+    },
+    [205707] = {
+        name = "Chromie",
+    },
+    [206149] = {
+        name = "Chromie",
+    },
 })
 ]])()

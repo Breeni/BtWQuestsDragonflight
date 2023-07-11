@@ -3117,5 +3117,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Más fuerte por dentro",
     },
+    [76140] = {
+        name = "El Alba del Infinito",
+    },
+    [76141] = {
+        name = "Alinear en la Arena",
+    },
+    [76142] = {
+        name = "A Merced del Tiempo Prestado",
+    },
+    [76143] = {
+        name = "¿Cromisma?",
+    },
+    [76144] = {
+        name = "Moric Maltrago",
+    },
+    [76145] = {
+        name = "¿Y esa Cromi?",
+    },
 })
 ]])()

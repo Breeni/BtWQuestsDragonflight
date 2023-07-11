@@ -3117,5 +3117,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76101] = {
         name = "Tiefer, schneller, weiter",
     },
+    [76140] = {
+        name = "Dämmerung der Unendlichkeit",
+    },
+    [76141] = {
+        name = "Sand im Getriebe",
+    },
+    [76142] = {
+        name = "Mit geborgter Zeit",
+    },
+    [76143] = {
+        name = "Chro-mich?",
+    },
+    [76144] = {
+        name = "Morchie-Chaos",
+    },
+    [76145] = {
+        name = "Wer ist diese Chromie?",
+    },
 })
 ]])()

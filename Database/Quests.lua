@@ -22295,34 +22295,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 199397,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    77100, 78000, 
-                },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    552400, 557096, 561800, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 10,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 150,
-            },
-        },
     },
     [72414] = {
         name = "Know Prisoners!",
@@ -22512,34 +22484,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 199301,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    51250, 52000, 
-                },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    276200, 278548, 280900, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 10,
-            },
-            {
-                type = "reputation",
-                id = 2510,
-                amount = 150,
-            },
-        },
     },
     [72421] = {
         name = "The Quill to Power",
@@ -22579,29 +22523,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 199391,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    77100, 78000, 
-                },
-                minLevel = 68,
-                maxLevel = 69,
-            },
-            {
-                type = "money",
-                amounts = {
-                    552400, 557096, 561800, 
-                },
-                minLevel = 68,
-                maxLevel = 70,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 10,
-            },
-        },
     },
     [72440] = {
         name = "Silver Mettle",
@@ -22629,17 +22550,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 198947,
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 280900,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 10,
-            },
-        },
     },
     [72442] = {
         name = "The Remains of Tyr",
@@ -22648,17 +22558,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 199114,
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 561800,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 15,
-            },
-        },
     },
     [72443] = {
         name = "Tyr's Fall",
@@ -22666,17 +22565,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 200078,
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 561800,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 15,
-            },
         },
     },
     [72444] = {
@@ -22735,17 +22623,6 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 199114,
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 28090,
-            },
-            {
-                type = "currency",
-                id = 2245,
-                amount = 10,
-            },
         },
     },
     [72527] = {
@@ -27377,6 +27254,90 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 280900,
+            },
+        },
+    },
+    [76140] = {
+        name = "Dawn of the Infinite",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 187669,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 70225,
+            },
+        },
+    },
+    [76141] = {
+        name = "Align in the Sand",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 205706,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76142] = {
+        name = "On Borrowed Time",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 205706,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76143] = {
+        name = "Chro-me?",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 205707,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [76144] = {
+        name = "Morchie Mayhem",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 205707,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+        },
+    },
+    [76145] = {
+        name = "Who's That Chromie?",
+        contentTuningID = 2691,
+        source = {
+            type = "npc",
+            id = 206149,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
             },
         },
     },

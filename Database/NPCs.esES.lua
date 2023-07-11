@@ -249,5 +249,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Monte Alto",
     },
+    [205706] = {
+        name = "Cromi futura",
+    },
+    [205707] = {
+        name = "Cromi",
+    },
+    [206149] = {
+        name = "Cromi",
+    },
 })
 ]])()
