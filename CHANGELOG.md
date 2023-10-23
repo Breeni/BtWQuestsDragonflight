@@ -1,3 +1,8 @@
+# v5.2
+
+- Added Forsaken heritage armor questline
+- Added Night Elf heritage armor questline
+
 # v5.1
 
 - Updated for 10.1.7
