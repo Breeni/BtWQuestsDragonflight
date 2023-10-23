@@ -2601,6 +2601,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Den Kreislauf durchbrechen",
     },
+    [72854] = {
+        name = "Unsere Feinde sind zahlreich",
+    },
+    [72855] = {
+        name = "Zum Grabmal",
+    },
+    [72856] = {
+        name = "Nichts geht über den Klassiker",
+    },
+    [72857] = {
+        name = "Bummkraut",
+    },
+    [72858] = {
+        name = "Säure schlägt Papier",
+    },
+    [72859] = {
+        name = "Die richtige Verkleidung",
+    },
+    [72860] = {
+        name = "Furcht ist unsere Waffe",
+    },
+    [72861] = {
+        name = "Scharlachrote Spionage",
+    },
+    [72862] = {
+        name = "Unter uns",
+    },
+    [72863] = {
+        name = "Der Flug der Banshee",
+    },
+    [72864] = {
+        name = "Tod den Lebenden",
+    },
+    [72865] = {
+        name = "Dies ist die Stunde der Verlassenen",
+    },
+    [72866] = {
+        name = "Rückkehr nach Lordaeron",
+    },
+    [72867] = {
+        name = "Ich bin verlassen",
+    },
     [72872] = {
         name = "Schinden der Tiefe",
     },
@@ -3111,6 +3153,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Im Handumdrehen reich",
     },
+    [75890] = {
+        name = "Der Ruf der Fanfare",
+    },
+    [75891] = {
+        name = "Uralte Flüche",
+    },
     [75985] = {
         name = "Ruht sanft, Krieger",
     },
@@ -3134,6 +3182,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "Wer ist diese Chromie?",
+    },
+    [76194] = {
+        name = "Ein finsteres Omen",
+    },
+    [76195] = {
+        name = "Verderbnis vertreiben",
+    },
+    [76196] = {
+        name = "Gnade oder Elend",
+    },
+    [76197] = {
+        name = "Ein Einblick des Schreckens",
+    },
+    [76203] = {
+        name = "Schritt in die Schatten",
+    },
+    [76205] = {
+        name = "Das Zünglein an der Waage",
+    },
+    [76206] = {
+        name = "Das Herz des Problems",
+    },
+    [76207] = {
+        name = "Zorn der Wächter",
+    },
+    [76212] = {
+        name = "Ein Mal für einen Beschützer",
+    },
+    [76213] = {
+        name = "Ehre der Göttin",
+    },
+    [76530] = {
+        name = "Untote Einladung",
     },
 })
 ]])()

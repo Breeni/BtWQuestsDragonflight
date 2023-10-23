@@ -15,5 +15,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "BIGLIETTO: Giochi di Scintillogg",
     },
+    [405958] = {
+        name = "Pergamena dei Kaldorei Sigillata",
+    },
 })
 ]])()

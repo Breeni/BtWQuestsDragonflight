@@ -228,6 +228,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Dracomandante Brasathal",
     },
+    [199761] = {
+        name = "Comandante Mortacechador Belmont",
+    },
+    [199767] = {
+        name = "Maestro boticario Faranell",
+    },
+    [199768] = {
+        name = "Forestal oscura Velonara",
+    },
+    [199806] = {
+        name = "Intendente Newlem",
+    },
+    [199879] = {
+        name = "Forestal oscura Velonara",
+    },
+    [199885] = {
+        name = "Comandante Mortacechador Belmont",
+    },
     [199965] = {
         name = "Ebisio",
     },
@@ -264,6 +282,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Altamontaña",
     },
+    [202700] = {
+        name = "Lysander Sombraestelar",
+    },
+    [202701] = {
+        name = "Arko'narin Sombraestelar",
+    },
+    [202702] = {
+        name = "Maiev Cantosombrío",
+    },
     [202995] = {
         name = "Ebisio",
     },
@@ -278,6 +305,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [206149] = {
         name = "Cromi",
+    },
+    [207353] = {
+        name = "Arko'narin Sombraestelar",
+    },
+    [208151] = {
+        name = "Maiev Cantosombrío",
+    },
+    [209140] = {
+        name = "Maiev Cantosombrío",
     },
 })
 ]])()

@@ -2592,6 +2592,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Spezzare il ciclo",
     },
+    [72854] = {
+        name = "I nemici abbondano",
+    },
+    [72855] = {
+        name = "A Mausolea",
+    },
+    [72856] = {
+        name = "Un grande classico imbattibile",
+    },
+    [72857] = {
+        name = "Erba Esplosiva",
+    },
+    [72858] = {
+        name = "Acido batte carta",
+    },
+    [72859] = {
+        name = "Un travestimento appropriato",
+    },
+    [72860] = {
+        name = "La paura è la nostra arma",
+    },
+    [72861] = {
+        name = "La spia Scarlatta",
+    },
+    [72862] = {
+        name = "Sono in mezzo a noi",
+    },
+    [72863] = {
+        name = "Il volo della Banshee",
+    },
+    [72864] = {
+        name = "Morte ai vivi",
+    },
+    [72865] = {
+        name = "Questa è l'ora dei Reietti",
+    },
+    [72866] = {
+        name = "Ritorno a Lordaeron",
+    },
+    [72867] = {
+        name = "Essere Reietti",
+    },
     [72872] = {
         name = "Ripulire le profondità",
     },
@@ -3105,6 +3147,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Soldi facili",
     },
+    [75890] = {
+        name = "Il richiamo all'azione",
+    },
+    [75891] = {
+        name = "Maledizioni antiche",
+    },
     [75985] = {
         name = "Riposa in pace, guerriero",
     },
@@ -3128,6 +3176,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "Che Cromie è quella?",
+    },
+    [76194] = {
+        name = "Un portento tetro",
+    },
+    [76195] = {
+        name = "Contrastare la corruzione",
+    },
+    [76196] = {
+        name = "Pietà o sofferenza",
+    },
+    [76197] = {
+        name = "Un assaggio di terrore",
+    },
+    [76203] = {
+        name = "Attraversare le ombre",
+    },
+    [76205] = {
+        name = "Riportare l'equilibrio",
+    },
+    [76206] = {
+        name = "Il cuore del problema",
+    },
+    [76207] = {
+        name = "L'ira delle Custodi",
+    },
+    [76212] = {
+        name = "Un marchio per un protettore",
+    },
+    [76213] = {
+        name = "Onore della Dea",
+    },
+    [76530] = {
+        name = "Convocazione non morta",
     },
 })
 ]])()

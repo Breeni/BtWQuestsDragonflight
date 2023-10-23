@@ -15,5 +15,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "TICKET: Glimmeroggspiele",
     },
+    [405958] = {
+        name = "Versiegelte Schriftrolle der Kaldorei",
+    },
 })
 ]])()

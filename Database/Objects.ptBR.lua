@@ -15,5 +15,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "Ingresso: Jogos de Lumerogg",
     },
+    [405958] = {
+        name = "Pergaminho Kaldorei Lacrado",
+    },
 })
 ]])()

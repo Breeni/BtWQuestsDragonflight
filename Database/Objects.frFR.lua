@@ -15,5 +15,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "TICKET : Jeux de Phosphorogg",
     },
+    [405958] = {
+        name = "Parchemin kaldorei scellé",
+    },
 })
 ]])()

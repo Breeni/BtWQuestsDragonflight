@@ -2604,6 +2604,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Rompendo o ciclo",
     },
+    [72854] = {
+        name = "Nossos inimigos abundam",
+    },
+    [72855] = {
+        name = "Rumo ao Sepulcro",
+    },
+    [72856] = {
+        name = "Nada como um clássico",
+    },
+    [72857] = {
+        name = "Erva Estrondosa",
+    },
+    [72858] = {
+        name = "Ácido ganha de papel",
+    },
+    [72859] = {
+        name = "O disfarce perfeito",
+    },
+    [72860] = {
+        name = "O medo é a melhor arma",
+    },
+    [72861] = {
+        name = "O espião escarlate",
+    },
+    [72862] = {
+        name = "Cá entre nós",
+    },
+    [72863] = {
+        name = "O voo da banshee",
+    },
+    [72864] = {
+        name = "Morte aos vivos",
+    },
+    [72865] = {
+        name = "A hora dos Renegados",
+    },
+    [72866] = {
+        name = "De volta para Lordaeron",
+    },
+    [72867] = {
+        name = "Sou Renegado",
+    },
     [72872] = {
         name = "Esvaziando as profundezas",
     },
@@ -3117,6 +3159,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Enricar já",
     },
+    [75890] = {
+        name = "O toque do clarim",
+    },
+    [75891] = {
+        name = "Maldições antigas",
+    },
     [75985] = {
         name = "Descanse em paz, guerreiro",
     },
@@ -3140,6 +3188,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "Quem é essa Crona?",
+    },
+    [76194] = {
+        name = "Um augúrio temível",
+    },
+    [76195] = {
+        name = "Combatendo a corrupção",
+    },
+    [76196] = {
+        name = "Misericórdia ou sofrimento",
+    },
+    [76197] = {
+        name = "Visão do terror",
+    },
+    [76203] = {
+        name = "Penetrando nas sombras",
+    },
+    [76205] = {
+        name = "Equilibrando a balança",
+    },
+    [76206] = {
+        name = "O cerne da questão",
+    },
+    [76207] = {
+        name = "A ira dos guardiões",
+    },
+    [76212] = {
+        name = "A marca do protetor",
+    },
+    [76213] = {
+        name = "Honra à deusa",
+    },
+    [76530] = {
+        name = "Evocações de vivos-mortos",
     },
 })
 ]])()

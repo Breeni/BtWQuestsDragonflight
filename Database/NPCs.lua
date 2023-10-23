@@ -595,6 +595,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [186091] = {
+        name = "Lilian Voss",
+        locations = {
+            [2070] = {
+                {
+                    x = 0.637531,
+                    y = 0.681613,
+                },
+            },
+        },
+    },
     [186126] = {
         name = "Big Kinook",
         locations = {
@@ -4660,6 +4671,72 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [199761] = {
+        name = "Deathstalker Commander Belmont",
+        locations = {
+            [2070] = {
+                {
+                    x = 0.612087,
+                    y = 0.827481,
+                },
+            },
+        },
+    },
+    [199767] = {
+        name = "Master Apothecary Faranell",
+        locations = {
+            [21] = {
+                {
+                    x = 0.456223,
+                    y = 0.4198,
+                },
+            },
+        },
+    },
+    [199768] = {
+        name = "Dark Ranger Velonara",
+        locations = {
+            [21] = {
+                {
+                    x = 0.455707,
+                    y = 0.420523,
+                },
+            },
+        },
+    },
+    [199792] = {
+        name = "Lilian Voss",
+        locations = {
+            [21] = {
+                {
+                    x = 0.454955,
+                    y = 0.415421,
+                },
+            },
+        },
+    },
+    [199793] = {
+        name = "Calia Menethil",
+        locations = {
+            [21] = {
+                {
+                    x = 0.455417,
+                    y = 0.415545,
+                },
+            },
+        },
+    },
+    [199806] = {
+        name = "Quartermaster Newlem",
+        locations = {
+            [21] = {
+                {
+                    x = 0.640218,
+                    y = 0.334579,
+                },
+            },
+        },
+    },
     [199849] = {
         name = "Sabellian",
         locations = {
@@ -4711,6 +4788,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.410175,
                     y = 0.599157,
+                },
+            },
+        },
+    },
+    [199879] = {
+        name = "Dark Ranger Velonara",
+        locations = {
+            [21] = {
+                {
+                    x = 0.704554,
+                    y = 0.182294,
+                },
+            },
+        },
+    },
+    [199885] = {
+        name = "Deathstalker Commander Belmont",
+        locations = {
+            [21] = {
+                {
+                    x = 0.702523,
+                    y = 0.180587,
+                },
+            },
+        },
+    },
+    [199893] = {
+        name = "Lilian Voss",
+        locations = {
+            [21] = {
+                {
+                    x = 0.663392,
+                    y = 0.310938,
+                },
+            },
+        },
+    },
+    [199922] = {
+        name = "Lilian Voss",
+        locations = {
+            [2070] = {
+                {
+                    x = 0.618387,
+                    y = 0.695626,
                 },
             },
         },
@@ -5595,6 +5716,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [202700] = {
+        name = "Lysander Starshade",
+        locations = {
+            [12] = {
+                {
+                    x = 0.476683,
+                    y = 0.306155,
+                },
+            },
+        },
+    },
+    [202701] = {
+        name = "Arko'narin Starshade",
+        locations = {
+            [12] = {
+                {
+                    x = 0.476622,
+                    y = 0.306135,
+                },
+            },
+        },
+    },
+    [202702] = {
+        name = "Maiev Shadowsong",
+        locations = {
+            [12] = {
+                {
+                    x = 0.476704,
+                    y = 0.306044,
+                },
+            },
+        },
+    },
     [202706] = {
         name = "Scout Tomul",
         locations = {
@@ -5833,6 +5987,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.620519,
                     y = 0.815296,
+                },
+            },
+        },
+    },
+    [207353] = {
+        name = "Arko'narin Starshade",
+        locations = {
+            [84] = {
+                {
+                    x = 0.523285,
+                    y = 0.045032,
+                },
+            },
+        },
+    },
+    [208151] = {
+        name = "Maiev Shadowsong",
+        locations = {
+            [12] = {
+                {
+                    x = 0.474106,
+                    y = 0.303857,
+                },
+            },
+        },
+    },
+    [209140] = {
+        name = "Maiev Shadowsong",
+        locations = {
+            [84] = {
+                {
+                    x = 0.526499,
+                    y = 0.038756,
                 },
             },
         },

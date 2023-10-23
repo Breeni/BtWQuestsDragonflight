@@ -221,4 +221,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [405958] = {
+        name = "Sealed Kaldorei Scroll",
+        locations = {
+            [84] = {
+                {
+                    x = 0.522978,
+                    y = 0.141949,
+                },
+            },
+        },
+    },
 })

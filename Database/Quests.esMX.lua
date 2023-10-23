@@ -2598,6 +2598,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Romper el ciclo",
     },
+    [72854] = {
+        name = "Nuestros enemigos abundan",
+    },
+    [72855] = {
+        name = "Hacia el Sepulcro",
+    },
+    [72856] = {
+        name = "Nada como un clásico",
+    },
+    [72857] = {
+        name = "Hierba explosiva",
+    },
+    [72858] = {
+        name = "El ácido le gana al papel",
+    },
+    [72859] = {
+        name = "Un disfraz apropiado",
+    },
+    [72860] = {
+        name = "El miedo es nuestra arma",
+    },
+    [72861] = {
+        name = "Espía escarlata",
+    },
+    [72862] = {
+        name = "Infiltrado",
+    },
+    [72863] = {
+        name = "El vuelo del alma en pena",
+    },
+    [72864] = {
+        name = "Muerte a los vivos",
+    },
+    [72865] = {
+        name = "Es el momento de los Renegados",
+    },
+    [72866] = {
+        name = "Regreso a Lordaeron",
+    },
+    [72867] = {
+        name = "Soy Renegado",
+    },
     [72872] = {
         name = "Un azote para los rocaazotes",
     },
@@ -3111,6 +3153,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Ganancia en abundancia",
     },
+    [75890] = {
+        name = "El llamamiento a la acción",
+    },
+    [75891] = {
+        name = "Maldiciones ancestrales",
+    },
     [75985] = {
         name = "Descansa, guerrero",
     },
@@ -3134,6 +3182,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "¿Y esa Cromi?",
+    },
+    [76194] = {
+        name = "Un portento lúgubre",
+    },
+    [76195] = {
+        name = "Contrarrestar corrupción",
+    },
+    [76196] = {
+        name = "Piedad o miseria",
+    },
+    [76197] = {
+        name = "Un destello de terror",
+    },
+    [76203] = {
+        name = "Adentrándose en las sombras",
+    },
+    [76205] = {
+        name = "Equilibrar la balanza",
+    },
+    [76206] = {
+        name = "El fondo del asunto",
+    },
+    [76207] = {
+        name = "Furia de los celadores",
+    },
+    [76212] = {
+        name = "Una marca para un protector",
+    },
+    [76213] = {
+        name = "Honor de la diosa",
+    },
+    [76530] = {
+        name = "Invocaciones sin vida",
     },
 })
 ]])()

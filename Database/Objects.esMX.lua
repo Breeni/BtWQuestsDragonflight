@@ -15,5 +15,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "BOLETO: Juegos de Lumbrerrogg",
     },
+    [405958] = {
+        name = "Pergamino kaldorei sellado",
+    },
 })
 ]])()

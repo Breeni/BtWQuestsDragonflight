@@ -228,6 +228,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Comandante delle Scaglie Bracithal",
     },
+    [199761] = {
+        name = "Comandante Inseguitore della Morte Belmont",
+    },
+    [199767] = {
+        name = "Maestro Speziale Faranell",
+    },
+    [199768] = {
+        name = "Guardaboschi Oscura Velonara",
+    },
+    [199806] = {
+        name = "Quartiermastra Newlem",
+    },
+    [199879] = {
+        name = "Guardaboschi Oscura Velonara",
+    },
+    [199885] = {
+        name = "Comandante Inseguitore della Morte Belmont",
+    },
     [199965] = {
         name = "Ebissian",
     },
@@ -264,6 +282,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Alto Monte",
     },
+    [202700] = {
+        name = "Lysander Ombrastelle",
+    },
+    [202701] = {
+        name = "Arko'narin Ombrastelle",
+    },
+    [202702] = {
+        name = "Maiev Cantombroso",
+    },
     [202995] = {
         name = "Ebissian",
     },
@@ -278,6 +305,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [206149] = {
         name = "Cromie",
+    },
+    [207353] = {
+        name = "Arko'narin Ombrastelle",
+    },
+    [208151] = {
+        name = "Maiev Cantombroso",
+    },
+    [209140] = {
+        name = "Maiev Cantombroso",
     },
 })
 ]])()

@@ -2604,6 +2604,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Rompiendo el ciclo",
     },
+    [72854] = {
+        name = "Nuestros enemigos abundan",
+    },
+    [72855] = {
+        name = "Al Sepulcro",
+    },
+    [72856] = {
+        name = "Nada como el clásico",
+    },
+    [72857] = {
+        name = "Explotalíseas",
+    },
+    [72858] = {
+        name = "Ácido gana a papel",
+    },
+    [72859] = {
+        name = "Un disfraz adecuado",
+    },
+    [72860] = {
+        name = "El miedo es nuestra arma",
+    },
+    [72861] = {
+        name = "Espionaje Escarlata",
+    },
+    [72862] = {
+        name = "Entre nosotros",
+    },
+    [72863] = {
+        name = "El vuelo del alma en pena",
+    },
+    [72864] = {
+        name = "Muerte a los vivos",
+    },
+    [72865] = {
+        name = "Es la hora de los Renegados",
+    },
+    [72866] = {
+        name = "Regreso a Lordaeron",
+    },
+    [72867] = {
+        name = "Adalid de los Renegados",
+    },
     [72872] = {
         name = "Matanza en las profundidades",
     },
@@ -3117,6 +3159,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Dinero rápido",
     },
+    [75890] = {
+        name = "La llamada ineludible",
+    },
+    [75891] = {
+        name = "Maldiciones ancestrales",
+    },
     [75985] = {
         name = "Que descanses, guerrero",
     },
@@ -3140,6 +3188,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "¿Quién es esa Cromi?",
+    },
+    [76194] = {
+        name = "Un augurio lúgubre",
+    },
+    [76195] = {
+        name = "Luchar contra la corrupción",
+    },
+    [76196] = {
+        name = "Piedad o miseria",
+    },
+    [76197] = {
+        name = "Un atisbo de terror",
+    },
+    [76203] = {
+        name = "Adentrarse en las sombras",
+    },
+    [76205] = {
+        name = "Equilibrar la balanza",
+    },
+    [76206] = {
+        name = "El meollo de la cuestión",
+    },
+    [76207] = {
+        name = "La cólera de las Celadoras",
+    },
+    [76212] = {
+        name = "Una marca para un protector",
+    },
+    [76213] = {
+        name = "El honor de la diosa",
+    },
+    [76530] = {
+        name = "Una llamada desde el más allá",
     },
 })
 ]])()

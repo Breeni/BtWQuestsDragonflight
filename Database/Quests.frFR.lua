@@ -2613,6 +2613,48 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72833] = {
         name = "Briser la spirale",
     },
+    [72854] = {
+        name = "Nos ennemis sont légion",
+    },
+    [72855] = {
+        name = "Vers le Sépulcre",
+    },
+    [72856] = {
+        name = "Rien de tel que les classiques",
+    },
+    [72857] = {
+        name = "Herbe explosive",
+    },
+    [72858] = {
+        name = "L’acide bat le papier",
+    },
+    [72859] = {
+        name = "Un bon déguisement",
+    },
+    [72860] = {
+        name = "La peur est notre arme",
+    },
+    [72861] = {
+        name = "L’espion écarlate",
+    },
+    [72862] = {
+        name = "Parmi nous",
+    },
+    [72863] = {
+        name = "Le vol de la banshee",
+    },
+    [72864] = {
+        name = "Mort aux vivants",
+    },
+    [72865] = {
+        name = "Voici l’heure des Réprouvés",
+    },
+    [72866] = {
+        name = "Retour à Lordaeron",
+    },
+    [72867] = {
+        name = "Je suis Réprouvé",
+    },
     [72872] = {
         name = "Régulation des profondeurs",
     },
@@ -3123,6 +3165,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75885] = {
         name = "Faire fortune rapidement",
     },
+    [75890] = {
+        name = "L’appel cristallin",
+    },
+    [75891] = {
+        name = "Malédictions ancestrales",
+    },
     [75985] = {
         name = "Repose en paix, guerrier",
     },
@@ -3146,6 +3194,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "Qui qui qui sont les Chromie ?",
+    },
+    [76194] = {
+        name = "Un sombre présage",
+    },
+    [76195] = {
+        name = "Contrer la corruption",
+    },
+    [76196] = {
+        name = "Clémence ou misère",
+    },
+    [76197] = {
+        name = "Un aperçu de la terreur",
+    },
+    [76203] = {
+        name = "Entrer dans les ombres",
+    },
+    [76205] = {
+        name = "Rétablir l’équilibre",
+    },
+    [76206] = {
+        name = "Le cœur du problème",
+    },
+    [76207] = {
+        name = "Courroux du gardien",
+    },
+    [76212] = {
+        name = "Une marque pour un protecteur",
+    },
+    [76213] = {
+        name = "Honneur de la déesse",
+    },
+    [76530] = {
+        name = "Invocations de mort-vivant",
     },
 })
 ]])()

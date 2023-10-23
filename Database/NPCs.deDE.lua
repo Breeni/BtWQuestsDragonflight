@@ -222,6 +222,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Schuppenkommandantin Glutthal",
     },
+    [199761] = {
+        name = "Todespirscherkommandant Belmont",
+    },
+    [199767] = {
+        name = "Apothekermeister Faranell",
+    },
+    [199768] = {
+        name = "Dunkle Waldläuferin Velonara",
+    },
+    [199806] = {
+        name = "Rüstmeisterin Newlem",
+    },
+    [199879] = {
+        name = "Dunkle Waldläuferin Velonara",
+    },
+    [199885] = {
+        name = "Todespirscherkommandant Belmont",
+    },
     [200054] = {
         name = "Älteste Honigpelz",
     },
@@ -246,14 +264,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Hochberg",
     },
+    [202700] = {
+        name = "Lysander Sternschatten",
+    },
+    [202701] = {
+        name = "Arko'narin Sternschatten",
+    },
+    [202702] = {
+        name = "Maiev Schattensang",
+    },
     [205706] = {
         name = "Zukunftschromie",
     },
-    [205707] = {
-        name = "Chromie",
+    [207353] = {
+        name = "Arko'narin Sternschatten",
     },
-    [206149] = {
-        name = "Chromie",
+    [208151] = {
+        name = "Maiev Schattensang",
+    },
+    [209140] = {
+        name = "Maiev Schattensang",
     },
 })
 ]])()

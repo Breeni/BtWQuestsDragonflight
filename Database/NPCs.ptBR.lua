@@ -228,6 +228,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Comandante-de-escama Brasathal",
     },
+    [199761] = {
+        name = "Comandante Sicário Belmonte",
+    },
+    [199767] = {
+        name = "Mestre-boticário Faranello",
+    },
+    [199768] = {
+        name = "Patrulheira Sombria Velonara",
+    },
+    [199806] = {
+        name = "Intendente Newlem",
+    },
+    [199879] = {
+        name = "Patrulheira Sombria Velonara",
+    },
+    [199885] = {
+        name = "Comandante Sicário Belmonte",
+    },
     [200054] = {
         name = "Anciã Pelomel",
     },
@@ -255,6 +273,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Alta Montanha",
     },
+    [202700] = {
+        name = "Lysandre Estelumbra",
+    },
+    [202701] = {
+        name = "Arko'narin Estelumbra",
+    },
+    [202702] = {
+        name = "Maiev Cantonegro",
+    },
     [202788] = {
         name = "Khazar",
     },
@@ -269,6 +296,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [206149] = {
         name = "Crona",
+    },
+    [207353] = {
+        name = "Arko'narin Estelumbra",
+    },
+    [208151] = {
+        name = "Maiev Cantonegro",
+    },
+    [209140] = {
+        name = "Maiev Cantonegro",
     },
 })
 ]])()

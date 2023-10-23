@@ -246,6 +246,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [199532] = {
         name = "Squammandante Ardenthal",
     },
+    [199761] = {
+        name = "Commandant nécrotraqueur Belmont",
+    },
+    [199767] = {
+        name = "Maître apothicaire Faranell",
+    },
+    [199768] = {
+        name = "Forestière-sombre Velonara",
+    },
+    [199806] = {
+        name = "Intendante Newlem",
+    },
+    [199879] = {
+        name = "Forestière-sombre Velonara",
+    },
+    [199885] = {
+        name = "Commandant nécrotraqueur Belmont",
+    },
     [200054] = {
         name = "Ancienne Peau-de-Miel",
     },
@@ -273,14 +291,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202656] = {
         name = "Mayla Haut-Roc",
     },
+    [202700] = {
+        name = "Lysander Ombrétoile",
+    },
+    [202701] = {
+        name = "Arko'narin Ombrétoile",
+    },
+    [202702] = {
+        name = "Maiev Chantelombre",
+    },
     [205706] = {
         name = "Chromie du futur",
     },
-    [205707] = {
-        name = "Chromie",
+    [207353] = {
+        name = "Arko'narin Ombrétoile",
     },
-    [206149] = {
-        name = "Chromie",
+    [208151] = {
+        name = "Maiev Chantelombre",
+    },
+    [209140] = {
+        name = "Maiev Chantelombre",
     },
 })
 ]])()
