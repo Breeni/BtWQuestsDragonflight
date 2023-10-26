@@ -288,11 +288,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [204522] = {
         name = "Aurântia",
     },
+    [205067] = {
+        name = "Shandris Plumaluna",
+    },
+    [205068] = {
+        name = "Shandris Plumaluna",
+    },
+    [205134] = {
+        name = "Shandris Plumaluna",
+    },
+    [205142] = {
+        name = "Shandris Plumaluna",
+    },
     [205706] = {
         name = "Crona do Futuro",
     },
     [205707] = {
         name = "Crona",
+    },
+    [205892] = {
+        name = "Batedora Kaldorei",
     },
     [206149] = {
         name = "Crona",
@@ -300,8 +315,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [207353] = {
         name = "Arko'narin Estelumbra",
     },
+    [207790] = {
+        name = "Comandante-de-escama Brasathal",
+    },
+    [207819] = {
+        name = "Amythera",
+    },
+    [207820] = {
+        name = "Comandante-de-escama Brasathal",
+    },
+    [208035] = {
+        name = "Crona",
+    },
     [208151] = {
         name = "Maiev Cantonegro",
+    },
+    [208236] = {
+        name = "Amythera",
     },
     [209140] = {
         name = "Maiev Cantonegro",

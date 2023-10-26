@@ -3138,6 +3138,24 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75507] = {
         name = "Auf dem neuesten Stand",
     },
+    [75632] = {
+        name = "Eine verlorene Scheibe",
+    },
+    [75633] = {
+        name = "Wir haben die Technologie",
+    },
+    [75634] = {
+        name = "Tyrs Wache neu schmieden",
+    },
+    [75635] = {
+        name = "Für Tyr!",
+    },
+    [75637] = {
+        name = "Das letzte Leuchtfeuer",
+    },
+    [75638] = {
+        name = "Verschwundene Scheibe gefunden",
+    },
     [75643] = {
         name = "Ausrichtung: Niffen von Loamm",
     },
@@ -3158,6 +3176,36 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75891] = {
         name = "Uralte Flüche",
+    },
+    [75918] = {
+        name = "Feuersaison",
+    },
+    [75919] = {
+        name = "Schutze löschen",
+    },
+    [75920] = {
+        name = "Augen des Feuers",
+    },
+    [75921] = {
+        name = "Durch die Flammen",
+    },
+    [75922] = {
+        name = "Entzündende Informationen",
+    },
+    [75923] = {
+        name = "Alarmsignal",
+    },
+    [75950] = {
+        name = "Ein Vorbild der Gerechtigkeit: Hadwin",
+    },
+    [75951] = {
+        name = "Ein Vorbild der Ordnung: Talthis",
+    },
+    [75952] = {
+        name = "Ein Vorbild der Aufopferung: Nolaki",
+    },
+    [75953] = {
+        name = "Ein Vorbild des Mitgefühls: Valunei",
     },
     [75985] = {
         name = "Ruht sanft, Krieger",
@@ -3182,6 +3230,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "Wer ist diese Chromie?",
+    },
+    [76171] = {
+        name = "In den Fußspuren von Tyr",
+    },
+    [76176] = {
+        name = "Erste Schritte",
     },
     [76194] = {
         name = "Ein finsteres Omen",
@@ -3213,8 +3267,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Ehre der Göttin",
     },
+    [76407] = {
+        name = "Heute nicht, Schicksal",
+    },
+    [76419] = {
+        name = "Gewalt wird das schon lösen",
+    },
+    [76420] = {
+        name = "Schmetterlingseffekte",
+    },
+    [76421] = {
+        name = "Wir schmieden unser Schicksal",
+    },
+    [76422] = {
+        name = "Die Unendlichkeit und noch viel weiter",
+    },
+    [76423] = {
+        name = "Keine Grenzen",
+    },
     [76530] = {
         name = "Untote Einladung",
+    },
+    [76592] = {
+        name = "Ein einzelner Flügel",
+    },
+    [76593] = {
+        name = "Die besten Absichten",
+    },
+    [76594] = {
+        name = "Dracthyr am Boden",
+    },
+    [76595] = {
+        name = "Eiliges Abrücken",
+    },
+    [76597] = {
+        name = "Auf neuen Schwingen",
+    },
+    [77098] = {
+        name = "Boden gewinnen",
+    },
+    [77163] = {
+        name = "Späte Einsicht",
+    },
+    [77417] = {
+        name = "Was eine Ewige ausmacht",
     },
 })
 ]])()

@@ -211,7 +211,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Guardiagranchi Kad'irsza",
     },
     [197533] = {
-        name = "Vigilante Nori",
+        name = "Vigilante Lorin",
     },
     [197670] = {
         name = "Concierge della Spa",
@@ -297,17 +297,41 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [203965] = {
         name = "Ebissian",
     },
+    [205067] = {
+        name = "Shandris Piumaluna",
+    },
+    [205068] = {
+        name = "Shandris Piumaluna",
+    },
+    [205134] = {
+        name = "Shandris Piumaluna",
+    },
+    [205142] = {
+        name = "Shandris Piumaluna",
+    },
     [205706] = {
         name = "Cromie del Futuro",
     },
     [205707] = {
         name = "Cromie",
     },
+    [205892] = {
+        name = "Esploratrice Kaldorei",
+    },
     [206149] = {
         name = "Cromie",
     },
     [207353] = {
         name = "Arko'narin Ombrastelle",
+    },
+    [207790] = {
+        name = "Comandante delle Scaglie Bracithal",
+    },
+    [207820] = {
+        name = "Comandante delle Scaglie Bracithal",
+    },
+    [208035] = {
+        name = "Cromie",
     },
     [208151] = {
         name = "Maiev Cantombroso",

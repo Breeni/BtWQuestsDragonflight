@@ -4621,8 +4621,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2151] = {
                 {
-                    x = 0.325643,
-                    y = 0.60574,
+                    x = 0.325711,
+                    y = 0.605903,
                 },
             },
         },
@@ -5947,6 +5947,94 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [204574] = {
+        name = "Eternus",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.604123,
+                    y = 0.590259,
+                },
+            },
+        },
+    },
+    [204577] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.603964,
+                    y = 0.589171,
+                },
+            },
+        },
+    },
+    [204590] = {
+        name = "Hadwin",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.176435,
+                    y = 0.314351,
+                },
+            },
+        },
+    },
+    [204591] = {
+        name = "Valunei",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.17626,
+                    y = 0.313407,
+                },
+            },
+        },
+    },
+    [204592] = {
+        name = "Nolaki",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.175584,
+                    y = 0.313851,
+                },
+            },
+        },
+    },
+    [204593] = {
+        name = "Talthis",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.175595,
+                    y = 0.314731,
+                },
+            },
+        },
+    },
+    [204605] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.604321,
+                    y = 0.589222,
+                },
+            },
+        },
+    },
+    [204667] = {
+        name = "Eternus",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.603798,
+                    y = 0.587821,
+                },
+            },
+        },
+    },
     [204693] = {
         name = "Ponzo",
         locations = {
@@ -5954,6 +6042,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.580903,
                     y = 0.538119,
+                },
+            },
+        },
+    },
+    [205067] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.50257,
+                    y = 0.528445,
+                },
+            },
+        },
+    },
+    [205068] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.186208,
+                    y = 0.797674,
+                },
+            },
+        },
+    },
+    [205134] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.218807,
+                    y = 0.773724,
+                },
+            },
+        },
+    },
+    [205142] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.216827,
+                    y = 0.770755,
                 },
             },
         },
@@ -5980,6 +6112,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [205892] = {
+        name = "Kaldorei Scout",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.204157,
+                    y = 0.809551,
+                },
+            },
+        },
+    },
     [206149] = {
         name = "Chromie",
         locations = {
@@ -5987,6 +6130,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.620519,
                     y = 0.815296,
+                },
+            },
+        },
+    },
+    [206221] = {
+        name = "Travard",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.175938,
+                    y = 0.315263,
+                },
+            },
+        },
+    },
+    [206682] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.60384,
+                    y = 0.586836,
+                },
+            },
+        },
+    },
+    [206971] = {
+        name = "Nozdormu",
+        locations = {
+            [71] = {
+                {
+                    x = 0.377454,
+                    y = 0.832778,
+                },
+            },
+        },
+    },
+    [207106] = {
+        name = "Nozdormu",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.654988,
+                    y = 0.802556,
                 },
             },
         },
@@ -6002,6 +6189,61 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [207634] = {
+        name = "Eternus",
+        locations = {
+            [71] = {
+                {
+                    x = 0.374618,
+                    y = 0.836305,
+                },
+            },
+        },
+    },
+    [207790] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.230324,
+                    y = 0.372306,
+                },
+            },
+        },
+    },
+    [207819] = {
+        name = "Amythora",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.748071,
+                    y = 0.550742,
+                },
+            },
+        },
+    },
+    [207820] = {
+        name = "Scalecommander Emberthal",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.74845,
+                    y = 0.550528,
+                },
+            },
+        },
+    },
+    [208035] = {
+        name = "Chromie",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.609766,
+                    y = 0.400271,
+                },
+            },
+        },
+    },
     [208151] = {
         name = "Maiev Shadowsong",
         locations = {
@@ -6009,6 +6251,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.474106,
                     y = 0.303857,
+                },
+            },
+        },
+    },
+    [208236] = {
+        name = "Amythora",
+        locations = {
+            [2024] = {
+                {
+                    x = 0.739917,
+                    y = 0.548606,
+                },
+            },
+        },
+    },
+    [208968] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.599644,
+                    y = 0.587378,
                 },
             },
         },

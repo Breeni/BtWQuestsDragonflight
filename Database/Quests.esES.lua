@@ -2181,6 +2181,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70932] = {
         name = "La vida de las especias",
     },
+    [70934] = {
+        name = "Abrazo de salamantra",
+    },
     [70937] = {
         name = "Lo que Valthrux fue antaño",
     },
@@ -3144,6 +3147,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75507] = {
         name = "Ponerse al día con tus amigos",
     },
+    [75632] = {
+        name = "Un disco dislocado",
+    },
+    [75633] = {
+        name = "Tenemos la tecnología",
+    },
+    [75634] = {
+        name = "Reforjar la Guardia de Tyr",
+    },
+    [75635] = {
+        name = "¡Por Tyr!",
+    },
+    [75636] = {
+        name = "Tyrangulación",
+    },
+    [75637] = {
+        name = "La última baliza",
+    },
+    [75638] = {
+        name = "Disco dislocado localizado",
+    },
     [75643] = {
         name = "Orientación: Niffen de Loamm",
     },
@@ -3164,6 +3188,36 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75891] = {
         name = "Maldiciones ancestrales",
+    },
+    [75918] = {
+        name = "Temporada de fuego",
+    },
+    [75919] = {
+        name = "Apagar los resguardos",
+    },
+    [75920] = {
+        name = "Ojos de fuego",
+    },
+    [75921] = {
+        name = "A través de las llamas",
+    },
+    [75922] = {
+        name = "Información inflamatoria",
+    },
+    [75923] = {
+        name = "La voz de alarma",
+    },
+    [75950] = {
+        name = "Un ejemplo de justicia: Hadwin",
+    },
+    [75951] = {
+        name = "Un ejemplo de orden: Talthis",
+    },
+    [75952] = {
+        name = "Un ejemplo de sacrificio: Nolaki",
+    },
+    [75953] = {
+        name = "Un ejemplo de compasión: Valunei",
     },
     [75985] = {
         name = "Que descanses, guerrero",
@@ -3188,6 +3242,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76145] = {
         name = "¿Quién es esa Cromi?",
+    },
+    [76171] = {
+        name = "Recorriendo el camino de Tyr",
+    },
+    [76176] = {
+        name = "Primeros pasos",
     },
     [76194] = {
         name = "Un augurio lúgubre",
@@ -3219,8 +3279,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "El honor de la diosa",
     },
+    [76407] = {
+        name = "Contra el destino",
+    },
+    [76419] = {
+        name = "La violencia es la solución",
+    },
+    [76420] = {
+        name = "El efecto mariposa",
+    },
+    [76421] = {
+        name = "El destino que creamos",
+    },
+    [76422] = {
+        name = "El infinito y más allá",
+    },
+    [76423] = {
+        name = "Sin límites",
+    },
     [76530] = {
         name = "Una llamada desde el más allá",
+    },
+    [76592] = {
+        name = "Una ala solitaria",
+    },
+    [76593] = {
+        name = "Las mejores intenciones",
+    },
+    [76594] = {
+        name = "Dracthyr derribado",
+    },
+    [76595] = {
+        name = "Extracción urgente",
+    },
+    [76597] = {
+        name = "Nuevas alas",
+    },
+    [77098] = {
+        name = "Aterrizaje de urgencia",
+    },
+    [77163] = {
+        name = "Entrar en razón",
+    },
+    [77417] = {
+        name = "La esencia de un Infinito",
     },
 })
 ]])()

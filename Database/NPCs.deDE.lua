@@ -273,11 +273,32 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202702] = {
         name = "Maiev Schattensang",
     },
+    [205067] = {
+        name = "Shandris Mondfeder",
+    },
+    [205068] = {
+        name = "Shandris Mondfeder",
+    },
+    [205134] = {
+        name = "Shandris Mondfeder",
+    },
+    [205142] = {
+        name = "Shandris Mondfeder",
+    },
     [205706] = {
         name = "Zukunftschromie",
     },
+    [205892] = {
+        name = "Späherin der Kaldorei",
+    },
     [207353] = {
         name = "Arko'narin Sternschatten",
+    },
+    [207790] = {
+        name = "Schuppenkommandantin Glutthal",
+    },
+    [207820] = {
+        name = "Schuppenkommandantin Glutthal",
     },
     [208151] = {
         name = "Maiev Schattensang",

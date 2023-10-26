@@ -297,17 +297,41 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [203965] = {
         name = "Ebisio",
     },
+    [205067] = {
+        name = "Shandris Plumaluna",
+    },
+    [205068] = {
+        name = "Shandris Plumaluna",
+    },
+    [205134] = {
+        name = "Shandris Plumaluna",
+    },
+    [205142] = {
+        name = "Shandris Plumaluna",
+    },
     [205706] = {
         name = "Cromi futura",
     },
     [205707] = {
         name = "Cromi",
     },
+    [205892] = {
+        name = "Exploradora kaldorei",
+    },
     [206149] = {
         name = "Cromi",
     },
     [207353] = {
         name = "Arko'narin Sombraestelar",
+    },
+    [207790] = {
+        name = "Dracomandante Brasathal",
+    },
+    [207820] = {
+        name = "Dracomandante Brasathal",
+    },
+    [208035] = {
+        name = "Cromi",
     },
     [208151] = {
         name = "Maiev Cantosombrío",

@@ -300,11 +300,44 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [202702] = {
         name = "Maiev Chantelombre",
     },
+    [204574] = {
+        name = "Eternia",
+    },
+    [204591] = {
+        name = "Valuneï",
+    },
+    [204667] = {
+        name = "Eternia",
+    },
+    [205067] = {
+        name = "Shandris Pennelune",
+    },
+    [205068] = {
+        name = "Shandris Pennelune",
+    },
+    [205134] = {
+        name = "Shandris Pennelune",
+    },
+    [205142] = {
+        name = "Shandris Pennelune",
+    },
     [205706] = {
         name = "Chromie du futur",
     },
+    [205892] = {
+        name = "Eclaireuse kaldorei",
+    },
     [207353] = {
         name = "Arko'narin Ombrétoile",
+    },
+    [207634] = {
+        name = "Eternia",
+    },
+    [207790] = {
+        name = "Squammandante Ardenthal",
+    },
+    [207820] = {
+        name = "Squammandante Ardenthal",
     },
     [208151] = {
         name = "Maiev Chantelombre",
