@@ -15,7 +15,7 @@ Chain.BronzeReconciliation = 100015
 Chain.ReforgingTheTyrsGuard = 100016
 
 Database:AddChain(Chain.TheCoalitionOfFlames, {
-    name = "The Coalition of Flames",
+    name = L["THE_COALITION_OF_FLAMES"],
     questline = 5381,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -90,7 +90,7 @@ Database:AddChain(Chain.TheCoalitionOfFlames, {
     },
 })
 Database:AddChain(Chain.Reconciliation, {
-    name = "Reconciliation",
+    name = L["RECONCILIATION"],
     questline = 5464,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -173,7 +173,7 @@ Database:AddChain(Chain.Reconciliation, {
 })
 -- Map markers
 Database:AddChain(Chain.BronzeReconciliation, {
-    name = "Bronze Reconciliation",
+    name = L["BRONZE_ECONCILIATION"],
     questline = 5508,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -257,7 +257,7 @@ Database:AddChain(Chain.BronzeReconciliation, {
     },
 })
 Database:AddChain(Chain.ReforgingTheTyrsGuard, {
-    name = "Reforging the Tyr's Guard",
+    name = L["REFORGING_THE_TYRS_GUARD"],
     questline = 5455,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
