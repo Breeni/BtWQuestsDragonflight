@@ -1,3 +1,10 @@
+# v5.3
+
+- Added The Coalition of Flames questline
+- Added the Reconciliation questline
+- Added the Bronze Reconciliation questline
+- Added Reforging the Tyr's Guard questline
+
 # v5.2
 
 - Added Forsaken heritage armor questline
