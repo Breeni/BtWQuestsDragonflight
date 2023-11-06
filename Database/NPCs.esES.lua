@@ -42,6 +42,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [185878] = {
         name = "Embajador Taurasza",
     },
+    [185904] = {
+        name = "Madre Elion",
+    },
     [186303] = {
         name = "Celina Hojaseca",
     },
@@ -300,8 +303,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206149] = {
         name = "Cromi",
     },
+    [206247] = {
+        name = "Tyrande Susurravientos",
+    },
+    [207160] = {
+        name = "Tyrande Susurravientos",
+    },
     [207353] = {
         name = "Arko'narin Sombraestelar",
+    },
+    [207779] = {
+        name = "Ethidris Guardacresta",
+    },
+    [207781] = {
+        name = "Melyrine Petalosombra",
     },
     [207790] = {
         name = "Escamandante Pavethal",
@@ -312,11 +327,56 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208035] = {
         name = "Cromi",
     },
+    [208143] = {
+        name = "Guardián Amrymn",
+    },
     [208151] = {
         name = "Maiev Cantosombrío",
     },
+    [208378] = {
+        name = "Suzka",
+    },
+    [208669] = {
+        name = "Lady Bayalunar",
+    },
+    [208713] = {
+        name = "Alexstrasza la Protectora",
+    },
+    [208725] = {
+        name = "Suzka",
+    },
+    [209083] = {
+        name = "Shandris Plumaluna",
+    },
     [209140] = {
         name = "Maiev Cantosombrío",
+    },
+    [209516] = {
+        name = "Delaryn Luna de Verano",
+    },
+    [209677] = {
+        name = "Centinela kaldorei",
+    },
+    [210022] = {
+        name = "Guardián Adranas",
+    },
+    [210196] = {
+        name = "Solarys Vientospina",
+    },
+    [210646] = {
+        name = "Sueñodeudo",
+    },
+    [210813] = {
+        name = "Dríade entusiasta",
+    },
+    [211193] = {
+        name = "Tyrande Susurravientos",
+    },
+    [211265] = {
+        name = "Sylvia Susurraflor",
+    },
+    [212797] = {
+        name = "Talisa Susurraflor",
     },
 })
 ]])()

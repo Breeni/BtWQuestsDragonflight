@@ -21,6 +21,7 @@ BtWQuests.Constant.Category.Dragonflight = {
     Thaldraszus = 1004,
     Dragonflight = 1005,
     EmbersOfNeltharion = 1006,
+    GuardiansOfTheDream = 1007,
 }
 BtWQuests.Constant.Chain.Dragonflight = {
     DracthyrAwaken = 100001,
@@ -71,6 +72,7 @@ BtWQuests.Constant.Chain.Dragonflight = {
         EmbedChain01 = 100511,
     },
     EmbersOfNeltharion = {},
+    GuardiansOfTheDream = {},
 }
 
 BtWQuests.Constant.Restrictions.DragonflightToF = -100001;

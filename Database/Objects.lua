@@ -232,4 +232,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [409077] = {
+        name = "Singed Leaflet",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.37998,
+                    y = 0.472086,
+                },
+            },
+        },
+    },
 })

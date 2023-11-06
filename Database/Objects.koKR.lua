@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "봉인된 칼도레이 두루마리",
     },
+    [409077] = {
+        name = "그을린 유인물",
+    },
 })
 ]])()

@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "密封的卡多雷卷轴",
     },
+    [409077] = {
+        name = "烧焦的传单",
+    },
 })
 ]])()

@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "Pergaminho Kaldorei Lacrado",
     },
+    [409077] = {
+        name = "Panfleto Chamuscado",
+    },
 })
 ]])()

@@ -82,6 +82,7 @@ General.lua
 10.1.0.lua
 10.1.5.lua
 10.1.7.lua
+10.2.0.lua
 FriendOfTheDragonIsles.lua
 TheWakingShores.lua
 OhnahranPlains.lua

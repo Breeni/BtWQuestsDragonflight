@@ -42,6 +42,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [185878] = {
         name = "Botschafter Taurasza",
     },
+    [185904] = {
+        name = "Mutter Elion",
+    },
     [186303] = {
         name = "Celina Knisterblatt",
     },
@@ -291,8 +294,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [205892] = {
         name = "Späherin der Kaldorei",
     },
+    [206247] = {
+        name = "Tyrande Wisperwind",
+    },
+    [207160] = {
+        name = "Tyrande Wisperwind",
+    },
+    [207350] = {
+        name = "Furorion",
+    },
     [207353] = {
         name = "Arko'narin Sternschatten",
+    },
+    [207779] = {
+        name = "Ethidris Bachschutz",
+    },
+    [207781] = {
+        name = "Melyrine Blütenschatten",
     },
     [207790] = {
         name = "Schuppenkommandantin Glutthal",
@@ -300,11 +318,50 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [207820] = {
         name = "Schuppenkommandantin Glutthal",
     },
+    [208143] = {
+        name = "Hüter Amrymn",
+    },
     [208151] = {
         name = "Maiev Schattensang",
     },
+    [208669] = {
+        name = "Lady Mondbeere",
+    },
+    [208713] = {
+        name = "Alexstrasza die Lebensbinderin",
+    },
+    [209083] = {
+        name = "Shandris Mondfeder",
+    },
     [209140] = {
         name = "Maiev Schattensang",
+    },
+    [209516] = {
+        name = "Delaryn Sommermond",
+    },
+    [209677] = {
+        name = "Schildwache der Kaldorei",
+    },
+    [210022] = {
+        name = "Hüter Adranas",
+    },
+    [210196] = {
+        name = "Solarys Dornensturm",
+    },
+    [210646] = {
+        name = "Traumkin",
+    },
+    [210813] = {
+        name = "Eifrige Dryade",
+    },
+    [211193] = {
+        name = "Tyrande Wisperwind",
+    },
+    [211265] = {
+        name = "Sylvia Flüsterblüte",
+    },
+    [212797] = {
+        name = "Talisa Flüsterblüte",
     },
 })
 ]])()

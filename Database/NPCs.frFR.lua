@@ -45,6 +45,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [185878] = {
         name = "Ambassadeur Taurasza",
     },
+    [185904] = {
+        name = "Mère Elion",
+    },
     [186303] = {
         name = "Célina Craquefeuilles",
     },
@@ -88,6 +91,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Irion",
     },
     [187561] = {
+        name = "Mérithra",
+    },
+    [187590] = {
         name = "Mérithra",
     },
     [187609] = {
@@ -327,11 +333,56 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [205892] = {
         name = "Eclaireuse kaldorei",
     },
+    [206247] = {
+        name = "Tyrande Murmevent",
+    },
+    [206406] = {
+        name = "Mérithra",
+    },
+    [206416] = {
+        name = "Mérithra",
+    },
+    [206425] = {
+        name = "Mérithra",
+    },
+    [206510] = {
+        name = "Cénarius",
+    },
+    [206583] = {
+        name = "Cénarius",
+    },
+    [206688] = {
+        name = "Mérithra",
+    },
+    [206806] = {
+        name = "Mérithra",
+    },
+    [206809] = {
+        name = "Mérithra",
+    },
+    [206896] = {
+        name = "Mérithra",
+    },
+    [206979] = {
+        name = "Mérithra",
+    },
+    [207160] = {
+        name = "Tyrande Murmevent",
+    },
+    [207350] = {
+        name = "Irion",
+    },
     [207353] = {
         name = "Arko'narin Ombrétoile",
     },
     [207634] = {
         name = "Eternia",
+    },
+    [207779] = {
+        name = "Ethidris Lacrique",
+    },
+    [207781] = {
+        name = "Melyrine Pétaline",
     },
     [207790] = {
         name = "Squammandante Ardenthal",
@@ -339,11 +390,53 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [207820] = {
         name = "Squammandante Ardenthal",
     },
+    [208143] = {
+        name = "Gardien Amrymn",
+    },
     [208151] = {
         name = "Maiev Chantelombre",
     },
+    [208669] = {
+        name = "Dame Baie-de-Lune",
+    },
+    [208713] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
+    },
+    [209083] = {
+        name = "Shandris Pennelune",
+    },
     [209140] = {
         name = "Maiev Chantelombre",
+    },
+    [209318] = {
+        name = "Cénarius",
+    },
+    [209516] = {
+        name = "Delaryn Lune-d'Eté",
+    },
+    [209677] = {
+        name = "Sentinelle kaldorei",
+    },
+    [210022] = {
+        name = "Gardien Adranas",
+    },
+    [210196] = {
+        name = "Solarys Trombépine",
+    },
+    [210646] = {
+        name = "Oniride",
+    },
+    [210813] = {
+        name = "Dryade zélée",
+    },
+    [211193] = {
+        name = "Tyrande Murmevent",
+    },
+    [211265] = {
+        name = "Sylvia Murmurante",
+    },
+    [212797] = {
+        name = "Talisa Murmurante",
     },
 })
 ]])()

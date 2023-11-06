@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "Pergamena dei Kaldorei Sigillata",
     },
+    [409077] = {
+        name = "Volantino Bruciacchiato",
+    },
 })
 ]])()

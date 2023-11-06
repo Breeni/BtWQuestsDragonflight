@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "Pergamino kaldorei sellado",
     },
+    [409077] = {
+        name = "Folíolo chamuscado",
+    },
 })
 ]])()

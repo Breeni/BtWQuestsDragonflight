@@ -3267,6 +3267,87 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Onore della Dea",
     },
+    [76317] = {
+        name = "Richiamo del Sogno",
+    },
+    [76318] = {
+        name = "Un benvenuto di smeraldo",
+    },
+    [76319] = {
+        name = "Banchetto o incendio",
+    },
+    [76320] = {
+        name = "Dei Selvatici in mezzo a noi",
+    },
+    [76321] = {
+        name = "Assalto bruciante",
+    },
+    [76322] = {
+        name = "Il volto dei nostri nemici",
+    },
+    [76324] = {
+        name = "Persa nella fiamma",
+    },
+    [76325] = {
+        name = "Tra le fiamme e Fyrakk",
+    },
+    [76326] = {
+        name = "Una casa nel Sogno",
+    },
+    [76327] = {
+        name = "L'Occhio di Ysera",
+    },
+    [76328] = {
+        name = "Un nuovo bruto",
+    },
+    [76329] = {
+        name = "Solo un'esplorata e fuga",
+    },
+    [76330] = {
+        name = "Specialista del disarmo",
+    },
+    [76331] = {
+        name = "La scommessa di Merithra",
+    },
+    [76332] = {
+        name = "Come mettere radici",
+    },
+    [76333] = {
+        name = "Minaccia tripla",
+    },
+    [76334] = {
+        name = "Buoni consigli",
+    },
+    [76335] = {
+        name = "Il potere della foresta",
+    },
+    [76336] = {
+        name = "Una battaglia al volo",
+    },
+    [76337] = {
+        name = "La brace brucia ancora",
+    },
+    [76342] = {
+        name = "Bruciali vivi!",
+    },
+    [76343] = {
+        name = "I piani migliori",
+    },
+    [76344] = {
+        name = "Direttiva Primalista",
+    },
+    [76345] = {
+        name = "Alla ricerca di Terro",
+    },
+    [76347] = {
+        name = "Potere, eruzione e menzogne",
+    },
+    [76348] = {
+        name = "Bella barriera brillante",
+    },
+    [76403] = {
+        name = "Incarnazione del caos",
+    },
     [76407] = {
         name = "Non oggi, destino",
     },
@@ -3285,8 +3366,71 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76423] = {
         name = "Nessun limite",
     },
+    [76433] = {
+        name = "Terra bruciata",
+    },
+    [76434] = {
+        name = "Non tutto è perduto",
+    },
+    [76435] = {
+        name = "La Boscaglia Infuocata",
+    },
+    [76437] = {
+        name = "Terra bruciata",
+    },
+    [76441] = {
+        name = "Cupa rappresaglia",
+    },
+    [76442] = {
+        name = "Misera speranza",
+    },
+    [76443] = {
+        name = "La brace incombente",
+    },
+    [76460] = {
+        name = "Meglio un uovo oggi che un drago domani",
+    },
+    [76461] = {
+        name = "Diplomazia draconica",
+    },
+    [76462] = {
+        name = "Pulizia delle caverne",
+    },
+    [76463] = {
+        name = "Delizie squisite",
+    },
+    [76464] = {
+        name = "I Thorignir",
+    },
+    [76465] = {
+        name = "Custodire i draghi",
+    },
     [76530] = {
         name = "Convocazione non morta",
+    },
+    [76532] = {
+        name = "Assalto alla Sorgente",
+    },
+    [76566] = {
+        name = "Il giardino delle Driadi",
+    },
+    [76567] = {
+        name = "Giardino irrequieto",
+    },
+    [76568] = {
+        name = "Soricidi nel panico",
+    },
+    [76569] = {
+        name = "Conferenza sui Druidi guardiani",
+    },
+    [76570] = {
+        name = "Affari di famiglia",
+    },
+    [76571] = {
+        name = "L'esperienza della crescita",
+    },
+    [76572] = {
+        name = "Una promozione velenosa",
     },
     [76592] = {
         name = "Un'ala sola",
@@ -3309,8 +3453,188 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77163] = {
         name = "Tentare di ragionare",
     },
+    [77178] = {
+        name = "Ritirata tattica",
+    },
+    [77195] = {
+        name = "Vista draconica",
+    },
+    [77197] = {
+        name = "Una mano lava l'ala",
+    },
+    [77198] = {
+        name = "A casa in tempo per il tè",
+    },
+    [77209] = {
+        name = "Eredità nei semi",
+    },
+    [77283] = {
+        name = "Battaglia su più fronti",
+    },
+    [77310] = {
+        name = "Ricordo della Sognatrice",
+    },
+    [77311] = {
+        name = "Un aiuto con le cure",
+    },
+    [77312] = {
+        name = "La natura persiste",
+    },
+    [77313] = {
+        name = "Una chiamata solenne",
+    },
+    [77314] = {
+        name = "Requiem nel Sogno",
+    },
+    [77315] = {
+        name = "Ricordi antichi",
+    },
+    [77316] = {
+        name = "Problemi arborei",
+    },
+    [77317] = {
+        name = "Cappelli per tutti",
+    },
+    [77318] = {
+        name = "Come dice Merithra",
+    },
     [77417] = {
         name = "Come si diventa Infiniti",
+    },
+    [77436] = {
+        name = "L'eremo in fiamme",
+    },
+    [77662] = {
+        name = "Richiesta d'aiuto",
+    },
+    [77664] = {
+        name = "Un ultimo passo",
+    },
+    [77665] = {
+        name = "Vincolate a te",
+    },
+    [77673] = {
+        name = "Sotto la superficie",
+    },
+    [77674] = {
+        name = "Ferite del passato",
+    },
+    [77675] = {
+        name = "Un futuro migliore, insieme",
+    },
+    [77739] = {
+        name = "Soffocare le fiamme",
+    },
+    [77788] = {
+        name = "Appunti di Ricerca sull'Asfodelo Cinereo",
+    },
+    [77802] = {
+        name = "Cosa ti posso chiamare?",
+    },
+    [77818] = {
+        name = "Il crudele",
+    },
+    [77896] = {
+        name = "Una ricerca assonnata",
+    },
+    [77911] = {
+        name = "Costruire una coperta",
+    },
+    [77922] = {
+        name = "Una morbida imbottitura",
+    },
+    [77948] = {
+        name = "I fratelli estinti",
+    },
+    [77955] = {
+        name = "Pietre e animi scaldati",
+    },
+    [77958] = {
+        name = "Druido assonnato nel Sogno di Smeraldo",
+    },
+    [77978] = {
+        name = "Una torcia passata",
+    },
+    [78041] = {
+        name = "Ira della Madre Celeste",
+    },
+    [78042] = {
+        name = "La valutazione di Aviana",
+    },
+    [78043] = {
+        name = "Il dilemma di Q'onzu",
+    },
+    [78044] = {
+        name = "Pericolo pollineo",
+    },
+    [78045] = {
+        name = "Una causa radicata",
+    },
+    [78046] = {
+        name = "Sovrintendente sovrappensiero",
+    },
+    [78064] = {
+        name = "La percezione di Q'onzu",
+    },
+    [78065] = {
+        name = "Quesiti per Q'onzu",
+    },
+    [78066] = {
+        name = "Le risposte guadagnate",
+    },
+    [78162] = {
+        name = "La distrazione di Q'onzu",
+    },
+    [78163] = {
+        name = "Qualifica di Q'onzu",
+    },
+    [78170] = {
+        name = "Nutrire i Semi Senza Età",
+    },
+    [78171] = {
+        name = "Boccioli del passato",
+    },
+    [78172] = {
+        name = "Semi Misteriosi",
+    },
+    [78206] = {
+        name = "Dono di Smeraldo",
+    },
+    [78262] = {
+        name = "Tutto inizia da una pietra",
+    },
+    [78271] = {
+        name = "Sognare emblemi",
+    },
+    [78319] = {
+        name = "La Superfioritura",
+    },
+    [78381] = {
+        name = "Sogni uniti",
+    },
+    [78386] = {
+        name = "Risveglio di smeraldo",
+    },
+    [78427] = {
+        name = "Passa la cassa!",
+    },
+    [78428] = {
+        name = "Cassa a man bassa",
+    },
+    [78430] = {
+        name = "Macchina per infusione vegetale",
+    },
+    [78431] = {
+        name = "Squadra dei Sogni verde",
+    },
+    [78444] = {
+        name = "Un degno Alleato: Custodi del Sogno",
+    },
+    [78646] = {
+        name = "Presidiare il fuoco",
+    },
+    [78821] = {
+        name = "Fioritura di Semonirici",
     },
 })
 ]])()

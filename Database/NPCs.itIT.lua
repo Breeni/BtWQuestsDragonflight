@@ -42,6 +42,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [185878] = {
         name = "Ambasciatore Taurasza",
     },
+    [185904] = {
+        name = "Madre Elion",
+    },
     [186303] = {
         name = "Celina Scrocchiafoglia",
     },
@@ -321,8 +324,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206149] = {
         name = "Cromie",
     },
+    [206247] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [207160] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [207350] = {
+        name = "Irathion",
+    },
     [207353] = {
         name = "Arko'narin Ombrastelle",
+    },
+    [207779] = {
+        name = "Ethidris Guardiafiume",
+    },
+    [207781] = {
+        name = "Melyrine Ombrapetalo",
     },
     [207790] = {
         name = "Comandante delle Scaglie Bracithal",
@@ -333,11 +351,50 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208035] = {
         name = "Cromie",
     },
+    [208143] = {
+        name = "Custode Amrymn",
+    },
     [208151] = {
         name = "Maiev Cantombroso",
     },
+    [208669] = {
+        name = "Dama Baccaluna",
+    },
+    [208713] = {
+        name = "Alexstrasza la Protettrice della Vita",
+    },
+    [209083] = {
+        name = "Shandris Piumaluna",
+    },
     [209140] = {
         name = "Maiev Cantombroso",
+    },
+    [209516] = {
+        name = "Delaryn Lunestiva",
+    },
+    [209677] = {
+        name = "Sentinella Kaldorei",
+    },
+    [210022] = {
+        name = "Custode Adranas",
+    },
+    [210196] = {
+        name = "Solarys Brezzaspina",
+    },
+    [210646] = {
+        name = "Gufonirico",
+    },
+    [210813] = {
+        name = "Driade Zelante",
+    },
+    [211193] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [211265] = {
+        name = "Sylvia Fiorlieve",
+    },
+    [212797] = {
+        name = "Talisa Fiorlieve",
     },
 })
 ]])()

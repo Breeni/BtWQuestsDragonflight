@@ -1574,6 +1574,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [187590] = {
+        name = "Merithra",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.186604,
+                    y = 0.51779,
+                },
+            },
+        },
+    },
     [187594] = {
         name = "Somnikus",
         locations = {
@@ -6145,6 +6156,105 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [206247] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.513364,
+                    y = 0.429855,
+                },
+            },
+        },
+    },
+    [206406] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.527168,
+                    y = 0.281689,
+                },
+            },
+        },
+    },
+    [206408] = {
+        name = "Ysera",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.508444,
+                    y = 0.629047,
+                },
+            },
+        },
+    },
+    [206416] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.521016,
+                    y = 0.292525,
+                },
+            },
+        },
+    },
+    [206425] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.694184,
+                    y = 0.540428,
+                },
+            },
+        },
+    },
+    [206510] = {
+        name = "Cenarius",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.642988,
+                    y = 0.582291,
+                },
+            },
+        },
+    },
+    [206583] = {
+        name = "Cenarius",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.632824,
+                    y = 0.715134,
+                },
+            },
+        },
+    },
+    [206612] = {
+        name = "Vyranoth",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.368284,
+                    y = 0.258612,
+                },
+            },
+        },
+    },
+    [206619] = {
+        name = "Buri",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.368422,
+                    y = 0.260705,
+                },
+            },
+        },
+    },
     [206682] = {
         name = "Travard",
         locations = {
@@ -6152,6 +6262,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.60384,
                     y = 0.586836,
+                },
+            },
+        },
+    },
+    [206688] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.627875,
+                    y = 0.686238,
+                },
+            },
+        },
+    },
+    [206806] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.614769,
+                    y = 0.603964,
+                },
+            },
+        },
+    },
+    [206809] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.538269,
+                    y = 0.639281,
+                },
+            },
+        },
+    },
+    [206896] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.508043,
+                    y = 0.628847,
                 },
             },
         },
@@ -6167,6 +6321,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [206979] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.509648,
+                    y = 0.699883,
+                },
+            },
+        },
+    },
     [207106] = {
         name = "Nozdormu",
         locations = {
@@ -6174,6 +6339,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.654988,
                     y = 0.802556,
+                },
+            },
+        },
+    },
+    [207160] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.408007,
+                    y = 0.475026,
+                },
+            },
+        },
+    },
+    [207350] = {
+        name = "Wrathion",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.508756,
+                    y = 0.628149,
+                },
+            },
+        },
+    },
+    [207351] = {
+        name = "Vyranoth",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.612097,
+                    y = 0.732185,
+                },
+            },
+        },
+    },
+    [207352] = {
+        name = "Mordenaku",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.615357,
+                    y = 0.687544,
                 },
             },
         },
@@ -6196,6 +6405,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.374618,
                     y = 0.836305,
+                },
+            },
+        },
+    },
+    [207779] = {
+        name = "Ethidris Creekward",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.537364,
+                    y = 0.745491,
+                },
+            },
+        },
+    },
+    [207781] = {
+        name = "Melyrine Petalshade",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.537604,
+                    y = 0.745017,
                 },
             },
         },
@@ -6244,6 +6475,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208143] = {
+        name = "Keeper Amrymn",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.502068,
+                    y = 0.615817,
+                },
+            },
+        },
+    },
     [208151] = {
         name = "Maiev Shadowsong",
         locations = {
@@ -6266,6 +6508,83 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208378] = {
+        name = "Suzska",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.276269,
+                    y = 0.322024,
+                },
+            },
+        },
+    },
+    [208474] = {
+        name = "Clarelle",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.514205,
+                    y = 0.596091,
+                },
+            },
+        },
+    },
+    [208506] = {
+        name = "Vyranoth",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.508075,
+                    y = 0.627248,
+                },
+            },
+        },
+    },
+    [208669] = {
+        name = "Lady Moonberry",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.497839,
+                    y = 0.624907,
+                },
+            },
+        },
+    },
+    [208713] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.586148,
+                    y = 0.239348,
+                },
+            },
+        },
+    },
+    [208714] = {
+        name = "Ysera",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.586207,
+                    y = 0.237742,
+                },
+            },
+        },
+    },
+    [208725] = {
+        name = "Suzska",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.335116,
+                    y = 0.302759,
+                },
+            },
+        },
+    },
     [208968] = {
         name = "Travard",
         locations = {
@@ -6277,6 +6596,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [209082] = {
+        name = "Lilian Voss",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.55197,
+                    y = 0.423442,
+                },
+            },
+        },
+    },
+    [209083] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.496006,
+                    y = 0.461489,
+                },
+            },
+        },
+    },
     [209140] = {
         name = "Maiev Shadowsong",
         locations = {
@@ -6284,6 +6625,270 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.526499,
                     y = 0.038756,
+                },
+            },
+        },
+    },
+    [209318] = {
+        name = "Cenarius",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.507878,
+                    y = 0.620821,
+                },
+            },
+        },
+    },
+    [209323] = {
+        name = "Lilian Voss",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.502884,
+                    y = 0.479559,
+                },
+            },
+        },
+    },
+    [209328] = {
+        name = "Lilian Voss",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.552579,
+                    y = 0.422559,
+                },
+            },
+        },
+    },
+    [209516] = {
+        name = "Delaryn Summermoon",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.501432,
+                    y = 0.610414,
+                },
+            },
+        },
+    },
+    [209677] = {
+        name = "Kaldorei Sentinel",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.496006,
+                    y = 0.461489,
+                },
+            },
+        },
+    },
+    [209788] = {
+        name = "Dionaessa",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.537698,
+                    y = 0.746061,
+                },
+            },
+        },
+    },
+    [210022] = {
+        name = "Keeper Adranas",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.587261,
+                    y = 0.239174,
+                },
+            },
+        },
+    },
+    [210133] = {
+        name = "Icarius",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.502916,
+                    y = 0.633555,
+                },
+            },
+        },
+    },
+    [210164] = {
+        name = "Thaalean",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.58133,
+                    y = 0.773108,
+                },
+            },
+        },
+    },
+    [210178] = {
+        name = "Buri",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.396102,
+                    y = 0.228512,
+                },
+            },
+        },
+    },
+    [210196] = {
+        name = "Solarys Thorngale",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.520104,
+                    y = 0.636266,
+                },
+            },
+        },
+    },
+    [210524] = {
+        name = "Q'onzu",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.346484,
+                    y = 0.693261,
+                },
+            },
+        },
+    },
+    [210585] = {
+        name = "Q'onzu",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.65831,
+                    y = 0.378054,
+                },
+            },
+        },
+    },
+    [210587] = {
+        name = "Aviana",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.658315,
+                    y = 0.376755,
+                },
+            },
+        },
+    },
+    [210646] = {
+        name = "Dreamkin",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.34742,
+                    y = 0.689449,
+                },
+            },
+        },
+    },
+    [210733] = {
+        name = "Vyranoth",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.337256,
+                    y = 0.252592,
+                },
+            },
+        },
+    },
+    [210813] = {
+        name = "Zealous Dryad",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.537734,
+                    y = 0.746037,
+                },
+            },
+        },
+    },
+    [211193] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.361329,
+                    y = 0.508646,
+                },
+            },
+        },
+    },
+    [211209] = {
+        name = "Elianna",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.502292,
+                    y = 0.61801,
+                },
+            },
+        },
+    },
+    [211240] = {
+        name = "Eran'nda",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.525137,
+                    y = 0.624713,
+                },
+            },
+        },
+    },
+    [211265] = {
+        name = "Sylvia Whisperbloom",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.597516,
+                    y = 0.168913,
+                },
+            },
+        },
+    },
+    [211328] = {
+        name = "Vaskarn",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.497949,
+                    y = 0.629447,
+                },
+            },
+        },
+    },
+    [211962] = {
+        name = "Melsysra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.502983,
+                    y = 0.621866,
+                },
+            },
+        },
+    },
+    [212797] = {
+        name = "Talisa Whisperbloom",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.497745,
+                    y = 0.621145,
                 },
             },
         },

@@ -3267,6 +3267,87 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Ehre der Göttin",
     },
+    [76317] = {
+        name = "Ruf des Traumes",
+    },
+    [76318] = {
+        name = "Smaragdgrünes Willkommen",
+    },
+    [76319] = {
+        name = "Feuriges Festmahl",
+    },
+    [76320] = {
+        name = "Wilde Götter unter uns",
+    },
+    [76321] = {
+        name = "Sengender Ansturm",
+    },
+    [76322] = {
+        name = "Das Gesicht unserer Feinde",
+    },
+    [76324] = {
+        name = "Ans Feuer verloren",
+    },
+    [76325] = {
+        name = "Von Fyrakk in die Ecke gedrängt",
+    },
+    [76326] = {
+        name = "Zu Hause im Traum",
+    },
+    [76327] = {
+        name = "Auge von Ysera",
+    },
+    [76328] = {
+        name = "Ein neuer Schläger",
+    },
+    [76329] = {
+        name = "Verdeckter Ermittler",
+    },
+    [76330] = {
+        name = "Entwaffnungsspezialist",
+    },
+    [76331] = {
+        name = "Merithras Gambit",
+    },
+    [76332] = {
+        name = "Wurzeln schlagen",
+    },
+    [76333] = {
+        name = "Gefahr hoch drei",
+    },
+    [76334] = {
+        name = "Guter Rat",
+    },
+    [76335] = {
+        name = "Die Macht der Waldes",
+    },
+    [76336] = {
+        name = "Fliegen und kämpfen",
+    },
+    [76337] = {
+        name = "In der Asche glimmt es noch",
+    },
+    [76342] = {
+        name = "Macht ihnen Feuer!",
+    },
+    [76343] = {
+        name = "Die besten Pläne",
+    },
+    [76344] = {
+        name = "Primalistendirektive",
+    },
+    [76345] = {
+        name = "Die Suche nach Terro",
+    },
+    [76347] = {
+        name = "Macht, Ausbruch und Lügen",
+    },
+    [76348] = {
+        name = "Besonders bezaubernde Barriere",
+    },
+    [76403] = {
+        name = "Inkarnationenchaos",
+    },
     [76407] = {
         name = "Heute nicht, Schicksal",
     },
@@ -3285,8 +3366,71 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76423] = {
         name = "Keine Grenzen",
     },
+    [76433] = {
+        name = "Äscherne Erde",
+    },
+    [76434] = {
+        name = "Noch nicht verloren",
+    },
+    [76435] = {
+        name = "Das Qualmende Gehölz",
+    },
+    [76437] = {
+        name = "Brennender Boden",
+    },
+    [76441] = {
+        name = "Unerbittliche Vergeltung",
+    },
+    [76442] = {
+        name = "Trostlose Hoffnung",
+    },
+    [76443] = {
+        name = "Die drohende Glut",
+    },
+    [76460] = {
+        name = "Lieber einen Drachen in der Hand als zwei im Horst",
+    },
+    [76461] = {
+        name = "Drakonische Diplomatie",
+    },
+    [76462] = {
+        name = "Höhlensäuberung",
+    },
+    [76463] = {
+        name = "Köstliche Köstlichkeiten",
+    },
+    [76464] = {
+        name = "Die Thorignir",
+    },
+    [76465] = {
+        name = "Drachenhaltung",
+    },
     [76530] = {
         name = "Untote Einladung",
+    },
+    [76532] = {
+        name = "Angriff auf den Urquell",
+    },
+    [76566] = {
+        name = "Der Dryadengarten",
+    },
+    [76567] = {
+        name = "Garstiger Garten",
+    },
+    [76568] = {
+        name = "Pinienmauspanik",
+    },
+    [76569] = {
+        name = "Druidenwächterkonferenz",
+    },
+    [76570] = {
+        name = "Familienangelegenheiten",
+    },
+    [76571] = {
+        name = "Wachstumserfahrung",
+    },
+    [76572] = {
+        name = "Eine giftige Beförderung",
     },
     [76592] = {
         name = "Ein einzelner Flügel",
@@ -3309,8 +3453,188 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77163] = {
         name = "Späte Einsicht",
     },
+    [77178] = {
+        name = "Taktischer Rückzug",
+    },
+    [77195] = {
+        name = "Drachenperspektive",
+    },
+    [77197] = {
+        name = "Welpenschutz",
+    },
+    [77198] = {
+        name = "Gerade recht zum Tee zu Hause",
+    },
+    [77209] = {
+        name = "Saatvermächtnis",
+    },
+    [77283] = {
+        name = "Eine Schlacht an mehreren Fronten",
+    },
+    [77310] = {
+        name = "Erinnerungen einer Träumerin",
+    },
+    [77311] = {
+        name = "Heilungshilfe",
+    },
+    [77312] = {
+        name = "Die Natur besteht",
+    },
+    [77313] = {
+        name = "Eine feierliche Versammlung",
+    },
+    [77314] = {
+        name = "Totengedächtnis im Traum",
+    },
+    [77315] = {
+        name = "Uralte Erinnerungen",
+    },
+    [77316] = {
+        name = "Ärger am Baum",
+    },
+    [77317] = {
+        name = "Behüteter Winterschaf",
+    },
+    [77318] = {
+        name = "Merithra sagt...",
+    },
     [77417] = {
         name = "Was eine Ewige ausmacht",
+    },
+    [77436] = {
+        name = "Der brennende Grabhügel",
+    },
+    [77662] = {
+        name = "Ein Hilferuf",
+    },
+    [77664] = {
+        name = "Ein letzter Schritt",
+    },
+    [77665] = {
+        name = "An Euch gebunden",
+    },
+    [77673] = {
+        name = "Unter der Oberfläche",
+    },
+    [77674] = {
+        name = "Wunden der Vergangenheit",
+    },
+    [77675] = {
+        name = "Eine bessere Zukunft, gemeinsam",
+    },
+    [77739] = {
+        name = "Die Flammen ersticken",
+    },
+    [77788] = {
+        name = "Aschphodill-Forschungsnotizen",
+    },
+    [77802] = {
+        name = "Wie soll ich Euch nennen?",
+    },
+    [77818] = {
+        name = "Die Grausame",
+    },
+    [77896] = {
+        name = "Eine schläfrige Suche",
+    },
+    [77911] = {
+        name = "Ins gemachte Bett",
+    },
+    [77922] = {
+        name = "Flauschiger Füllungsfund",
+    },
+    [77948] = {
+        name = "Ausgebrannt",
+    },
+    [77955] = {
+        name = "Randale um den warmen Ruhestein",
+    },
+    [77958] = {
+        name = "Schläfriger Druide im Smaragdgrünen Traum",
+    },
+    [77978] = {
+        name = "Eine weitergereichte Fackel",
+    },
+    [78041] = {
+        name = "Zorn der Himmelsmutter",
+    },
+    [78042] = {
+        name = "Avianas Einschätzung",
+    },
+    [78043] = {
+        name = "Q'onzus Dilemma",
+    },
+    [78044] = {
+        name = "Die qualvollen Pollen",
+    },
+    [78045] = {
+        name = "Die Ursache beseitigen",
+    },
+    [78046] = {
+        name = "Aufseher-Beaufsichtigung",
+    },
+    [78064] = {
+        name = "Q'onzus Wahrnehmung",
+    },
+    [78065] = {
+        name = "Die Q'onzu-Querelen",
+    },
+    [78066] = {
+        name = "Die Antworten, die Ihr verdient habt",
+    },
+    [78162] = {
+        name = "Q'onzus Ablenkung",
+    },
+    [78163] = {
+        name = "Q'onzus Qualifikation",
+    },
+    [78170] = {
+        name = "Alterslose Samen pflegen",
+    },
+    [78171] = {
+        name = "Blüten der Vergangenheit",
+    },
+    [78172] = {
+        name = "Geheimnisvolle Samen",
+    },
+    [78206] = {
+        name = "Smaragdfülle",
+    },
+    [78262] = {
+        name = "Es beginnt mit einem Stein",
+    },
+    [78271] = {
+        name = "Wappentraum",
+    },
+    [78319] = {
+        name = "Die Superblüte",
+    },
+    [78381] = {
+        name = "Vereinte Träume",
+    },
+    [78386] = {
+        name = "Smaragdwiedererwachen",
+    },
+    [78427] = {
+        name = "Mächtige Kisten",
+    },
+    [78428] = {
+        name = "Kiste der Kunst",
+    },
+    [78430] = {
+        name = "Fiese grüne Infusionsmaschine",
+    },
+    [78431] = {
+        name = "Grünes Traumteam",
+    },
+    [78444] = {
+        name = "Ein würdiger Verbündeter: Traumwächter",
+    },
+    [78646] = {
+        name = "Feuerwacht",
+    },
+    [78821] = {
+        name = "Erblühende Traumsaat",
     },
 })
 ]])()

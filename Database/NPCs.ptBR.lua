@@ -42,6 +42,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [185878] = {
         name = "Embaixador Taurasza",
     },
+    [185904] = {
+        name = "Mãe Elion",
+    },
     [186303] = {
         name = "Celina Croquifólia",
     },
@@ -312,8 +315,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206149] = {
         name = "Crona",
     },
+    [206247] = {
+        name = "Tyrande Murmuréolo",
+    },
+    [207160] = {
+        name = "Tyrande Murmuréolo",
+    },
     [207353] = {
         name = "Arko'narin Estelumbra",
+    },
+    [207779] = {
+        name = "Ethidris Guardarroio",
+    },
+    [207781] = {
+        name = "Melyrine Corolumbra",
     },
     [207790] = {
         name = "Comandante-de-escama Brasathal",
@@ -327,14 +342,59 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208035] = {
         name = "Crona",
     },
+    [208143] = {
+        name = "Guardião Amrymn",
+    },
     [208151] = {
         name = "Maiev Cantonegro",
     },
     [208236] = {
         name = "Amythera",
     },
+    [208474] = {
+        name = "Clarella",
+    },
+    [208669] = {
+        name = "Lady Lunamora",
+    },
+    [208713] = {
+        name = "Alexstrasza, a Mãe da Vida",
+    },
+    [209083] = {
+        name = "Shandris Plumaluna",
+    },
     [209140] = {
         name = "Maiev Cantonegro",
+    },
+    [209516] = {
+        name = "Delaryn Lunestio",
+    },
+    [209677] = {
+        name = "Sentinela Kaldorei",
+    },
+    [210022] = {
+        name = "Guardião Adranas",
+    },
+    [210133] = {
+        name = "Ícaris",
+    },
+    [210196] = {
+        name = "Solarys Puavento",
+    },
+    [210646] = {
+        name = "Oniroide",
+    },
+    [210813] = {
+        name = "Dríade Zelosa",
+    },
+    [211193] = {
+        name = "Tyrande Murmuréolo",
+    },
+    [211265] = {
+        name = "Sylvia Cantaflora",
+    },
+    [212797] = {
+        name = "Talisa Cantaflora",
     },
 })
 ]])()

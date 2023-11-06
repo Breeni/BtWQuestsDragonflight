@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "Parchemin kaldorei scellé",
     },
+    [409077] = {
+        name = "Pamphlet roussi",
+    },
 })
 ]])()

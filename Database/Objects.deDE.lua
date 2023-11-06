@@ -18,5 +18,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "Versiegelte Schriftrolle der Kaldorei",
     },
+    [409077] = {
+        name = "Angesengter Handzettel",
+    },
 })
 ]])()
