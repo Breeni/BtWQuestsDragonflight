@@ -3624,6 +3624,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78171] = {
         name = "過往的綻放",
     },
+    [78172] = {
+        name = "神秘種子",
+    },
     [78206] = {
         name = "翡翠恩惠",
     },

@@ -738,6 +738,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211328] = {
         name = "바스카른",
     },
+    [211962] = {
+        name = "멜시스라",
+    },
     [212797] = {
         name = "탈리사 위스퍼블룸",
     },

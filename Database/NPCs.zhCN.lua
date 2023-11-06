@@ -732,6 +732,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211328] = {
         name = "瓦斯卡尔恩",
     },
+    [211962] = {
+        name = "梅尔希斯拉",
+    },
     [212797] = {
         name = "塔莉莎·喃花",
     },

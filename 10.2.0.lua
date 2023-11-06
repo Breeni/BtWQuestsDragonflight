@@ -1755,6 +1755,14 @@ Database:AddChain(Chain.TempChain14, {
     },
     items = {
         {
+            type = "npc",
+            id = 211962,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 78386,
             x = 0,

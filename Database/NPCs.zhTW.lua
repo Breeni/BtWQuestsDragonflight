@@ -741,6 +741,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211328] = {
         name = "維史康",
     },
+    [211962] = {
+        name = "梅希斯拉",
+    },
     [212797] = {
         name = "泰莉莎‧颯茂",
     },

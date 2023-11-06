@@ -393,6 +393,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211265] = {
         name = "Sylvia Cantaflora",
     },
+    [211962] = {
+        name = "Melsyra",
+    },
     [212797] = {
         name = "Talisa Cantaflora",
     },
