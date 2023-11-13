@@ -1,3 +1,7 @@
+# v6.1
+
+- Updated for 10.2
+
 # v6.0
 
 - Added most 10.2 questlines
