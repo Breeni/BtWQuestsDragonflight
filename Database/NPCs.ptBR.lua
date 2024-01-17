@@ -318,6 +318,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206247] = {
         name = "Tyrande Murmuréolo",
     },
+    [206397] = {
+        name = "Merithra do Sonho",
+    },
+    [206849] = {
+        name = "Merithra do Sonho",
+    },
+    [206921] = {
+        name = "Alexstrasza, a Mãe da Vida",
+    },
     [207160] = {
         name = "Tyrande Murmuréolo",
     },
@@ -353,6 +362,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [208474] = {
         name = "Clarella",
+    },
+    [208503] = {
+        name = "Alexstrasza, a Mãe da Vida",
+    },
+    [208537] = {
+        name = "Tyrande Murmuréolo",
+    },
+    [208550] = {
+        name = "Alexstrasza, a Mãe da Vida",
+    },
+    [208552] = {
+        name = "Tyrande Murmuréolo",
+    },
+    [208568] = {
+        name = "Tyrande Murmuréolo",
+    },
+    [208572] = {
+        name = "Alexstrasza, a Mãe da Vida",
     },
     [208669] = {
         name = "Lady Lunamora",
@@ -392,6 +419,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [211265] = {
         name = "Sylvia Cantaflora",
+    },
+    [211634] = {
+        name = "Tyrande Murmuréolo",
     },
     [211962] = {
         name = "Melsyra",

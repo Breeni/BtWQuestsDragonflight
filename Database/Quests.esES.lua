@@ -3279,6 +3279,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "El honor de la diosa",
     },
+    [76276] = {
+        name = "Una tierra transformada",
+    },
+    [76280] = {
+        name = "La luna nueva",
+    },
+    [76281] = {
+        name = "Algo digno de celebrarse",
+    },
+    [76282] = {
+        name = "Una sensación inquietante",
+    },
     [76317] = {
         name = "La llamada del Sueño",
     },
@@ -3357,11 +3369,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76348] = {
         name = "Una barrera buena, bonita y barata",
     },
+    [76384] = {
+        name = "La Floración comienza",
+    },
+    [76385] = {
+        name = "Horticultura peligrosa",
+    },
+    [76386] = {
+        name = "Un choque de hielo y fuego",
+    },
+    [76387] = {
+        name = "La defensa de los ancianos",
+    },
+    [76388] = {
+        name = "El fuego con el fuego",
+    },
+    [76389] = {
+        name = "La era de los mortales",
+    },
+    [76398] = {
+        name = "Supremacía en el aire",
+    },
+    [76401] = {
+        name = "El eco de las Tierras de Fuego",
+    },
+    [76402] = {
+        name = "Amirdrassil, la Esperanza del Sueño: Fyrakk",
+    },
     [76403] = {
         name = "Encarnación del caos",
     },
     [76407] = {
         name = "Contra el destino",
+    },
+    [76416] = {
+        name = "Adelante, hacia el fuego",
     },
     [76419] = {
         name = "La violencia es la solución",
@@ -3386,6 +3428,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76435] = {
         name = "La Arboleda Humeante",
+    },
+    [76436] = {
+        name = "Un resquicio de esperanza",
     },
     [76437] = {
         name = "Suelo ardiente",
@@ -3477,6 +3522,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77198] = {
         name = "En casa para la hora del té",
     },
+    [77200] = {
+        name = "Ofrendas para la poza",
+    },
+    [77201] = {
+        name = "Una ofrenda personal",
+    },
     [77209] = {
         name = "El legado de las semillas",
     },
@@ -3510,6 +3561,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Lo que diga Merithra",
     },
+    [77329] = {
+        name = "Una reunión feliz",
+    },
     [77417] = {
         name = "La esencia de un Infinito",
     },
@@ -3536,6 +3590,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77739] = {
         name = "Extinguir las llamas",
+    },
+    [77780] = {
+        name = "Testigos de la Floración",
+    },
+    [77781] = {
+        name = "Un entusiasmo diferente",
     },
     [77788] = {
         name = "Notas de investigación sobre el asfódelo",

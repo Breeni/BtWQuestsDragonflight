@@ -3282,6 +3282,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Honneur de la déesse",
     },
+    [76276] = {
+        name = "Une terre nouvelle",
+    },
+    [76280] = {
+        name = "Nouvelle lune",
+    },
+    [76281] = {
+        name = "Levons notre verre",
+    },
+    [76282] = {
+        name = "Un sentiment d’inquiétude",
+    },
     [76317] = {
         name = "Appel du Rêve",
     },
@@ -3360,11 +3372,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76348] = {
         name = "Une barrière à toute épreuve",
     },
+    [76384] = {
+        name = "La Floraison commence",
+    },
+    [76385] = {
+        name = "Dangereuse horticulture",
+    },
+    [76386] = {
+        name = "Glace contre feu",
+    },
+    [76387] = {
+        name = "La défense des anciens",
+    },
+    [76388] = {
+        name = "Combattre le feu par le feu",
+    },
+    [76389] = {
+        name = "L’ère des races mortelles",
+    },
+    [76398] = {
+        name = "Suprématie aérienne",
+    },
+    [76401] = {
+        name = "Écho des terres de Feu",
+    },
+    [76402] = {
+        name = "Amirdrassil, l’Espoir du Rêve : Fyrakka",
+    },
     [76403] = {
         name = "Chaos incarné",
     },
     [76407] = {
         name = "Pas aujourd’hui, ô Destin",
+    },
+    [76416] = {
+        name = "Au-devant du danger",
     },
     [76419] = {
         name = "La violence peut résoudre ça",
@@ -3389,6 +3431,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76435] = {
         name = "Le taillis Fumant",
+    },
+    [76436] = {
+        name = "Un petit bout d’espoir",
     },
     [76437] = {
         name = "Sol brûlant",
@@ -3480,6 +3525,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77198] = {
         name = "Juste à temps pour le thé",
     },
+    [77200] = {
+        name = "Offrandes pour le puits",
+    },
+    [77201] = {
+        name = "Une offrande personnelle",
+    },
     [77209] = {
         name = "Héritage de semences",
     },
@@ -3513,6 +3564,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Mérithra a dit",
     },
+    [77329] = {
+        name = "Un rassemblement de bon augure",
+    },
     [77417] = {
         name = "L’essence d’un Infini",
     },
@@ -3539,6 +3593,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77739] = {
         name = "Étouffer les flammes",
+    },
+    [77780] = {
+        name = "Une floraison spectaculaire",
+    },
+    [77781] = {
+        name = "Un autre genre d’enthousiasme",
     },
     [77788] = {
         name = "Notes de recherche sur la cendrelle",

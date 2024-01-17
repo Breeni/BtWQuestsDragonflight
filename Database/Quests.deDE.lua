@@ -3267,6 +3267,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Ehre der Göttin",
     },
+    [76276] = {
+        name = "Ein verwandeltes Land",
+    },
+    [76280] = {
+        name = "Neumond",
+    },
+    [76281] = {
+        name = "Grund zu Feiern",
+    },
+    [76282] = {
+        name = "Ein beunruhigendes Gefühl",
+    },
     [76317] = {
         name = "Ruf des Traumes",
     },
@@ -3345,11 +3357,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76348] = {
         name = "Besonders bezaubernde Barriere",
     },
+    [76384] = {
+        name = "Die Blüte beginnt",
+    },
+    [76385] = {
+        name = "Gefahrenvoller Gartenbau",
+    },
+    [76386] = {
+        name = "Ein Aufeinandertreffen von Eis und Feuer",
+    },
+    [76387] = {
+        name = "Verteidigung der Urtume",
+    },
+    [76388] = {
+        name = "Feuer mit Feuer bekämpfen",
+    },
+    [76389] = {
+        name = "Das Zeitalter der Sterblichen",
+    },
+    [76398] = {
+        name = "Luftüberlegenheit",
+    },
+    [76401] = {
+        name = "Echo der Feuerlande",
+    },
+    [76402] = {
+        name = "Amirdrassil, Hoffnung des Traums: Fyrakk",
+    },
     [76403] = {
         name = "Inkarnationenchaos",
     },
     [76407] = {
         name = "Heute nicht, Schicksal",
+    },
+    [76416] = {
+        name = "Dem Feuer entgegen",
     },
     [76419] = {
         name = "Gewalt wird das schon lösen",
@@ -3374,6 +3416,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76435] = {
         name = "Das Qualmende Gehölz",
+    },
+    [76436] = {
+        name = "Ein Rest Hoffnung",
     },
     [76437] = {
         name = "Brennender Boden",
@@ -3465,6 +3510,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77198] = {
         name = "Gerade recht zum Tee zu Hause",
     },
+    [77200] = {
+        name = "Opfergaben für den Brunnen",
+    },
+    [77201] = {
+        name = "Eine persönliche Opfergabe",
+    },
     [77209] = {
         name = "Saatvermächtnis",
     },
@@ -3498,6 +3549,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Merithra sagt...",
     },
+    [77329] = {
+        name = "Verheißungsvolle Versammlung",
+    },
     [77417] = {
         name = "Was eine Ewige ausmacht",
     },
@@ -3524,6 +3578,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77739] = {
         name = "Die Flammen ersticken",
+    },
+    [77780] = {
+        name = "Zeuge einer Blüte",
+    },
+    [77781] = {
+        name = "Eine andere Form von Begeisterung",
     },
     [77788] = {
         name = "Aschphodill-Forschungsnotizen",

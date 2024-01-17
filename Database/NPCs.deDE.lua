@@ -297,6 +297,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206247] = {
         name = "Tyrande Wisperwind",
     },
+    [206397] = {
+        name = "Merithra des Traums",
+    },
+    [206849] = {
+        name = "Merithra des Traums",
+    },
+    [206921] = {
+        name = "Alexstrasza die Lebensbinderin",
+    },
     [207160] = {
         name = "Tyrande Wisperwind",
     },
@@ -323,6 +332,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [208151] = {
         name = "Maiev Schattensang",
+    },
+    [208503] = {
+        name = "Alexstrasza die Lebensbinderin",
+    },
+    [208537] = {
+        name = "Tyrande Wisperwind",
+    },
+    [208550] = {
+        name = "Alexstrasza die Lebensbinderin",
+    },
+    [208552] = {
+        name = "Tyrande Wisperwind",
+    },
+    [208568] = {
+        name = "Tyrande Wisperwind",
+    },
+    [208572] = {
+        name = "Alexstrasza die Lebensbinderin",
     },
     [208669] = {
         name = "Lady Mondbeere",
@@ -359,6 +386,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [211265] = {
         name = "Sylvia Flüsterblüte",
+    },
+    [211634] = {
+        name = "Tyrande Wisperwind",
     },
     [212797] = {
         name = "Talisa Flüsterblüte",

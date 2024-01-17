@@ -336,6 +336,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206247] = {
         name = "Tyrande Murmevent",
     },
+    [206397] = {
+        name = "Mérithra du Rêve",
+    },
     [206406] = {
         name = "Mérithra",
     },
@@ -360,8 +363,14 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206809] = {
         name = "Mérithra",
     },
+    [206849] = {
+        name = "Mérithra du Rêve",
+    },
     [206896] = {
         name = "Mérithra",
+    },
+    [206921] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
     },
     [206979] = {
         name = "Mérithra",
@@ -395,6 +404,30 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [208151] = {
         name = "Maiev Chantelombre",
+    },
+    [208503] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
+    },
+    [208537] = {
+        name = "Tyrande Murmevent",
+    },
+    [208550] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
+    },
+    [208551] = {
+        name = "Mérithra",
+    },
+    [208552] = {
+        name = "Tyrande Murmevent",
+    },
+    [208567] = {
+        name = "Mérithra",
+    },
+    [208568] = {
+        name = "Tyrande Murmevent",
+    },
+    [208572] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
     },
     [208669] = {
         name = "Dame Baie-de-Lune",
@@ -434,6 +467,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [211265] = {
         name = "Sylvia Murmurante",
+    },
+    [211634] = {
+        name = "Tyrande Murmevent",
     },
     [212797] = {
         name = "Talisa Murmurante",

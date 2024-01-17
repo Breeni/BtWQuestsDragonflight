@@ -3267,6 +3267,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Onore della Dea",
     },
+    [76276] = {
+        name = "Una terra cambiata",
+    },
+    [76280] = {
+        name = "Luna nuova",
+    },
+    [76281] = {
+        name = "Qualcosa per cui festeggiare",
+    },
+    [76282] = {
+        name = "Una sensazione allarmante",
+    },
     [76317] = {
         name = "Richiamo del Sogno",
     },
@@ -3345,11 +3357,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76348] = {
         name = "Bella barriera brillante",
     },
+    [76384] = {
+        name = "La Fioritura ha inizio",
+    },
+    [76385] = {
+        name = "Orticoltura pericolosa",
+    },
+    [76386] = {
+        name = "Scontri del ghiaccio e del fuoco",
+    },
+    [76387] = {
+        name = "Difesa degli Antichi",
+    },
+    [76388] = {
+        name = "Combattere il fuoco con il fuoco",
+    },
+    [76389] = {
+        name = "L'era dei mortali",
+    },
+    [76398] = {
+        name = "Supremazia aerea",
+    },
+    [76401] = {
+        name = "Eco delle Terre del Fuoco",
+    },
+    [76402] = {
+        name = "Amirdrassil, Speranza del Sogno: Fyrakk",
+    },
     [76403] = {
         name = "Incarnazione del caos",
     },
     [76407] = {
         name = "Non oggi, destino",
+    },
+    [76416] = {
+        name = "Avanti nel fuoco",
     },
     [76419] = {
         name = "La violenza risolve tutto",
@@ -3374,6 +3416,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76435] = {
         name = "La Boscaglia Infuocata",
+    },
+    [76436] = {
+        name = "Un pezzo di speranza",
     },
     [76437] = {
         name = "Terra bruciata",
@@ -3465,6 +3510,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77198] = {
         name = "A casa in tempo per il tè",
     },
+    [77200] = {
+        name = "Offerte per il Pozzo",
+    },
+    [77201] = {
+        name = "Un'offerta personale",
+    },
     [77209] = {
         name = "Eredità nei semi",
     },
@@ -3498,6 +3549,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Come dice Merithra",
     },
+    [77329] = {
+        name = "Raduno propizio",
+    },
     [77417] = {
         name = "Come si diventa Infiniti",
     },
@@ -3524,6 +3578,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77739] = {
         name = "Soffocare le fiamme",
+    },
+    [77780] = {
+        name = "La vista di un bocciolo",
+    },
+    [77781] = {
+        name = "Un entusiasmo diverso",
     },
     [77788] = {
         name = "Appunti di Ricerca sull'Asfodelo Cinereo",

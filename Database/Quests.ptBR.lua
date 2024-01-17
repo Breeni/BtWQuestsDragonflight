@@ -3276,6 +3276,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76213] = {
         name = "Honra à deusa",
     },
+    [76276] = {
+        name = "Terra transformada",
+    },
+    [76280] = {
+        name = "Lua nova",
+    },
+    [76281] = {
+        name = "Algo para celebrar",
+    },
+    [76282] = {
+        name = "Uma sensação desconfortante",
+    },
     [76317] = {
         name = "O chamado da Sonho",
     },
@@ -3354,11 +3366,41 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76348] = {
         name = "Barreirão bom, bonito e brilhante",
     },
+    [76384] = {
+        name = "Começa a florada",
+    },
+    [76385] = {
+        name = "Horticultura perigosa",
+    },
+    [76386] = {
+        name = "Fúria de gelo e fogo",
+    },
+    [76387] = {
+        name = "Defesa dos ancientes",
+    },
+    [76388] = {
+        name = "Fogo contra fogo",
+    },
+    [76389] = {
+        name = "A era dos mortais",
+    },
+    [76398] = {
+        name = "Supremacia aérea",
+    },
+    [76401] = {
+        name = "Eco das Terras do Fogo",
+    },
+    [76402] = {
+        name = "Amirdrassil, a Esperança Onírica: Fyrakk",
+    },
     [76403] = {
         name = "Desordem encarnada",
     },
     [76407] = {
         name = "Hoje não",
+    },
+    [76416] = {
+        name = "Rumo ao fogo",
     },
     [76419] = {
         name = "Violência é a solução",
@@ -3383,6 +3425,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76435] = {
         name = "Vereda das Brasas",
+    },
+    [76436] = {
+        name = "Um fragmento de esperança",
     },
     [76437] = {
         name = "Solo ardente",
@@ -3474,6 +3519,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77198] = {
         name = "Em casa para o chá",
     },
+    [77200] = {
+        name = "Oferendas para o poço",
+    },
+    [77201] = {
+        name = "Oferenda pessoal",
+    },
     [77209] = {
         name = "Legado semeado",
     },
@@ -3507,6 +3558,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Merithra mandou",
     },
+    [77329] = {
+        name = "Encontro auspicioso",
+    },
     [77417] = {
         name = "De que é feito um Infinito",
     },
@@ -3533,6 +3587,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77739] = {
         name = "Abafando as chamas",
+    },
+    [77780] = {
+        name = "Testemunho de florada",
+    },
+    [77781] = {
+        name = "Um entusiasmo peculiar",
     },
     [77788] = {
         name = "Anotações de pesquisa de cinzerária",

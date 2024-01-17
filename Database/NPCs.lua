@@ -4632,8 +4632,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2151] = {
                 {
-                    x = 0.325711,
-                    y = 0.605903,
+                    x = 0.325643,
+                    y = 0.60574,
                 },
             },
         },
@@ -6167,6 +6167,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [206397] = {
+        name = "Merithra of the Dream",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.148859,
+                    y = 0.558763,
+                },
+            },
+        },
+    },
     [206406] = {
         name = "Merithra",
         locations = {
@@ -6299,6 +6310,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [206849] = {
+        name = "Merithra of the Dream",
+        locations = {
+            [2239] = {
+                {
+                    x = 0.542552,
+                    y = 0.578785,
+                },
+            },
+        },
+    },
     [206896] = {
         name = "Merithra",
         locations = {
@@ -6306,6 +6328,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.508043,
                     y = 0.628847,
+                },
+            },
+        },
+    },
+    [206921] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.279346,
+                    y = 0.311589,
                 },
             },
         },
@@ -6530,6 +6563,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208503] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.507508,
+                    y = 0.628245,
+                },
+            },
+        },
+    },
     [208506] = {
         name = "Vyranoth",
         locations = {
@@ -6537,6 +6581,94 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.508075,
                     y = 0.627248,
+                },
+            },
+        },
+    },
+    [208537] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2239] = {
+                {
+                    x = 0.508214,
+                    y = 0.614794,
+                },
+            },
+        },
+    },
+    [208550] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.387676,
+                    y = 0.391856,
+                },
+            },
+        },
+    },
+    [208551] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.389596,
+                    y = 0.391278,
+                },
+            },
+        },
+    },
+    [208552] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.386609,
+                    y = 0.391544,
+                },
+            },
+        },
+    },
+    [208553] = {
+        name = "Vyranoth",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.388746,
+                    y = 0.391856,
+                },
+            },
+        },
+    },
+    [208567] = {
+        name = "Merithra",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.349961,
+                    y = 0.354331,
+                },
+            },
+        },
+    },
+    [208568] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.349693,
+                    y = 0.353529,
+                },
+            },
+        },
+    },
+    [208572] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.350362,
+                    y = 0.33587,
                 },
             },
         },
@@ -6592,6 +6724,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.599644,
                     y = 0.587378,
+                },
+            },
+        },
+    },
+    [209042] = {
+        name = "Kalecgos",
+        locations = {
+            [2239] = {
+                {
+                    x = 0.543272,
+                    y = 0.578785,
                 },
             },
         },
@@ -6867,6 +7010,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.497949,
                     y = 0.629447,
+                },
+            },
+        },
+    },
+    [211634] = {
+        name = "Tyrande Whisperwind",
+        locations = {
+            [2200] = {
+                {
+                    x = 0.275868,
+                    y = 0.314599,
                 },
             },
         },

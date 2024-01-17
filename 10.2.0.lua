@@ -559,7 +559,7 @@ Database:AddChain(Chain.ADreamOfFieldsAndFire, {
     },
     active = {
         type = "quest",
-        id = 72966,
+        id = 76384,
         status = {'active', 'completed'}
     },
     completed = {
@@ -567,6 +567,97 @@ Database:AddChain(Chain.ADreamOfFieldsAndFire, {
         id = 76401,
     },
     items = {
+        {
+            type = "npc",
+            id = 206896,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76384,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76416,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76385,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76386,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76387,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76436,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76388,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76389,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76398,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76401,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76402,
+            aside = true,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.NewBeginnings, {
@@ -609,11 +700,12 @@ Database:AddChain(Chain.NewBeginnings, {
         {
             type = "chain",
             id = Chain.ADreamOfFieldsAndFire,
+            upto = 76402,
         },
     },
     active = {
         type = "quest",
-        id = 74521,
+        id = 77780,
         status = {'active', 'completed'}
     },
     completed = {
@@ -621,6 +713,93 @@ Database:AddChain(Chain.NewBeginnings, {
         id = 76283,
     },
     items = {
+        {
+            type = "npc",
+            id = 211634,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77780,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76276,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77329,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77200,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 77201,
+                    restrictions = {
+                        type = "race",
+                        id = BtWQuests.Constant.Race.NightElf,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 76280,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76281,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77781,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76282,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 76283,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.MisfitDragons, {
@@ -1935,14 +2114,14 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.EyeOfYsera,
         },
-        -- {
-        --     type = "chain",
-        --     id = Chain.ADreamOfFieldsAndFire,
-        -- },
-        -- {
-        --     type = "chain",
-        --     id = Chain.NewBeginnings,
-        -- },
+        {
+            type = "chain",
+            id = Chain.ADreamOfFieldsAndFire,
+        },
+        {
+            type = "chain",
+            id = Chain.NewBeginnings,
+        },
         {
             type = "chain",
             id = Chain.MisfitDragons,

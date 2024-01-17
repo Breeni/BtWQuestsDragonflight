@@ -327,6 +327,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206247] = {
         name = "Tyrande Susurravientos",
     },
+    [206397] = {
+        name = "Merithra del Sueño",
+    },
+    [206849] = {
+        name = "Merithra del Sueño",
+    },
+    [206921] = {
+        name = "Alexstrasza, la Protectora",
+    },
     [207160] = {
         name = "Tyrande Susurravientos",
     },
@@ -353,6 +362,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [208151] = {
         name = "Maiev Cantosombrío",
+    },
+    [208503] = {
+        name = "Alexstrasza, la Protectora",
+    },
+    [208537] = {
+        name = "Tyrande Susurravientos",
+    },
+    [208550] = {
+        name = "Alexstrasza, la Protectora",
+    },
+    [208552] = {
+        name = "Tyrande Susurravientos",
+    },
+    [208568] = {
+        name = "Tyrande Susurravientos",
+    },
+    [208572] = {
+        name = "Alexstrasza, la Protectora",
     },
     [208669] = {
         name = "Lady Baya Lunar",
@@ -389,6 +416,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [211265] = {
         name = "Sylvia Florsusurrante",
+    },
+    [211634] = {
+        name = "Tyrande Susurravientos",
     },
     [212797] = {
         name = "Talisa Florsusurrante",

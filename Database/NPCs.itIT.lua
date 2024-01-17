@@ -327,6 +327,15 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [206247] = {
         name = "Tyrande Soffiabrezza",
     },
+    [206397] = {
+        name = "Merithra del Sogno",
+    },
+    [206849] = {
+        name = "Merithra del Sogno",
+    },
+    [206921] = {
+        name = "Alexstrasza la Protettrice della Vita",
+    },
     [207160] = {
         name = "Tyrande Soffiabrezza",
     },
@@ -356,6 +365,24 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [208151] = {
         name = "Maiev Cantombroso",
+    },
+    [208503] = {
+        name = "Alexstrasza la Protettrice della Vita",
+    },
+    [208537] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [208550] = {
+        name = "Alexstrasza la Protettrice della Vita",
+    },
+    [208552] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [208568] = {
+        name = "Tyrande Soffiabrezza",
+    },
+    [208572] = {
+        name = "Alexstrasza la Protettrice della Vita",
     },
     [208669] = {
         name = "Dama Baccaluna",
@@ -392,6 +419,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [211265] = {
         name = "Sylvia Fiorlieve",
+    },
+    [211634] = {
+        name = "Tyrande Soffiabrezza",
     },
     [212797] = {
         name = "Talisa Fiorlieve",
