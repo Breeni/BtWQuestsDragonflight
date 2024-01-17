@@ -1,3 +1,9 @@
+# v7.0
+
+- Added A Dream of Fields and Fire quest line
+- Added New Beginnings quest line
+- Updated for 10.2.5
+
 # v6.1
 
 - Updated for 10.2
