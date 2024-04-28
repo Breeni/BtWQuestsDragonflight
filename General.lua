@@ -761,6 +761,7 @@ Database:AddChain(Chain.DragonShardOfKnowledge, {
         },
     },
 })
+local IsAddOnLoaded = C_AddOns and C_AddOns.IsAddOnLoaded or IsAddOnLoaded;
 if not IsAddOnLoaded("BtWQuestsDragonflightPrologue") then
     BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
         {
