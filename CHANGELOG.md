@@ -1,3 +1,9 @@
+# v8.0
+
+- Added Seeds of Renewal questline
+- Added Gilneas Reclamation questline
+- Fixed error checking for Dragonflight prologue in The War Within
+
 # v7.1
 
 - Updated for 10.2.6
