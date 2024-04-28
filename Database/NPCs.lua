@@ -6959,6 +6959,50 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [210904] = {
+        name = "Genn Greymane",
+        locations = {
+            [217] = {
+                {
+                    x = 0.416361,
+                    y = 0.361203,
+                },
+            },
+        },
+    },
+    [210905] = {
+        name = "Princess Tess Greymane",
+        locations = {
+            [217] = {
+                {
+                    x = 0.414989,
+                    y = 0.360568,
+                },
+            },
+        },
+    },
+    [210964] = {
+        name = "Lilian Voss",
+        locations = {
+            [217] = {
+                {
+                    x = 0.571123,
+                    y = 0.530171,
+                },
+            },
+        },
+    },
+    [210965] = {
+        name = "Calia Menethil",
+        locations = {
+            [21] = {
+                {
+                    x = 0.435857,
+                    y = 0.732734,
+                },
+            },
+        },
+    },
     [211193] = {
         name = "Tyrande Whisperwind",
         locations = {
@@ -7036,6 +7080,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [212187] = {
+        name = "Genn Greymane",
+        locations = {
+            [217] = {
+                {
+                    x = 0.496009,
+                    y = 0.571247,
+                },
+            },
+        },
+    },
     [212797] = {
         name = "Talisa Whisperbloom",
         locations = {
@@ -7043,6 +7098,72 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.497745,
                     y = 0.621145,
+                },
+            },
+        },
+    },
+    [212899] = {
+        name = "Greyguard Elite",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.592634,
+                    y = 0.426435,
+                },
+            },
+        },
+    },
+    [212916] = {
+        name = "Deathguard Elite",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.561269,
+                    y = 0.394269,
+                },
+            },
+        },
+    },
+    [213995] = {
+        name = "Gilnean Alchemist",
+        locations = {
+            [217] = {
+                {
+                    x = 0.570463,
+                    y = 0.551817,
+                },
+            },
+        },
+    },
+    [214051] = {
+        name = "Vyranoth",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.557599,
+                    y = 0.366226,
+                },
+            },
+        },
+    },
+    [214538] = {
+        name = "Genn Greymane",
+        locations = {
+            [84] = {
+                {
+                    x = 0.357388,
+                    y = 0.282654,
+                },
+            },
+        },
+    },
+    [216067] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [2239] = {
+                {
+                    x = 0.510856,
+                    y = 0.605071,
                 },
             },
         },

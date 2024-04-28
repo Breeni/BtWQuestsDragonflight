@@ -3723,6 +3723,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "强大的盟友：梦境守望者",
     },
+    [78596] = {
+        name = "格雷迈恩的诏令",
+    },
     [78646] = {
         name = "远望观火",
     },

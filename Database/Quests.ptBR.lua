@@ -3699,6 +3699,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Aliados dignos: Guardiões do Sonho",
     },
+    [78596] = {
+        name = "Convocação do Lorde Greymane",
+    },
     [78646] = {
         name = "Vigília de fogo",
     },

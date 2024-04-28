@@ -789,5 +789,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212797] = {
         name = "泰莉莎‧颯茂",
     },
+    [214051] = {
+        name = "維蘭諾斯",
+    },
 })
 ]])()

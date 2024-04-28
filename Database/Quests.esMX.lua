@@ -3693,6 +3693,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Aliados dignos: Celadores Oníricos",
     },
+    [78596] = {
+        name = "Citación de Lord Cringris",
+    },
     [78646] = {
         name = "Brigada de llamas",
     },

@@ -3690,6 +3690,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Un degno Alleato: Custodi del Sogno",
     },
+    [78596] = {
+        name = "Convocazione di Ser Mantogrigio",
+    },
     [78646] = {
         name = "Presidiare il fuoco",
     },

@@ -3723,6 +3723,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "가치 있는 동맹: 꿈의 감독관",
     },
+    [78596] = {
+        name = "그레이메인 국왕의 부름",
+    },
     [78646] = {
         name = "화재 감시",
     },

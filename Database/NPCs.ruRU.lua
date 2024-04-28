@@ -789,5 +789,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212797] = {
         name = "Талиса Шелестоцвет",
     },
+    [214051] = {
+        name = "Виранот",
+    },
 })
 ]])()

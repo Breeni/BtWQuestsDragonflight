@@ -3702,6 +3702,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Un aliado digno: Celadores Oníricos",
     },
+    [78596] = {
+        name = "El llamamiento de lord Cringrís",
+    },
     [78646] = {
         name = "Brigada antiincendios",
     },

@@ -780,5 +780,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212797] = {
         name = "塔莉莎·喃花",
     },
+    [214051] = {
+        name = "威拉诺兹",
+    },
 })
 ]])()

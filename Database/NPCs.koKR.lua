@@ -786,5 +786,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212797] = {
         name = "탈리사 위스퍼블룸",
     },
+    [214051] = {
+        name = "비라노스",
+    },
 })
 ]])()

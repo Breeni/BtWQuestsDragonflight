@@ -3690,6 +3690,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Ein würdiger Verbündeter: Traumwächter",
     },
+    [78596] = {
+        name = "Einbestellung zu Lord Graumähne",
+    },
     [78646] = {
         name = "Feuerwacht",
     },

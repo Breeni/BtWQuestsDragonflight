@@ -3717,6 +3717,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78431] = {
         name = "翠綠夢幻團隊",
     },
+    [78596] = {
+        name = "葛雷邁恩大人的傳召",
+    },
     [78646] = {
         name = "火焰守望",
     },

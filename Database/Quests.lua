@@ -22782,10 +22782,16 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [72591] = {
         name = "A Debt That Must Be Paid",
-        contentTuningID = -1,
+        contentTuningID = 2590,
         source = {
             type = "npc",
             id = 202656,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
         },
     },
     [72592] = {
@@ -30463,6 +30469,274 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [78177] = {
+        name = "To Gilneas",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 214538,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78178] = {
+        name = "To Gilneas",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210965,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78180] = {
+        name = "A Crusade of Red",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210905,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78181] = {
+        name = "Aderic's Retort",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210904,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78182] = {
+        name = "Knee-High",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 212187,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78183] = {
+        name = "Scarlet Blood",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210964,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78184] = {
+        name = "Smokepowder and Mirrors",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210905,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.570949,
+                        y = 0.531687,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78185] = {
+        name = "Hounds of War",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 213995,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
+    },
+    [78186] = {
+        name = "Crushing the Crusade",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210964,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.558515,
+                        y = 0.581279,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78187] = {
+        name = "Artillerist Arsonist",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 213995,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.558332,
+                        y = 0.583849,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [78188] = {
+        name = "Righteous Fire, Righteous Fury",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210905,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.595025,
+                        y = 0.487098,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
+    },
+    [78189] = {
+        name = "Beginning a New Dawn",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210904,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.588588,
+                        y = 0.478873,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 20,
+            },
+        },
+    },
     [78206] = {
         name = "Emerald Bounty",
         contentTuningID = -1,
@@ -30545,6 +30819,12 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 211962,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
     },
     [78427] = {
         name = "Great Crates!",
@@ -30592,6 +30872,62 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 208143,
         },
     },
+    [78596] = {
+        name = "Summons to Lord Greymane",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 212899,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [78597] = {
+        name = "Clandestine Movements",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 212916,
+            locations = {
+                [85] = {
+                    {
+                        x = 0.521788,
+                        y = 0.885218,
+                    },
+                },
+                [2112] = {
+                    {
+                        x = 0.561269,
+                        y = 0.394269,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [78643] = {
+        name = "Fair Skies and Strong Winds",
+        contentTuningID = 2699,
+        source = {
+            type = "npc",
+            id = 187678,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
     [78646] = {
         name = "Fire Watch",
         contentTuningID = 2699,
@@ -30612,6 +30948,70 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 212797,
+        },
+    },
+    [78863] = {
+        name = "A Place Beneath the Boughs",
+        contentTuningID = 2699,
+        source = {
+            type = "npc",
+            id = 187678,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [78864] = {
+        name = "The Returning",
+        contentTuningID = 2699,
+        source = {
+            type = "npc",
+            id = 216067,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [78865] = {
+        name = "Siblings Until the End",
+        contentTuningID = 2699,
+        source = {
+            type = "npc",
+            id = 214051,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 140450,
+            },
+        },
+    },
+    [79137] = {
+        name = "The Wall Between Us",
+        contentTuningID = 2736,
+        source = {
+            type = "npc",
+            id = 210965,
+            locations = {
+                [217] = {
+                    {
+                        x = 0.588928,
+                        y = 0.484889,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
         },
     },
 })

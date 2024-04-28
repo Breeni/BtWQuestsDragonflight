@@ -3705,6 +3705,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78444] = {
         name = "Des alliés qui se respectent : les Gardiens du Rêve",
     },
+    [78596] = {
+        name = "L’appel du seigneur Grisetête",
+    },
     [78646] = {
         name = "Guet des flammes",
     },
