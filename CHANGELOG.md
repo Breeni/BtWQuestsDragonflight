@@ -1,3 +1,7 @@
+# v9.0
+
+- Added Azerothian Archives questline
+
 # v8.1
 
 - Updated for 10.2.7
