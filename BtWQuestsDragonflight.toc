@@ -1,6 +1,6 @@
 ## Interface: 100207
 ## Title: BtWQuests: Dragonflight
-## Version: 8.1
+## Version: 9.0
 ## Notes: Dragonflight quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
