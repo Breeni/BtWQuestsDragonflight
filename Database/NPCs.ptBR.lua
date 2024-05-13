@@ -312,6 +312,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [205892] = {
         name = "Batedora Kaldorei",
     },
+    [206107] = {
+        name = "Austregésilo Caniça",
+    },
     [206149] = {
         name = "Crona",
     },
@@ -381,6 +384,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208572] = {
         name = "Alexstrasza, a Mãe da Vida",
     },
+    [208614] = {
+        name = "Ruska Rochodonte",
+    },
     [208669] = {
         name = "Lady Lunamora",
     },
@@ -414,6 +420,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210813] = {
         name = "Dríade Zelosa",
     },
+    [210905] = {
+        name = "Princesa Tess Greymane",
+    },
     [211193] = {
         name = "Tyrande Murmuréolo",
     },
@@ -428,6 +437,18 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [212797] = {
         name = "Talisa Cantaflora",
+    },
+    [212899] = {
+        name = "Elite da Guarda Greymane",
+    },
+    [212916] = {
+        name = "Necroguarda de Elite",
+    },
+    [213995] = {
+        name = "Alquimista Guilneana",
+    },
+    [216067] = {
+        name = "Shandris Plumaluna",
     },
 })
 ]])()

@@ -15,6 +15,9 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "TICKET : Jeux de Phosphorogg",
     },
+    [405593] = {
+        name = "Archives d’Azeroth !",
+    },
     [405958] = {
         name = "Parchemin kaldorei scellé",
     },

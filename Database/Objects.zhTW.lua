@@ -15,6 +15,9 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "門票：葛利姆羅格遊戲",
     },
+    [405593] = {
+        name = "艾澤拉斯文庫！",
+    },
     [405958] = {
         name = "封存的卡多雷卷軸",
     },

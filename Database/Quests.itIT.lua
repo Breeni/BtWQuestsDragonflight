@@ -1914,6 +1914,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70171] = {
         name = "Piccoli inconvenienti felici",
     },
+    [70172] = {
+        name = "Misteri montani",
+    },
     [70174] = {
         name = "Gli Shikaar",
     },
@@ -3129,11 +3132,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75462] = {
         name = "Salvatori di topi",
     },
+    [75493] = {
+        name = "Rilevamenti lungo il fiume",
+    },
     [75506] = {
         name = "Gli Emblemi d'Ombrofuoco",
     },
     [75507] = {
         name = "Meglio non restare indietro",
+    },
+    [75518] = {
+        name = "Il corpo sulle sponde",
+    },
+    [75603] = {
+        name = "Riti rispettosi",
+    },
+    [75604] = {
+        name = "Antichità antiche",
     },
     [75632] = {
         name = "Un disco dislocato",
@@ -3167,6 +3182,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75694] = {
         name = "Aberrus, il Crogiolo d'Ombra: Sarkareth",
+    },
+    [75729] = {
+        name = "In sintonia con l'osservatore",
+    },
+    [75867] = {
+        name = "Un collegamento col passato",
+    },
+    [75868] = {
+        name = "Una finestra sul futuro",
     },
     [75885] = {
         name = "Soldi facili",
@@ -3209,6 +3233,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75985] = {
         name = "Riposa in pace, guerriero",
+    },
+    [76026] = {
+        name = "Rilevamenti sulla torre",
+    },
+    [76032] = {
+        name = "Tumulata nel tumulo",
     },
     [76101] = {
         name = "Rinforzi dal sottosuolo",
@@ -3266,6 +3296,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76213] = {
         name = "Onore della Dea",
+    },
+    [76217] = {
+        name = "Storia vivente",
+    },
+    [76241] = {
+        name = "Uno scoiattolo per collega",
+    },
+    [76242] = {
+        name = "Una tesi di ricerca da pubblicare",
     },
     [76276] = {
         name = "Una terra cambiata",
@@ -3432,6 +3471,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76443] = {
         name = "La brace incombente",
     },
+    [76448] = {
+        name = "Il destino del Comandante delle Scaglie Abereth",
+    },
     [76460] = {
         name = "Meglio un uovo oggi che un drago domani",
     },
@@ -3456,6 +3498,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76532] = {
         name = "Assalto alla Sorgente",
     },
+    [76557] = {
+        name = "Senza onore",
+    },
+    [76564] = {
+        name = "Gli attrezzi degli ammazzadraghi",
+    },
     [76566] = {
         name = "Il giardino delle Driadi",
     },
@@ -3477,6 +3525,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76572] = {
         name = "Una promozione velenosa",
     },
+    [76576] = {
+        name = "Una proposta improbabile",
+    },
     [76592] = {
         name = "Un'ala sola",
     },
@@ -3495,8 +3546,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77098] = {
         name = "Lontani da occhi indiscreti",
     },
+    [77100] = {
+        name = "Rilevamenti sulla scogliera",
+    },
+    [77151] = {
+        name = "La cassa tra le rupi",
+    },
+    [77154] = {
+        name = "Un assaggio del passato",
+    },
     [77163] = {
         name = "Tentare di ragionare",
+    },
+    [77166] = {
+        name = "Una prova pratica",
+    },
+    [77176] = {
+        name = "Posso vedere nel tempo!",
     },
     [77178] = {
         name = "Ritirata tattica",
@@ -3518,6 +3584,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77209] = {
         name = "Eredità nei semi",
+    },
+    [77231] = {
+        name = "Tecnoveggenza 101",
+    },
+    [77267] = {
+        name = "Fondamenti di scavo",
+    },
+    [77268] = {
+        name = "Esperienza pratica",
     },
     [77283] = {
         name = "Battaglia su più fronti",
@@ -3549,14 +3624,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Come dice Merithra",
     },
+    [77325] = {
+        name = "Agli archivi!",
+    },
+    [77327] = {
+        name = "Nirobin e l'ufficio",
+    },
+    [77328] = {
+        name = "Al quartier generale!",
+    },
     [77329] = {
         name = "Raduno propizio",
+    },
+    [77331] = {
+        name = "Giorno del diploma",
+    },
+    [77415] = {
+        name = "La mano nascosta",
     },
     [77417] = {
         name = "Come si diventa Infiniti",
     },
+    [77425] = {
+        name = "Le proporzioni della questione",
+    },
+    [77433] = {
+        name = "Scavo: Letto del fiume",
+    },
+    [77434] = {
+        name = "Tecnoveggenza: Osservatorio",
+    },
     [77436] = {
         name = "L'eremo in fiamme",
+    },
+    [77483] = {
+        name = "Tecnoveggenza: Isola Teschio di Drago",
+    },
+    [77484] = {
+        name = "Tecnoveggenza: Presidio di Igira",
+    },
+    [77486] = {
+        name = "Scavo: Sguardo di Neltharion",
+    },
+    [77487] = {
+        name = "Scavo: Trespolo del Signore Alato",
     },
     [77662] = {
         name = "Richiesta d'aiuto",
@@ -3657,6 +3768,42 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78172] = {
         name = "Semi Misteriosi",
     },
+    [78177] = {
+        name = "A Gilneas",
+    },
+    [78178] = {
+        name = "A Gilneas",
+    },
+    [78180] = {
+        name = "Una crociata rossa",
+    },
+    [78181] = {
+        name = "La risposta di Aderic",
+    },
+    [78182] = {
+        name = "In ginocchio",
+    },
+    [78183] = {
+        name = "Sangue scarlatto",
+    },
+    [78184] = {
+        name = "Specchietto esplosivo per le allodole",
+    },
+    [78185] = {
+        name = "Segugi di guerra",
+    },
+    [78186] = {
+        name = "Schiacciare la Crociata",
+    },
+    [78187] = {
+        name = "Artigliere piromane",
+    },
+    [78188] = {
+        name = "Fuoco virtuoso, furia virtuosa",
+    },
+    [78189] = {
+        name = "L'inizio di una nuova alba",
+    },
     [78206] = {
         name = "Dono di Smeraldo",
     },
@@ -3693,11 +3840,38 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78596] = {
         name = "Convocazione di Ser Mantogrigio",
     },
+    [78597] = {
+        name = "Movimenti clandestini",
+    },
+    [78643] = {
+        name = "Cieli limpidi e venti forti",
+    },
     [78646] = {
         name = "Presidiare il fuoco",
     },
+    [78762] = {
+        name = "Il tuo primo ritrovamento",
+    },
     [78821] = {
         name = "Fioritura di Semonirici",
+    },
+    [78863] = {
+        name = "Un riparo sotto i rami",
+    },
+    [78864] = {
+        name = "Il ritorno",
+    },
+    [78865] = {
+        name = "Fratelli fino alla fine",
+    },
+    [79137] = {
+        name = "Il muro tra noi",
+    },
+    [79223] = {
+        name = "Finalmente un archivista!",
+    },
+    [79231] = {
+        name = "Al quartier generale! Di nuovo!",
     },
 })
 ]])()

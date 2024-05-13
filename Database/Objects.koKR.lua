@@ -15,6 +15,9 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "입장권: 글리머로그 경기",
     },
+    [405593] = {
+        name = "아제로스 기록 보관소!",
+    },
     [405958] = {
         name = "봉인된 칼도레이 두루마리",
     },

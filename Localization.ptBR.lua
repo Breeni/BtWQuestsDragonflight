@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "Pórticos Antigos"
+L["AZEROTHIAN_ARCHIVES"] = "Arquivo Azerothiano"
 L["BORN_TO_BE_WILDER"] = "Nascido e Criado na Selva"
 L["BRONZE_ECONCILIATION"] = "Reconciliação Bronze"
 L["CATALOGING_THE_EXPEIDITION"] = "Catalogando a Expedição"

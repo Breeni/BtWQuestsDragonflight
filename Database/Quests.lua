@@ -27138,6 +27138,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [75493] = {
+        name = "Surveying the Riverbed",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204094,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [75506] = {
         name = "Shadowflame Crests",
         contentTuningID = 2474,
@@ -27152,6 +27166,66 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 203404,
+        },
+    },
+    [75518] = {
+        name = "The Body on the Banks",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204245,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [75603] = {
+        name = "Do Rites by Her",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204643,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.663966,
+                        y = 0.460004,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2503,
+                amount = 250,
+            },
+        },
+    },
+    [75604] = {
+        name = "Antiquated Antics",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208055,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2564,
+                amount = 250,
+            },
         },
     },
     [75632] = {
@@ -27370,6 +27444,48 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2510,
                 amount = 1500,
+            },
+        },
+    },
+    [75729] = {
+        name = "Attune to the Observer",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204835,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [75867] = {
+        name = "A Link to the Past",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204835,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [75868] = {
+        name = "A Window into the Future",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204835,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
             },
         },
     },
@@ -27616,6 +27732,34 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 202788,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76026] = {
+        name = "Surveying the Tower",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 205413,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76032] = {
+        name = "Hidden in the Midden",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207931,
         },
         rewards = {
             {
@@ -27977,6 +28121,48 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "currency",
                 id = 2245,
                 amount = 15,
+            },
+        },
+    },
+    [76217] = {
+        name = "Living History",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 205967,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76241] = {
+        name = "Lab Partners with a Squirrel",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 205967,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76242] = {
+        name = "A Research Thesis Worth Publishing",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 205975,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
             },
         },
     },
@@ -29139,6 +29325,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [76448] = {
+        name = "The Fate of Scalecommander Abereth",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207311,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [76460] = {
         name = "A Dragon in Hand is Worth Two in the Roost",
         contentTuningID = 2705,
@@ -29283,6 +29483,34 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [76557] = {
+        name = "Without Honor",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207311,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [76564] = {
+        name = "The Tools of the Dragonkillers",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207763,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [76566] = {
         name = "The Dryad Garden",
         contentTuningID = -1,
@@ -29410,6 +29638,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [76576] = {
+        name = "An Unlikely Proposal",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207763,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [76592] = {
         name = "A Single Wing",
         contentTuningID = 2707,
@@ -29519,6 +29761,61 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [77100] = {
+        name = "Surveying the Cliffside",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208362,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [77151] = {
+        name = "The Cache in the Crag",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208402,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [77154] = {
+        name = "A Taste of the Past",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208398,
+            locations = {
+                [2151] = {
+                    {
+                        x = 0.141915,
+                        y = 0.149534,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "reputation",
+                id = 2510,
+                amount = 250,
+            },
+        },
+    },
     [77163] = {
         name = "Seeing Reason",
         contentTuningID = 2707,
@@ -29535,6 +29832,50 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "currency",
                 id = 2245,
                 amount = 10,
+            },
+        },
+    },
+    [77166] = {
+        name = "A Practical Test",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.612644,
+                        y = 0.307479,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [77176] = {
+        name = "I Can See Through Time!",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.616948,
+                        y = 0.298709,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
             },
         },
     },
@@ -29654,6 +29995,56 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 211265,
+        },
+    },
+    [77231] = {
+        name = "Technoscrying 101",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 210675,
+            },
+        },
+    },
+    [77267] = {
+        name = "Excavation 101",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
+    [77268] = {
+        name = "Hands-On Experience",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.613844,
+                        y = 0.302284,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
         },
     },
     [77283] = {
@@ -29819,6 +30210,56 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [77325] = {
+        name = "To the Archives!",
+        contentTuningID = 2714,
+        source = {
+            type = "object",
+            id = 405593,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77327] = {
+        name = "Nirobin and the Office",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 204643,
+            locations = {
+                [2023] = {
+                    {
+                        x = 0.663967,
+                        y = 0.46,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77328] = {
+        name = "Back to Headquarters!",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 205967,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
     [77329] = {
         name = "Auspicious Gathering",
         contentTuningID = 2699,
@@ -29830,6 +30271,42 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 28090,
+            },
+        },
+    },
+    [77331] = {
+        name = "Graduation Day",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 206107,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.615334,
+                        y = 0.312886,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77415] = {
+        name = "The Hidden Hand",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207311,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
             },
         },
     },
@@ -29847,12 +30324,126 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [77425] = {
+        name = "The Scale of it All",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207763,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+        },
+    },
+    [77433] = {
+        name = "Excavation: Riverbed",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.615764,
+                        y = 0.300146,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77434] = {
+        name = "Technoscrying: Observatory",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.616948,
+                        y = 0.298709,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
     [77436] = {
         name = "The Burning Barrow",
         contentTuningID = -1,
         source = {
             type = "npc",
             id = 206896,
+        },
+    },
+    [77483] = {
+        name = "Technoscrying: Dragonskull Island",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77484] = {
+        name = "Technoscrying: Igira's Watch",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208355,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77486] = {
+        name = "Excavation: Gaze of Neltharion",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [77487] = {
+        name = "Excavation: Winglord's Perch",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
         },
     },
     [77662] = {
@@ -30942,6 +31533,28 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [78762] = {
+        name = "Your First Find",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 208614,
+            locations = {
+                [2025] = {
+                    {
+                        x = 0.613844,
+                        y = 0.302284,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+        },
+    },
     [78821] = {
         name = "Blooming Dreamseeds",
         contentTuningID = 2699,
@@ -31006,6 +31619,34 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                 },
             },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [79223] = {
+        name = "Finally, An Archivist!",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 206107,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+        },
+    },
+    [79231] = {
+        name = "Back to Headquarters! Again!",
+        contentTuningID = 2714,
+        source = {
+            type = "npc",
+            id = 207763,
         },
         rewards = {
             {

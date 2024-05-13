@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "Uralte Portale"
+L["AZEROTHIAN_ARCHIVES"] = "Archive von Azeroth"
 L["BORN_TO_BE_WILDER"] = "Extreme Wildheit im Blut"
 L["BRONZE_ECONCILIATION"] = "Bronzene Versöhnung"
 L["CATALOGING_THE_EXPEIDITION"] = "Die Katalogisierung der Expedition"

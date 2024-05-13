@@ -15,6 +15,9 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "入场券：格里梅罗格运动会",
     },
+    [405593] = {
+        name = "艾泽拉斯档案馆！",
+    },
     [405958] = {
         name = "密封的卡多雷卷轴",
     },

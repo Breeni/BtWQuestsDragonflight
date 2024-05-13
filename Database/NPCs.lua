@@ -5925,6 +5925,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [204094] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.673433,
+                    y = 0.475569,
+                },
+            },
+        },
+    },
+    [204245] = {
+        name = "Ancient Centaur Corpse",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.664557,
+                    y = 0.462236,
+                },
+            },
+        },
+    },
     [204254] = {
         name = "Mimuup",
         locations = {
@@ -6035,6 +6057,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [204643] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2023] = {
+                {
+                    x = 0.664097,
+                    y = 0.459992,
+                },
+            },
+        },
+    },
     [204667] = {
         name = "Eternus",
         locations = {
@@ -6053,6 +6086,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.580903,
                     y = 0.538119,
+                },
+            },
+        },
+    },
+    [204835] = {
+        name = "Zenata",
+        locations = {
+            [2022] = {
+                {
+                    x = 0.563775,
+                    y = 0.439485,
                 },
             },
         },
@@ -6101,6 +6145,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [205413] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.486905,
+                    y = 0.483558,
+                },
+            },
+        },
+    },
     [205706] = {
         name = "Future Chromie",
         locations = {
@@ -6130,6 +6185,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.204157,
                     y = 0.809551,
+                },
+            },
+        },
+    },
+    [205967] = {
+        name = "Nirobin",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.584864,
+                    y = 0.367593,
+                },
+            },
+        },
+    },
+    [205975] = {
+        name = "Reese",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.536572,
+                    y = 0.475675,
+                },
+            },
+        },
+    },
+    [206107] = {
+        name = "Eadweard Dalyngrigge",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.615698,
+                    y = 0.31321,
                 },
             },
         },
@@ -6387,6 +6475,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [207311] = {
+        name = "Zenata",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.771445,
+                    y = 0.383731,
+                },
+            },
+        },
+    },
     [207350] = {
         name = "Wrathion",
         locations = {
@@ -6438,6 +6537,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.374618,
                     y = 0.836305,
+                },
+            },
+        },
+    },
+    [207763] = {
+        name = "Zenata",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.381399,
+                    y = 0.498546,
                 },
             },
         },
@@ -6497,6 +6607,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [207931] = {
+        name = "Defaced Dragon Statue",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.475623,
+                    y = 0.485826,
+                },
+            },
+        },
+    },
     [208035] = {
         name = "Chromie",
         locations = {
@@ -6504,6 +6625,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.609766,
                     y = 0.400271,
+                },
+            },
+        },
+    },
+    [208055] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2133] = {
+                {
+                    x = 0.476662,
+                    y = 0.486434,
                 },
             },
         },
@@ -6541,6 +6673,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208355] = {
+        name = "Zenata",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.616197,
+                    y = 0.311191,
+                },
+            },
+        },
+    },
+    [208362] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.171936,
+                    y = 0.162801,
+                },
+            },
+        },
+    },
     [208378] = {
         name = "Suzska",
         locations = {
@@ -6548,6 +6702,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.276269,
                     y = 0.322024,
+                },
+            },
+        },
+    },
+    [208398] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.171936,
+                    y = 0.162801,
+                },
+            },
+        },
+    },
+    [208402] = {
+        name = "Intact Dragonkin Cache",
+        locations = {
+            [2151] = {
+                {
+                    x = 0.140694,
+                    y = 0.146648,
                 },
             },
         },
@@ -6669,6 +6845,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.350362,
                     y = 0.33587,
+                },
+            },
+        },
+    },
+    [208614] = {
+        name = "Roska Rocktooth",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.616012,
+                    y = 0.31083,
                 },
             },
         },

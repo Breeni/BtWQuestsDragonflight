@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "Portali Antichi"
+L["AZEROTHIAN_ARCHIVES"] = "Archivi Azerothiani"
 L["BORN_TO_BE_WILDER"] = "Vita ancora più spericolata"
 L["BRONZE_ECONCILIATION"] = "Riconciliazione Bronzea"
 L["CATALOGING_THE_EXPEIDITION"] = "Catalogare la Spedizione"

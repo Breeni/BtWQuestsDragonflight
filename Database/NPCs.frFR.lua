@@ -429,6 +429,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208572] = {
         name = "Alexstrasza la Lieuse-de-Vie",
     },
+    [208614] = {
+        name = "Roska Pierredent",
+    },
     [208669] = {
         name = "Dame Baie-de-Lune",
     },
@@ -462,6 +465,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210813] = {
         name = "Dryade zélée",
     },
+    [210904] = {
+        name = "Genn Grisetête",
+    },
+    [210905] = {
+        name = "Princesse Tess Grisetête",
+    },
     [211193] = {
         name = "Tyrande Murmevent",
     },
@@ -471,8 +480,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211634] = {
         name = "Tyrande Murmevent",
     },
+    [212187] = {
+        name = "Genn Grisetête",
+    },
     [212797] = {
         name = "Talisa Murmurante",
+    },
+    [212899] = {
+        name = "Elite de la Grisegarde",
+    },
+    [212916] = {
+        name = "Nécrogarde d'élite",
+    },
+    [213995] = {
+        name = "Alchimiste gilnéenne",
+    },
+    [214538] = {
+        name = "Genn Grisetête",
+    },
+    [216067] = {
+        name = "Shandris Pennelune",
     },
 })
 ]])()

@@ -384,6 +384,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208572] = {
         name = "Alexstrasza la Protettrice della Vita",
     },
+    [208614] = {
+        name = "Roska Mordipietre",
+    },
     [208669] = {
         name = "Dama Baccaluna",
     },
@@ -414,6 +417,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210813] = {
         name = "Driade Zelante",
     },
+    [210904] = {
+        name = "Genn Mantogrigio",
+    },
+    [210905] = {
+        name = "Principessa Tess Mantogrigio",
+    },
     [211193] = {
         name = "Tyrande Soffiabrezza",
     },
@@ -423,8 +432,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211634] = {
         name = "Tyrande Soffiabrezza",
     },
+    [212187] = {
+        name = "Genn Mantogrigio",
+    },
     [212797] = {
         name = "Talisa Fiorlieve",
+    },
+    [212899] = {
+        name = "Guardiagrigia d'Élite",
+    },
+    [212916] = {
+        name = "Guardiamorte d'Élite",
+    },
+    [213995] = {
+        name = "Alchimista Gilneana",
+    },
+    [214538] = {
+        name = "Genn Mantogrigio",
+    },
+    [216067] = {
+        name = "Shandris Piumaluna",
     },
 })
 ]])()

@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "Portails d’accès antiques"
+L["AZEROTHIAN_ARCHIVES"] = "Archives d’Azeroth"
 L["BORN_TO_BE_WILDER"] = "Sauvagerie innée"
 L["BRONZE_ECONCILIATION"] = "Réconciliation de bronze"
 L["CATALOGING_THE_EXPEIDITION"] = "Catalogage pour l’expédition"
@@ -17,6 +18,7 @@ L["REBEL_RESURGENCE"] = "Résurgence rebelle"
 L["RECONCILIATION"] = "Réconciliation"
 L["REFORGING_THE_TYRS_GUARD"] = "Reforger la Garde de Tyr"
 L["RETURN_TO_LORDAERON"] = "Retour à Lordaeron"
+L["SEEDS_OF_RENEWAL"] = "Graines du Renouveau"
 L["SPARK_OF_INGENUITY"] = "Étincelle d’ingéniosité"
 L["THE_COALITION_OF_FLAMES"] = "La coalition des flammes"
 L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Les Dragons et l’expédition du Dracaret"

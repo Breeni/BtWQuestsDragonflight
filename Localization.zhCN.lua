@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "远古界门"
+L["AZEROTHIAN_ARCHIVES"] = "艾泽拉斯档案馆"
 L["BORN_TO_BE_WILDER"] = "天生桀骜"
 L["BRONZE_ECONCILIATION"] = "青铜和解"
 L["CATALOGING_THE_EXPEIDITION"] = "编目探险"

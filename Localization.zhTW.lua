@@ -6,11 +6,13 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "遠古傳送門"
+L["AZEROTHIAN_ARCHIVES"] = "艾澤拉斯文庫"
 L["BORN_TO_BE_WILDER"] = "生來更野"
 L["BRONZE_ECONCILIATION"] = "青銅和解"
 L["CATALOGING_THE_EXPEIDITION"] = "記錄遠征"
 L["DRAGON_ISLES_EMISSARY"] = "巨龍群島特使"
 L["DRAGON_SHARD_OF_KNOWLEDGE"] = "巨龍知識裂片"
+L["MISFIT_DRAGONS"] = "不合群的龍"
 L["OLD_HATREDS"] = "宿怨"
 L["REBEL_RESURGENCE"] = "叛亂再起"
 L["RECONCILIATION"] = "和解"

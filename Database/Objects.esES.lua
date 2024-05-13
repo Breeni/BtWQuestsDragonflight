@@ -15,6 +15,9 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [387520] = {
         name = "CUPÓN: juegos de Destellorogg",
     },
+    [405593] = {
+        name = "¡Archivo de Azeroth!",
+    },
     [405958] = {
         name = "Pergamino kaldorei sellado",
     },

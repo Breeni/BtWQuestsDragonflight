@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "고대 차원문"
+L["AZEROTHIAN_ARCHIVES"] = "아제로스 기록 보관소"
 L["BORN_TO_BE_WILDER"] = "야성은 내 운명"
 L["BRONZE_ECONCILIATION"] = "청동의 화해"
 L["CATALOGING_THE_EXPEIDITION"] = "원정대 분류"

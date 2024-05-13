@@ -221,6 +221,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [405593] = {
+        name = "Azerothian Archives!",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.769173,
+                    y = 0.503558,
+                },
+            },
+        },
+    },
     [405958] = {
         name = "Sealed Kaldorei Scroll",
         locations = {

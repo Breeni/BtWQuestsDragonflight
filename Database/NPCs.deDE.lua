@@ -351,6 +351,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208572] = {
         name = "Alexstrasza die Lebensbinderin",
     },
+    [208614] = {
+        name = "Roska Felszahn",
+    },
     [208669] = {
         name = "Lady Mondbeere",
     },
@@ -381,6 +384,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210813] = {
         name = "Eifrige Dryade",
     },
+    [210904] = {
+        name = "Genn Graumähne",
+    },
+    [210905] = {
+        name = "Prinzessin Tess Graumähne",
+    },
     [211193] = {
         name = "Tyrande Wisperwind",
     },
@@ -390,8 +399,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211634] = {
         name = "Tyrande Wisperwind",
     },
+    [212187] = {
+        name = "Genn Graumähne",
+    },
     [212797] = {
         name = "Talisa Flüsterblüte",
+    },
+    [212899] = {
+        name = "Elitegraugarde",
+    },
+    [212916] = {
+        name = "Elitesoldat der Todeswache",
+    },
+    [213995] = {
+        name = "Gilnearische Alchemistin",
+    },
+    [214538] = {
+        name = "Genn Graumähne",
+    },
+    [216067] = {
+        name = "Shandris Mondfeder",
     },
 })
 ]])()

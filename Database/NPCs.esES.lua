@@ -363,6 +363,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208572] = {
         name = "Alexstrasza la Protectora",
     },
+    [208614] = {
+        name = "Roska Dienterroca",
+    },
     [208669] = {
         name = "Lady Bayalunar",
     },
@@ -396,6 +399,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210813] = {
         name = "Dríade entusiasta",
     },
+    [210904] = {
+        name = "Genn Cringrís",
+    },
+    [210905] = {
+        name = "Princesa Tess Cringrís",
+    },
     [211193] = {
         name = "Tyrande Susurravientos",
     },
@@ -405,8 +414,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [211634] = {
         name = "Tyrande Susurravientos",
     },
+    [212187] = {
+        name = "Genn Cringrís",
+    },
     [212797] = {
         name = "Talisa Susurraflor",
+    },
+    [212899] = {
+        name = "Élite Guardia gris",
+    },
+    [212916] = {
+        name = "Élite guardia de la muerte",
+    },
+    [213995] = {
+        name = "Alquimista gilneana",
+    },
+    [214538] = {
+        name = "Genn Cringrís",
+    },
+    [216067] = {
+        name = "Shandris Plumaluna",
     },
 })
 ]])()

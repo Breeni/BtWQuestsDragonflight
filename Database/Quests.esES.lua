@@ -1926,6 +1926,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [70171] = {
         name = "Accidentes afortunados",
     },
+    [70172] = {
+        name = "Misterios montañosos",
+    },
     [70174] = {
         name = "Los Shikaar",
     },
@@ -3141,11 +3144,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [75462] = {
         name = "Rescatarratones",
     },
+    [75493] = {
+        name = "Inspeccionar el lecho fluvial",
+    },
     [75506] = {
         name = "Los blasones de llama de las Sombras",
     },
     [75507] = {
         name = "Ponerse al día con tus amigos",
+    },
+    [75518] = {
+        name = "El cadáver en las orillas",
+    },
+    [75603] = {
+        name = "Ritos antiguos",
+    },
+    [75604] = {
+        name = "Antigüedades anticuadas",
     },
     [75632] = {
         name = "Un disco dislocado",
@@ -3179,6 +3194,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75694] = {
         name = "Aberrus, el Crisol Ensombrecido: Sarkareth",
+    },
+    [75729] = {
+        name = "Armonizar con el observador",
+    },
+    [75867] = {
+        name = "Un vínculo con el pasado",
+    },
+    [75868] = {
+        name = "Una ventana al futuro",
     },
     [75885] = {
         name = "Dinero rápido",
@@ -3221,6 +3245,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [75985] = {
         name = "Que descanses, guerrero",
+    },
+    [76026] = {
+        name = "Investigar la torre",
+    },
+    [76032] = {
+        name = "Oculto en el muladar",
     },
     [76101] = {
         name = "Bajo tierra somos más duros",
@@ -3278,6 +3308,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [76213] = {
         name = "El honor de la diosa",
+    },
+    [76217] = {
+        name = "Historia viva",
+    },
+    [76241] = {
+        name = "Compañeros de laboratorio con una ardilla",
+    },
+    [76242] = {
+        name = "Una tesis digna de publicarse",
     },
     [76276] = {
         name = "Una tierra transformada",
@@ -3444,6 +3483,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76443] = {
         name = "La ceniza amenazante",
     },
+    [76448] = {
+        name = "El destino del escamandante Abereth",
+    },
     [76460] = {
         name = "Más vale dragón en mano que ciento volando",
     },
@@ -3468,6 +3510,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76532] = {
         name = "Asalto al manantial",
     },
+    [76557] = {
+        name = "Sin honor",
+    },
+    [76564] = {
+        name = "Las herramientas de los matadragones",
+    },
     [76566] = {
         name = "El jardín de la dríade",
     },
@@ -3489,6 +3537,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [76572] = {
         name = "Un ascenso venenoso",
     },
+    [76576] = {
+        name = "Una propuesta peculiar",
+    },
     [76592] = {
         name = "Una ala solitaria",
     },
@@ -3507,8 +3558,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77098] = {
         name = "Aterrizaje de urgencia",
     },
+    [77100] = {
+        name = "Inspeccionar el acantilado",
+    },
+    [77151] = {
+        name = "El alijo del risco",
+    },
+    [77154] = {
+        name = "Un sabor del pasado",
+    },
     [77163] = {
         name = "Entrar en razón",
+    },
+    [77166] = {
+        name = "Una prueba práctica",
+    },
+    [77176] = {
+        name = "¡Puedo ver a través del tiempo!",
     },
     [77178] = {
         name = "Repliegue táctico",
@@ -3530,6 +3596,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77209] = {
         name = "El legado de las semillas",
+    },
+    [77231] = {
+        name = "Introducción a la tecnoadivinación",
+    },
+    [77267] = {
+        name = "Excavación para principiantes",
+    },
+    [77268] = {
+        name = "Experiencia de campo",
     },
     [77283] = {
         name = "Una batalla en varios frentes",
@@ -3561,14 +3636,50 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77318] = {
         name = "Lo que diga Merithra",
     },
+    [77325] = {
+        name = "¡Al Archivo!",
+    },
+    [77327] = {
+        name = "Nirobin y la oficina",
+    },
+    [77328] = {
+        name = "¡De vuelta al cuartel general!",
+    },
     [77329] = {
         name = "Una reunión feliz",
+    },
+    [77331] = {
+        name = "El día de la graduación",
+    },
+    [77415] = {
+        name = "La mano oculta",
     },
     [77417] = {
         name = "La esencia de un Infinito",
     },
+    [77425] = {
+        name = "Todo esto me escama",
+    },
+    [77433] = {
+        name = "Excavación: Lecho del río",
+    },
+    [77434] = {
+        name = "Tecnoadivinación: Observatorio",
+    },
     [77436] = {
         name = "El túmulo ardiente",
+    },
+    [77483] = {
+        name = "Tecnoadivinación: Isla Calavera de Dragón",
+    },
+    [77484] = {
+        name = "Tecnoadivinación: Atalaya de Igira",
+    },
+    [77486] = {
+        name = "Excavación: Mirada de Neltharion",
+    },
+    [77487] = {
+        name = "Excavación: Mirador del Señor Alado",
     },
     [77662] = {
         name = "Una llamada de socorro",
@@ -3669,6 +3780,42 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78172] = {
         name = "Semillas misteriosas",
     },
+    [78177] = {
+        name = "A Gilneas",
+    },
+    [78178] = {
+        name = "A Gilneas",
+    },
+    [78180] = {
+        name = "Una cruzada teñida de rojo",
+    },
+    [78181] = {
+        name = "La réplica de Aderic",
+    },
+    [78182] = {
+        name = "Hasta las rodillas",
+    },
+    [78183] = {
+        name = "Sangre escarlata",
+    },
+    [78184] = {
+        name = "Pólvora y espejos",
+    },
+    [78185] = {
+        name = "Canes de guerra",
+    },
+    [78186] = {
+        name = "Aplastar a la Cruzada",
+    },
+    [78187] = {
+        name = "Artillería incendiaria",
+    },
+    [78188] = {
+        name = "Fuego justiciero, furia justiciera",
+    },
+    [78189] = {
+        name = "El despertar de un nuevo amanecer",
+    },
     [78206] = {
         name = "Regalo esmeralda",
     },
@@ -3705,11 +3852,38 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78596] = {
         name = "El llamamiento de lord Cringrís",
     },
+    [78597] = {
+        name = "Movimientos clandestinos",
+    },
+    [78643] = {
+        name = "Cielos claros y vientos fuertes",
+    },
     [78646] = {
         name = "Brigada antiincendios",
     },
+    [78762] = {
+        name = "Tu primer hallazgo",
+    },
     [78821] = {
         name = "Las semillas del Sueño florecientes",
+    },
+    [78863] = {
+        name = "Un lugar bajo las ramas",
+    },
+    [78864] = {
+        name = "El regreso",
+    },
+    [78865] = {
+        name = "Familia hasta el final",
+    },
+    [79137] = {
+        name = "El muro que nos separa",
+    },
+    [79223] = {
+        name = "¡Por fin, un archivista!",
+    },
+    [79231] = {
+        name = "¡De vuelta al cuartel general! ¡Otra vez!",
     },
 })
 ]])()

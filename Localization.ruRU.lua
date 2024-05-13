@@ -6,6 +6,7 @@ end
 
 local L = BtWQuests.L
 L["ANCIENT_WAYGATES"] = "Древние путевые врата"
+L["AZEROTHIAN_ARCHIVES"] = "Азеротские Архивы"
 L["BORN_TO_BE_WILDER"] = "Рожденные дикими"
 L["BRONZE_ECONCILIATION"] = "Бронзовый мир"
 L["CATALOGING_THE_EXPEIDITION"] = "Документация экспедиции"
@@ -17,6 +18,7 @@ L["REBEL_RESURGENCE"] = "Возвращение мятежников"
 L["RECONCILIATION"] = "Примирение"
 L["REFORGING_THE_TYRS_GUARD"] = "Возрождение Стражей Тира"
 L["RETURN_TO_LORDAERON"] = "Возвращение в Лордерон"
+L["SEEDS_OF_RENEWAL"] = "Семя обновления"
 L["SPARK_OF_INGENUITY"] = "Искра искусности"
 L["THE_COALITION_OF_FLAMES"] = "Союз пламени"
 L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Драконы и Драконья экспедиция"
