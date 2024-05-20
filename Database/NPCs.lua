@@ -325,8 +325,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [85] = {
                 {
-                    x = 0.440357,
-                    y = 0.382483,
+                    x = 0.440292,
+                    y = 0.382519,
                 },
             },
         },
@@ -3673,10 +3673,10 @@ BtWQuestsDatabase:AddNPCsTable({
     [193450] = {
         name = "Archmage Khadgar",
         locations = {
-            {
+            [84] = {
                 {
-                    x = 0.559163,
-                    y = 0.126081,
+                    x = 0.230102,
+                    y = 0.561564,
                 },
             },
         },
@@ -6211,6 +6211,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [205981] = {
+        name = "Lukou",
+        locations = {
+            [463] = {
+                {
+                    x = 0.584487,
+                    y = 0.662171,
+                },
+            },
+        },
+    },
     [206107] = {
         name = "Eadweard Dalyngrigge",
         locations = {
@@ -6739,6 +6750,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208494] = {
+        name = "High Artificer Ataanya",
+        locations = {
+            [111] = {
+                {
+                    x = 0.390629,
+                    y = 0.467421,
+                },
+            },
+        },
+    },
+    [208496] = {
+        name = "Apprentice Beruun",
+        locations = {
+            [111] = {
+                {
+                    x = 0.379433,
+                    y = 0.469412,
+                },
+            },
+        },
+    },
     [208503] = {
         name = "Alexstrasza the Life-Binder",
         locations = {
@@ -7025,6 +7058,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [209891] = {
+        name = "Kevo ya Siti",
+        locations = {
+            [50] = {
+                {
+                    x = 0.818232,
+                    y = 0.480847,
+                },
+            },
+        },
+    },
     [210022] = {
         name = "Keeper Adranas",
         locations = {
@@ -7032,6 +7076,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.587261,
                     y = 0.239174,
+                },
+            },
+        },
+    },
+    [210086] = {
+        name = "Witch Doctor Tzadah",
+        locations = {
+            [463] = {
+                {
+                    x = 0.590867,
+                    y = 0.659139,
+                },
+            },
+        },
+    },
+    [210091] = {
+        name = "Rokhan",
+        locations = {
+            [50] = {
+                {
+                    x = 0.634737,
+                    y = 0.413236,
+                },
+            },
+        },
+    },
+    [210092] = {
+        name = "Master Gadrin",
+        locations = {
+            [463] = {
+                {
+                    x = 0.613884,
+                    y = 0.653457,
                 },
             },
         },
@@ -7080,6 +7157,61 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [210238] = {
+        name = "Rokhan",
+        locations = {
+            [50] = {
+                {
+                    x = 0.846103,
+                    y = 0.401684,
+                },
+            },
+        },
+    },
+    [210260] = {
+        name = "Kevo ya Siti",
+        locations = {
+            [463] = {
+                {
+                    x = 0.59028,
+                    y = 0.662362,
+                },
+            },
+        },
+    },
+    [210340] = {
+        name = "Grand Artificer Romuul",
+        locations = {
+            [103] = {
+                {
+                    x = 0.547699,
+                    y = 0.79823,
+                },
+            },
+        },
+    },
+    [210390] = {
+        name = "Prophet Velen",
+        locations = {
+            [106] = {
+                {
+                    x = 0.520305,
+                    y = 0.755722,
+                },
+            },
+        },
+    },
+    [210391] = {
+        name = "Chieftain Hatuun",
+        locations = {
+            [106] = {
+                {
+                    x = 0.518947,
+                    y = 0.755285,
+                },
+            },
+        },
+    },
     [210524] = {
         name = "Q'onzu",
         locations = {
@@ -7087,6 +7219,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.346484,
                     y = 0.693261,
+                },
+            },
+        },
+    },
+    [210563] = {
+        name = "Chieftain Hatuun",
+        locations = {
+            [103] = {
+                {
+                    x = 0.539782,
+                    y = 0.766116,
+                },
+            },
+        },
+    },
+    [210569] = {
+        name = "High Artificer Ataanya",
+        locations = {
+            [111] = {
+                {
+                    x = 0.390656,
+                    y = 0.462637,
+                },
+            },
+        },
+    },
+    [210578] = {
+        name = "Exarch Maladaar",
+        locations = {
+            [108] = {
+                {
+                    x = 0.374917,
+                    y = 0.643049,
+                },
+            },
+        },
+    },
+    [210581] = {
+        name = "Exarch Maladaar",
+        locations = {
+            [108] = {
+                {
+                    x = 0.416002,
+                    y = 0.615938,
                 },
             },
         },
@@ -7109,6 +7285,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.658315,
                     y = 0.376755,
+                },
+            },
+        },
+    },
+    [210588] = {
+        name = "Arzaal",
+        locations = {
+            [106] = {
+                {
+                    x = 0.519068,
+                    y = 0.756734,
+                },
+            },
+        },
+    },
+    [210598] = {
+        name = "Arzaal",
+        locations = {
+            [106] = {
+                {
+                    x = 0.422264,
+                    y = 0.365732,
+                },
+            },
+        },
+    },
+    [210605] = {
+        name = "Prophet Velen",
+        locations = {
+            [106] = {
+                {
+                    x = 0.414593,
+                    y = 0.330291,
                 },
             },
         },
@@ -7278,6 +7487,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [212387] = {
+        name = "Grand Anchorite Almonen",
+        locations = {
+            [103] = {
+                {
+                    x = 0.643817,
+                    y = 0.872809,
+                },
+            },
+        },
+    },
+    [212782] = {
+        name = "Rokhan",
+        locations = {
+            [463] = {
+                {
+                    x = 0.585046,
+                    y = 0.65529,
+                },
+            },
+        },
+    },
+    [212784] = {
+        name = "Rokhan",
+        locations = {
+            [463] = {
+                {
+                    x = 0.584994,
+                    y = 0.655268,
+                },
+            },
+        },
+    },
     [212797] = {
         name = "Talisa Whisperbloom",
         locations = {
@@ -7311,6 +7553,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [213638] = {
+        name = "Rokhan",
+        locations = {
+            [463] = {
+                {
+                    x = 0.569596,
+                    y = 0.563763,
+                },
+            },
+        },
+    },
+    [213791] = {
+        name = "Zi'guma",
+        locations = {
+            [85] = {
+                {
+                    x = 0.326925,
+                    y = 0.646497,
+                },
+            },
+        },
+    },
     [213995] = {
         name = "Gilnean Alchemist",
         locations = {
@@ -7318,6 +7582,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.570463,
                     y = 0.551817,
+                },
+            },
+        },
+    },
+    [214021] = {
+        name = "Prophet Velen",
+        locations = {
+            [103] = {
+                {
+                    x = 0.547548,
+                    y = 0.806802,
                 },
             },
         },
@@ -7344,6 +7619,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [214839] = {
+        name = "Rokhan",
+        locations = {
+            [463] = {
+                {
+                    x = 0.591419,
+                    y = 0.656165,
+                },
+            },
+        },
+    },
     [216067] = {
         name = "Shandris Feathermoon",
         locations = {
@@ -7351,6 +7637,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.510856,
                     y = 0.605071,
+                },
+            },
+        },
+    },
+    [222666] = {
+        name = "Kevo ya Siti",
+        locations = {
+            [50] = {
+                {
+                    x = 0.650471,
+                    y = 0.476979,
+                },
+            },
+        },
+    },
+    [223215] = {
+        name = "Rokhan",
+        locations = {
+            [463] = {
+                {
+                    x = 0.600738,
+                    y = 0.62408,
                 },
             },
         },

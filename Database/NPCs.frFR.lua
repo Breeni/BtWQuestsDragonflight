@@ -405,6 +405,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208151] = {
         name = "Maiev Chantelombre",
     },
+    [208494] = {
+        name = "Grande artificière Ataanya",
+    },
+    [208496] = {
+        name = "Apprenti Beruun",
+    },
     [208503] = {
         name = "Alexstrasza la Lieuse-de-Vie",
     },
@@ -456,8 +462,38 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210022] = {
         name = "Gardien Adranas",
     },
+    [210086] = {
+        name = "Féticheuse Tzadah",
+    },
+    [210092] = {
+        name = "Maître Gadrin",
+    },
     [210196] = {
         name = "Solarys Trombépine",
+    },
+    [210340] = {
+        name = "Grand artificier Romuul",
+    },
+    [210390] = {
+        name = "Prophète Velen",
+    },
+    [210391] = {
+        name = "Chef Hatuun",
+    },
+    [210563] = {
+        name = "Chef Hatuun",
+    },
+    [210569] = {
+        name = "Grande artificière Ataanya",
+    },
+    [210578] = {
+        name = "Exarque Maladaar",
+    },
+    [210581] = {
+        name = "Exarque Maladaar",
+    },
+    [210605] = {
+        name = "Prophète Velen",
     },
     [210646] = {
         name = "Oniride",
@@ -483,6 +519,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212187] = {
         name = "Genn Grisetête",
     },
+    [212387] = {
+        name = "Grand anachorète Almonen",
+    },
     [212797] = {
         name = "Talisa Murmurante",
     },
@@ -494,6 +533,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [213995] = {
         name = "Alchimiste gilnéenne",
+    },
+    [214021] = {
+        name = "Prophète Velen",
     },
     [214538] = {
         name = "Genn Grisetête",

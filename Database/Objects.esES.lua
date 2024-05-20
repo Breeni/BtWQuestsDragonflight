@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Folíolo chamuscado",
     },
+    [415303] = {
+        name = "Paquete sellado con magia",
+    },
 })
 ]])()

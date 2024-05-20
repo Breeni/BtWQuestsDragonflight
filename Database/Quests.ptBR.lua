@@ -3714,8 +3714,59 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77818] = {
         name = "A cruel",
     },
+    [77869] = {
+        name = "Voltar para as Ilhas do Eco",
+    },
+    [77871] = {
+        name = "Os velhos loas",
+    },
+    [77874] = {
+        name = "Os loas do passado",
+    },
+    [77877] = {
+        name = "Em união com a loa",
+    },
+    [77879] = {
+        name = "Espreitando o espreitador",
+    },
+    [77880] = {
+        name = "Procurando Lukou",
+    },
+    [77881] = {
+        name = "Tem mais um",
+    },
+    [77882] = {
+        name = "Roubada, mas não esquecida",
+    },
+    [77894] = {
+        name = "Coração de Lukou",
+    },
     [77896] = {
         name = "Busca sonolenta",
+    },
+    [77898] = {
+        name = "Honra e tributo",
+    },
+    [77899] = {
+        name = "A rush'kah",
+    },
+    [77900] = {
+        name = "A prova dos loas",
+    },
+    [77901] = {
+        name = "Os reaprendizes",
+    },
+    [77902] = {
+        name = "Recuperação ritual",
+    },
+    [77903] = {
+        name = "O poder da morte",
+    },
+    [77905] = {
+        name = "Avatar de Mueh'zala",
+    },
+    [77906] = {
+        name = "Os loas dos Lançanegra",
     },
     [77911] = {
         name = "Cobertor passo a passo",
@@ -3761,6 +3812,54 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78066] = {
         name = "As merecidas respostas",
+    },
+    [78068] = {
+        name = "O apelo do artífice",
+    },
+    [78069] = {
+        name = "Revivendo a tradição",
+    },
+    [78070] = {
+        name = "Prazo apertado",
+    },
+    [78071] = {
+        name = "Pedido urgente",
+    },
+    [78072] = {
+        name = "Ferida antiga",
+    },
+    [78073] = {
+        name = "Cicatrizes duradouras",
+    },
+    [78074] = {
+        name = "Para ver com clareza",
+    },
+    [78075] = {
+        name = "Deixando no passado",
+    },
+    [78076] = {
+        name = "Atos emergenciais",
+    },
+    [78077] = {
+        name = "Abaixo da pele",
+    },
+    [78078] = {
+        name = "Estudando o inimigo",
+    },
+    [78079] = {
+        name = "Excisão",
+    },
+    [78080] = {
+        name = "Pela raiz",
+    },
+    [78081] = {
+        name = "O recuar da dor",
+    },
+    [78082] = {
+        name = "Um fardo compartilhado",
+    },
+    [78083] = {
+        name = "Nosso caminho à frente",
     },
     [78162] = {
         name = "A distração de Q'onzu",
@@ -3872,6 +3971,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78865] = {
         name = "Irmandade eterna",
+    },
+    [78875] = {
+        name = "O imbatível",
     },
     [79137] = {
         name = "O muro que nos separa",

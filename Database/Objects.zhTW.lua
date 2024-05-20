@@ -21,5 +21,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [405958] = {
         name = "封存的卡多雷卷軸",
     },
+    [415303] = {
+        name = "魔封包裹",
+    },
 })
 ]])()

@@ -366,6 +366,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208151] = {
         name = "Maiev Cantombroso",
     },
+    [208494] = {
+        name = "Gran Ingegnera Ataanya",
+    },
+    [208496] = {
+        name = "Apprendista Beruun",
+    },
     [208503] = {
         name = "Alexstrasza la Protettrice della Vita",
     },
@@ -408,8 +414,38 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210022] = {
         name = "Custode Adranas",
     },
+    [210086] = {
+        name = "Taumaturga Tzadah",
+    },
+    [210092] = {
+        name = "Maestro Gadrin",
+    },
     [210196] = {
         name = "Solarys Brezzaspina",
+    },
+    [210340] = {
+        name = "Gran Ingegnere Romuul",
+    },
+    [210390] = {
+        name = "Profeta Velen",
+    },
+    [210391] = {
+        name = "Capoclan Hatuun",
+    },
+    [210563] = {
+        name = "Capoclan Hatuun",
+    },
+    [210569] = {
+        name = "Gran Ingegnera Ataanya",
+    },
+    [210578] = {
+        name = "Esarca Maladaar",
+    },
+    [210581] = {
+        name = "Esarca Maladaar",
+    },
+    [210605] = {
+        name = "Profeta Velen",
     },
     [210646] = {
         name = "Gufonirico",
@@ -435,6 +471,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212187] = {
         name = "Genn Mantogrigio",
     },
+    [212387] = {
+        name = "Gran Anacoreta Almonen",
+    },
     [212797] = {
         name = "Talisa Fiorlieve",
     },
@@ -446,6 +485,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [213995] = {
         name = "Alchimista Gilneana",
+    },
+    [214021] = {
+        name = "Profeta Velen",
     },
     [214538] = {
         name = "Genn Mantogrigio",

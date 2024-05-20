@@ -345,6 +345,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208378] = {
         name = "Suzka",
     },
+    [208494] = {
+        name = "Gran artificiera Ataanya",
+    },
+    [208496] = {
+        name = "Aprendiz Beruun",
+    },
     [208503] = {
         name = "Alexstrasza la Protectora",
     },
@@ -390,8 +396,38 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210022] = {
         name = "Guardián Adranas",
     },
+    [210086] = {
+        name = "Médica bruja Tzadah",
+    },
+    [210092] = {
+        name = "Maestro Gadrin",
+    },
     [210196] = {
         name = "Solarys Vientospina",
+    },
+    [210340] = {
+        name = "Gran artificiero Romuul",
+    },
+    [210390] = {
+        name = "Profeta Velen",
+    },
+    [210391] = {
+        name = "Jefe Hatuun",
+    },
+    [210563] = {
+        name = "Jefe Hatuun",
+    },
+    [210569] = {
+        name = "Gran artificiera Ataanya",
+    },
+    [210578] = {
+        name = "Exarca Maladaar",
+    },
+    [210581] = {
+        name = "Exarca Maladaar",
+    },
+    [210605] = {
+        name = "Profeta Velen",
     },
     [210646] = {
         name = "Sueñodeudo",
@@ -417,6 +453,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [212187] = {
         name = "Genn Cringrís",
     },
+    [212387] = {
+        name = "Gran anacoreta Almonen",
+    },
     [212797] = {
         name = "Talisa Susurraflor",
     },
@@ -428,6 +467,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [213995] = {
         name = "Alquimista gilneana",
+    },
+    [214021] = {
+        name = "Profeta Velen",
     },
     [214538] = {
         name = "Genn Cringrís",

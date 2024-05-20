@@ -333,6 +333,12 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208151] = {
         name = "Maiev Schattensang",
     },
+    [208494] = {
+        name = "Oberste Konstrukteurin Ataanya",
+    },
+    [208496] = {
+        name = "Lehrling Beruun",
+    },
     [208503] = {
         name = "Alexstrasza die Lebensbinderin",
     },
@@ -375,8 +381,26 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [210022] = {
         name = "Hüter Adranas",
     },
+    [210086] = {
+        name = "Hexendoktorin Tzadah",
+    },
+    [210092] = {
+        name = "Meister Gadrin",
+    },
     [210196] = {
         name = "Solarys Dornensturm",
+    },
+    [210340] = {
+        name = "Großkonstrukteur Romuul",
+    },
+    [210391] = {
+        name = "Häuptling Hatuun",
+    },
+    [210563] = {
+        name = "Häuptling Hatuun",
+    },
+    [210569] = {
+        name = "Oberste Konstrukteurin Ataanya",
     },
     [210646] = {
         name = "Traumkin",
@@ -401,6 +425,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [212187] = {
         name = "Genn Graumähne",
+    },
+    [212387] = {
+        name = "Großanachoret Almonen",
     },
     [212797] = {
         name = "Talisa Flüsterblüte",

@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Опаленный листок",
     },
+    [415303] = {
+        name = "Посылка с магической печатью",
+    },
 })
 ]])()

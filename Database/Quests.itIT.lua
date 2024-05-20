@@ -3705,8 +3705,59 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77818] = {
         name = "Il crudele",
     },
+    [77869] = {
+        name = "Torna alle Isole dell'Eco",
+    },
+    [77871] = {
+        name = "I vecchi Loa",
+    },
+    [77874] = {
+        name = "Il Loa del Passato",
+    },
+    [77877] = {
+        name = "Tutt'uno con il Loa",
+    },
+    [77879] = {
+        name = "Inseguire chi insegue",
+    },
+    [77880] = {
+        name = "Alla ricerca di Lukou",
+    },
+    [77881] = {
+        name = "Ce n'è un'altra",
+    },
+    [77882] = {
+        name = "Rubati ma non dimenticati",
+    },
+    [77894] = {
+        name = "Cuore di Lukou",
+    },
     [77896] = {
         name = "Una ricerca assonnata",
+    },
+    [77898] = {
+        name = "Onore e Tributo",
+    },
+    [77899] = {
+        name = "La Rush'kah",
+    },
+    [77900] = {
+        name = "Le prove del Loa",
+    },
+    [77901] = {
+        name = "Riaddestrare gli allievi",
+    },
+    [77902] = {
+        name = "Recupero dei rituali",
+    },
+    [77903] = {
+        name = "Il potere della morte",
+    },
+    [77905] = {
+        name = "Avatar di Mueh'zala",
+    },
+    [77906] = {
+        name = "I Loa dei Lanciascura",
     },
     [77911] = {
         name = "Costruire una coperta",
@@ -3752,6 +3803,54 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78066] = {
         name = "Le risposte guadagnate",
+    },
+    [78068] = {
+        name = "L'appello di un ingegnere",
+    },
+    [78069] = {
+        name = "Rianimare la tradizione",
+    },
+    [78070] = {
+        name = "Scadenze incombenti",
+    },
+    [78071] = {
+        name = "Ordine affrettato",
+    },
+    [78072] = {
+        name = "Una vecchia ferita",
+    },
+    [78073] = {
+        name = "Cicatrici persistenti",
+    },
+    [78074] = {
+        name = "Vedere chiaramente",
+    },
+    [78075] = {
+        name = "Andare oltre",
+    },
+    [78076] = {
+        name = "Intervento d'emergenza",
+    },
+    [78077] = {
+        name = "Sotto la pelle",
+    },
+    [78078] = {
+        name = "Studiare il nemico",
+    },
+    [78079] = {
+        name = "Escissione",
+    },
+    [78080] = {
+        name = "Alla fonte",
+    },
+    [78081] = {
+        name = "Il dolore si attenua",
+    },
+    [78082] = {
+        name = "Un fardello condiviso",
+    },
+    [78083] = {
+        name = "Il percorso da seguire",
     },
     [78162] = {
         name = "La distrazione di Q'onzu",
@@ -3863,6 +3962,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78865] = {
         name = "Fratelli fino alla fine",
+    },
+    [78875] = {
+        name = "L'Invincibile",
     },
     [79137] = {
         name = "Il muro tra noi",

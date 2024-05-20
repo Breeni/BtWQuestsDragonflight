@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Volantino Bruciacchiato",
     },
+    [415303] = {
+        name = "Pacco Sigillato Magicamente",
+    },
 })
 ]])()

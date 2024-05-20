@@ -3705,8 +3705,59 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77818] = {
         name = "Die Grausame",
     },
+    [77869] = {
+        name = "Rückkehr zu den Echoinseln",
+    },
+    [77871] = {
+        name = "Die alt'n Loa",
+    },
+    [77874] = {
+        name = "Der Loa der Vergangenheit",
+    },
+    [77877] = {
+        name = "Eins mit dem Loa",
+    },
+    [77879] = {
+        name = "Die Pirsch auf den Pirscher",
+    },
+    [77880] = {
+        name = "Nach Lukou schauen",
+    },
+    [77881] = {
+        name = "Es gibt noch jemanden",
+    },
+    [77882] = {
+        name = "Gestohlen, aber nicht vergessen",
+    },
+    [77894] = {
+        name = "Das Herz von Lukou",
+    },
     [77896] = {
         name = "Eine schläfrige Suche",
+    },
+    [77898] = {
+        name = "Ehre und Tribut",
+    },
+    [77899] = {
+        name = "Der Rush'kah",
+    },
+    [77900] = {
+        name = "Die Loaprüfungen",
+    },
+    [77901] = {
+        name = "Zurück in die Schule",
+    },
+    [77902] = {
+        name = "Rituelle Rückgewinnung",
+    },
+    [77903] = {
+        name = "Die Macht des Todes",
+    },
+    [77905] = {
+        name = "Avatar von Mueh'zala",
+    },
+    [77906] = {
+        name = "Die Loa der Dunkelspeere",
     },
     [77911] = {
         name = "Ins gemachte Bett",
@@ -3752,6 +3803,54 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78066] = {
         name = "Die Antworten, die Ihr verdient habt",
+    },
+    [78068] = {
+        name = "Die Bitte eines Konstrukteurs",
+    },
+    [78069] = {
+        name = "Tradition wiederaufleben lassen",
+    },
+    [78070] = {
+        name = "Dringende Termine",
+    },
+    [78071] = {
+        name = "Eilauftrag",
+    },
+    [78072] = {
+        name = "Eine alte Wunde",
+    },
+    [78073] = {
+        name = "Bleibende Narben",
+    },
+    [78074] = {
+        name = "Durchblick",
+    },
+    [78075] = {
+        name = "Bewegende Vergangenheit",
+    },
+    [78076] = {
+        name = "Notmaßnahmen",
+    },
+    [78077] = {
+        name = "Unter die Haut",
+    },
+    [78078] = {
+        name = "Feindeinschätzung",
+    },
+    [78079] = {
+        name = "Ausmerzung",
+    },
+    [78080] = {
+        name = "An der Quelle",
+    },
+    [78081] = {
+        name = "Schmerz lässt nach",
+    },
+    [78082] = {
+        name = "Eine geteilte Last",
+    },
+    [78083] = {
+        name = "Unser Pfad voraus",
     },
     [78162] = {
         name = "Q'onzus Ablenkung",
@@ -3863,6 +3962,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78865] = {
         name = "Geschwister bis zum Ende",
+    },
+    [78875] = {
+        name = "Der Untötbare",
     },
     [79137] = {
         name = "Die Mauer zwischen uns",

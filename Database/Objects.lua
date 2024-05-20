@@ -254,4 +254,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [415303] = {
+        name = "Magically-Sealed Parcel",
+        locations = {
+            [84] = {
+                {
+                    x = 0.530129,
+                    y = 0.154721,
+                },
+            },
+        },
+    },
 })

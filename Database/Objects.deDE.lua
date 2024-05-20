@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Angesengter Handzettel",
     },
+    [415303] = {
+        name = "Magisch versiegeltes Paket",
+    },
 })
 ]])()

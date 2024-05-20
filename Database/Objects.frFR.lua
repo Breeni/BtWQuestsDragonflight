@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Pamphlet roussi",
     },
+    [415303] = {
+        name = "Colis scellé par magie",
+    },
 })
 ]])()

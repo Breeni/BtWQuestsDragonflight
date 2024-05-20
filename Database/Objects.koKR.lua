@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "그을린 유인물",
     },
+    [415303] = {
+        name = "마법으로 봉인된 꾸러미",
+    },
 })
 ]])()

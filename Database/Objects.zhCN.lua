@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "烧焦的传单",
     },
+    [415303] = {
+        name = "魔法封印的包裹",
+    },
 })
 ]])()

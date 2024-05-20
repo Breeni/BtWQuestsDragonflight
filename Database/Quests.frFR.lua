@@ -3720,8 +3720,59 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [77818] = {
         name = "La Cruelle",
     },
+    [77869] = {
+        name = "Retour aux îles de l’Écho",
+    },
+    [77871] = {
+        name = "Les anciens Loas",
+    },
+    [77874] = {
+        name = "Les Loas du passé",
+    },
+    [77877] = {
+        name = "Communion avec les Loas",
+    },
+    [77879] = {
+        name = "Traquer le traqueur",
+    },
+    [77880] = {
+        name = "À la recherche de Lukou",
+    },
+    [77881] = {
+        name = "Tierce partie",
+    },
+    [77882] = {
+        name = "Volés mais pas oubliés",
+    },
+    [77894] = {
+        name = "Le cœur de Lukou",
+    },
     [77896] = {
         name = "Une recherche assoupie",
+    },
+    [77898] = {
+        name = "Honneur et hommage",
+    },
+    [77899] = {
+        name = "Le rush’kah",
+    },
+    [77900] = {
+        name = "Les épreuves des Loas",
+    },
+    [77901] = {
+        name = "Les recrues sont cuites",
+    },
+    [77902] = {
+        name = "Récupération rituelle",
+    },
+    [77903] = {
+        name = "Le pouvoir de la mort",
+    },
+    [77905] = {
+        name = "Avatar de Mueh’zala",
+    },
+    [77906] = {
+        name = "Les Loas des Sombrelances",
     },
     [77911] = {
         name = "Une couverture toute douce",
@@ -3767,6 +3818,51 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78066] = {
         name = "Des réponses bien méritées",
+    },
+    [78068] = {
+        name = "L’appel de l’artificier",
+    },
+    [78069] = {
+        name = "Renouveau des traditions",
+    },
+    [78070] = {
+        name = "Échéances à court terme",
+    },
+    [78071] = {
+        name = "Commande urgente",
+    },
+    [78072] = {
+        name = "Une vieille blessure",
+    },
+    [78073] = {
+        name = "Profondes cicatrices",
+    },
+    [78074] = {
+        name = "Clarification",
+    },
+    [78075] = {
+        name = "Faire son deuil",
+    },
+    [78076] = {
+        name = "Intervention d’urgence",
+    },
+    [78077] = {
+        name = "Sous la peau",
+    },
+    [78078] = {
+        name = "Connais ton ennemi",
+    },
+    [78080] = {
+        name = "À la source",
+    },
+    [78081] = {
+        name = "La douleur s’estompe",
+    },
+    [78082] = {
+        name = "Un fardeau partagé",
+    },
+    [78083] = {
+        name = "Le chemin de l’avenir",
     },
     [78162] = {
         name = "L’esprit ailleurs de Q’onzu",
@@ -3878,6 +3974,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [78865] = {
         name = "Une famille jusqu’au bout",
+    },
+    [78875] = {
+        name = "L’Intuable",
     },
     [79137] = {
         name = "Le mur qui nous sépare",

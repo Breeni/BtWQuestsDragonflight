@@ -24,5 +24,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [409077] = {
         name = "Panfleto Chamuscado",
     },
+    [415303] = {
+        name = "Embrulho Magicamente Selado",
+    },
 })
 ]])()
