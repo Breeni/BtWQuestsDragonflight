@@ -183,13 +183,18 @@ Database:AddChain(Chain.BreakingGround, {
             id = 72973,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2, 3
             },
         },
         {
             type = "quest",
+            id = 76101,
+            x = -3,
+            aside = true,
+        },
+        {
+            type = "quest",
             id = 72974,
-            x = -1,
             connections = {
                 2, 
             },
@@ -3100,10 +3105,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.TyrsFall,
         },
-        {
-            type = "chain",
-            id = Chain.Chain01,
-        },
+        -- {
+        --     type = "chain",
+        --     id = Chain.Chain01,
+        -- },
         {
             type = "chain",
             id = Chain.Chain02,
