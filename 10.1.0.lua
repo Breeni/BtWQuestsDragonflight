@@ -48,7 +48,7 @@ Chain.Chain11 = 100628
 Chain.Chain14 = 100621
 
 Database:AddChain(Chain.BreakingGround, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 2),
     questline = 1392,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -227,7 +227,7 @@ Database:AddChain(Chain.BreakingGround, {
     },
 })
 Database:AddChain(Chain.SunderedLegacy, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 3),
     questline = 1393,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -340,7 +340,7 @@ Database:AddChain(Chain.SunderedLegacy, {
     },
 })
 Database:AddChain(Chain.TheAncientBargain, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
     questline = 1394,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -505,7 +505,7 @@ Database:AddChain(Chain.TheAncientBargain, {
     },
 })
 Database:AddChain(Chain.InheritedSin, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 5),
     questline = 1395,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -623,7 +623,7 @@ Database:AddChain(Chain.InheritedSin, {
     },
 })
 Database:AddChain(Chain.InevitableConfrontation, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 6),
     questline = 1396,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -759,7 +759,7 @@ Database:AddChain(Chain.InevitableConfrontation, {
     },
 })
 Database:AddChain(Chain.AFlameExtinguished, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 7),
     questline = 1397,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -875,7 +875,7 @@ Database:AddChain(Chain.AFlameExtinguished, {
     },
 })
 Database:AddChain(Chain.ACrecheDivided, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
     questline = 1393,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
