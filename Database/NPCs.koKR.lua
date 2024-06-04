@@ -906,6 +906,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [216067] = {
         name = "샨드리스 페더문",
     },
+    [221491] = {
+        name = "카드가의 소환",
+    },
     [222666] = {
         name = "케보 야 시티",
     },

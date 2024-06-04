@@ -447,5 +447,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [216067] = {
         name = "Shandris Mondfeder",
     },
+    [221491] = {
+        name = "Khadgars Beschwörung",
+    },
 })
 ]])()

@@ -495,5 +495,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [216067] = {
         name = "Shandris Piumaluna",
     },
+    [221491] = {
+        name = "Evocazioni di Khadgar",
+    },
 })
 ]])()

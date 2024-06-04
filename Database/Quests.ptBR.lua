@@ -3975,6 +3975,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "O imbatível",
     },
+    [79009] = {
+        name = "A Emissária",
+    },
+    [79010] = {
+        name = "Ponte com os ren'dorei",
+    },
+    [79011] = {
+        name = "Relatórios dos Fendívagos",
+    },
+    [79012] = {
+        name = "Fissuras no caos",
+    },
+    [79013] = {
+        name = "Agito de Galakrond",
+    },
+    [79014] = {
+        name = "Sombra no cangote dos outros é luz",
+    },
+    [79015] = {
+        name = "Descida sombria",
+    },
+    [79016] = {
+        name = "Legado do caos",
+    },
+    [79017] = {
+        name = "O caminho trilhado",
+    },
+    [79018] = {
+        name = "Sendo apenas um viajante, por um tempo parei",
+    },
+    [79019] = {
+        name = "Defesa da Fissura de Telogrus",
+    },
+    [79020] = {
+        name = "Nulidade e caos",
+    },
+    [79021] = {
+        name = "Avisos radiantes",
+    },
     [79137] = {
         name = "O muro que nos separa",
     },

@@ -3978,6 +3978,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "L’Intuable",
     },
+    [79009] = {
+        name = "La messagère",
+    },
+    [79010] = {
+        name = "La porte des Ren’dorei",
+    },
+    [79011] = {
+        name = "Les rapports des marche-faille",
+    },
+    [79012] = {
+        name = "Des fissures dans le Vide",
+    },
+    [79013] = {
+        name = "Agitation au Repos de Galakrond",
+    },
+    [79014] = {
+        name = "Une bonne balade dans ses ombres",
+    },
+    [79015] = {
+        name = "Sombre descente",
+    },
+    [79016] = {
+        name = "L’héritage du Vide",
+    },
+    [79017] = {
+        name = "La voie empruntée",
+    },
+    [79018] = {
+        name = "Voyage solitaire",
+    },
+    [79019] = {
+        name = "Défendre la faille de Telogrus",
+    },
+    [79020] = {
+        name = "Vide de sens",
+    },
+    [79021] = {
+        name = "Une mise en garde radieuse",
+    },
     [79137] = {
         name = "Le mur qui nous sépare",
     },

@@ -3966,6 +3966,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "Der Untötbare",
     },
+    [79009] = {
+        name = "Die Vorbotin",
+    },
+    [79010] = {
+        name = "Tor zu den Ren'dorei",
+    },
+    [79011] = {
+        name = "Risswandererberichte",
+    },
+    [79012] = {
+        name = "Risse in der Leere",
+    },
+    [79013] = {
+        name = "Galakronds Unruhestätte",
+    },
+    [79014] = {
+        name = "In ihren Schatten",
+    },
+    [79015] = {
+        name = "Dunkler Abstieg",
+    },
+    [79016] = {
+        name = "Vermächtnis der Leere",
+    },
+    [79017] = {
+        name = "Der gewählte Pfad",
+    },
+    [79018] = {
+        name = "Und als Reisende stand ich lang",
+    },
+    [79019] = {
+        name = "Verteidigung des Telogrusrisses",
+    },
+    [79020] = {
+        name = "Leer und nichtig",
+    },
+    [79021] = {
+        name = "Strahlende Warnungen",
+    },
     [79137] = {
         name = "Die Mauer zwischen uns",
     },

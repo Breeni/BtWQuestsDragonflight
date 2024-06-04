@@ -909,6 +909,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [216067] = {
         name = "珊蒂斯‧羽月",
     },
+    [221491] = {
+        name = "卡德加的召喚物",
+    },
     [222666] = {
         name = "凱弗亞西帝",
     },

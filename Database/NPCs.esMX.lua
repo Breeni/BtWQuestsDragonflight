@@ -492,5 +492,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [216067] = {
         name = "Shandris Plumaluna",
     },
+    [221491] = {
+        name = "Invocaciones de Khadgar",
+    },
 })
 ]])()

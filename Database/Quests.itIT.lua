@@ -3966,6 +3966,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "L'Invincibile",
     },
+    [79009] = {
+        name = "L'Aralda",
+    },
+    [79010] = {
+        name = "Porta dei Ren'dorei",
+    },
+    [79011] = {
+        name = "Rapporti dei Calcavarchi",
+    },
+    [79012] = {
+        name = "Una spaccatura nel Vuoto",
+    },
+    [79013] = {
+        name = "Alla Fossa di Galakrond",
+    },
+    [79014] = {
+        name = "Camminare nella sua ombra",
+    },
+    [79015] = {
+        name = "Discesa oscura",
+    },
+    [79016] = {
+        name = "Il lascito del Vuoto",
+    },
+    [79017] = {
+        name = "La scelta della via",
+    },
+    [79018] = {
+        name = "Da soli sul lungo cammino",
+    },
+    [79019] = {
+        name = "Difendi la Fenditura di Telogrus",
+    },
+    [79020] = {
+        name = "Vuoto totale",
+    },
+    [79021] = {
+        name = "Avvertimenti radiosi",
+    },
     [79137] = {
         name = "Il muro tra noi",
     },

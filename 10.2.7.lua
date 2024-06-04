@@ -11,6 +11,7 @@ local LEVEL_RANGE = {50, 50}
 
 Chain.DraeneiHeritage = 100026
 Chain.TrollHeritage = 100027
+Chain.HuntForTheHarbinger = 100028
 
 Database:AddChain(Chain.DraeneiHeritage, {
     name = { -- An Artificer's Appeal
@@ -366,8 +367,156 @@ Database:AddChain(Chain.TrollHeritage, {
         },
     }
 })
+Database:AddChain(Chain.HuntForTheHarbinger, {
+    name = BtWQuests_GetAchievementName(40382),
+    questline = 5519,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = { 79009, 81654 },
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 79021,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 221491,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 79009,
+                    restrictions = {
+                        type = "quest",
+                        id = 79009,
+                        status = { "active", "completed", },
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 81654,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79010,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79011,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79012,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79013,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79014,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79015,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79016,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79017,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79018,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79019,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79020,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 79021,
+            x = 0,
+        },
+    }
+})
 
 BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
+    {
+        type = "chain",
+        id = Chain.HuntForTheHarbinger,
+    },
     {
         type = "chain",
         id = Chain.DraeneiHeritage,

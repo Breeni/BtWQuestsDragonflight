@@ -7641,6 +7641,9 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [221491] = {
+        name = "Khadgar's Summons",
+    },
     [222666] = {
         name = "Kevo ya Siti",
         locations = {

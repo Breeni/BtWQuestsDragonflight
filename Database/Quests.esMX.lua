@@ -3969,6 +3969,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "El inmatable",
     },
+    [79009] = {
+        name = "La Emisaria",
+    },
+    [79010] = {
+        name = "Puerta a los ren'dorei",
+    },
+    [79011] = {
+        name = "Los informes de los caminafallas",
+    },
+    [79012] = {
+        name = "Grietas del Vacío",
+    },
+    [79013] = {
+        name = "Inquietud en Reposo de Galakrond",
+    },
+    [79014] = {
+        name = "Tras su sombra",
+    },
+    [79015] = {
+        name = "Descenso oscuro",
+    },
+    [79016] = {
+        name = "Legado del Vacío",
+    },
+    [79017] = {
+        name = "El camino elegido",
+    },
+    [79018] = {
+        name = "Un camino empinado",
+    },
+    [79019] = {
+        name = "Defiende la Falla de Telogrus",
+    },
+    [79020] = {
+        name = "Nulidad y Vacío",
+    },
+    [79021] = {
+        name = "Advertencias radiantes",
+    },
     [79137] = {
         name = "El muro que nos separa",
     },

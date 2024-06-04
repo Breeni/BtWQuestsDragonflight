@@ -3978,6 +3978,45 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [78875] = {
         name = "El Invencible",
     },
+    [79009] = {
+        name = "La Presagista",
+    },
+    [79010] = {
+        name = "La puerta a los ren'dorei",
+    },
+    [79011] = {
+        name = "Los informes de los caminarriscos",
+    },
+    [79012] = {
+        name = "Grietas en el Vacío",
+    },
+    [79013] = {
+        name = "La zozobra de Galakrond",
+    },
+    [79014] = {
+        name = "Ponte a su sombra",
+    },
+    [79015] = {
+        name = "Descenso oscuro",
+    },
+    [79016] = {
+        name = "El legado del Vacío",
+    },
+    [79017] = {
+        name = "El camino escogido",
+    },
+    [79018] = {
+        name = "Amargos recuerdos",
+    },
+    [79019] = {
+        name = "La defensa de la Falla de Telogrus",
+    },
+    [79020] = {
+        name = "Horror al Vacío",
+    },
+    [79021] = {
+        name = "Advertencias radiantes",
+    },
     [79137] = {
         name = "El muro que nos separa",
     },

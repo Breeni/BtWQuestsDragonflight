@@ -32296,6 +32296,201 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [79009] = {
+        name = "The Harbinger",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 5,
+            },
+        },
+    },
+    [79010] = {
+        name = "Door to the Ren'dorei",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 5,
+            },
+        },
+    },
+    [79011] = {
+        name = "Riftwalker Reports",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79012] = {
+        name = "Cracks in the Void",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79013] = {
+        name = "Galakrond's Unrest",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 5,
+            },
+        },
+    },
+    [79014] = {
+        name = "Walk a Mile in Her Shadows",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79015] = {
+        name = "Dark Descension",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
+    },
+    [79016] = {
+        name = "Legacy of the Void",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 5,
+            },
+        },
+    },
+    [79017] = {
+        name = "The Path Taken",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79018] = {
+        name = "And Be One Traveler, Long I Stood",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79019] = {
+        name = "Defend Telogrus Rift",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 280900,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 10,
+            },
+        },
+    },
+    [79020] = {
+        name = "Null and Void",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 561800,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
+    },
+    [79021] = {
+        name = "Radiant Warnings",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 15,
+            },
+        },
+    },
     [79137] = {
         name = "The Wall Between Us",
         contentTuningID = 2736,
@@ -32343,6 +32538,21 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 28090,
+            },
+        },
+    },
+    [81654] = {
+        name = "The Harbinger",
+        contentTuningID = 2828,
+        rewards = {
+            {
+                type = "money",
+                amount = 28090,
+            },
+            {
+                type = "currency",
+                id = 2245,
+                amount = 5,
             },
         },
     },
