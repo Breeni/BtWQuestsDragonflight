@@ -1,3 +1,7 @@
+# v11.0
+
+- Added Hunt of the Harbinger questline
+
 # v10.0
 
 - Added the Draenei heritage armor questline
