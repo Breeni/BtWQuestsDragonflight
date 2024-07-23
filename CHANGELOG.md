@@ -1,3 +1,7 @@
+# v11.1
+
+- Updated for 11.0.0
+
 # v11.0
 
 - Added Hunt of the Harbinger questline
