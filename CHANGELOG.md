@@ -1,3 +1,8 @@
+# v12.0
+
+- Added the Tyr's Return questline
+- Fixed restrictions and prerequisites for Reforging the Tyr's Hand questline
+
 # v11.1
 
 - Updated for 11.0.0
