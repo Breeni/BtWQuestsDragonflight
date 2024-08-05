@@ -40,6 +40,7 @@ Chain.TempChain15 = 100722
 Chain.TempChain16 = 100723
 Chain.TempChain17 = 100724
 Chain.TempChain18 = 100725
+Chain.TempChain19 = 100726
 
 Database:AddChain(Chain.EnterTheDream, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID_1, 1),
@@ -2092,6 +2093,119 @@ Database:AddChain(Chain.TempChain18, {
         },
     }
 })
+Database:AddChain(Chain.TempChain19, {
+    name = L["TYRS_RETURN"],
+    questline = 5476,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 70,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Dragonflight.ReforgingTheTyrsGuard,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 77339,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 77344,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 208703,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77339,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77377,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77340,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77342,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77343,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77344,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            name = L["BTWQUESTS_WAIT_FOR_WEEKLY_RESET"],
+            aside = true,
+            active = {
+                type = "quest",
+                id = 77344,
+            },
+            completed = {
+                {
+                    type = "quest",
+                    id = 77344,
+                },
+                {
+                    type = "quest",
+                    id = 77820,
+                    status = { "pending", },
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 77341,
+            aside = true,
+            x = 0,
+        },
+    }
+})
 
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetAchievementNameDelayed(ACHIEVEMENT_ID_1),
@@ -2121,6 +2235,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.NewBeginnings,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain19,
         },
         {
             type = "chain",
