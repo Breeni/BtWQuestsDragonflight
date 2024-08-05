@@ -261,14 +261,10 @@ Database:AddChain(Chain.ReforgingTheTyrsGuard, {
     questline = 5455,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    restrictions = {
-        type = "race",
-        id = BtWQuests.Constant.Race.NightElf
-    },
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            level = 70,
         },
         {
             type = "chain",
