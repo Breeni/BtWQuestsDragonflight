@@ -441,7 +441,16 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208669] = {
         name = "Dame Baie-de-Lune",
     },
+    [208703] = {
+        name = "Valuneï",
+    },
     [208713] = {
+        name = "Alexstrasza la Lieuse-de-Vie",
+    },
+    [208832] = {
+        name = "Eternia",
+    },
+    [208833] = {
         name = "Alexstrasza la Lieuse-de-Vie",
     },
     [209083] = {

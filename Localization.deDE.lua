@@ -27,5 +27,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Die Drachen und die Schuppenexpedit
 L["THE_EARTHEN_RING"] = "Der Irdene Ring"
 L["THE_MOTHER_OATHSTONE"] = "Der Mutterschwurstein"
 L["THE_VEILED_OSSUARY"] = "Das Verhüllte Ossuarium"
+L["TYRS_RETURN"] = "Tyrs Rückkehr"
 L["UNITED_AGAIN"] = "Wiedervereint"
 L["ZSKERA_VAULTS"] = "Gewölbe von Zskera"

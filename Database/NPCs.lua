@@ -4632,8 +4632,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [2151] = {
                 {
-                    x = 0.325643,
-                    y = 0.60574,
+                    x = 0.325711,
+                    y = 0.605903,
                 },
             },
         },
@@ -6904,6 +6904,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [208701] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.606051,
+                    y = 0.636441,
+                },
+            },
+        },
+    },
+    [208703] = {
+        name = "Valunei",
+        locations = {
+            [2112] = {
+                {
+                    x = 0.539724,
+                    y = 0.607404,
+                },
+            },
+        },
+    },
     [208713] = {
         name = "Alexstrasza the Life-Binder",
         locations = {
@@ -6933,6 +6955,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.335116,
                     y = 0.302759,
+                },
+            },
+        },
+    },
+    [208800] = {
+        name = "Travard",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.604805,
+                    y = 0.588058,
+                },
+            },
+        },
+    },
+    [208832] = {
+        name = "Eternus",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.604321,
+                    y = 0.590259,
+                },
+            },
+        },
+    },
+    [208833] = {
+        name = "Alexstrasza the Life-Binder",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.604833,
+                    y = 0.586865,
+                },
+            },
+        },
+    },
+    [208834] = {
+        name = "Nozdormu",
+        locations = {
+            [2025] = {
+                {
+                    x = 0.60463,
+                    y = 0.587409,
                 },
             },
         },
@@ -7619,6 +7685,83 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [214634] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [115] = {
+                {
+                    x = 0.566788,
+                    y = 0.390017,
+                },
+            },
+        },
+    },
+    [214645] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [882] = {
+                {
+                    x = 0.225148,
+                    y = 0.534472,
+                },
+            },
+        },
+    },
+    [214657] = {
+        name = "Locus-Walker",
+        locations = {
+            [971] = {
+                {
+                    x = 0.503947,
+                    y = 0.752753,
+                },
+            },
+        },
+    },
+    [214660] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [971] = {
+                {
+                    x = 0.286403,
+                    y = 0.239697,
+                },
+            },
+        },
+    },
+    [214698] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [971] = {
+                {
+                    x = 0.406654,
+                    y = 0.608598,
+                },
+            },
+        },
+    },
+    [214702] = {
+        name = "Magister Umbric",
+        locations = {
+            [971] = {
+                {
+                    x = 0.272134,
+                    y = 0.27699,
+                },
+            },
+        },
+    },
+    [214759] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [120] = {
+                {
+                    x = 0.415026,
+                    y = 0.227048,
+                },
+            },
+        },
+    },
     [214839] = {
         name = "Rokhan",
         locations = {
@@ -7626,6 +7769,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.591419,
                     y = 0.656165,
+                },
+            },
+        },
+    },
+    [215013] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [629] = {
+                {
+                    x = 0.314508,
+                    y = 0.416014,
+                },
+            },
+        },
+    },
+    [215597] = {
+        name = "Void Elf Riftwalker",
+        locations = {
+            [882] = {
+                {
+                    x = 0.225209,
+                    y = 0.534267,
                 },
             },
         },
@@ -7641,8 +7806,38 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [216264] = {
+        name = "Alleria Windrunner",
+        locations = {
+            [971] = {
+                {
+                    x = 0.435507,
+                    y = 0.63799,
+                },
+            },
+        },
+    },
     [221491] = {
         name = "Khadgar's Summons",
+        locations = {
+            [84] = {
+                {
+                    x = 0.8488,
+                    y = 0.251776,
+                },
+            },
+        },
+    },
+    [221539] = {
+        name = "Void Elf Riftwalker",
+        locations = {
+            [120] = {
+                {
+                    x = 0.414998,
+                    y = 0.227115,
+                },
+            },
+        },
     },
     [222666] = {
         name = "Kevo ya Siti",

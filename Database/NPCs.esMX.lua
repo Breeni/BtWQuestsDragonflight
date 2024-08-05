@@ -396,6 +396,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208713] = {
         name = "Alexstrasza, la Protectora",
     },
+    [208833] = {
+        name = "Alexstrasza, la Protectora",
+    },
     [209083] = {
         name = "Shandris Plumaluna",
     },

@@ -2355,9 +2355,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Vastità Azzurra",
     },
-    [72269] = {
-        name = "Thaldraszus",
-    },
     [72373] = {
         name = "Aiutare l'Accordo: la caccia è aperta",
     },
@@ -3638,6 +3635,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "Giorno del diploma",
+    },
+    [77339] = {
+        name = "Recupero dati",
+    },
+    [77340] = {
+        name = "Infiltrarsi nella Rocca della Notte",
+    },
+    [77341] = {
+        name = "Logotyrapia",
+    },
+    [77342] = {
+        name = "Consegna del disco",
+    },
+    [77343] = {
+        name = "Un ritorno tanto atteso",
+    },
+    [77344] = {
+        name = "Tempo per metabolizzare",
+    },
+    [77377] = {
+        name = "Al Forte di Tyr! Per Tyr!",
     },
     [77415] = {
         name = "La mano nascosta",

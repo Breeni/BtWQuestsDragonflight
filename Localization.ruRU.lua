@@ -28,5 +28,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Драконы и Драконья 
 L["THE_EARTHEN_RING"] = "Служители Земли"
 L["THE_MOTHER_OATHSTONE"] = "Первый камень клятвы"
 L["THE_VEILED_OSSUARY"] = "Тайный склеп"
+L["TYRS_RETURN"] = "Возвращение Тира"
 L["UNITED_AGAIN"] = "Снова едины"
 L["ZSKERA_VAULTS"] = "Зкерские хранилища"

@@ -27,5 +27,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "I draghi e la Spedizione delle Scag
 L["THE_EARTHEN_RING"] = "Circolo della Terra"
 L["THE_MOTHER_OATHSTONE"] = "La Pietra del Giuramento Madre"
 L["THE_VEILED_OSSUARY"] = "Ossario Velato"
+L["TYRS_RETURN"] = "Ritorno di Tyr"
 L["UNITED_AGAIN"] = "Insieme, di nuovo"
 L["ZSKERA_VAULTS"] = "Cripte di Zskera"

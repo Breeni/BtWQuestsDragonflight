@@ -399,6 +399,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208713] = {
         name = "Alexstrasza la Protettrice della Vita",
     },
+    [208833] = {
+        name = "Alexstrasza la Protettrice della Vita",
+    },
     [209083] = {
         name = "Shandris Piumaluna",
     },

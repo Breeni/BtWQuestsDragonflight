@@ -2364,9 +2364,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Vasta Lazúli",
     },
-    [72269] = {
-        name = "Thaldraszus",
-    },
     [72373] = {
         name = "Ajudando o Acordo: a caçada começou",
     },
@@ -3647,6 +3644,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "O dia da formatura",
+    },
+    [77339] = {
+        name = "Recuperação de dados",
+    },
+    [77340] = {
+        name = "Infiltrando-se no Baluarte da Noite",
+    },
+    [77341] = {
+        name = "Logotyrapia",
+    },
+    [77342] = {
+        name = "Entrega do disco",
+    },
+    [77343] = {
+        name = "Reunião tyrdiosa",
+    },
+    [77344] = {
+        name = "Tempo para digerir",
+    },
+    [77377] = {
+        name = "Ao Baluarte de Tyr por Tyr!",
     },
     [77415] = {
         name = "A mão oculta",

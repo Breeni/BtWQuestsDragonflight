@@ -381,6 +381,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208725] = {
         name = "Suzka",
     },
+    [208833] = {
+        name = "Alexstrasza la Protectora",
+    },
     [209083] = {
         name = "Shandris Plumaluna",
     },

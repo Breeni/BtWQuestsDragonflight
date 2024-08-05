@@ -366,6 +366,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208713] = {
         name = "Alexstrasza die Lebensbinderin",
     },
+    [208833] = {
+        name = "Alexstrasza die Lebensbinderin",
+    },
     [209083] = {
         name = "Shandris Mondfeder",
     },

@@ -2376,9 +2376,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "La travée d’Azur",
     },
-    [72269] = {
-        name = "Thaldraszus",
-    },
     [72373] = {
         name = "Aider le concordat : la chasse est ouverte",
     },
@@ -3653,6 +3650,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "Journée de remise des diplômes",
+    },
+    [77339] = {
+        name = "Récupération de données",
+    },
+    [77340] = {
+        name = "Infiltration du palais Sacrenuit",
+    },
+    [77341] = {
+        name = "Logotyrapie",
+    },
+    [77342] = {
+        name = "Livraison de disque",
+    },
+    [77343] = {
+        name = "Des retrouvailles à vous tyrer une larme",
+    },
+    [77344] = {
+        name = "Un temps de réflexion",
+    },
+    [77377] = {
+        name = "Tyrelibastion sur le Thaldradra",
     },
     [77415] = {
         name = "La main cachée",

@@ -2361,9 +2361,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Azurblaues Gebirge",
     },
-    [72269] = {
-        name = "Thaldraszus",
-    },
     [72373] = {
         name = "Helft dem Abkommen: Die Jagd ist eröffnet",
     },
@@ -3638,6 +3635,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "Abschlusstag",
+    },
+    [77339] = {
+        name = "Datenwiederbeschaffung",
+    },
+    [77340] = {
+        name = "Infiltration der Nachtfestung",
+    },
+    [77341] = {
+        name = "Logotyrapie",
+    },
+    [77342] = {
+        name = "Scheibenlieferung",
+    },
+    [77343] = {
+        name = "Eine tyränenreiche Wiedervereinigung",
+    },
+    [77344] = {
+        name = "Zeit zum Verdauen",
+    },
+    [77377] = {
+        name = "Auf nach Tyrhold! Für Tyr!",
     },
     [77415] = {
         name = "Die versteckte Hand",

@@ -25,5 +25,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "The Dragons and the Scale Expeditio
 L["THE_EARTHEN_RING"] = "The Earthen Ring"
 L["THE_MOTHER_OATHSTONE"] = "The Mother Oathstone"
 L["THE_VEILED_OSSUARY"] = "The Veiled Ossuary"
+L["TYRS_RETURN"] = "Tyr's Return"
 L["UNITED_AGAIN"] = "United Again"
 L["ZSKERA_VAULTS"] = "Zskera Vaults"

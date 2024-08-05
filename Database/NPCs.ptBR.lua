@@ -399,6 +399,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [208713] = {
         name = "Alexstrasza, a Mãe da Vida",
     },
+    [208833] = {
+        name = "Alexstrasza, a Mãe da Vida",
+    },
     [209083] = {
         name = "Shandris Plumaluna",
     },

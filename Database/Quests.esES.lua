@@ -2367,9 +2367,6 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Las Tierras Azures",
     },
-    [72269] = {
-        name = "Thaldraszus",
-    },
     [72373] = {
         name = "Ayudar al Acuerdo de Valdrakken: Se abre la veda",
     },
@@ -3650,6 +3647,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "El día de la graduación",
+    },
+    [77339] = {
+        name = "Recuperación de datos",
+    },
+    [77340] = {
+        name = "Infiltración en el Bastión Nocturno",
+    },
+    [77341] = {
+        name = "Logotyrapia",
+    },
+    [77342] = {
+        name = "Entrega de disco",
+    },
+    [77343] = {
+        name = "Un reencuentro tyrtánico",
+    },
+    [77344] = {
+        name = "Tiempo para procesar",
+    },
+    [77377] = {
+        name = "¡A Tyrhold! ¡Por Tyr!",
     },
     [77415] = {
         name = "La mano oculta",

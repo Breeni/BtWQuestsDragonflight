@@ -2361,6 +2361,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [72268] = {
         name = "Trecho Azur",
     },
+    [72269] = {
+        name = "Thaldraszsus",
+    },
     [72373] = {
         name = "Ayuda para el Acuerdo: Comienza la cacería",
     },
@@ -3641,6 +3644,27 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [77331] = {
         name = "Día de graduación",
+    },
+    [77339] = {
+        name = "Recuperación de datos",
+    },
+    [77340] = {
+        name = "Infiltración en la Fortaleza Nocturna",
+    },
+    [77341] = {
+        name = "Logotyrapia",
+    },
+    [77342] = {
+        name = "Entrega de disco",
+    },
+    [77343] = {
+        name = "Una reunión emotyrva",
+    },
+    [77344] = {
+        name = "Tiempo para procesar",
+    },
+    [77377] = {
+        name = "¡A Fuerte Tyr! ¡Por Tyr!",
     },
     [77415] = {
         name = "La mano oculta",

@@ -27,5 +27,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Los dragones y la Expedición Drago
 L["THE_EARTHEN_RING"] = "El Anillo de la Tierra"
 L["THE_MOTHER_OATHSTONE"] = "La piedra de juramento madre"
 L["THE_VEILED_OSSUARY"] = "Osario Velado"
+L["TYRS_RETURN"] = "El regreso de Tyr"
 L["UNITED_AGAIN"] = "Reunidos una vez más"
 L["ZSKERA_VAULTS"] = "Bóvedas de Zskera"

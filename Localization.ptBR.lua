@@ -27,5 +27,6 @@ L["THE_DRAGONS_AND_THE_SCALE_EXPEDITION"] = "Os Dragões e a Expedição Escama 
 L["THE_EARTHEN_RING"] = "Harmonia Telúrica"
 L["THE_MOTHER_OATHSTONE"] = "A Pedra do Juramento da Mãe"
 L["THE_VEILED_OSSUARY"] = "Ossuário Velado"
+L["TYRS_RETURN"] = "O retorno de Tyr"
 L["UNITED_AGAIN"] = "Juntos novamente"
 L["ZSKERA_VAULTS"] = "Câmaras de Zskera"
