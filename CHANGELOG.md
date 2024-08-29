@@ -1,3 +1,7 @@
+# v12.1
+
+- Updated to no longer auto load by default
+
 # v12.0
 
 - Added the Tyr's Return questline

@@ -1,6 +1,6 @@
 ## Interface: 100207, 110000, 110002
 ## Title: BtWQuests: Dragonflight
-## Version: 12.0
+## Version: @project-version@
 ## Notes: Dragonflight quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
@@ -9,7 +9,7 @@
 ## X-BtWQuests: Dragonflight
 ## X-BtWQuests-Expansion: 9
 ## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
-## X-BtWQuests-AutoLoad: 1
+## X-BtWQuests-AutoLoad: 0
 ## X-Part-Of: BtWQuests
 ## X-Curse-Project-ID: 652343
 ## X-WoWI-ID: 26399
