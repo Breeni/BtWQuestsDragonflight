@@ -2247,10 +2247,6 @@ Database:AddCategory(CATEGORY_ID, {
         
         {
             type = "chain",
-            id = Chain.TempChain01,
-        },
-        {
-            type = "chain",
             id = Chain.TempChain18,
         },
         {
@@ -2313,10 +2309,6 @@ Database:AddMapRecursive(MAP_ID, {
 })
 
 Database:AddContinentItems(CONTINENT_ID, {
-    {
-        type = "chain",
-        id = Chain.TempChain01,
-    },
     {
         type = "chain",
         id = Chain.TempChain02,
