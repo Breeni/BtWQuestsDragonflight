@@ -1,3 +1,7 @@
+# v12.2
+
+- Removed the Dreaming of Crests questline
+
 # v12.1
 
 - Updated to no longer auto load by default
