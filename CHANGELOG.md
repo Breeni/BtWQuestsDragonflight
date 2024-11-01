@@ -1,3 +1,7 @@
+# v12.3
+
+- Updated for 11.0.5
+
 # v12.2
 
 - Removed the Dreaming of Crests questline
