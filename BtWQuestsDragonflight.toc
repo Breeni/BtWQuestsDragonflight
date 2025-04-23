@@ -1,4 +1,4 @@
-## Interface: 110007, 110100
+## Interface: 110100, 110105
 ## Title: BtWQuests: Dragonflight
 ## Version: @project-version@
 ## Notes: Dragonflight quest data for BtWQuests
@@ -11,6 +11,7 @@
 ## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
 ## X-BtWQuests-AutoLoad: 0
 ## X-Part-Of: BtWQuests
+## Group: BtWQuests
 ## X-Curse-Project-ID: 652343
 ## X-WoWI-ID: 26399
 ## X-Wago-ID: Xb6XkoNp
