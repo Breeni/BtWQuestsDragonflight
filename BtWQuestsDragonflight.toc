@@ -1,4 +1,4 @@
-## Interface: 120005, 120007
+## Interface: 120007, 120100
 ## Title: BtWQuests: Dragonflight
 ## Version: @project-version@
 ## Notes: Dragonflight quest data for BtWQuests
